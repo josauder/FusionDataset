@@ -16,13 +16,15 @@ public class FusionDataset {
 
     static Logger logger = LoggerFactory.getLogger(FusionDataset.class);
 
-    static String datasetDirectory = "/home/jonathan/hpi/ld/datasetsTest/*";
-    static String targetDirectory = "/home/jonathan/hpi/ld/datasetsTest/outputs/output";
+
 
     /**
      * Main Class which defines and runs workflow pipeline
      */
     public static void main(String[] args) {
+        //TODO: This is bad practice, should switch to real command line parser or PipelineOptionsFactory.fromArgs(args)
+        String datasetDirectory = args[0];
+        String targetDirectory = args[1];
         PipelineOptions options = PipelineOptionsFactory.create();
 
         Pipeline p = Pipeline.create(options);
