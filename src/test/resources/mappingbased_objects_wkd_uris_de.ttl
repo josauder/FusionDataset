@@ -1,0 +1,96 @@
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/anthem> <http://wikidata.dbpedia.org/resource/Q242723> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/capital> <http://wikidata.dbpedia.org/resource/Q3825> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/currency> <http://wikidata.dbpedia.org/resource/Q847739> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/governmentType> <http://wikidata.dbpedia.org/resource/Q49892> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/officialLanguage> <http://wikidata.dbpedia.org/resource/Q150> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/region> <http://wikidata.dbpedia.org/resource/Q1340779> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/timeZone> <http://wikidata.dbpedia.org/resource/Q6655> .
+
+<http://wikidata.dbpedia.org/resource/Q1000> <http://www.w3.org/2002/07/owl#sameAs> <http://www.viaf.org/viaf/239869169> .
+
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/birthPlace> <http://wikidata.dbpedia.org/resource/Q1061> .
+
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/birthPlace> <http://wikidata.dbpedia.org/resource/Q6419912> .
+
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/deathPlace> <http://wikidata.dbpedia.org/resource/Q1353> .
+
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/deathPlace> <http://wikidata.dbpedia.org/resource/Q987> .
+
+<http://wikidata.dbpedia.org/resource/Q1001> <http://www.w3.org/2002/07/owl#sameAs> <http://www.viaf.org/viaf/71391324> .
+
+<http://wikidata.dbpedia.org/resource/Q1002> <http://dbpedia.org/ontology/location> <http://wikidata.dbpedia.org/resource/Q11769> .
+
+<http://wikidata.dbpedia.org/resource/Q1002> <http://dbpedia.org/ontology/location> <http://wikidata.dbpedia.org/resource/Q159252> .
+
+<http://wikidata.dbpedia.org/resource/Q1002> <http://dbpedia.org/ontology/location> <http://wikidata.dbpedia.org/resource/Q44725> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/anthem> <http://wikidata.dbpedia.org/resource/Q273244> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/capital> <http://wikidata.dbpedia.org/resource/Q3726> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/currency> <http://wikidata.dbpedia.org/resource/Q202885> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/governmentType> <http://wikidata.dbpedia.org/resource/Q49892> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/officialLanguage> <http://wikidata.dbpedia.org/resource/Q1860> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/region> <http://wikidata.dbpedia.org/resource/Q1547919> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/timeZone> <http://wikidata.dbpedia.org/resource/Q6574> .
+
+<http://wikidata.dbpedia.org/resource/Q1005> <http://www.w3.org/2002/07/owl#sameAs> <http://www.viaf.org/viaf/139006557> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/anthem> <http://wikidata.dbpedia.org/resource/Q747890> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/capital> <http://wikidata.dbpedia.org/resource/Q3733> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/currency> <http://wikidata.dbpedia.org/resource/Q213311> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/governmentType> <http://wikidata.dbpedia.org/resource/Q49892> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/officialLanguage> <http://wikidata.dbpedia.org/resource/Q150> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/region> <http://wikidata.dbpedia.org/resource/Q1547903> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/timeZone> <http://wikidata.dbpedia.org/resource/Q6574> .
+
+<http://wikidata.dbpedia.org/resource/Q1006> <http://www.w3.org/2002/07/owl#sameAs> <http://www.viaf.org/viaf/128921681> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/anthem> <http://wikidata.dbpedia.org/resource/Q752650> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/capital> <http://wikidata.dbpedia.org/resource/Q3739> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/currency> <http://wikidata.dbpedia.org/resource/Q861690> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/governmentType> <http://wikidata.dbpedia.org/resource/Q49892> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/officialLanguage> <http://wikidata.dbpedia.org/resource/Q5146> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/region> <http://wikidata.dbpedia.org/resource/Q1430483> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/timeZone> <http://wikidata.dbpedia.org/resource/Q6574> .
+
+<http://wikidata.dbpedia.org/resource/Q1007> <http://www.w3.org/2002/07/owl#sameAs> <http://www.viaf.org/viaf/125341622> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/anthem> <http://wikidata.dbpedia.org/resource/Q242718> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/capital> <http://wikidata.dbpedia.org/resource/Q3768> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/currency> <http://wikidata.dbpedia.org/resource/Q861690> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/governmentType> <http://wikidata.dbpedia.org/resource/Q49892> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/officialLanguage> <http://wikidata.dbpedia.org/resource/Q150> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/region> <http://wikidata.dbpedia.org/resource/Q1740389> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/timeZone> <http://wikidata.dbpedia.org/resource/Q6574> .
+
+<http://wikidata.dbpedia.org/resource/Q1008> <http://www.w3.org/2002/07/owl#sameAs> <http://www.viaf.org/viaf/123786581> .
+

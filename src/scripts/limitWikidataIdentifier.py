@@ -1,7 +1,7 @@
 import sys, os
 
 datasetDir= "/home/jonathan/hpi/ld/datasets"
-datasetTestDir= "/home/jonathan/hpi/ld/datasetsTest"
+datasetTestDir= "/home/jonathan/hpi/ld/fusion/Fusion/src/test/resources"
 
 n=2000
 
@@ -17,5 +17,6 @@ for fi in os.listdir(datasetDir) :
 		with open(datasetDir+"/"+fi,"r") as f:
 			with open(datasetTestDir+"/"+fi,"w") as g:
 				for x in f:
-					if subjectUnderN(x,n):
-						print >> g, x
+				    x=x.replace("http://wikidata.dbpedia.org/ontology","http://dbpedia.org/ontology")
+				    if subjectUnderN(x,n):
+				    	print >> g, x
