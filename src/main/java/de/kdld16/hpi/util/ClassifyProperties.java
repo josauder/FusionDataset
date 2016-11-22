@@ -1,4 +1,4 @@
-package de.kdld16.hpi.transforms;
+package de.kdld16.hpi.util;
 import java.util.HashSet;
 
 /**
@@ -50,7 +50,7 @@ public class ClassifyProperties {
                 "http://xmlns.com/foaf/0.1/homepage"};
 
 
-    public HashSet<String> acceptOnlyOne = new HashSet<>();
+    public static HashSet<String> acceptOnlyOne = new HashSet<>();
 
     public ClassifyProperties() {
         for (String prop: acceptOnlyOneArray) {
