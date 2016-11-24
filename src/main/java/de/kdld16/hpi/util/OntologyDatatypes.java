@@ -7,6 +7,13 @@ public class OntologyDatatypes {
     //https://github.com/dbpedia/extraction-framework/tree/master/core/src/main/scala/org/dbpedia/extraction/ontology
     enum dataTypes {INTEGER,DOUBLE,STRING,DATE};
 
-    
+
+    /**
+     * We want to reslolve the following problem:
+     *
+     *      property -> range
+     *              range -> replaceString
+     */
+
 
 }

@@ -47,6 +47,16 @@
       <artifactId>jena-core</artifactId>
       <version>3.1.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+      <version>3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.dbpedia.extraction</groupId>
+      <artifactId>core</artifactId>
+      <version>4.1</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

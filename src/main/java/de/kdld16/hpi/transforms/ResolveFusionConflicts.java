@@ -1,5 +1,6 @@
 package de.kdld16.hpi.transforms;
 
+import de.kdld16.hpi.WikidataEntity;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.apache.beam.sdk.values.KV;
 
@@ -30,16 +31,13 @@ public class ResolveFusionConflicts
         /**
          * Right now just a dummy class, which counts the number of Triples found for this Subjet
          */
-        StringBuilder b = new StringBuilder(c.element().getKey()+" : ");
         Iterator<String> iter = c.element().getValue().iterator();
-        int i =0;
-        while (iter.hasNext()) {
-        //    b.append(iter.next());
-            iter.next();
-            i++;
-        }
-        b.append(String.valueOf(i));
-        c.output(b.toString());
 
+        WikidataEntity entity = new WikidataEntity(c.element().getKey());
+        while (iter.hasNext()) {
+            entity.addFact(iter.next());
+        }
+        entity.resolveConflicts();
+        c.output(entity.toString());
     }
 }

@@ -1,6 +1,8 @@
 package de.kdld16.hpi;
+import de.kdld16.hpi.transforms.FilterByWikidataID;
 import de.kdld16.hpi.transforms.RDFSubjectAsKey;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
+import de.kdld16.hpi.util.ClassifyProperties;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
@@ -35,6 +37,7 @@ public class FusionDataset {
                 // Group by RDF-Subject (See Apache Beam Documentation)
                 .apply(GroupByKey.<String,String>create())
                 // Resolve Fusion Conflicts
+                .apply(ParDo.of(new FilterByWikidataID<>(0,100)))
                 .apply(ParDo.of(new ResolveFusionConflicts()))
                 // Write output to targetDirectory
                 .apply(TextIO.Write.to(targetDirectory));
