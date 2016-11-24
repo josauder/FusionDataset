@@ -1,6 +1,9 @@
 package de.kdld16.hpi.resolver;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -13,15 +16,17 @@ public class ModeResolver extends Resolver {
         Only one element in output.
      */
 
-    //@Override
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+    @Override
     public LinkedList<String> resolve(String property, LinkedList<String> conflict) {
         HashMap<String,Integer> counter= new HashMap<>();
 
 
         String mostCommon="";
         int mostCommonN=0;
-
+        int countTriples = 0;
         for (String rdfObject: conflict) {
+            countTriples++;
             if (counter.containsKey(rdfObject)) {
                 int i = counter.get(rdfObject);
                 if (i>=mostCommonN) {
@@ -38,7 +43,9 @@ public class ModeResolver extends Resolver {
             }
         }
         conflict.clear();
+        logger.info("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property);
         conflict.add(mostCommon);
+
         return conflict;
 
 

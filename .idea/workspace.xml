@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ae919f-d2cb-4481-bcc9-90454597b9e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ResolverChooser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/resolver/ResolverChooserTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerResolver.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java" />
     </list>
     <ignored path="Fusion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,6 +32,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FusionDataset.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassifyProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbpedia_2016-04.nt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04.nt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.5">
+              <caret line="261" column="80" selection-start-line="261" selection-start-column="72" selection-end-line="261" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WikidataEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,31 +76,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SimpleFloatMeanResolver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7192118">
+              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SimpleIntegerMeanResolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleFloatMeanResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RDFParseTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="37" column="103" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -81,60 +112,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OntologyDatatypes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/OntologyDatatypes.java">
+      <file leaf-file-name="ModeResolverTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/kdld16/hpi/resolver/ModeResolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassifyProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0526314">
-              <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbpedia_2016-04_ranges_only.nt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04_ranges_only.nt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1182266">
-              <caret line="4" column="117" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output-00000-of-00003" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputs/output-00000-of-00003">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="135" selection-start-line="85" selection-start-column="135" selection-end-line="85" selection-end-column="135" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -195,17 +186,17 @@
         <option value="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/resolver/ModeResolverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/resolver/ResolverChooserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ResolverChooser.java" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleMeanResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" />
       </list>
     </option>
@@ -521,51 +512,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resolver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="outputs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1224,7 +1171,7 @@
       <workItem from="1479386792332" duration="75000" />
       <workItem from="1479766620077" duration="971000" />
       <workItem from="1479848486744" duration="9096000" />
-      <workItem from="1479922632177" duration="36406000" />
+      <workItem from="1479922632177" duration="38295000" />
     </task>
     <task id="LOCAL-00001" summary="Add limitWikidataIdentifier script">
       <created>1479135720835</created>
@@ -1274,43 +1221,49 @@
       <option name="project" value="LOCAL" />
       <updated>1480018999361</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Static initialized ranges for each property">
+      <created>1480027041024</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1480027041024</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 00m 57s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 02m 36s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 02m 50s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 03m 58s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 07m 27s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 08m 21s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 08m 47s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 27m 32s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 28m 37s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 31m 20s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 39m 17s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 44m 18s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 44m 50s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 57m 06s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.24 at 23h 59m 43s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.25 at 00h 00m 58s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.25 at 00h 03m 56s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.25 at 00h 05m 15s.xml">
+      <configuration name="FusionDatasetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FusionDatasetTest - 2016.11.25 at 00h 05m 50s.xml">
       <configuration name="FusionDatasetTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56088000" />
+    <option name="totallyTimeSpent" value="57977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -1367,14 +1320,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
@@ -1559,16 +1504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/kdld16/hpi/resolver/ModeResolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/exception/NotWikidataObjectException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1652,14 +1587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04.nt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8649" column="131" selection-start-line="8649" selection-start-column="131" selection-end-line="8649" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/WikidataHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1676,30 +1603,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1711,18 +1619,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/OntologyDatatypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04_ranges_only.nt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="117" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/kdld16/hpi/resolver/ModeResolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04.nt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.5">
+          <caret line="261" column="80" selection-start-line="261" selection-start-column="72" selection-end-line="261" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1737,61 +1679,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/Resolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/output-00000-of-00003">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="135" selection-start-line="85" selection-start-column="135" selection-end-line="85" selection-end-column="135" />
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0526314">
-          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04_ranges_only.nt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerMeanResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <caret line="37" column="103" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleFloatMeanResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1182266">
-          <caret line="4" column="117" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
-          <folding />
+        <state vertical-scroll-proportion="0.7192118">
+          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

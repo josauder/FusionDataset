@@ -17,7 +17,7 @@ public class ClassifyProperties {
     public static HashMap<String,Class<? extends Resolver>> acceptOnlyOne;
     static {
         acceptOnlyOne= new HashMap<>();
-        acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
+    //    acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", SimpleFloatMeanResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", SimpleFloatMeanResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",SimpleIntegerMeanResolver.class);

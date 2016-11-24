@@ -50,7 +50,7 @@ public class FusionDataset {
                 // Group by RDF-Subject (See Apache Beam Documentation)
                 .apply(GroupByKey.<String,String>create())
                 // Resolve Fusion Conflicts
-                .apply(ParDo.of(new FilterByWikidataID<>(0,100)))
+                //.apply(ParDo.of(new FilterByWikidataID<>(0,100)))
                 .apply(ParDo.of(new ResolveFusionConflicts()))
                 // Write output to targetDirectory
                 .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern));

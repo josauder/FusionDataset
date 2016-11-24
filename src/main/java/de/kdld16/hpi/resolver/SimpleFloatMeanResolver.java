@@ -3,6 +3,8 @@ package de.kdld16.hpi.resolver;
 
 import de.kdld16.hpi.util.RDFParseTools;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.LinkedList;
 
@@ -14,7 +16,8 @@ public class SimpleFloatMeanResolver<T extends Number> extends Resolver {
     TODO: Describe how conflicts are resolved!
     */
 
-    //@Override
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+    @Override
     public LinkedList<String> resolve(String property, LinkedList<String> conflict) {
 
 
@@ -29,7 +32,11 @@ public class SimpleFloatMeanResolver<T extends Number> extends Resolver {
             stats.addValue(RDFParseTools.parseDouble(datatype, rdfObject));
         }
         conflict.clear();
-        conflict.add("\""+stats.getGeometricMean()+"^^"+datatype);
+        double mean = stats.getGeometricMean();
+        conflict.add("\""+"^^"+datatype);
+
+        logger.info("resolved with "+stats.getStandardDeviation()/mean+" as coefficient of variation");
+
         return conflict;
 
 
