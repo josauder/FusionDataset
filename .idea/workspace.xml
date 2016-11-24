@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ae919f-d2cb-4481-bcc9-90454597b9e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/AbstractResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/ModeResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/resolver/SimpleIntegerResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFParseTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/ontology/dbpedia_2016-04.nt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fusion.iml" afterPath="$PROJECT_DIR$/Fusion.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/OntologyDatatypes.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/OntologyDatatypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/limitWikidataIdentifier.py" afterPath="$PROJECT_DIR$/src/scripts/limitWikidataIdentifier.py" />
     </list>
     <ignored path="Fusion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1154,7 +1141,7 @@
       <workItem from="1479386792332" duration="75000" />
       <workItem from="1479766620077" duration="971000" />
       <workItem from="1479848486744" duration="9096000" />
-      <workItem from="1479922632177" duration="12830000" />
+      <workItem from="1479922632177" duration="13085000" />
     </task>
     <task id="LOCAL-00001" summary="Add limitWikidataIdentifier script">
       <created>1479135720835</created>
@@ -1180,7 +1167,13 @@
       <option name="project" value="LOCAL" />
       <updated>1479854189162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented ModeResolver">
+      <created>1480000677740</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480000677740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1216,7 +1209,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32512000" />
+    <option name="totallyTimeSpent" value="32767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -1267,7 +1260,8 @@
     <MESSAGE value="Rework Test" />
     <MESSAGE value="Improve test dataset" />
     <MESSAGE value="Implement FilterByWikidataID, start work on Property -&gt; datatype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement FilterByWikidataID, start work on Property -&gt; datatype" />
+    <MESSAGE value="Implemented ModeResolver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented ModeResolver" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
