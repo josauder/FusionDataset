@@ -10,7 +10,8 @@ import java.util.LinkedList;
  */
 public class ModeResolver implements AbstractResolver {
     /*
-    Counts most common element, returns it.
+        Counts most common element, returns it.
+        Only one element in output.
      */
 
     @Override

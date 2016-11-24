@@ -24,7 +24,6 @@ public class SimpleIntegerResolver implements AbstractResolver {
         for (String rdfObject : conflict) {
             stats.addValue(RDFParseTools.parseInteger(property, rdfObject));
         }
-
         return conflict;
 
 

@@ -18,6 +18,6 @@ for fi in os.listdir(datasetDir) :
 		with open(datasetDir+"/"+fi,"r") as f:
 			with open(datasetTestDir+"/"+fi,"w") as g:
 				for x in f:
-				    x=x.replace("http://wikidata.dbpedia.org/ontology","http://dbpedia.org/ontology")
+				    x=x.replace("http://wikidata.dbpedia.org/ontology","http://dbpedia.org/ontology").strip()
 				    if subjectUnderN(x,n):
 				    	print >> g, x

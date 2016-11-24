@@ -27,6 +27,8 @@ public class FusionDataset {
         //TODO: This is bad practice, should switch to real command line parser or PipelineOptionsFactory.fromArgs(args)
         String datasetDirectory = args[0];
         String targetDirectory = args[1];
+        String ontologyDirectory = args[2];
+
         PipelineOptions options = PipelineOptionsFactory.create();
 
         Pipeline p = Pipeline.create(options);

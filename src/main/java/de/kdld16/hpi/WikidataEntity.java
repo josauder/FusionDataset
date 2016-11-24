@@ -52,12 +52,9 @@ public class WikidataEntity {
                 logger.info("Conflict Found: in Subject :" + this.subject + "\t for property : " + entry.getKey());
                 acceptOnlyOneFacts.put(entry.getKey(), new ModeResolver().resolve(entry.getKey(), entry.getValue()));
 
-            //NO CONFLICT!
-
             }
         }
     }
-
 
 
     @Override
