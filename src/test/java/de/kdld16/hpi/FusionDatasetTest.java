@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.net.URL;
+import java.util.Properties;
 
 /**
  * Unit test for simple App.
@@ -16,12 +17,12 @@ public class FusionDatasetTest
 
     @Test
     public void TestFusionDataset () {
-        String inputDirectory = this.getClass().getClassLoader().getResource("").toString().replace("file:","");
-        String outputDirectory = inputDirectory+"/../../outputs";
-        String outputPrefix = "out";
+        /*
         logger.info("Fetching Dataset in Path : "+inputDirectory);
         logger.info("Writing Outputs to Path : "+outputDirectory+" with File Prefix "+outputPrefix);
         String[] args = {inputDirectory+"*", outputDirectory+"/"+outputPrefix};
+           */
+        String[] args={};
         FusionDataset.main(args);
     }
 }

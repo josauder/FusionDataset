@@ -1,6 +1,8 @@
 package de.kdld16.hpi;
 
 import de.kdld16.hpi.resolver.ModeResolver;
+import de.kdld16.hpi.resolver.Resolver;
+import de.kdld16.hpi.resolver.ResolverChooser;
 import de.kdld16.hpi.util.ClassifyProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,9 +50,16 @@ public class WikidataEntity {
 
     public void resolveConflicts() {
         for (Map.Entry<String, LinkedList<String>> entry : acceptOnlyOneFacts.entrySet()) {
-            if (entry.getValue().size()>1) {
-                logger.info("Conflict Found: in Subject :" + this.subject + "\t for property : " + entry.getKey());
-                acceptOnlyOneFacts.put(entry.getKey(), new ModeResolver().resolve(entry.getKey(), entry.getValue()));
+
+            String property = entry.getKey();
+
+            int size = entry.getValue().size();
+            if (size>1) {
+
+                Resolver resolver = ResolverChooser.getResolver(property,size);
+
+                logger.info("Conflict in Subject :" + this.subject + "\t for property: " + property + "\tresolving with: "+resolver.getClass().getSimpleName());
+                acceptOnlyOneFacts.put(property, resolver.resolve(property, entry.getValue()));
 
             }
         }

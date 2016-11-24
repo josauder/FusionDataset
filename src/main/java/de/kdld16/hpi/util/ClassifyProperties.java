@@ -1,6 +1,13 @@
 package de.kdld16.hpi.util;
+import de.kdld16.hpi.resolver.ModeResolver;
+import de.kdld16.hpi.resolver.Resolver;
+import de.kdld16.hpi.resolver.SimpleIntegerResolver;
+
+import java.io.*;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Properties;
 
 /**
  * Created by jonathan on 11/14/16.
@@ -426,4 +433,23 @@ public class ClassifyProperties {
         "<http://www.w3.org/2001/XMLSchema#gDay>"
     };
     public static HashSet<String> dateType = new HashSet<>(Arrays.asList(dateTypeArray));
+
+
+    public static HashMap<String,String> ranges;
+    static {
+        Properties properties = new Properties();
+        ranges = new HashMap<>();
+        try {
+            properties.load(new FileInputStream("src/test/resources/application.properties"));
+            BufferedReader br = new BufferedReader(new FileReader(properties.getProperty("ontologyRangesOnlyFile")));
+            String line;
+            while ((line=br.readLine())!=null) {
+                String[] triple= line.split(" ",3);
+                ranges.put(triple[0],triple[1]);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

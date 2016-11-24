@@ -4,13 +4,12 @@ package de.kdld16.hpi.resolver;
 import de.kdld16.hpi.util.RDFParseTools;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
-import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
  * Created by jonathan on 23.11.16.
  */
-public class SimpleIntegerResolver implements AbstractResolver {
+public class SimpleIntegerResolver implements Resolver {
     /*
     TODO: Describe how conflicts are resolved!
     */
