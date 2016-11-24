@@ -1,13 +1,10 @@
 package de.kdld16.hpi.util;
 import de.kdld16.hpi.resolver.ModeResolver;
 import de.kdld16.hpi.resolver.Resolver;
-import de.kdld16.hpi.resolver.SimpleIntegerResolver;
+import de.kdld16.hpi.resolver.SimpleFloatMeanResolver;
+import de.kdld16.hpi.resolver.SimpleIntegerMeanResolver;
 
-import java.io.*;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Properties;
 
 /**
  * Created by jonathan on 11/14/16.
@@ -16,49 +13,53 @@ public class ClassifyProperties {
     //TODO: Everything, just a dummy so far
 
 
-    static String[] acceptOnlyOneArray= {
-        "<http://dbpedia.org/ontology/weight>",
-        "<http://dbpedia.org/ontology/acceleration>",
-        "<http://dbpedia.org/ontology/populationTotal>",
-        "<http://dbpedia.org/ontology/wheelbase>",
-        "<http://dbpedia.org/ontology/co2Emission>",
-        "<http://dbpedia.org/ontology/retirementDate>",
-        "<http://dbpedia.org/ontology/averageAnnualGeneration>",
-        "<http://dbpedia.org/ontology/height>",
-        "<http://dbpedia.org/ontology/topSpeed>",
-        "<http://dbpedia.org/ontology/birthYear>",
-        "<http://dbpedia.org/ontology/restingDate>",
-        "<http://dbpedia.org/ontology/zipCode>",
-        "<http://dbpedia.org/ontology/deathDate>",
-        "<http://dbpedia.org/ontology/fuelCapacity>",
-        "<http://dbpedia.org/ontology/latestReleaseDate>",
-        "<http://dbpedia.org/ontology/netIncome>",
-        "<http://dbpedia.org/ontology/deathYear>",
-        "<http://dbpedia.org/ontology/birthDate>",
-        "<http://dbpedia.org/ontology/installedCapacity>",
-        "<http://dbpedia.org/ontology/foalDate>",
-        "<http://dbpedia.org/ontology/redline>",
-        "<http://dbpedia.org/ontology/diameter>",
-        "<http://dbpedia.org/ontology/length>",
-        "<http://dbpedia.org/ontology/operatingIncome>",
-        "<http://dbpedia.org/ontology/torqueOutput>",
-        "<http://dbpedia.org/ontology/width>",
-        "<http://dbpedia.org/ontology/marketCapitalisation>",
-        "<http://dbpedia.org/ontology/fuelConsumption>",
-        "<http://dbpedia.org/ontology/displacement>",
-        "<http://dbpedia.org/ontology/powerOutput>",
-        "<http://www.w3.org/2003/01/geo/wgs84_pos#lat>",
-        "<http://www.w3.org/2003/01/geo/wgs84_pos#long>",
-        "<http://www.georss.org/georss/point>",
-        "<http://dbpedia.org/ontology/iso31661Code>",
-        "<http://dbpedia.org/ontology/iso6391Code>",
-        "<http://dbpedia.org/ontology/iso6392Code>",
-        "<http://dbpedia.org/ontology/iso6393Code>",
-        "<http://dbpedia.org/ontology/totalPopulation>",
-        "<http://xmlns.com/foaf/0.1/homepage"};
-    public static HashSet<String> acceptOnlyOne = new HashSet<>(Arrays.asList(acceptOnlyOneArray));
 
+    public static HashMap<String,Class<? extends Resolver>> acceptOnlyOne;
+    static {
+        acceptOnlyOne= new HashMap<>();
+        acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", SimpleFloatMeanResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", SimpleFloatMeanResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",SimpleIntegerMeanResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/co2Emission>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/retirementDate>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/averageAnnualGeneration>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/height>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/topSpeed>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthYear>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/restingDate>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/zipCode>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathDate>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelCapacity>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/latestReleaseDate>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/netIncome>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathYear>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthDate>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/installedCapacity>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/foalDate>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/redline>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/diameter>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/length>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/operatingIncome>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/torqueOutput>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/width>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/marketCapitalisation>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelConsumption>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/displacement>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/powerOutput>", ModeResolver.class);
+        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", ModeResolver.class);
+        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", ModeResolver.class);
+        acceptOnlyOne.put("<http://www.georss.org/georss/point>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso31661Code>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6391Code>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6392Code>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/totalPopulation>", ModeResolver.class);
+        acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", ModeResolver.class);
+    }
 
+    /*
     static String[] integerTypeArray = {
             "<http://www.w3.org/2001/XMLSchema#integer>",
             "<http://www.w3.org/2001/XMLSchema#positiveInteger>",
@@ -436,9 +437,11 @@ public class ClassifyProperties {
 
 
     public static HashMap<String,String> ranges;
+    public static HashMap<String,Resolver> resolverHashMap;
     static {
         Properties properties = new Properties();
         ranges = new HashMap<>();
+        resolverHashMap= new HashMap<>();
         try {
             properties.load(new FileInputStream("src/test/resources/application.properties"));
             BufferedReader br = new BufferedReader(new FileReader(properties.getProperty("ontologyRangesOnlyFile")));
@@ -447,9 +450,17 @@ public class ClassifyProperties {
                 String[] triple= line.split(" ",3);
                 ranges.put(triple[0],triple[1]);
             }
+
+
+
+            for (String property : acceptOnlyOneArray) {
+
+            }
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
+    */
 }

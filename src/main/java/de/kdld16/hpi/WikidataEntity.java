@@ -1,8 +1,6 @@
 package de.kdld16.hpi;
 
-import de.kdld16.hpi.resolver.ModeResolver;
 import de.kdld16.hpi.resolver.Resolver;
-import de.kdld16.hpi.resolver.ResolverChooser;
 import de.kdld16.hpi.util.ClassifyProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +26,7 @@ public class WikidataEntity {
 
     public void addFact(String fact) {
         String[] propertyAndObject= fact.split(" ",2);
-        if (ClassifyProperties.acceptOnlyOne.contains(propertyAndObject[0])) {
+        if (!ClassifyProperties.acceptOnlyOne.containsKey(propertyAndObject[0])) {
             if (!this.acceptAllFacts.containsKey(propertyAndObject[0])) {
                 HashSet<String> hs = new HashSet<>();
                 hs.add(propertyAndObject[1]);
@@ -55,11 +53,14 @@ public class WikidataEntity {
 
             int size = entry.getValue().size();
             if (size>1) {
+                try {
+                    Resolver resolver = ClassifyProperties.acceptOnlyOne.get(property).newInstance();
 
-                Resolver resolver = ResolverChooser.getResolver(property,size);
-
-                logger.info("Conflict in Subject :" + this.subject + "\t for property: " + property + "\tresolving with: "+resolver.getClass().getSimpleName());
-                acceptOnlyOneFacts.put(property, resolver.resolve(property, entry.getValue()));
+                    logger.info("Conflict in Subject :" + this.subject + "\t for property: " + property + "\tresolving with: "+resolver.getClass().getSimpleName());
+                    acceptOnlyOneFacts.put(property, resolver.resolve(property, entry.getValue()));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
             }
         }

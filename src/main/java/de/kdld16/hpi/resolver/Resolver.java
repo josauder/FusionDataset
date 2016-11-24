@@ -6,9 +6,11 @@ import java.util.LinkedList;
 /**
  * Created by jonathan on 23.11.16.
  */
-public interface Resolver {
+public abstract class Resolver {
 
-    public LinkedList<String> resolve(String property, LinkedList<String> conflict) ;
+    public LinkedList<String> resolve(String property, LinkedList<String> conflict) {
+        return new LinkedList<>();
+    } ;
 
 }
 

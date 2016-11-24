@@ -7,13 +7,13 @@ import java.util.LinkedList;
 /**
  * Created by jonathan on 23.11.16.
  */
-public class ModeResolver implements Resolver {
+public class ModeResolver extends Resolver {
     /*
         Counts most common element, returns it.
         Only one element in output.
      */
 
-    @Override
+    //@Override
     public LinkedList<String> resolve(String property, LinkedList<String> conflict) {
         HashMap<String,Integer> counter= new HashMap<>();
 

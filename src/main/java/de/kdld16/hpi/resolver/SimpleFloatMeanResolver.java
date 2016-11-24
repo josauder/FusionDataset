@@ -9,20 +9,27 @@ import java.util.LinkedList;
 /**
  * Created by jonathan on 23.11.16.
  */
-public class SimpleIntegerResolver implements Resolver {
+public class SimpleFloatMeanResolver<T extends Number> extends Resolver {
     /*
     TODO: Describe how conflicts are resolved!
     */
 
-    @Override
+    //@Override
     public LinkedList<String> resolve(String property, LinkedList<String> conflict) {
 
 
         DescriptiveStatistics stats = new DescriptiveStatistics();
 
+        String[] val = conflict.get(0).replaceAll("\"","").split("\\^\\^",2);
+        String value= val[0];
+        String datatype = val[1];
+        conflict.remove(0);
+        stats.addValue(Double.parseDouble(value));
         for (String rdfObject : conflict) {
-            stats.addValue(RDFParseTools.parseInteger(property, rdfObject));
+            stats.addValue(RDFParseTools.parseDouble(datatype, rdfObject));
         }
+        conflict.clear();
+        conflict.add("\""+stats.getGeometricMean()+"^^"+datatype);
         return conflict;
 
 
