@@ -1,0 +1,1258 @@
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/alias> "المهاتما"@ar .
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/birthName> "موهانداس كرمشاند غاندي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1001> <http://xmlns.com/foaf/0.1/name> "موهنداس كرمشاند غاندي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/areaTotal> "4.73967824191488E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/areaTotal> "4.75E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/motto> "السلام، العمل، الوطن".
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/populationDensity> "39.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/populationDensity> "39.38242017132948"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://xmlns.com/foaf/0.1/name> "الكاميرون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1009> <http://xmlns.com/foaf/0.1/name> "جمهورية الكاميرون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/areaTotal> "3.0E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/areaTotal> "3.1079857324032E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/leaderTitle> "الملك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/motto> "السلام، المطر، النجاح".
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/populationDensity> "62.54854968387624"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/populationDensity> "68.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://xmlns.com/foaf/0.1/name> "ليسوتو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1013> <http://xmlns.com/foaf/0.1/name> "مملكة ليسوتو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/areaTotal> "1.11369488744448E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/areaTotal> "1.11369E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/motto> "حب الحرية جلبنا هنا".
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/percentageOfAreaWater> "13.514"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/populationDensity> "35.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/populationDensity> "35.521398585905025"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://xmlns.com/foaf/0.1/name> "جمهورية ليبيريا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1014> <http://xmlns.com/foaf/0.1/name> "ليبيريا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/areaTotal> "1.7595317326497545E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/areaTotal> "1.7E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/longName> "دولة ليبيا (المرحلة الانتقالية)"@ar .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/populationDensity> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/populationDensity> "3.474919426882013"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1016> <http://xmlns.com/foaf/0.1/name> "ليبيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/areaTotal> "1.1848418608354099E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/areaTotal> "1.18484E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/motto> "وحدة وحرية".
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/percentageOfAreaWater> "20.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/populationDensity> "128.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/populationDensity> "128.5720187946345"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://xmlns.com/foaf/0.1/name> "جمهورية مالاوي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1020> <http://xmlns.com/foaf/0.1/name> "مالاوي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/areaTotal> "2.04E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/motto> "الوطن،العمل،الحب".
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/populationDensity> "588.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://xmlns.com/foaf/0.1/name> "جمهورية موريشيوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1027> <http://xmlns.com/foaf/0.1/name> "موريشيوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/areaTotal> "8.015909601965507E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/areaTotal> "8.0159E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/motto> "السلام - العمل - الإخاء".
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/populationDensity> "28.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/populationDensity> "28.571559732140997"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://xmlns.com/foaf/0.1/name> "جمهورية موزمبيق"@ar .
+<http://wikidata.dbpedia.org/resource/Q1029> <http://xmlns.com/foaf/0.1/name> "موزمبيق"@ar .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/areaTotal> "8.23616219086848E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/areaTotal> "8.25E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمعية الوطنية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/leaderTitle> "رئيس المجلس الوطني"@ar .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/motto> "وحدة - حرية - عدالة".
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/populationDensity> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/populationDensity> "2.3166129512546756"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://xmlns.com/foaf/0.1/name> "جمهورية ناميبيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1030> <http://xmlns.com/foaf/0.1/name> "ناميبيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/areaTotal> "1.267E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/areaTotal> "1.2682835077861047E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/motto> "إخاء ،الكرامة ،العمل".
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/populationDensity> "11.969166914815823"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/populationDensity> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://xmlns.com/foaf/0.1/name> "النيجر"@ar .
+<http://wikidata.dbpedia.org/resource/Q1032> <http://xmlns.com/foaf/0.1/name> "جمهورية النيجر"@ar .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/areaTotal> "9.237632893492101E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/areaTotal> "9.23768E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/leaderTitle> "مجلس النوابالبرلمان"@ar .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/leaderTitle> "يتكون من مجلسين"@ar .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/motto> "الوحدة، الإيمان، السلام، التقد".
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/populationDensity> "167.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/populationDensity> "167.18223464887907"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://xmlns.com/foaf/0.1/name> "جمهورية نيجيريا الإتحادية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1033> <http://xmlns.com/foaf/0.1/name> "نيجيريا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1060> <http://dbpedia.org/ontology/numberOfStudents> "6678"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1060> <http://xmlns.com/foaf/0.1/name> "جامعة هامبورغ للتكنولوجيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1079> <http://dbpedia.org/ontology/numberOfEpisodes> "62"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1079> <http://dbpedia.org/ontology/numberOfSeasons> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1079> <http://xmlns.com/foaf/0.1/name> "Breaking Bad"@ar .
+<http://wikidata.dbpedia.org/resource/Q1136> <http://xmlns.com/foaf/0.1/name> "شركة ريديت"@ar .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/areaTotal> "5.803645357640908E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/areaTotal> "5.80367E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/motto> "الإتحاد، العمل، التقدم".
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/populationDensity> "67.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/populationDensity> "67.18177558638558"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q114> <http://xmlns.com/foaf/0.1/name> "جمهورية كينيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q114> <http://xmlns.com/foaf/0.1/name> "كينيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/areaLand> "6.03E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/elevation> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/populationTotal> "21"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/postalCode> "400.001-400.107".
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/name> "مومباي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/nick> "* بوابة الهند"@ar .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/nick> "* مدينة الأحلام"@ar .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/nick> "* مدينة السبع جزر"@ar .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/nick> "* هوليوود الهند"@ar .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/areaTotal> "1.1042958205920706E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/areaTotal> "1.104E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/populationDensity> "74.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/populationDensity> "74.9038187572345"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q115> <http://xmlns.com/foaf/0.1/name> "إثيوبيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q115> <http://xmlns.com/foaf/0.1/name> "جمهورية إثيوبيا الفدرالية الديمقراطية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1178> <http://dbpedia.org/ontology/birthName> "جوزيف موريس رافيل"@ar .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/areaTotal> "9.10380820783104E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/areaTotal> "9.104E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/leaderTitle> "الحاكم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/leaderTitle> "الحزب الحاكم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/longName> "Estado Libre Asociado de Puerto Rico"@ar .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/motto> "يوحنا المعمدان هو أسمه".
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/populationDensity> "430.50390677482716"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/populationDensity> "438.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1183> <http://xmlns.com/foaf/0.1/name> "بورتوريكو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://xmlns.com/foaf/0.1/name> "جون لينون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://dbpedia.org/ontology/elevation> "754.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://dbpedia.org/ontology/leaderTitle> "رئيس البلدية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://xmlns.com/foaf/0.1/name> "القدس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://xmlns.com/foaf/0.1/nick> "بيت المقدس، زهرة المدائن، مدينة السلام"@ar .
+<http://wikidata.dbpedia.org/resource/Q1225> <http://xmlns.com/foaf/0.1/name> "بروس سبرينغستين"@ar .
+<http://wikidata.dbpedia.org/resource/Q1263> <http://dbpedia.org/ontology/areaTotal> "2.2446E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1263> <http://dbpedia.org/ontology/leaderTitle> "رئيس الإقليم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1263> <http://dbpedia.org/ontology/longName> "Emilia–Romagna"@ar .
+<http://wikidata.dbpedia.org/resource/Q1263> <http://xmlns.com/foaf/0.1/name> "إميليا رومانيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1270> <http://dbpedia.org/ontology/elevation> "4634.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1270> <http://xmlns.com/foaf/0.1/name> "جبال الألب بينيني"@ar .
+<http://wikidata.dbpedia.org/resource/Q1273> <http://dbpedia.org/ontology/areaTotal> "2.2993E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1273> <http://dbpedia.org/ontology/leaderTitle> "رئيس الإقليم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1273> <http://dbpedia.org/ontology/longName> "Toscana"@ar .
+<http://wikidata.dbpedia.org/resource/Q1273> <http://xmlns.com/foaf/0.1/name> "توسكانا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1274> <http://dbpedia.org/ontology/elevation> "3552.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1274> <http://xmlns.com/foaf/0.1/name> "جبال الألب ليبونتيني"@ar .
+<http://wikidata.dbpedia.org/resource/Q1280> <http://dbpedia.org/ontology/areaTotal> "8.453721192136704E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1280> <http://dbpedia.org/ontology/areaTotal> "8.456E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1280> <http://dbpedia.org/ontology/leaderTitle> "رئيسة الإقليم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1280> <http://dbpedia.org/ontology/longName> "Umbria"@ar .
+<http://wikidata.dbpedia.org/resource/Q1280> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1280> <http://xmlns.com/foaf/0.1/name> "أومبريا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1284> <http://dbpedia.org/ontology/areaTotal> "1.0763E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1284> <http://dbpedia.org/ontology/leaderTitle> "رئيس الإقليم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1284> <http://dbpedia.org/ontology/longName> "Abruzzo"@ar .
+<http://wikidata.dbpedia.org/resource/Q1284> <http://dbpedia.org/ontology/percentageOfAreaWater> "3.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q1284> <http://xmlns.com/foaf/0.1/name> "أبروتسو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1289> <http://dbpedia.org/ontology/elevation> "212.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1289> <http://dbpedia.org/ontology/motto> "Blason ville fr Grenoble (Isere).svg".
+<http://wikidata.dbpedia.org/resource/Q1289> <http://xmlns.com/foaf/0.1/name> "غرونوبل"@ar .
+<http://wikidata.dbpedia.org/resource/Q1297> <http://dbpedia.org/ontology/areaLand> "6.06E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1297> <http://dbpedia.org/ontology/foundingDate> "1837-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1297> <http://dbpedia.org/ontology/motto> "Chicago city seal.png".
+<http://wikidata.dbpedia.org/resource/Q1297> <http://xmlns.com/foaf/0.1/name> "Chicago"@ar .
+<http://wikidata.dbpedia.org/resource/Q1297> <http://xmlns.com/foaf/0.1/name> "شيكاغو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1297> <http://xmlns.com/foaf/0.1/nick> "مدينة الرياح"@ar .
+<http://wikidata.dbpedia.org/resource/Q1299> <http://dbpedia.org/ontology/background> "فرقة أو مجموعة".
+<http://wikidata.dbpedia.org/resource/Q1299> <http://xmlns.com/foaf/0.1/name> "البيتلز"@ar .
+<http://wikidata.dbpedia.org/resource/Q1317> <http://dbpedia.org/ontology/birthName> "أسامة بن محمد بن عوض بن لادن"@ar .
+<http://wikidata.dbpedia.org/resource/Q1321> <http://xmlns.com/foaf/0.1/name> "330 - 417 مليونًا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1321> <http://xmlns.com/foaf/0.1/name> "الإسبانيَّة، القشتاليَّة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1336> <http://xmlns.com/foaf/0.1/name> "ريموسكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1339> <http://dbpedia.org/ontology/birthDate> "1685-03-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1339> <http://dbpedia.org/ontology/deathDate> "1750-07-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1339> <http://xmlns.com/foaf/0.1/name> "يوهان سباستيان باخ"@ar .
+<http://wikidata.dbpedia.org/resource/Q1340> <http://dbpedia.org/ontology/birthDate> "1678-03-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1340> <http://dbpedia.org/ontology/deathDate> "1741-07-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1340> <http://xmlns.com/foaf/0.1/name> "أنطونيو فيفالدي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1342> <http://dbpedia.org/ontology/foundingDate> "1758-09-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1342> <http://dbpedia.org/ontology/motto> "Pittsburgh city coat of arms.svg".
+<http://wikidata.dbpedia.org/resource/Q1342> <http://xmlns.com/foaf/0.1/name> "Pittsburgh"@ar .
+<http://wikidata.dbpedia.org/resource/Q1342> <http://xmlns.com/foaf/0.1/name> "بيتسبرغ"@ar .
+<http://wikidata.dbpedia.org/resource/Q1342> <http://xmlns.com/foaf/0.1/nick> "مدينة الحديد"@ar .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://dbpedia.org/ontology/areaLand> "3.26144E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://dbpedia.org/ontology/areaWater> "1.9E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://dbpedia.org/ontology/foundingDate> "1682-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://dbpedia.org/ontology/motto> "Seal of Philadelphia, Pennsylvania.svg".
+<http://wikidata.dbpedia.org/resource/Q1345> <http://xmlns.com/foaf/0.1/name> "فيلاديلفيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://xmlns.com/foaf/0.1/nick> "\"فيللي\" \"مدينة المحبة الأخوية\" \"المدينة التي تحبك\" \"مهد الحرية\""@ar .
+<http://wikidata.dbpedia.org/resource/Q1348> <http://dbpedia.org/ontology/areaLand> "1.85E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1348> <http://dbpedia.org/ontology/elevation> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1348> <http://dbpedia.org/ontology/postalCode> "700 xxx".
+<http://wikidata.dbpedia.org/resource/Q1348> <http://xmlns.com/foaf/0.1/name> "كلكتا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1350> <http://xmlns.com/foaf/0.1/name> "أوبل آسترا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/areaLand> "1.483E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/elevation> "216.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/leaderTitle> "رئيس وزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/leaderTitle> "محافظ"@ar .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/motto> "Emblem of India.svg".
+<http://wikidata.dbpedia.org/resource/Q1353> <http://xmlns.com/foaf/0.1/name> "دلهي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1354> <http://dbpedia.org/ontology/areaLand> "1.5384E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1354> <http://dbpedia.org/ontology/elevation> "60.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1354> <http://xmlns.com/foaf/0.1/name> "دكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://dbpedia.org/ontology/elevation> "4478.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://dbpedia.org/ontology/elevation> "4478.1216"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://dbpedia.org/ontology/prominence> "1039.9776"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://dbpedia.org/ontology/prominence> "1040.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://xmlns.com/foaf/0.1/name> "ماتارهورن"@ar .
+<http://wikidata.dbpedia.org/resource/Q1376> <http://xmlns.com/foaf/0.1/name> "متحف سان ريمون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1399> <http://xmlns.com/foaf/0.1/name> "نيكولو مكيافيللي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1402> <http://dbpedia.org/ontology/deathDate> "1375-12-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1402> <http://xmlns.com/foaf/0.1/name> "جيوفاني بوكاتشيو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1406> <http://dbpedia.org/ontology/frequentlyUpdated> "تحديث ويندوزوWindows Anytime Upgrade".
+<http://wikidata.dbpedia.org/resource/Q1406> <http://dbpedia.org/ontology/latestReleaseVersion> "Windows NT 10.0.10240".
+<http://wikidata.dbpedia.org/resource/Q1406> <http://dbpedia.org/ontology/status> "مستمر".
+<http://wikidata.dbpedia.org/resource/Q1406> <http://xmlns.com/foaf/0.1/name> "مايكروسوفت ويندوز"@ar .
+<http://wikidata.dbpedia.org/resource/Q1418> <http://dbpedia.org/ontology/numberOfEmployees> "97798"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1418> <http://xmlns.com/foaf/0.1/name> "Nokia Oyj"@ar .
+<http://wikidata.dbpedia.org/resource/Q1418> <http://xmlns.com/foaf/0.1/name> "شركة نوكيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://dbpedia.org/ontology/capacity> "41"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://dbpedia.org/ontology/chairmanTitle> "رئيس النادي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://dbpedia.org/ontology/managerTitle> "المدرب".
+<http://wikidata.dbpedia.org/resource/Q1422> <http://dbpedia.org/ontology/title> "المالك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://xmlns.com/foaf/0.1/name> "نادي يوفنتوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://xmlns.com/foaf/0.1/name> "يوفنتوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://xmlns.com/foaf/0.1/nick> "البيانكونيري"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://xmlns.com/foaf/0.1/nick> "الحمير الوحشية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://xmlns.com/foaf/0.1/nick> "السيدة العجوز"@ar .
+<http://wikidata.dbpedia.org/resource/Q1422> <http://xmlns.com/foaf/0.1/nick> "سيدة إيطاليا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1430> <http://xmlns.com/foaf/0.1/name> "ماركوس أوريليوس أنطونينوس أوغسطس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1431> <http://dbpedia.org/ontology/latestReleaseVersion> "4.11".
+<http://wikidata.dbpedia.org/resource/Q1431> <http://dbpedia.org/ontology/status> "نشط".
+<http://wikidata.dbpedia.org/resource/Q1431> <http://xmlns.com/foaf/0.1/name> "كدي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1450> <http://xmlns.com/foaf/0.1/name> "Bruno Mars"@ar .
+<http://wikidata.dbpedia.org/resource/Q1450> <http://xmlns.com/foaf/0.1/name> "برونو مارس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1452> <http://dbpedia.org/ontology/areaTotal> "9.995E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1452> <http://dbpedia.org/ontology/leaderTitle> "رئيس الإقليم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1452> <http://dbpedia.org/ontology/longName> "Basilicata (Lucania)"@ar .
+<http://wikidata.dbpedia.org/resource/Q1452> <http://xmlns.com/foaf/0.1/name> "بازيليكاتا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1452> <http://xmlns.com/foaf/0.1/name> "بازيليكاتا (لوكانيا)"@ar .
+<http://wikidata.dbpedia.org/resource/Q1453> <http://xmlns.com/foaf/0.1/name> "الكسندرا ستان"@ar .
+<http://wikidata.dbpedia.org/resource/Q1457> <http://dbpedia.org/ontology/capacity> "36"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1457> <http://dbpedia.org/ontology/chairmanTitle> "رئيس النادي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1457> <http://dbpedia.org/ontology/managerTitle> "المدرب".
+<http://wikidata.dbpedia.org/resource/Q1457> <http://xmlns.com/foaf/0.1/name> "نادي سامبدوريا لكرة القدم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1457> <http://xmlns.com/foaf/0.1/nick> "بلوسيرتشياتي(الأزرق الحلقي)"@ar .
+<http://wikidata.dbpedia.org/resource/Q1460> <http://dbpedia.org/ontology/areaTotal> "2.5708E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1460> <http://dbpedia.org/ontology/leaderTitle> "حاكم صقلية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1460> <http://dbpedia.org/ontology/longName> "Sicilia"@ar .
+<http://wikidata.dbpedia.org/resource/Q1460> <http://dbpedia.org/ontology/populationDensity> "196.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1460> <http://xmlns.com/foaf/0.1/name> "صقلية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1467> <http://dbpedia.org/ontology/areaTotal> "2.91E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1467> <http://dbpedia.org/ontology/longName> "مدينة سيبو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1467> <http://dbpedia.org/ontology/populationDensity> "2.743"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1472> <http://xmlns.com/foaf/0.1/name> "داء كرون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1477> <http://xmlns.com/foaf/0.1/name> "التهاب القولون التقرحي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/areaLand> "4.9E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/motto> "Coat of Arms of Bordeaux.svg".
+<http://wikidata.dbpedia.org/resource/Q1479> <http://xmlns.com/foaf/0.1/name> "بوردو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/elevation> "2250.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/elevation> "3930.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/leaderTitle> "المعاون الأول"@ar .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/leaderTitle> "المعاون الثاني"@ar .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/populationTotal> "21"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/postalCode> "01000-16999".
+<http://wikidata.dbpedia.org/resource/Q1489> <http://xmlns.com/foaf/0.1/name> "مدينة مكسيكو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1490> <http://dbpedia.org/ontology/areaCode> "03-5321-1111".
+<http://wikidata.dbpedia.org/resource/Q1490> <http://dbpedia.org/ontology/areaTotal> "2.187E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1490> <http://dbpedia.org/ontology/leaderTitle> "إيشيهارا شنتارو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1490> <http://dbpedia.org/ontology/populationDensity> "5930.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1490> <http://dbpedia.org/ontology/populationTotal> "12974936"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1490> <http://dbpedia.org/ontology/postalCode> "163-8001".
+<http://wikidata.dbpedia.org/resource/Q1490> <http://xmlns.com/foaf/0.1/name> "طوكيو"@ar .
+<http://wikidata.dbpedia.org/resource/Q1490> <http://xmlns.com/foaf/0.1/name> "東京都"@ar .
+<http://wikidata.dbpedia.org/resource/Q1492> <http://dbpedia.org/ontology/motto> "Escudo de Barcelona.svg".
+<http://wikidata.dbpedia.org/resource/Q1492> <http://dbpedia.org/ontology/populationTotal> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1492> <http://dbpedia.org/ontology/postalCode> "08001 إلى 08042".
+<http://wikidata.dbpedia.org/resource/Q1492> <http://xmlns.com/foaf/0.1/name> "Barcelona"@ar .
+<http://wikidata.dbpedia.org/resource/Q1492> <http://xmlns.com/foaf/0.1/name> "برشلونة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/birthName> "Fernão de Maglhães"@ar .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/birthName> "فرناو دي ماجالاوز"@ar .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/deathDate> "1521-04-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://xmlns.com/foaf/0.1/name> "فرناندو ماجلان"@ar .
+<http://wikidata.dbpedia.org/resource/Q1512> <http://dbpedia.org/ontology/birthDate> "1850-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1512> <http://dbpedia.org/ontology/birthName> "روبرت لويس ستيفنسون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1512> <http://dbpedia.org/ontology/deathDate> "1894-12-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1512> <http://dbpedia.org/ontology/pseudonym> "روبرت لويس ستيفنسون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1512> <http://xmlns.com/foaf/0.1/name> "روبرت لويس ستيفنسون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1514> <http://xmlns.com/foaf/0.1/name> "جانيس جوبلين"@ar .
+<http://wikidata.dbpedia.org/resource/Q151> <http://xmlns.com/foaf/0.1/name> "ويكاموس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1520> <http://dbpedia.org/ontology/elevation> "347.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1520> <http://dbpedia.org/ontology/motto> "New_coat_of_arms_of_Astana.svg".
+<http://wikidata.dbpedia.org/resource/Q1520> <http://dbpedia.org/ontology/postalCode> "+7 7172".
+<http://wikidata.dbpedia.org/resource/Q1520> <http://xmlns.com/foaf/0.1/name> "أستانا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1530> <http://dbpedia.org/ontology/elevation> "34.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1530> <http://dbpedia.org/ontology/motto> "Baghdad Municipality logo.png".
+<http://wikidata.dbpedia.org/resource/Q1530> <http://xmlns.com/foaf/0.1/name> "بغداد"@ar .
+<http://wikidata.dbpedia.org/resource/Q1530> <http://xmlns.com/foaf/0.1/nick> "الزوراء، دار السلام،المدينة المدورة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://dbpedia.org/ontology/capacity> "80018"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://dbpedia.org/ontology/chairmanTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://dbpedia.org/ontology/fansgroup> "الميلانيستا".
+<http://wikidata.dbpedia.org/resource/Q1543> <http://dbpedia.org/ontology/firstGame> "إيه سي ميلان 0 - 3 تورينيزي".
+<http://wikidata.dbpedia.org/resource/Q1543> <http://dbpedia.org/ontology/managerTitle> "نائب الرئيس".
+<http://wikidata.dbpedia.org/resource/Q1543> <http://dbpedia.org/ontology/title> "المالك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://xmlns.com/foaf/0.1/name> "Associazione Calcio Milan SpA"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://xmlns.com/foaf/0.1/name> "إيه سي ميلان"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://xmlns.com/foaf/0.1/name> "رابطة ميلان المحدودة لكرة القدم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://xmlns.com/foaf/0.1/nick> "الروسونيري"@ar .
+<http://wikidata.dbpedia.org/resource/Q1543> <http://xmlns.com/foaf/0.1/nick> "الشيطان -"@ar .
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/elevation> "250.2408"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/iataLocationIdentifier> "LYS".
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/icaoLocationIdentifier> "LFLL".
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwayDesignation> "18L/36R".
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwayDesignation> "18R/36L".
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwayLength> "2670.048"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwayLength> "2670.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwayLength> "4000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwayLength> "4000.1952"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1547> <http://dbpedia.org/ontology/runwaySurface> "أسفلت".
+<http://wikidata.dbpedia.org/resource/Q1574> <http://xmlns.com/foaf/0.1/name> "!avast"@ar .
+<http://wikidata.dbpedia.org/resource/Q1575> <http://dbpedia.org/ontology/latestReleaseVersion> "11.0.25 (11.0.9600.18098)".
+<http://wikidata.dbpedia.org/resource/Q1575> <http://xmlns.com/foaf/0.1/name> "إنترنت إكسبلورر"@ar .
+<http://wikidata.dbpedia.org/resource/Q1610> <http://dbpedia.org/ontology/transmission> "5 سرعات يدوي".
+<http://wikidata.dbpedia.org/resource/Q1610> <http://dbpedia.org/ontology/transmission> "6 سرعات  أتوماتيك".
+<http://wikidata.dbpedia.org/resource/Q1610> <http://dbpedia.org/ontology/transmission> "6 سرعات يدوي".
+<http://wikidata.dbpedia.org/resource/Q1610> <http://xmlns.com/foaf/0.1/name> "Alfa Romeo 159"@ar .
+<http://wikidata.dbpedia.org/resource/Q1629> <http://dbpedia.org/ontology/elevation> "16.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1629> <http://dbpedia.org/ontology/postalCode> "7000".
+<http://wikidata.dbpedia.org/resource/Q1629> <http://xmlns.com/foaf/0.1/name> "مدينة زامبوانجا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://xmlns.com/foaf/0.1/name> "إديث بياف"@ar .
+<http://wikidata.dbpedia.org/resource/Q1646> <http://dbpedia.org/ontology/birthDate> "1935-06-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1646> <http://dbpedia.org/ontology/birthName> "فرنسواز كواريز"@ar .
+<http://wikidata.dbpedia.org/resource/Q1646> <http://dbpedia.org/ontology/deathDate> "2004-09-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1646> <http://xmlns.com/foaf/0.1/name> "فرنسواز ساجان"@ar .
+<http://wikidata.dbpedia.org/resource/Q1666> <http://xmlns.com/foaf/0.1/givenName> "جاك رومان جورج بريل"@ar .
+<http://wikidata.dbpedia.org/resource/Q1666> <http://xmlns.com/foaf/0.1/name> "جاك بريل"@ar .
+<http://wikidata.dbpedia.org/resource/Q1698> <http://xmlns.com/foaf/0.1/name> "Serge Gainsbourg"@ar .
+<http://wikidata.dbpedia.org/resource/Q1711> <http://dbpedia.org/ontology/elevation> "35.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1711> <http://dbpedia.org/ontology/motto> "Coat of arms of Potsdam.svg".
+<http://wikidata.dbpedia.org/resource/Q1711> <http://xmlns.com/foaf/0.1/name> "بوتسدام"@ar .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/motto> "Dubrovnik grb.svg".
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/populationTotal> "42"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/postalCode> "20000".
+<http://wikidata.dbpedia.org/resource/Q1722> <http://xmlns.com/foaf/0.1/name> "دوبروفنيك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1724> <http://dbpedia.org/ontology/elevation> "230.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1724> <http://dbpedia.org/ontology/motto> "DEU Saarbruecken COA.svg".
+<http://wikidata.dbpedia.org/resource/Q1724> <http://xmlns.com/foaf/0.1/name> "ساربروكن"@ar .
+<http://wikidata.dbpedia.org/resource/Q1729> <http://dbpedia.org/ontology/elevation> "200.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1729> <http://dbpedia.org/ontology/motto> "Wappen Erfurt.svg".
+<http://wikidata.dbpedia.org/resource/Q1729> <http://dbpedia.org/ontology/postalCode> "99084–99099".
+<http://wikidata.dbpedia.org/resource/Q1729> <http://xmlns.com/foaf/0.1/name> "إرفورت"@ar .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://dbpedia.org/ontology/elevation> "574.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://dbpedia.org/ontology/motto> "AT Innsbruck COA.svg".
+<http://wikidata.dbpedia.org/resource/Q1735> <http://dbpedia.org/ontology/postalCode> "6020 (6010 حتى 6080)".
+<http://wikidata.dbpedia.org/resource/Q1735> <http://xmlns.com/foaf/0.1/name> "Innsbruck"@ar .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://xmlns.com/foaf/0.1/name> "إنسبروك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://xmlns.com/foaf/0.1/nick> "جسر الإن"@ar .
+<http://wikidata.dbpedia.org/resource/Q1741> <http://dbpedia.org/ontology/areaLand> "4.1489E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1741> <http://dbpedia.org/ontology/motto> "Wien Wappen.svg".
+<http://wikidata.dbpedia.org/resource/Q1741> <http://xmlns.com/foaf/0.1/name> "فيينا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1748> <http://dbpedia.org/ontology/elevation> "91.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1748> <http://dbpedia.org/ontology/motto> "Greater coat of arms of Copenhagen.svg".
+<http://wikidata.dbpedia.org/resource/Q1748> <http://dbpedia.org/ontology/postalCode> "1050-1778, 2100, 2200, 2300, 2400, 2450".
+<http://wikidata.dbpedia.org/resource/Q1748> <http://xmlns.com/foaf/0.1/name> "København"@ar .
+<http://wikidata.dbpedia.org/resource/Q1748> <http://xmlns.com/foaf/0.1/name> "كوبنهاغن"@ar .
+<http://wikidata.dbpedia.org/resource/Q1754> <http://dbpedia.org/ontology/motto> "Stockholm vapen bra.svg".
+<http://wikidata.dbpedia.org/resource/Q1754> <http://xmlns.com/foaf/0.1/name> "ستوكهولم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://dbpedia.org/ontology/areaLand> "2.1375E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://dbpedia.org/ontology/areaWater> "5.0174E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://dbpedia.org/ontology/motto> "Helsinki.vaakuna.svg".
+<http://wikidata.dbpedia.org/resource/Q1757> <http://dbpedia.org/ontology/postalCode> "00007-00010".
+<http://wikidata.dbpedia.org/resource/Q1757> <http://xmlns.com/foaf/0.1/name> "هلسنكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q175> <http://dbpedia.org/ontology/areaLand> "2.48209E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q175> <http://xmlns.com/foaf/0.1/name> "ولايـة ساو باولو -  São Paulo"@ar .
+<http://wikidata.dbpedia.org/resource/Q175> <http://xmlns.com/foaf/0.1/nick> "قلب البرازيل"@ar .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://dbpedia.org/ontology/areaLand> "1.14E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://dbpedia.org/ontology/elevation> "574.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://dbpedia.org/ontology/motto> "Dublin city coa.gif".
+<http://wikidata.dbpedia.org/resource/Q1761> <http://xmlns.com/foaf/0.1/name> "دبلن Dublin"@ar .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/areaLand> "2.74E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/motto> "Reykjavik Coat of Arms.svg".
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/postalCode> "101 - 113, 116, 121 - 125, 127-130, 132, 150, 155".
+<http://wikidata.dbpedia.org/resource/Q1764> <http://xmlns.com/foaf/0.1/name> "ريكيافيك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1770> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1770> <http://dbpedia.org/ontology/motto> "Tallinn greater coatofarms.png".
+<http://wikidata.dbpedia.org/resource/Q1770> <http://dbpedia.org/ontology/postalCode> "15199".
+<http://wikidata.dbpedia.org/resource/Q1770> <http://xmlns.com/foaf/0.1/name> "تالين"@ar .
+<http://wikidata.dbpedia.org/resource/Q1773> <http://dbpedia.org/ontology/areaLand> "3.0717E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1773> <http://dbpedia.org/ontology/motto> "Coat of Arms of Riga.svg".
+<http://wikidata.dbpedia.org/resource/Q1773> <http://dbpedia.org/ontology/postalCode> "LV-1000".
+<http://wikidata.dbpedia.org/resource/Q1773> <http://xmlns.com/foaf/0.1/name> "ريغا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1774> <http://dbpedia.org/ontology/areaTotal> "2.643E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1774> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q1774> <http://dbpedia.org/ontology/longName> "Zanzibar"@ar .
+<http://wikidata.dbpedia.org/resource/Q1774> <http://dbpedia.org/ontology/motto> "علم زنجبار".
+<http://wikidata.dbpedia.org/resource/Q1774> <http://xmlns.com/foaf/0.1/name> "زنجبار"@ar .
+<http://wikidata.dbpedia.org/resource/Q1779> <http://xmlns.com/foaf/0.1/name> "لويس أرمسترونغ"@ar .
+<http://wikidata.dbpedia.org/resource/Q1790> <http://dbpedia.org/ontology/background> "مغني منفرد".
+<http://wikidata.dbpedia.org/resource/Q1790> <http://xmlns.com/foaf/0.1/givenName> "كيم سميث"@ar .
+<http://wikidata.dbpedia.org/resource/Q1790> <http://xmlns.com/foaf/0.1/name> "كيم وايلد"@ar .
+<http://wikidata.dbpedia.org/resource/Q1792> <http://xmlns.com/foaf/0.1/name> "غدانسك"@ar .
+<http://wikidata.dbpedia.org/resource/Q1799> <http://dbpedia.org/ontology/elevation> "105.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1799> <http://xmlns.com/foaf/0.1/name> "فروتسواف"@ar .
+<http://wikidata.dbpedia.org/resource/Q179> <http://xmlns.com/foaf/0.1/name> "بوينغ 747"@ar .
+<http://wikidata.dbpedia.org/resource/Q1804> <http://xmlns.com/foaf/0.1/name> "باربارا"@ar .
+<http://wikidata.dbpedia.org/resource/Q180> <http://dbpedia.org/ontology/foundingDate> "2003-06-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q180> <http://dbpedia.org/ontology/numberOfEmployees> "275"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q180> <http://xmlns.com/foaf/0.1/name> "Wikimedia Foundation"@ar .
+<http://wikidata.dbpedia.org/resource/Q181> <http://xmlns.com/foaf/0.1/name> "Jimmy Wales"@ar .
+<http://wikidata.dbpedia.org/resource/Q181> <http://xmlns.com/foaf/0.1/name> "جيمي ويلز"@ar .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/areaTotal> "3.57021E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/areaTotal> "3.5702209104548657E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/leaderTitle> "المستشارة"@ar .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/leaderTitle> "رئيس البرلمان الألماني"@ar .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/leaderTitle> "رئيس المجلس الاتحادي"@ar .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.416"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/populationDensity> "225.09755843024595"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/populationDensity> "225.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q183> <http://xmlns.com/foaf/0.1/name> "ألمانيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q183> <http://xmlns.com/foaf/0.1/name> "جمهورية ألمانيا الاتحادية"@ar .
+<http://wikidata.dbpedia.org/resource/Q1858> <http://dbpedia.org/ontology/postalCode> "24".
+<http://wikidata.dbpedia.org/resource/Q1858> <http://xmlns.com/foaf/0.1/name> "هانوي"@ar .
+<http://wikidata.dbpedia.org/resource/Q185> <http://xmlns.com/foaf/0.1/name> "Larry Sanger"@ar .
+<http://wikidata.dbpedia.org/resource/Q185> <http://xmlns.com/foaf/0.1/name> "لاري سانجر"@ar .
+<http://wikidata.dbpedia.org/resource/Q1860> <http://xmlns.com/foaf/0.1/name> "لغة أولى:309 - 400 مليون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1860> <http://xmlns.com/foaf/0.1/name> "لغة ثانية:199 - 1.4 مليون"@ar .
+<http://wikidata.dbpedia.org/resource/Q1867> <http://dbpedia.org/ontology/areaLand> "2.72E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1867> <http://dbpedia.org/ontology/motto> "Emblem of Taipei City.svg".
+<http://wikidata.dbpedia.org/resource/Q1867> <http://xmlns.com/foaf/0.1/name> "تايبيه"@ar .
+<http://wikidata.dbpedia.org/resource/Q1874> <http://dbpedia.org/ontology/motto> "Coat of Arms of Odessa.svg".
+<http://wikidata.dbpedia.org/resource/Q1874> <http://dbpedia.org/ontology/postalCode> "65000 — 65480".
+<http://wikidata.dbpedia.org/resource/Q1874> <http://xmlns.com/foaf/0.1/name> "أوديسا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1886> <http://dbpedia.org/ontology/capacity> "24624"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1886> <http://dbpedia.org/ontology/chairmanTitle> "رئيس النادي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1886> <http://dbpedia.org/ontology/managerTitle> "المدرب".
+<http://wikidata.dbpedia.org/resource/Q1886> <http://xmlns.com/foaf/0.1/name> "أتالانتا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1886> <http://xmlns.com/foaf/0.1/name> "نادي أتالانتا بيرغاماستا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1886> <http://xmlns.com/foaf/0.1/nick> "القديسين"@ar .
+<http://wikidata.dbpedia.org/resource/Q1886> <http://xmlns.com/foaf/0.1/nick> "نيرازوري (الأسود والأزرق)"@ar .
+<http://wikidata.dbpedia.org/resource/Q1893> <http://dbpedia.org/ontology/capacity> "38000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1893> <http://dbpedia.org/ontology/chairmanTitle> "رئيس النادي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1893> <http://dbpedia.org/ontology/managerTitle> "المدرب".
+<http://wikidata.dbpedia.org/resource/Q1893> <http://xmlns.com/foaf/0.1/name> "بولونيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1893> <http://xmlns.com/foaf/0.1/name> "نادي بولونيا لكرة القدم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1893> <http://xmlns.com/foaf/0.1/nick> "روزوبلو(الأحمر والأزرق)"@ar .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/areaTotal> "1.03001E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/areaTotal> "1.0300382714806271E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/leaderTitle> "رئيس البرلمان"@ar .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/populationDensity> "2.702715109797121"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/populationDensity> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q189> <http://xmlns.com/foaf/0.1/name> "آيسلندا"@ar .
+<http://wikidata.dbpedia.org/resource/Q189> <http://xmlns.com/foaf/0.1/name> "جمهورية آيسلندا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1900> <http://dbpedia.org/ontology/capacity> "23486"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1900> <http://dbpedia.org/ontology/chairmanTitle> "رئيس النادي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1900> <http://dbpedia.org/ontology/managerTitle> "المدرب".
+<http://wikidata.dbpedia.org/resource/Q1900> <http://xmlns.com/foaf/0.1/name> "كالياري"@ar .
+<http://wikidata.dbpedia.org/resource/Q1900> <http://xmlns.com/foaf/0.1/name> "نادي كالياري لكرة القدم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1900> <http://xmlns.com/foaf/0.1/nick> "إسولاني (جزيريون)"@ar .
+<http://wikidata.dbpedia.org/resource/Q1900> <http://xmlns.com/foaf/0.1/nick> "روزوبلو (الأحمر والأزرق"@ar .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/areaTotal> "4.509946296528077E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/areaTotal> "4.5228E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/motto> "الوطن - الكرامة - الإتحاد".
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/percentageOfAreaWater> "4.45"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/populationDensity> "28.957661890683443"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/populationDensity> "29.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q191> <http://xmlns.com/foaf/0.1/name> "إستونيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q191> <http://xmlns.com/foaf/0.1/name> "جمهورية إستونيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q1943> <http://dbpedia.org/ontology/height> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1943> <http://dbpedia.org/ontology/number> "2".
+<http://wikidata.dbpedia.org/resource/Q1943> <http://xmlns.com/foaf/0.1/name> "أبو ديابي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1943> <http://xmlns.com/foaf/0.1/name> "تاريخ الولادة   ="@ar .
+<http://wikidata.dbpedia.org/resource/Q1943> <http://xmlns.com/foaf/0.1/name> "فاسيريكي أبو ديابي"@ar .
+<http://wikidata.dbpedia.org/resource/Q1943> <http://xmlns.com/foaf/0.1/name> "يلقب            = زعيم الأصابات و الاسطورة و العومة"@ar .
+<http://wikidata.dbpedia.org/resource/Q1963> <http://dbpedia.org/ontology/elevation> "382.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1963> <http://dbpedia.org/ontology/motto> "Khartoum logo.png".
+<http://wikidata.dbpedia.org/resource/Q1963> <http://dbpedia.org/ontology/postalCode> "11111 (11111 حتى 12211)".
+<http://wikidata.dbpedia.org/resource/Q1963> <http://xmlns.com/foaf/0.1/name> "الخرطوم"@ar .
+<http://wikidata.dbpedia.org/resource/Q1971> <http://dbpedia.org/ontology/bSide> "\"إنه صعب جدًا\"".
+<http://wikidata.dbpedia.org/resource/Q1971> <http://dbpedia.org/ontology/releaseDate> "1971-10-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q1971> <http://dbpedia.org/ontology/runtime> "183.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1971> <http://xmlns.com/foaf/0.1/name> "Imagine"@ar .
+<http://wikidata.dbpedia.org/resource/Q1993> <http://dbpedia.org/ontology/birthName> "Kishimoto Masashi"@ar .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/areaTotal> "7.88651379597312E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/areaTotal> "7.8866E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/leaderTitle> "وزير الخارجية"@ar .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/populationDensity> "131.66083606297406"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/populationDensity> "132.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q213> <http://xmlns.com/foaf/0.1/name> "التشيك"@ar .
+<http://wikidata.dbpedia.org/resource/Q213> <http://xmlns.com/foaf/0.1/name> "جمهورية التشيـك"@ar .
+<http://wikidata.dbpedia.org/resource/Q216> <http://dbpedia.org/ontology/areaLand> "1.0E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q216> <http://dbpedia.org/ontology/motto> "Grand Coat of arms of Vilnius.svg".
+<http://wikidata.dbpedia.org/resource/Q216> <http://xmlns.com/foaf/0.1/name> "فيلنيوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/areaTotal> "3.3843374637760513E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/areaTotal> "3.3846E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/leaderTitle> "رئيس البرلمان"@ar .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/populationDensity> "121.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/populationDensity> "122.00828209941291"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q217> <http://xmlns.com/foaf/0.1/name> "جمهورية مولدوفا"@ar .
+<http://wikidata.dbpedia.org/resource/Q217> <http://xmlns.com/foaf/0.1/name> "مولدافيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/areaTotal> "1.3039554140297626E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/areaTotal> "1.30395E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/leaderTitle> "ولي العهد"@ar .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/longName> "England"@ar .
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/motto> "الرب وحقي".
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/motto> "(بالفرنسية)".
+<http://wikidata.dbpedia.org/resource/Q21> <http://dbpedia.org/ontology/populationDensity> "407.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q21> <http://xmlns.com/foaf/0.1/name> "إنجلترا"@ar .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/areaTotal> "2.5327493730975742E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/areaTotal> "2.5713E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/populationDensity> "80.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/populationDensity> "81.08145329391364"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q221> <http://xmlns.com/foaf/0.1/name> "جمهورية مقدونيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q221> <http://xmlns.com/foaf/0.1/name> "مقدونيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/areaTotal> "2.1655123689449226E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/areaTotal> "2.166E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/percentageOfAreaWater> "81.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/populationDensity> "0.026641048939428768"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/populationDensity> "0.027"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q223> <http://xmlns.com/foaf/0.1/name> "جرينلاند"@ar .
+<http://wikidata.dbpedia.org/resource/Q226> <http://dbpedia.org/ontology/motto> "Nuuk Coat of Arms.gif".
+<http://wikidata.dbpedia.org/resource/Q226> <http://dbpedia.org/ontology/postalCode> "3900".
+<http://wikidata.dbpedia.org/resource/Q226> <http://xmlns.com/foaf/0.1/name> "نوك"@ar .
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/areaTotal> "9.251437530120192E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/areaTotal> "9.251E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/populationDensity> "117.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/populationDensity> "85.32857703788055"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q229> <http://xmlns.com/foaf/0.1/name> "جمهورية قبرص"@ar .
+<http://wikidata.dbpedia.org/resource/Q229> <http://xmlns.com/foaf/0.1/name> "قبرص"@ar .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/areaTotal> "7.877189838775911E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/areaTotal> "7.8772E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/leaderTitle> "ولي العهد"@ar .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/longName> "Alba"@ar .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/longName> "Scotland"@ar .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/populationDensity> "453.2839341288315"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q22> <http://dbpedia.org/ontology/populationDensity> "67.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q22> <http://xmlns.com/foaf/0.1/name> "إسكتلندا"@ar .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/areaTotal> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/areaTotal> "1000000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/leaderTitle> "الأمير"@ar .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/leaderTitle> "وزير الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/longName> "Principatu de Múneguموناكية"@ar .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/motto> "بعون الله".
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/populationDensity> "15141.768351559102"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/populationDensity> "15142.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q235> <http://xmlns.com/foaf/0.1/name> "إمارة موناكو"@ar .
+<http://wikidata.dbpedia.org/resource/Q235> <http://xmlns.com/foaf/0.1/name> "موناكو"@ar .
+<http://wikidata.dbpedia.org/resource/Q239> <http://dbpedia.org/ontology/areaLand> "1.61E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q239> <http://dbpedia.org/ontology/motto> "Greater Coat of Arms of Brussels.svg".
+<http://wikidata.dbpedia.org/resource/Q239> <http://dbpedia.org/ontology/populationAsOf> "2012-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q239> <http://xmlns.com/foaf/0.1/name> "مدينة بروكسل"@ar .
+<http://wikidata.dbpedia.org/resource/Q246> <http://dbpedia.org/ontology/revenue> "7.394E10"^^<http://dbpedia.org/datatype/euro> .
+<http://wikidata.dbpedia.org/resource/Q246> <http://xmlns.com/foaf/0.1/name> "Volkswagen"@ar .
+<http://wikidata.dbpedia.org/resource/Q246> <http://xmlns.com/foaf/0.1/name> "فولكس فاجن"@ar .
+<http://wikidata.dbpedia.org/resource/Q248> <http://dbpedia.org/ontology/numberOfEmployees> "100100"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q248> <http://xmlns.com/foaf/0.1/name> "إنتل"@ar .
+<http://wikidata.dbpedia.org/resource/Q254> <http://dbpedia.org/ontology/birthDate> "1756-01-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q254> <http://dbpedia.org/ontology/deathDate> "1791-12-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q254> <http://xmlns.com/foaf/0.1/name> "فولفغانغ أماديوس موتسارت"@ar .
+<http://wikidata.dbpedia.org/resource/Q255> <http://xmlns.com/foaf/0.1/name> "لودفيغ فان بيتهوفن"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/areaTotal> "2.077688462111539E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/areaTotal> "2.0779E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/leaderTitle> "رئيس وزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/leaderTitle> "وزير أول"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/leaderTitle> "وزيرة الخارجية"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/longName> "Wales"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/longName> "ويلز"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/motto> "ويلز للأبد".
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/populationDensity> "147.1049224046719"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q25> <http://dbpedia.org/ontology/populationDensity> "148.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q25> <http://xmlns.com/foaf/0.1/name> "Cymru"@ar .
+<http://wikidata.dbpedia.org/resource/Q25> <http://xmlns.com/foaf/0.1/name> "ويلز"@ar .
+<http://wikidata.dbpedia.org/resource/Q261> <http://xmlns.com/foaf/0.1/name> "(Linkin Park)"@ar .
+<http://wikidata.dbpedia.org/resource/Q261> <http://xmlns.com/foaf/0.1/name> "لينكين بارك"@ar .
+<http://wikidata.dbpedia.org/resource/Q263> <http://xmlns.com/foaf/0.1/name> "ويكي مصدر"@ar .
+<http://wikidata.dbpedia.org/resource/Q268> <http://xmlns.com/foaf/0.1/name> "بوزنان"@ar .
+<http://wikidata.dbpedia.org/resource/Q269> <http://dbpedia.org/ontology/areaLand> "3.348E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q269> <http://dbpedia.org/ontology/motto> "Coat of Arms of Tashkent.svg".
+<http://wikidata.dbpedia.org/resource/Q269> <http://xmlns.com/foaf/0.1/name> "طشقند"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/areaTotal> "1.384348644974592E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/areaTotal> "1.3843E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/leaderTitle> "الوزير الأول"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/leaderTitle> "وزير النائب الأول"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/longName> "Northern Ireland"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/longName> "أيرلندا الشمالية"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/populationDensity> "130.88863174588917"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q26> <http://dbpedia.org/ontology/populationDensity> "131.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q26> <http://xmlns.com/foaf/0.1/name> "Norlin Airlann''"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://xmlns.com/foaf/0.1/name> "''Tuaisceart Éireann"@ar .
+<http://wikidata.dbpedia.org/resource/Q26> <http://xmlns.com/foaf/0.1/name> "أيرلندا الشمالية"@ar .
+<http://wikidata.dbpedia.org/resource/Q276> <http://dbpedia.org/ontology/numberOfEpisodes> "60"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q276> <http://dbpedia.org/ontology/runtime> "12600.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q276> <http://xmlns.com/foaf/0.1/name> "مسابقة أوروفيزيون للأغاني"@ar .
+<http://wikidata.dbpedia.org/resource/Q276> <http://xmlns.com/foaf/0.1/name> "مسابقة يوروفيجن للأغاني"@ar .
+<http://wikidata.dbpedia.org/resource/Q288> <http://xmlns.com/foaf/0.1/name> "طرشTours"@ar .
+<http://wikidata.dbpedia.org/resource/Q303> <http://xmlns.com/foaf/0.1/name> "إلفيس بريسلي"@ar .
+<http://wikidata.dbpedia.org/resource/Q312> <http://dbpedia.org/ontology/numberOfEmployees> "115000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q312> <http://xmlns.com/foaf/0.1/name> "Apple Inc.&lrm;"@ar .
+<http://wikidata.dbpedia.org/resource/Q312> <http://xmlns.com/foaf/0.1/name> "شركة أبل"@ar .
+<http://wikidata.dbpedia.org/resource/Q328> <http://xmlns.com/foaf/0.1/name> "ويكيبيديا الإنجليزية"@ar .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/elevation> "151.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/leaderTitle> "النائب الأول"@ar .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/leaderTitle> "النائب الثاني"@ar .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/motto> "Blason ville fr Quimper (Finistère).svg".
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/populationTotal> "123999"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/postalCode> "29000".
+<http://wikidata.dbpedia.org/resource/Q342> <http://xmlns.com/foaf/0.1/name> "كامبار"@ar .
+<http://wikidata.dbpedia.org/resource/Q342> <http://xmlns.com/foaf/0.1/nick> "* بلاد كورنواي"@ar .
+<http://wikidata.dbpedia.org/resource/Q342> <http://xmlns.com/foaf/0.1/nick> "* كامبار كورنواي"@ar .
+<http://wikidata.dbpedia.org/resource/Q356> <http://xmlns.com/foaf/0.1/name> "جوجل+ (جوجل بلس)"@ar .
+<http://wikidata.dbpedia.org/resource/Q359> <http://xmlns.com/foaf/0.1/name> "Wikileaks"@ar .
+<http://wikidata.dbpedia.org/resource/Q359> <http://xmlns.com/foaf/0.1/name> "ويكيليكس"@ar .
+<http://wikidata.dbpedia.org/resource/Q360> <http://xmlns.com/foaf/0.1/name> "جوليان أسانج"@ar .
+<http://wikidata.dbpedia.org/resource/Q364> <http://xmlns.com/foaf/0.1/name> "GitHub"@ar .
+<http://wikidata.dbpedia.org/resource/Q367> <http://xmlns.com/foaf/0.1/name> "ويكي الكتب"@ar .
+<http://wikidata.dbpedia.org/resource/Q369> <http://xmlns.com/foaf/0.1/name> "Wikiquote"@ar .
+<http://wikidata.dbpedia.org/resource/Q369> <http://xmlns.com/foaf/0.1/name> "ويكي الاقتباس"@ar .
+<http://wikidata.dbpedia.org/resource/Q370> <http://xmlns.com/foaf/0.1/name> "Wikiversity"@ar .
+<http://wikidata.dbpedia.org/resource/Q370> <http://xmlns.com/foaf/0.1/name> "ويكي الجامعة"@ar .
+<http://wikidata.dbpedia.org/resource/Q373> <http://xmlns.com/foaf/0.1/name> "Wikivoyage"@ar .
+<http://wikidata.dbpedia.org/resource/Q373> <http://xmlns.com/foaf/0.1/name> "ويكي الرحلات"@ar .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/areaTotal> "6.519777070148813E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/areaTotal> "6.52E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/populationDensity> "53.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/populationDensity> "54.44040435448487"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q37> <http://xmlns.com/foaf/0.1/name> "جمهورية ليتوانيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q37> <http://xmlns.com/foaf/0.1/name> "لتوانيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q381> <http://dbpedia.org/ontology/latestReleaseVersion> "15.04 Vivid Vervet".
+<http://wikidata.dbpedia.org/resource/Q381> <http://dbpedia.org/ontology/status> "نشطة".
+<http://wikidata.dbpedia.org/resource/Q381> <http://xmlns.com/foaf/0.1/name> "أوبونتو"@ar .
+<http://wikidata.dbpedia.org/resource/Q388> <http://dbpedia.org/ontology/status> "قائم".
+<http://wikidata.dbpedia.org/resource/Q388> <http://xmlns.com/foaf/0.1/name> "جنو/لينكس"@ar .
+<http://wikidata.dbpedia.org/resource/Q392> <http://xmlns.com/foaf/0.1/name> "بوب ديلن"@ar .
+<http://wikidata.dbpedia.org/resource/Q396> <http://dbpedia.org/ontology/background> "فرقة أو مجموعة".
+<http://wikidata.dbpedia.org/resource/Q396> <http://xmlns.com/foaf/0.1/name> "U2"@ar .
+<http://wikidata.dbpedia.org/resource/Q396> <http://xmlns.com/foaf/0.1/name> "يو تو"@ar .
+<http://wikidata.dbpedia.org/resource/Q406> <http://dbpedia.org/ontology/motto> "شعار إسطنبول.png".
+<http://wikidata.dbpedia.org/resource/Q406> <http://dbpedia.org/ontology/postalCode> "34010 حتى 34850".
+<http://wikidata.dbpedia.org/resource/Q406> <http://dbpedia.org/ontology/postalCode> "و 80000 حتى 81800".
+<http://wikidata.dbpedia.org/resource/Q406> <http://xmlns.com/foaf/0.1/name> "إسطنبول"@ar .
+<http://wikidata.dbpedia.org/resource/Q406> <http://xmlns.com/foaf/0.1/nick> "مدينة التلال السبع، مدينة المآذن، روما الجديدة"@ar .
+<http://wikidata.dbpedia.org/resource/Q409> <http://xmlns.com/foaf/0.1/name> "بوب مارلي"@ar .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/areaTotal> "8.387158497701068E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/areaTotal> "8.3872E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/leaderTitle> "رئيس مجلس الوطني"@ar .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/populationDensity> "99.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/populationDensity> "99.22825474540859"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q40> <http://xmlns.com/foaf/0.1/name> "النمسا"@ar .
+<http://wikidata.dbpedia.org/resource/Q40> <http://xmlns.com/foaf/0.1/name> "جمهورية النمسا"@ar .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/areaTotal> "1.8103498893626572E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/areaTotal> "1.81035E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/leaderTitle> "الملك"@ar .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/leaderTitle> "رئيس المجلس الوطني"@ar .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/leaderTitle> "رئيس مجلس الشيوخ"@ar .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/motto> "\"الوطن، الدين، الملك\"".
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/populationDensity> "81.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/populationDensity> "81.46755545245608"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q424> <http://xmlns.com/foaf/0.1/name> "كمبوديا"@ar .
+<http://wikidata.dbpedia.org/resource/Q424> <http://xmlns.com/foaf/0.1/name> "مملكة كمبوديا"@ar .
+<http://wikidata.dbpedia.org/resource/Q448> <http://dbpedia.org/ontology/birthDate> "1713-10-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q448> <http://dbpedia.org/ontology/deathDate> "1784-07-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q448> <http://xmlns.com/foaf/0.1/name> "دنيس ديدرو"@ar .
+<http://wikidata.dbpedia.org/resource/Q455> <http://xmlns.com/foaf/0.1/name> "(Encyclopædia Britannica)"@ar .
+<http://wikidata.dbpedia.org/resource/Q455> <http://xmlns.com/foaf/0.1/name> "الموسوعة البريطانية"@ar .
+<http://wikidata.dbpedia.org/resource/Q456> <http://dbpedia.org/ontology/motto> "BlasonLYON.PNG".
+<http://wikidata.dbpedia.org/resource/Q456> <http://xmlns.com/foaf/0.1/name> "ليون"@ar .
+<http://wikidata.dbpedia.org/resource/Q461> <http://xmlns.com/foaf/0.1/name> "أرشيف الإنترنت"@ar .
+<http://wikidata.dbpedia.org/resource/Q472> <http://dbpedia.org/ontology/motto> "BG Sofia coa.svg".
+<http://wikidata.dbpedia.org/resource/Q472> <http://dbpedia.org/ontology/postalCode> "1000".
+<http://wikidata.dbpedia.org/resource/Q472> <http://xmlns.com/foaf/0.1/name> "صوفيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q472> <http://xmlns.com/foaf/0.1/nick> "عاصمة بلغاريا"@ar .
+<http://wikidata.dbpedia.org/resource/Q480> <http://dbpedia.org/ontology/numberOfPages> "1086"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://wikidata.dbpedia.org/resource/Q480> <http://xmlns.com/foaf/0.1/name> "Don Quijote de la Mancha"@ar .
+<http://wikidata.dbpedia.org/resource/Q480> <http://xmlns.com/foaf/0.1/name> "دون كيخوتي"@ar .
+<http://wikidata.dbpedia.org/resource/Q483> <http://xmlns.com/foaf/0.1/name> "MegaUpload"@ar .
+<http://wikidata.dbpedia.org/resource/Q483> <http://xmlns.com/foaf/0.1/name> "ميغا أبلود"@ar .
+<http://wikidata.dbpedia.org/resource/Q489> <http://dbpedia.org/ontology/activeYearsStartYear> "1979"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q489> <http://dbpedia.org/ontology/birthName> "وليام بيل ماهر جونيور"@ar .
+<http://wikidata.dbpedia.org/resource/Q489> <http://xmlns.com/foaf/0.1/name> "بيل ماهر"@ar .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/areaLand> "1.81E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/elevation> "120.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/motto> "CoA Città di Milano.svg".
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/postalCode> "20100, 20121–20162".
+<http://wikidata.dbpedia.org/resource/Q490> <http://xmlns.com/foaf/0.1/name> "ميلانو"@ar .
+<http://wikidata.dbpedia.org/resource/Q490> <http://xmlns.com/foaf/0.1/nick> "عاصمة إيطاليا الأخلاقية"@ar .
+<http://wikidata.dbpedia.org/resource/Q501> <http://dbpedia.org/ontology/birthDate> "1821-04-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q501> <http://dbpedia.org/ontology/birthName> "شارل بيير بودلير"@ar .
+<http://wikidata.dbpedia.org/resource/Q501> <http://dbpedia.org/ontology/deathDate> "1867-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q501> <http://xmlns.com/foaf/0.1/name> "شارل بودلير"@ar .
+<http://wikidata.dbpedia.org/resource/Q502> <http://dbpedia.org/ontology/birthName> "ماري هنري بيل"@ar .
+<http://wikidata.dbpedia.org/resource/Q502> <http://dbpedia.org/ontology/deathDate> "1842-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q502> <http://dbpedia.org/ontology/pseudonym> "ستندال"@ar .
+<http://wikidata.dbpedia.org/resource/Q502> <http://xmlns.com/foaf/0.1/name> "ستندال"@ar .
+<http://wikidata.dbpedia.org/resource/Q504> <http://xmlns.com/foaf/0.1/name> "إميل فرانسوا زولا"@ar .
+<http://wikidata.dbpedia.org/resource/Q513> <http://dbpedia.org/ontology/elevation> "8.8477344"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q513> <http://dbpedia.org/ontology/elevation> "8848.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q513> <http://xmlns.com/foaf/0.1/name> "جبل إفرست"@ar .
+<http://wikidata.dbpedia.org/resource/Q529> <http://xmlns.com/foaf/0.1/name> "لويس باستور"@ar .
+<http://wikidata.dbpedia.org/resource/Q52> <http://xmlns.com/foaf/0.1/name> "Wikipedia"@ar .
+<http://wikidata.dbpedia.org/resource/Q52> <http://xmlns.com/foaf/0.1/name> "ويكيبيديا"@ar .
+<http://wikidata.dbpedia.org/resource/Q535> <http://dbpedia.org/ontology/birthDate> "1802-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q535> <http://dbpedia.org/ontology/birthName> "فيكتور ماري هوغو"@ar .
+<http://wikidata.dbpedia.org/resource/Q555> <http://dbpedia.org/ontology/birthName> "راتشيل آن مادو آن"@ar .
+<http://wikidata.dbpedia.org/resource/Q555> <http://xmlns.com/foaf/0.1/name> "راتشيل مادو"@ar .
+<http://wikidata.dbpedia.org/resource/Q557> <http://xmlns.com/foaf/0.1/name> "Patti Smith"@ar .
+<http://wikidata.dbpedia.org/resource/Q565> <http://xmlns.com/foaf/0.1/name> "ويكيميديا كومنز"@ar .
+<http://wikidata.dbpedia.org/resource/Q585> <http://dbpedia.org/ontology/elevation> "629.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q585> <http://dbpedia.org/ontology/motto> "Oslo komm.svg".
+<http://wikidata.dbpedia.org/resource/Q585> <http://xmlns.com/foaf/0.1/name> "أوسلو"@ar .
+<http://wikidata.dbpedia.org/resource/Q595> <http://xmlns.com/foaf/0.1/name> "Intouchables"@ar .
+<http://wikidata.dbpedia.org/resource/Q597> <http://dbpedia.org/ontology/elevation> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q597> <http://dbpedia.org/ontology/motto> "LSB.png".
+<http://wikidata.dbpedia.org/resource/Q597> <http://dbpedia.org/ontology/populationTotal> "545245"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q597> <http://dbpedia.org/ontology/postalCode> "1149-014 لشبونة".
+<http://wikidata.dbpedia.org/resource/Q597> <http://xmlns.com/foaf/0.1/name> "لشبونة"@ar .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/areaLand> "7.83E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/areaWater> "4.29E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/elevation> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/postalCode> "100xx–104xx, 11004–05, 111xx–114xx, 116xx".
+<http://wikidata.dbpedia.org/resource/Q60> <http://xmlns.com/foaf/0.1/name> "نيويورك"@ar .
+<http://wikidata.dbpedia.org/resource/Q60> <http://xmlns.com/foaf/0.1/nick> "التفاحة الكبيرة"@ar .
+<http://wikidata.dbpedia.org/resource/Q612> <http://dbpedia.org/ontology/areaLand> "4114000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q612> <http://dbpedia.org/ontology/populationAsOf> "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q612> <http://xmlns.com/foaf/0.1/name> "دبي"@ar .
+<http://wikidata.dbpedia.org/resource/Q612> <http://xmlns.com/foaf/0.1/nick> "العاصمة الاقتصادية"@ar .
+<http://wikidata.dbpedia.org/resource/Q619> <http://dbpedia.org/ontology/alias> "مفجر الثورة الفلكية الحديث"@ar .
+<http://wikidata.dbpedia.org/resource/Q619> <http://dbpedia.org/ontology/birthDate> "1473-02-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q619> <http://dbpedia.org/ontology/birthName> "Mikołaj Kopernik"@ar .
+<http://wikidata.dbpedia.org/resource/Q619> <http://xmlns.com/foaf/0.1/name> "نيكولاس كوبرنيكوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q62> <http://dbpedia.org/ontology/areaLand> "2.31E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q62> <http://dbpedia.org/ontology/areaWater> "4.29E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q62> <http://dbpedia.org/ontology/elevation> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q62> <http://dbpedia.org/ontology/populationTotal> "825111"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q62> <http://dbpedia.org/ontology/postalCode> "100xx–104xx, 11004–05, 111xx–114xx, 116xx".
+<http://wikidata.dbpedia.org/resource/Q62> <http://xmlns.com/foaf/0.1/name> "سان فرانسيسكو"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://dbpedia.org/ontology/capacity> "80074"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q631> <http://dbpedia.org/ontology/chairmanTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://dbpedia.org/ontology/fansgroup> "الإنتريستا".
+<http://wikidata.dbpedia.org/resource/Q631> <http://dbpedia.org/ontology/managerTitle> "المدير".
+<http://wikidata.dbpedia.org/resource/Q631> <http://dbpedia.org/ontology/title> "المالك"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://xmlns.com/foaf/0.1/name> "Football Club Internazionale Milano"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://xmlns.com/foaf/0.1/name> "إنتر ميلان"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://xmlns.com/foaf/0.1/name> "نادي إنترناسيونالي ميلانو لكرة القدم"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://xmlns.com/foaf/0.1/nick> "الأزرق والأسود - Nerazzurri"@ar .
+<http://wikidata.dbpedia.org/resource/Q631> <http://xmlns.com/foaf/0.1/nick> "الأفاعي- Il Biscione"@ar .
+<http://wikidata.dbpedia.org/resource/Q633> <http://xmlns.com/foaf/0.1/name> "نيل يونغ"@ar .
+<http://wikidata.dbpedia.org/resource/Q636> <http://xmlns.com/foaf/0.1/name> "كيت بوش"@ar .
+<http://wikidata.dbpedia.org/resource/Q641> <http://dbpedia.org/ontology/populationAsOf> "2009-04-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q641> <http://xmlns.com/foaf/0.1/name> "البندقية"@ar .
+<http://wikidata.dbpedia.org/resource/Q644> <http://dbpedia.org/ontology/leaderTitle> "رئيس مدينة شرم الشيخ"@ar .
+<http://wikidata.dbpedia.org/resource/Q644> <http://dbpedia.org/ontology/motto> "Coat of arms of South Sinai Governorate.png".
+<http://wikidata.dbpedia.org/resource/Q644> <http://dbpedia.org/ontology/postalCode> "46619".
+<http://wikidata.dbpedia.org/resource/Q644> <http://xmlns.com/foaf/0.1/name> "شرم الشيخ"@ar .
+<http://wikidata.dbpedia.org/resource/Q647> <http://xmlns.com/foaf/0.1/name> "رين"@ar .
+<http://wikidata.dbpedia.org/resource/Q64> <http://dbpedia.org/ontology/motto> "Coat of arms of Berlin.svg".
+<http://wikidata.dbpedia.org/resource/Q64> <http://dbpedia.org/ontology/populationAsOf> "2013-11-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q64> <http://dbpedia.org/ontology/postalCode> "10001–14199".
+<http://wikidata.dbpedia.org/resource/Q64> <http://xmlns.com/foaf/0.1/name> "برلين"@ar .
+<http://wikidata.dbpedia.org/resource/Q64> <http://xmlns.com/foaf/0.1/nick> "الولايات المدن"@ar .
+<http://wikidata.dbpedia.org/resource/Q65> <http://dbpedia.org/ontology/areaLand> "1.29E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q65> <http://dbpedia.org/ontology/motto> "Seal of Los Angeles, California.svg".
+<http://wikidata.dbpedia.org/resource/Q65> <http://xmlns.com/foaf/0.1/name> "Los Angeles"@ar .
+<http://wikidata.dbpedia.org/resource/Q65> <http://xmlns.com/foaf/0.1/name> "لوس أنجلوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q65> <http://xmlns.com/foaf/0.1/nick> "مدينة الملائكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/areaTotal> "2.680197396219003E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/areaTotal> "2.68021E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/leaderTitle> "الحاكم العام"@ar .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/populationDensity> "15.830188500240283"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/populationDensity> "16.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q664> <http://xmlns.com/foaf/0.1/name> "نيوزيلندا"@ar .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/areaTotal> "3.286694912016384E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/areaTotal> "3.287E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/leaderTitle> "رئيس مجلس النواب"@ar .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/motto> "الحقيقة وحدها تنتصر".
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/percentageOfAreaWater> "9.55"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/populationDensity> "349.0363513223711"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/populationDensity> "349.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q668> <http://xmlns.com/foaf/0.1/name> "الهند"@ar .
+<http://wikidata.dbpedia.org/resource/Q66> <http://dbpedia.org/ontology/numberOfEmployees> "162290"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q66> <http://xmlns.com/foaf/0.1/name> "(The Boeing Company)"@ar .
+<http://wikidata.dbpedia.org/resource/Q66> <http://xmlns.com/foaf/0.1/name> "شركة بوينغ"@ar .
+<http://wikidata.dbpedia.org/resource/Q67> <http://dbpedia.org/ontology/numberOfEmployees> "57000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q67> <http://dbpedia.org/ontology/revenue> "3.31E10"^^<http://dbpedia.org/datatype/euro> .
+<http://wikidata.dbpedia.org/resource/Q67> <http://xmlns.com/foaf/0.1/name> "Airbus (SAS)"@ar .
+<http://wikidata.dbpedia.org/resource/Q67> <http://xmlns.com/foaf/0.1/name> "إيرباص (ساس)"@ar .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/birthDate> "1622-01-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/birthName> "جون باتيست بوكلان"@ar .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/pseudonym> "موليير"@ar .
+<http://wikidata.dbpedia.org/resource/Q687> <http://xmlns.com/foaf/0.1/name> "جون باتيست بوكلان"@ar .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/areaTotal> "4.628386452813742E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/areaTotal> "4.6284E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/leaderTitle> "الحاكم العام"@ar .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/motto> "الوحدة في التنوع".
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/populationDensity> "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/populationDensity> "13.12747339044316"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q691> <http://xmlns.com/foaf/0.1/name> "بابوا غينيا الجديدة"@ar .
+<http://wikidata.dbpedia.org/resource/Q691> <http://xmlns.com/foaf/0.1/name> "بابوا غينيا الجديدة المستقلة"@ar .
+<http://wikidata.dbpedia.org/resource/Q692> <http://dbpedia.org/ontology/birthDate> "1564-04-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q692> <http://dbpedia.org/ontology/deathDate> "1616-04-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q692> <http://xmlns.com/foaf/0.1/name> "وليَام شكسبير"@ar .
+<http://wikidata.dbpedia.org/resource/Q697> <http://dbpedia.org/ontology/areaTotal> "2.1E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q697> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q697> <http://dbpedia.org/ontology/motto> "يجب أن تكون إرادة الله أولا".
+<http://wikidata.dbpedia.org/resource/Q697> <http://dbpedia.org/ontology/populationDensity> "447.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q697> <http://xmlns.com/foaf/0.1/name> "جمهورية ناورو"@ar .
+<http://wikidata.dbpedia.org/resource/Q697> <http://xmlns.com/foaf/0.1/name> "ناورو"@ar .
+<http://wikidata.dbpedia.org/resource/Q698> <http://dbpedia.org/ontology/latestReleaseVersion> "44.0".
+<http://wikidata.dbpedia.org/resource/Q698> <http://xmlns.com/foaf/0.1/name> "موزيلا فيرفوكس"@ar .
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/areaTotal> "7.01886777901056E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/areaTotal> "7.02E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/motto> "حريةوحدةسلام".
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/populationDensity> "157.91578284386037"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/populationDensity> "158.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q702> <http://xmlns.com/foaf/0.1/name> "ميكرونيسيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q702> <http://xmlns.com/foaf/0.1/name> "ولايات ميكرونيسيا المتحدة"@ar .
+<http://wikidata.dbpedia.org/resource/Q704> <http://dbpedia.org/ontology/capacity> "41044"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q704> <http://dbpedia.org/ontology/chairmanTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q704> <http://dbpedia.org/ontology/managerTitle> "المدير الفني".
+<http://wikidata.dbpedia.org/resource/Q704> <http://xmlns.com/foaf/0.1/name> "أولمبيك ليون"@ar .
+<http://wikidata.dbpedia.org/resource/Q704> <http://xmlns.com/foaf/0.1/name> "نادي أولمبيك ليون لكرة القدم"@ar .
+<http://wikidata.dbpedia.org/resource/Q704> <http://xmlns.com/foaf/0.1/nick> "Les Gones"@ar .
+<http://wikidata.dbpedia.org/resource/Q704> <http://xmlns.com/foaf/0.1/nick> "الأطفال"@ar .
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/areaTotal> "1.81E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/areaTotal> "2.0719904882688E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/motto> "الإنجاز من خلال الجهد المشترك".
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/populationDensity> "341.7004103100646"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/populationDensity> "342.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q709> <http://xmlns.com/foaf/0.1/name> "جزر مارشال"@ar .
+<http://wikidata.dbpedia.org/resource/Q709> <http://xmlns.com/foaf/0.1/name> "جمهورية جزر مارشال"@ar .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/areaTotal> "8.10666278535168E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/areaTotal> "8.11E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/motto> "صحة وسلام وازدهار".
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/populationDensity> "135.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/populationDensity> "135.13575548985605"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q710> <http://xmlns.com/foaf/0.1/name> "جمهورية كيريباتي"@ar .
+<http://wikidata.dbpedia.org/resource/Q710> <http://xmlns.com/foaf/0.1/name> "كيريباتي"@ar .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/areaTotal> "1.5641171297249033E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/areaTotal> "1.564E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/longName> "50pxمنغولية"@ar .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.43"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/populationDensity> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/populationDensity> "1.9305107927122296"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q711> <http://xmlns.com/foaf/0.1/name> "جمهورية منغوليا"@ar .
+<http://wikidata.dbpedia.org/resource/Q711> <http://xmlns.com/foaf/0.1/name> "منغوليا"@ar .
+<http://wikidata.dbpedia.org/resource/Q714> <http://xmlns.com/foaf/0.1/name> "ستيفي وندر"@ar .
+<http://wikidata.dbpedia.org/resource/Q715> <http://dbpedia.org/ontology/elevation> "157.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q715> <http://dbpedia.org/ontology/motto> "Wappen Heilbronn.svg".
+<http://wikidata.dbpedia.org/resource/Q715> <http://xmlns.com/foaf/0.1/name> "هايلبرون"@ar .
+<http://wikidata.dbpedia.org/resource/Q719> <http://dbpedia.org/ontology/elevation> "178.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q719> <http://dbpedia.org/ontology/postalCode> "48601, 48602, 48605, 48607".
+<http://wikidata.dbpedia.org/resource/Q719> <http://dbpedia.org/ontology/postalCode> "FIPS: 26-70520".
+<http://wikidata.dbpedia.org/resource/Q719> <http://dbpedia.org/ontology/postalCode> "GNIS: 1627020".
+<http://wikidata.dbpedia.org/resource/Q719> <http://xmlns.com/foaf/0.1/name> "ساغيناو"@ar .
+<http://wikidata.dbpedia.org/resource/Q71> <http://dbpedia.org/ontology/elevation> "375.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q71> <http://dbpedia.org/ontology/motto> "Armoiries ville Geneve.png".
+<http://wikidata.dbpedia.org/resource/Q71> <http://xmlns.com/foaf/0.1/name> "جنيف"@ar .
+<http://wikidata.dbpedia.org/resource/Q72> <http://dbpedia.org/ontology/areaLand> "8.7E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q72> <http://dbpedia.org/ontology/elevation> "408.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q72> <http://dbpedia.org/ontology/motto> "Ch zh wappen stadt.gif".
+<http://wikidata.dbpedia.org/resource/Q72> <http://xmlns.com/foaf/0.1/name> "زيورخ"@ar .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/areaTotal> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/areaTotal> "1.63E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/motto> "العدالة  وجب  الولاء".
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/percentageOfAreaWater> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/populationDensity> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q730> <http://xmlns.com/foaf/0.1/name> "جمهورية سورينام"@ar .
+<http://wikidata.dbpedia.org/resource/Q730> <http://xmlns.com/foaf/0.1/name> "سورينام"@ar .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/areaTotal> "1.1417470486675293E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/areaTotal> "1.141E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/percentageOfAreaWater> "8.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/populationDensity> "40.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/populationDensity> "40.54072664695682"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q739> <http://xmlns.com/foaf/0.1/name> "جمهورية كولومبيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q739> <http://xmlns.com/foaf/0.1/name> "كولومبيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q73> <http://xmlns.com/foaf/0.1/name> "آي آر سي"@ar .
+<http://wikidata.dbpedia.org/resource/Q742> <http://dbpedia.org/ontology/deathDate> "1699-04-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q742> <http://xmlns.com/foaf/0.1/name> "جان راسين"@ar .
+<http://wikidata.dbpedia.org/resource/Q747> <http://dbpedia.org/ontology/birthDate> "1606-06-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q747> <http://dbpedia.org/ontology/birthName> "بيير كورني"@ar .
+<http://wikidata.dbpedia.org/resource/Q747> <http://dbpedia.org/ontology/deathDate> "1684-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q747> <http://xmlns.com/foaf/0.1/name> "بيير كورني"@ar .
+<http://wikidata.dbpedia.org/resource/Q755> <http://dbpedia.org/ontology/birthDate> "1844-03-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q755> <http://dbpedia.org/ontology/deathDate> "1896-01-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q755> <http://xmlns.com/foaf/0.1/name> "بول فرلان paul verlaine"@ar .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/areaTotal> "1.11E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/areaTotal> "1.1509907162333183E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/leaderTitle> "الحاكم العام"@ar .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/motto> "نفاد كثير لشعب واحد".
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/populationDensity> "252.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/populationDensity> "253.28301600384452"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q766> <http://xmlns.com/foaf/0.1/name> "جاميكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q767> <http://dbpedia.org/ontology/birthDate> "1842-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q767> <http://dbpedia.org/ontology/deathDate> "1898-09-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q767> <http://dbpedia.org/ontology/pseudonym> "ستيفان مالارميه"@ar .
+<http://wikidata.dbpedia.org/resource/Q767> <http://xmlns.com/foaf/0.1/name> "ستيفان مالارميه"@ar .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/areaTotal> "1.0888828013474611E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/areaTotal> "1.0889E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/motto> "\"El País de la Eterna Primavera\"".
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/motto> "\"Libre Crezca Fecundo\"".
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/populationDensity> "129.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/populationDensity> "134.36355117277117"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q774> <http://xmlns.com/foaf/0.1/name> "جمهورية غواتيمالا"@ar .
+<http://wikidata.dbpedia.org/resource/Q774> <http://xmlns.com/foaf/0.1/name> "غواتيمالا"@ar .
+<http://wikidata.dbpedia.org/resource/Q777> <http://dbpedia.org/ontology/latestReleaseVersion> "46.0.2490.86".
+<http://wikidata.dbpedia.org/resource/Q777> <http://dbpedia.org/ontology/latestReleaseVersion> "47.0.2526.58".
+<http://wikidata.dbpedia.org/resource/Q777> <http://xmlns.com/foaf/0.1/name> "Google Chrome"@ar .
+<http://wikidata.dbpedia.org/resource/Q777> <http://xmlns.com/foaf/0.1/name> "جوجل كروم"@ar .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/areaTotal> "1.3877156295180288E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/areaTotal> "1.3878E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/leaderTitle> "الحاكم العام"@ar .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/motto> "النظام، التقدم، التلازم".
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/populationDensity> "23.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/populationDensity> "23.166129512546753"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q778> <http://xmlns.com/foaf/0.1/name> "باهاماس"@ar .
+<http://wikidata.dbpedia.org/resource/Q778> <http://xmlns.com/foaf/0.1/name> "كومنولث جزر باهاماس"@ar .
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/areaTotal> "1.1208950543912141E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/areaTotal> "1.12492E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/motto> "حرّة، ذات سيادة، مستقلة".
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/populationDensity> "64.09295831804602"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/populationDensity> "64.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q783> <http://xmlns.com/foaf/0.1/name> "جمهورية هندوراس"@ar .
+<http://wikidata.dbpedia.org/resource/Q783> <http://xmlns.com/foaf/0.1/name> "هندوراس"@ar .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/areaTotal> "1.1654946496512E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/areaTotal> "1.16E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/leaderTitle> "الملكة"@ar .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/leaderTitle> "ولي العهد"@ar .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/longName> "Bailiwick of Jersey"@ar .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/longName> "Bailliage de Jersey"@ar .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/populationDensity> "785.331790475335"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/populationDensity> "790.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q785> <http://xmlns.com/foaf/0.1/name> "بيليفية جيرزي"@ar .
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/areaTotal> "2.7749132614139904E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/areaTotal> "2.7E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/motto> "L'union fait la force".
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/motto> "the motto on the traditional coat of arms is".
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/motto> "Union makes strength".
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/motto> "حرية مساواة إخاء".
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q790> <http://xmlns.com/foaf/0.1/name> "جمهورية هايتي"@ar .
+<http://wikidata.dbpedia.org/resource/Q790> <http://xmlns.com/foaf/0.1/name> "هايتي"@ar .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/areaTotal> "5.090103633243341E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/areaTotal> "5.11E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/leaderTitle> "نائب رئيس 1"@ar .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/leaderTitle> "نائب رئيس 2"@ar .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/populationDensity> "84.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/populationDensity> "84.94247487933809"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q800> <http://xmlns.com/foaf/0.1/name> "جمهورية كوستاريكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q800> <http://xmlns.com/foaf/0.1/name> "كوستاريكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/areaTotal> "2.077E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/longName> "مِدينات يِسْرائيل"@ar .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/populationDensity> "355.60008801759267"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/populationDensity> "3558.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q801> <http://xmlns.com/foaf/0.1/name> "إسرائيل"@ar .
+<http://wikidata.dbpedia.org/resource/Q801> <http://xmlns.com/foaf/0.1/name> "دولة إسرائيل"@ar .
+<http://wikidata.dbpedia.org/resource/Q80> <http://xmlns.com/foaf/0.1/name> "تيم بيرنرز لي"@ar .
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/areaTotal> "1.2999927322209485E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/areaTotal> "1.30373E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/motto> "نحن نثق في الله".
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/percentageOfAreaWater> "7.14"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/populationDensity> "42.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/populationDensity> "44.01564607383883"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q811> <http://xmlns.com/foaf/0.1/name> "جمهورية نيكاراغوا"@ar .
+<http://wikidata.dbpedia.org/resource/Q811> <http://xmlns.com/foaf/0.1/name> "نيكاراغوا"@ar .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/areaTotal> "2.3680002293991016E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/areaTotal> "2.368E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/longName> "Sathalanalat Paxathipatai Paxaxon Lao"@ar .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/motto> "السلام - الاستقلال - الديمقراطية - الوحدة - الازدهار".
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/populationDensity> "26.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/populationDensity> "26.641048939428767"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q819> <http://xmlns.com/foaf/0.1/name> "جمهورية لاوس الديمقراطية الشعبية"@ar .
+<http://wikidata.dbpedia.org/resource/Q819> <http://xmlns.com/foaf/0.1/name> "لاوس"@ar .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/areaTotal> "1.0452E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/leaderTitle> "رئيس مجلس النواب"@ar .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/longName> "الجمهورية اللبنانية"@ar .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/populationDensity> "404.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q822> <http://xmlns.com/foaf/0.1/name> "لبنان"@ar .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/areaTotal> "3.2984534580373096E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/areaTotal> "3.30803E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/leaderTitle> "سلطان"@ar .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/leaderTitle> "(يڠ د-ڤرتوان اڬوڠ)"@ar .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/motto> "الوحدة هي القوة".
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/populationDensity> "83.39806624516831"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/populationDensity> "86.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q833> <http://xmlns.com/foaf/0.1/name> "ماليزيا"@ar .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/birthDate> "1891-05-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/birthName> "ميخائيل بولغاكوف"@ar .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/deathDate> "1940-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q835> <http://xmlns.com/foaf/0.1/name> "ميخائيل بولغاكوف"@ar .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/areaTotal> "6.765748240987423E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/areaTotal> "6.76578E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/longName> "ملف:Myanmar long form.svg(بورمية)"@ar .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/motto> "Gabar Majay Bamar Pyay".
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/populationDensity> "73.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/populationDensity> "73.74551228160716"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q836> <http://xmlns.com/foaf/0.1/name> "بورما"@ar .
+<http://wikidata.dbpedia.org/resource/Q836> <http://xmlns.com/foaf/0.1/name> "جمهورية اتحاد ميانمار"@ar .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/areaTotal> "1.45039334178816E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/areaTotal> "1.47E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/leaderTitle> "رئيس مجلس النيابات التاسيسية"@ar .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/motto> "الأم والوطن الأم أعظم من الجنة".
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/populationDensity> "199.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/populationDensity> "200.00091812498698"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q837> <http://xmlns.com/foaf/0.1/name> "جمهورية نيبال الديمقراطية"@ar .
+<http://wikidata.dbpedia.org/resource/Q837> <http://xmlns.com/foaf/0.1/name> "نيبال"@ar .
+<http://wikidata.dbpedia.org/resource/Q83> <http://dbpedia.org/ontology/latestReleaseVersion> "1.25.2".
+<http://wikidata.dbpedia.org/resource/Q83> <http://dbpedia.org/ontology/latestReleaseVersion> "1.26 alpha".
+<http://wikidata.dbpedia.org/resource/Q83> <http://xmlns.com/foaf/0.1/name> "ميدياويكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q84> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q84> <http://xmlns.com/foaf/0.1/name> "لندن"@ar .
+<http://wikidata.dbpedia.org/resource/Q84> <http://xmlns.com/foaf/0.1/nick> "مدينة الضباب"@ar .
+<http://wikidata.dbpedia.org/resource/Q850> <http://dbpedia.org/ontology/latestReleaseVersion> "5.6.27".
+<http://wikidata.dbpedia.org/resource/Q850> <http://dbpedia.org/ontology/latestReleaseVersion> "5.7.8".
+<http://wikidata.dbpedia.org/resource/Q852> <http://dbpedia.org/ontology/introductionDate> "1972-04-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q852> <http://xmlns.com/foaf/0.1/name> "لوكهيد إل-1011 تراي ستار"@ar .
+<http://wikidata.dbpedia.org/resource/Q853> <http://dbpedia.org/ontology/activeYearsEndYear> "1986"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q853> <http://dbpedia.org/ontology/activeYearsStartYear> "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q853> <http://dbpedia.org/ontology/birthName> "أندري تاركوفسكي  Andrei Arsenyevich Tarkovsky"@ar .
+<http://wikidata.dbpedia.org/resource/Q853> <http://xmlns.com/foaf/0.1/name> "أندري تاركوفسكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q85> <http://dbpedia.org/ontology/motto> "Coat of arms of Cairo Govenorate.jpg".
+<http://wikidata.dbpedia.org/resource/Q85> <http://xmlns.com/foaf/0.1/name> "القاهرة"@ar .
+<http://wikidata.dbpedia.org/resource/Q862> <http://dbpedia.org/ontology/birthDate> "1940-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q862> <http://dbpedia.org/ontology/birthName> "جوزيف ألكسندروفيتش برودسكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q862> <http://xmlns.com/foaf/0.1/name> "جوزيف ألكسندروفيتش برودسكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q862> <http://xmlns.com/foaf/0.1/name> "Иосиф Александрович Бродский"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/areaTotal> "3.6191E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/motto> "سماء زرقاء وشمس بيضاء".
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/motto> "青天白日".
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/percentageOfAreaWater> "10.34"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/populationDensity> "637.0685615950357"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q865> <http://dbpedia.org/ontology/populationDensity> "640.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q865> <http://xmlns.com/foaf/0.1/name> "تيوان أو تايوان"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://xmlns.com/foaf/0.1/name> "جمهورية الصين"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://xmlns.com/foaf/0.1/name> "台湾"@ar .
+<http://wikidata.dbpedia.org/resource/Q865> <http://xmlns.com/foaf/0.1/name> "臺灣"@ar .
+<http://wikidata.dbpedia.org/resource/Q866> <http://xmlns.com/foaf/0.1/name> "YouTube"@ar .
+<http://wikidata.dbpedia.org/resource/Q866> <http://xmlns.com/foaf/0.1/name> "يوتيوب"@ar .
+<http://wikidata.dbpedia.org/resource/Q86> <http://dbpedia.org/ontology/icd10> "-,".
+<http://wikidata.dbpedia.org/resource/Q86> <http://dbpedia.org/ontology/icd9> ",".
+<http://wikidata.dbpedia.org/resource/Q86> <http://xmlns.com/foaf/0.1/name> "صداع"@ar .
+<http://wikidata.dbpedia.org/resource/Q873> <http://dbpedia.org/ontology/activeYearsStartYear> "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q873> <http://xmlns.com/foaf/0.1/name> "ميريل ستريب"@ar .
+<http://wikidata.dbpedia.org/resource/Q87> <http://dbpedia.org/ontology/motto> "شعار محافظة الإسكندرية.png".
+<http://wikidata.dbpedia.org/resource/Q87> <http://xmlns.com/foaf/0.1/name> "الإسكندرية"@ar .
+<http://wikidata.dbpedia.org/resource/Q87> <http://xmlns.com/foaf/0.1/nick> "عروس البحر الأبيض المتوسط"@ar .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/activeYearsEndYear> "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/activeYearsStartYear> "1899"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/birthDate> "1889-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/birthName> "تشارلز سبنسر تشابلن"@ar .
+<http://wikidata.dbpedia.org/resource/Q882> <http://xmlns.com/foaf/0.1/name> "تشارلي تشابلن"@ar .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/areaTotal> "6.475E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/areaTotal> "6.520864865155154E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/leaderTitle> "رئيس محكمة العليا"@ar .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس الاول"@ar .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/leaderTitle> "نائب الرئيس الثاني"@ar .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/motto> "لا اله الا الله محمد رسول الله".
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/percentageOfAreaWater> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/populationDensity> "42.857339598211496"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/populationDensity> "43.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q889> <http://xmlns.com/foaf/0.1/name> "أفغانستان"@ar .
+<http://wikidata.dbpedia.org/resource/Q889> <http://xmlns.com/foaf/0.1/name> "جمهورية أفغانستان الإسلامية"@ar .
+<http://wikidata.dbpedia.org/resource/Q890> <http://dbpedia.org/ontology/runtime> "219.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q890> <http://dbpedia.org/ontology/runtime> "252.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q890> <http://xmlns.com/foaf/0.1/name> "غانغنام ستايل"@ar .
+<http://wikidata.dbpedia.org/resource/Q892> <http://dbpedia.org/ontology/birthDate> "1892-01-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q892> <http://dbpedia.org/ontology/birthName> "جون رونالد رويل تولكين"@ar .
+<http://wikidata.dbpedia.org/resource/Q892> <http://dbpedia.org/ontology/deathDate> "1973-09-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q899> <http://xmlns.com/foaf/0.1/name> "قناة السويس"@ar .
+<http://wikidata.dbpedia.org/resource/Q900> <http://dbpedia.org/ontology/areaLand> "4.522E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q900> <http://dbpedia.org/ontology/postalCode> "420000 — 420999".
+<http://wikidata.dbpedia.org/resource/Q900> <http://xmlns.com/foaf/0.1/name> "قازان Казан"@ar .
+<http://wikidata.dbpedia.org/resource/Q903> <http://xmlns.com/foaf/0.1/name> "إرتا أليه"@ar .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/activeYearsEndYear> "1924"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/activeYearsStartYear> "1904"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/birthDate> "1883-07-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/birthName> "فرانس كافكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/deathDate> "1924-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/pseudonym> "فرانس كافكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q905> <http://xmlns.com/foaf/0.1/name> "فرانس كافكا"@ar .
+<http://wikidata.dbpedia.org/resource/Q909> <http://dbpedia.org/ontology/birthName> "خورخي فرانسيسكو إسيدورو لويس بورخيس أسيفيدو"@ar .
+<http://wikidata.dbpedia.org/resource/Q909> <http://xmlns.com/foaf/0.1/name> "خورخي لويس بورخيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q90> <http://dbpedia.org/ontology/motto> "Grandes Armes de Paris.svg".
+<http://wikidata.dbpedia.org/resource/Q90> <http://dbpedia.org/ontology/populationTotal> "12161542"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q90> <http://dbpedia.org/ontology/postalCode> "75001-75020, 75116".
+<http://wikidata.dbpedia.org/resource/Q90> <http://xmlns.com/foaf/0.1/name> "باريس"@ar .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/areaTotal> "1.24018731676518E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/areaTotal> "1.24E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/leaderTitle> "الرئيس"@ar .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/motto> "\"Un peuple, un but, une foi\"".
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/motto> "(\"شعب واحد، هدف واحد، ولاء واحد\")".
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/populationDensity> "11.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/populationDensity> "11.583064756273377"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q912> <http://xmlns.com/foaf/0.1/name> "جمهورية مالي"@ar .
+<http://wikidata.dbpedia.org/resource/Q912> <http://xmlns.com/foaf/0.1/name> "مالي"@ar .
+<http://wikidata.dbpedia.org/resource/Q936> <http://xmlns.com/foaf/0.1/name> "خريطة الشارع المفتوحة"@ar .
+<http://wikidata.dbpedia.org/resource/Q94> <http://dbpedia.org/ontology/latestReleaseVersion> "6.0.1 (( مارشميلو ))".
+<http://wikidata.dbpedia.org/resource/Q94> <http://dbpedia.org/ontology/status> "جارية".
+<http://wikidata.dbpedia.org/resource/Q94> <http://xmlns.com/foaf/0.1/name> "أندرويد"@ar .
+<http://wikidata.dbpedia.org/resource/Q956> <http://dbpedia.org/ontology/areaLand> "1.641E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q956> <http://dbpedia.org/ontology/elevation> "435.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q956> <http://dbpedia.org/ontology/postalCode> "100000 - 102600".
+<http://wikidata.dbpedia.org/resource/Q956> <http://xmlns.com/foaf/0.1/name> "بكين"@ar .
+<http://wikidata.dbpedia.org/resource/Q964> <http://xmlns.com/foaf/0.1/name> "Wikinews"@ar .
+<http://wikidata.dbpedia.org/resource/Q964> <http://xmlns.com/foaf/0.1/name> "ويكي الأخبار"@ar .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/areaTotal> "1.9725504847605596E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/areaTotal> "1.972E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/leaderTitle> "رئيس المحكمة العليا"@ar .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/leaderTitle> "وزير الخارجية"@ar .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/leaderTitle> "وزير الداخلية"@ar .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/percentageOfAreaWater> "2.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/populationDensity> "54.82650651302732"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/populationDensity> "57.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q96> <http://xmlns.com/foaf/0.1/name> "المكسيك"@ar .
+<http://wikidata.dbpedia.org/resource/Q96> <http://xmlns.com/foaf/0.1/name> "الولايات المتحدة المكسيكية"@ar .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/areaTotal> "3.420001600055378E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/areaTotal> "3.42E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/leaderTitle> "رئيس الدولة"@ar .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/motto> "الإتحاد،العمل،التقدم".
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/percentageOfAreaWater> "3.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/populationDensity> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/populationDensity> "10.424758280646039"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q971> <http://xmlns.com/foaf/0.1/name> "الكونغو"@ar .
+<http://wikidata.dbpedia.org/resource/Q971> <http://xmlns.com/foaf/0.1/name> "جمهورية الكونغو"@ar .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/areaTotal> "2.3448586856332495E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/areaTotal> "2.345E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/leaderTitle> "رئيس الجمهورية"@ar .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/leaderTitle> "رئيس الوزراء"@ar .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/motto> "عدالة - سلم - عمل".
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/percentageOfAreaWater> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/populationDensity> "28.957661890683443"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/populationDensity> "29.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q974> <http://xmlns.com/foaf/0.1/name> "جمهورية الكونغو الديمقراطية"@ar .
+<http://wikidata.dbpedia.org/resource/Q987> <http://dbpedia.org/ontology/areaLand> "4.37E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q987> <http://dbpedia.org/ontology/elevation> "216.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q987> <http://dbpedia.org/ontology/postalCode> "110xxx".
+<http://wikidata.dbpedia.org/resource/Q987> <http://xmlns.com/foaf/0.1/name> "نيودلهي"@ar .
+<http://wikidata.dbpedia.org/resource/Q991> <http://dbpedia.org/ontology/birthDate> "1821-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q991> <http://dbpedia.org/ontology/deathDate> "1881-02-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q991> <http://xmlns.com/foaf/0.1/name> "فيودور دوستويفسكي"@ar .
+<http://wikidata.dbpedia.org/resource/Q994> <http://dbpedia.org/ontology/areaLand> "7.26E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q994> <http://dbpedia.org/ontology/motto> "Tbilisi City Seal.svg".
+<http://wikidata.dbpedia.org/resource/Q994> <http://xmlns.com/foaf/0.1/name> "تبلّيسي"@ar .

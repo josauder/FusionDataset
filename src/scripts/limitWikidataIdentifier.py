@@ -1,7 +1,7 @@
 import sys, os
 
 datasetDir= "/home/jonathan/hpi/ld/datasets"
-datasetTestDir= "/home/jonathan/hpi/ld/fusion/Fusion/src/test/resources"
+datasetTestDir= "/home/jonathan/hpi/ld/fusion/Fusion/src/test/resources/dataset"
 
 n=2000
 
