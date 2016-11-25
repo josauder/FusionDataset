@@ -1,0 +1,6 @@
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/birthPlace> <http://wikidata.dbpedia.org/resource/Q2576> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/canonizedBy> <http://wikidata.dbpedia.org/resource/Q37278> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/deathPlace> <http://wikidata.dbpedia.org/resource/Q2576> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/predecessor> <http://wikidata.dbpedia.org/resource/Q37278> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/successor> <http://wikidata.dbpedia.org/resource/Q2494> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/veneratedIn> <http://wikidata.dbpedia.org/resource/Q37278> .

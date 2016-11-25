@@ -1,0 +1,6 @@
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/birthName> "Karol Józef Wojtyła"@ro .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/birthYear> "0018"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/deathYear> "0002"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/office> "Benedict al XVI-lea".
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/subtitle> "Ioan Paul al II-lea".
+<http://wikidata.dbpedia.org/resource/Q989> <http://dbpedia.org/ontology/title> "Ioan Paul I"@ro .

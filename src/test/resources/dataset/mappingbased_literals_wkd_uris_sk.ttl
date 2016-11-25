@@ -1,0 +1,39 @@
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/absoluteMagnitude> "3.34"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/albedo> "0.113"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/apoapsis> "4.46818E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/epoch> "26. november2005(JD2453700,5)".
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/formerName> "A899 OF; 1943 XB"@sk .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/inclination> "10.587"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/orbitalEccentricity> "0.08"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/orbitalInclination> "10.587"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/periapsis> "3.80612E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/temperature> "167.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q596> <http://xmlns.com/foaf/0.1/name> "1 Ceres15px|Starý symbol Ceres15px|Zrkadlový variant symbolu Ceres30px|Kosákovitý variant symbolu Ceres20px|Iný kosákovitý variant symbolu Ceres"@sk .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/absoluteMagnitude> "0.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/albedo> "0.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/apoapsis> "7.708E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/epoch> "18. 8. 2005 (JD2453600,5)".
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/formerName> "2003 EL61"@sk .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/inclination> "28.19"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/orbitalEccentricity> "0.18874"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/orbitalInclination> "28.19"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/periapsis> "5.26E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://xmlns.com/foaf/0.1/name> "Haumea"@sk .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/absoluteMagnitude> "-0.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/albedo> "0.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/apoapsis> "7.885E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/epoch> "2005-08-18".
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/formerName> "žiadne"@sk .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/inclination> "29.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/orbitalEccentricity> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/orbitalInclination> "29.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/periapsis> "5.807E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://xmlns.com/foaf/0.1/name> "(136472) Makemake"@sk .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/apoapsis> "1.460229303838821E13"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/epoch> "J2000,0".
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/formerName> "2003 UB313"@sk .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/inclination> "44.177"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/orbitalEccentricity> "0.441"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/orbitalInclination> "44.177"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/periapsis> "5.65598133563853E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q611> <http://xmlns.com/foaf/0.1/name> "136199 Eris"@sk .

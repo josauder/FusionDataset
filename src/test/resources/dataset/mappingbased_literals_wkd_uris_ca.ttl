@@ -1,0 +1,823 @@
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/alias> "Mahatma, Bapu"@ca .
+<http://wikidata.dbpedia.org/resource/Q1001> <http://dbpedia.org/ontology/birthName> "Mohandas Karamchand Gandhi"@ca .
+<http://wikidata.dbpedia.org/resource/Q1001> <http://xmlns.com/foaf/0.1/name> "Mohandas Gandhi"@ca .
+<http://wikidata.dbpedia.org/resource/Q100> <http://dbpedia.org/ontology/demonym> "Bostonià, bostoniana"@ca .
+<http://wikidata.dbpedia.org/resource/Q100> <http://dbpedia.org/ontology/populationTotal> "596638"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q100> <http://xmlns.com/foaf/0.1/name> "Boston"@ca .
+<http://wikidata.dbpedia.org/resource/Q1018> <http://dbpedia.org/ontology/populationTotal> "35640"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1018> <http://dbpedia.org/ontology/postalCode> "5000".
+<http://wikidata.dbpedia.org/resource/Q1018> <http://xmlns.com/foaf/0.1/name> "Nova Gorica"@ca .
+<http://wikidata.dbpedia.org/resource/Q1031> <http://xmlns.com/foaf/0.1/name> "France Prešeren"@ca .
+<http://wikidata.dbpedia.org/resource/Q1034> <http://dbpedia.org/ontology/elevation> "434.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1034> <http://dbpedia.org/ontology/populationTotal> "50852"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1034> <http://xmlns.com/foaf/0.1/name> "Biel/Bienne"@ca .
+<http://wikidata.dbpedia.org/resource/Q1034> <http://xmlns.com/foaf/0.1/name> "Bienne"@ca .
+<http://wikidata.dbpedia.org/resource/Q1070> <http://dbpedia.org/ontology/elevation> "53.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1070> <http://dbpedia.org/ontology/populationTotal> "5570585"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1070> <http://xmlns.com/foaf/0.1/name> "Ahmedabad"@ca .
+<http://wikidata.dbpedia.org/resource/Q1083> <http://dbpedia.org/ontology/elevation> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1083> <http://dbpedia.org/ontology/populationTotal> "140580"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1083> <http://dbpedia.org/ontology/postalCode> "da 84121 a 84135".
+<http://wikidata.dbpedia.org/resource/Q1083> <http://xmlns.com/foaf/0.1/name> "Salern"@ca .
+<http://wikidata.dbpedia.org/resource/Q1083> <http://xmlns.com/foaf/0.1/name> "Salerno"@ca .
+<http://wikidata.dbpedia.org/resource/Q1085> <http://dbpedia.org/ontology/demonym> "praguès, praguesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1085> <http://dbpedia.org/ontology/elevation> "399.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1085> <http://dbpedia.org/ontology/populationTotal> "1180100"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1085> <http://xmlns.com/foaf/0.1/name> "Hlavní město Praha"@ca .
+<http://wikidata.dbpedia.org/resource/Q1085> <http://xmlns.com/foaf/0.1/name> "Praga"@ca .
+<http://wikidata.dbpedia.org/resource/Q1155> <http://dbpedia.org/ontology/elevation> "226.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1155> <http://dbpedia.org/ontology/populationTotal> "80300"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1155> <http://dbpedia.org/ontology/postalCode> "21052".
+<http://wikidata.dbpedia.org/resource/Q1155> <http://xmlns.com/foaf/0.1/name> "Busto Arsizio"@ca .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/elevation> "11.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/populationTotal> "13922125"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1156> <http://dbpedia.org/ontology/postalCode> "700 xxx".
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/name> "Mumbai / मुंबई"@ca .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://dbpedia.org/ontology/activeYearsEndYear> "1980"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://dbpedia.org/ontology/activeYearsStartYear> "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q1203> <http://xmlns.com/foaf/0.1/givenName> "John Winston Lennon"@ca .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://xmlns.com/foaf/0.1/name> "John Lennon"@ca .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://dbpedia.org/ontology/elevation> "580.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://dbpedia.org/ontology/populationTotal> "933"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1218> <http://xmlns.com/foaf/0.1/name> "Jerusalem"@ca .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://dbpedia.org/ontology/activeYearsEndYear> "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://dbpedia.org/ontology/activeYearsStartYear> "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q1276> <http://xmlns.com/foaf/0.1/givenName> "Leonard Norman Cohen"@ca .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://xmlns.com/foaf/0.1/name> "Leonard Cohen"@ca .
+<http://wikidata.dbpedia.org/resource/Q1289> <http://dbpedia.org/ontology/elevation> "212.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1289> <http://dbpedia.org/ontology/inseeCode> "38185".
+<http://wikidata.dbpedia.org/resource/Q1289> <http://dbpedia.org/ontology/postalCode> "38000, 38100".
+<http://wikidata.dbpedia.org/resource/Q1290> <http://xmlns.com/foaf/0.1/name> "Blaise Pascal"@ca .
+<http://wikidata.dbpedia.org/resource/Q1291> <http://dbpedia.org/ontology/elevation> "212.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1291> <http://dbpedia.org/ontology/inseeCode> "69029".
+<http://wikidata.dbpedia.org/resource/Q1291> <http://dbpedia.org/ontology/postalCode> "69500".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9000 Gent".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9030Mariakerke".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9031Drongen".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9032Wondelgem".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9040Sint-Amandsberg".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9041Oostakker".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9042Desteldonk".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9042Mendonk".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9042Sint-Kruis-Winkel".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9050Gentbrugge".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9050Ledeberg".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9051Afsnee".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9051Sint-Denijs-Westrem".
+<http://wikidata.dbpedia.org/resource/Q1296> <http://dbpedia.org/ontology/postalCode> "9052Zwijnaarde".
+<http://wikidata.dbpedia.org/resource/Q1308> <http://dbpedia.org/ontology/elevation> "201.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1308> <http://dbpedia.org/ontology/populationTotal> "83318"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1308> <http://dbpedia.org/ontology/postalCode> "22100".
+<http://wikidata.dbpedia.org/resource/Q1308> <http://xmlns.com/foaf/0.1/name> "Como"@ca .
+<http://wikidata.dbpedia.org/resource/Q1317> <http://xmlns.com/foaf/0.1/name> "Ossama bin Laden"@ca .
+<http://wikidata.dbpedia.org/resource/Q1325> <http://xmlns.com/foaf/0.1/name> "Friedrich August von Hayek"@ca .
+<http://wikidata.dbpedia.org/resource/Q1335> <http://dbpedia.org/ontology/elevation> "43.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1335> <http://dbpedia.org/ontology/populationTotal> "1325968"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1335> <http://dbpedia.org/ontology/postalCode> "11000-12000".
+<http://wikidata.dbpedia.org/resource/Q1345> <http://dbpedia.org/ontology/elevation> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://dbpedia.org/ontology/populationTotal> "1526006"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://xmlns.com/foaf/0.1/name> "Filadèlfia"@ca .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://xmlns.com/foaf/0.1/name> "Philadelphia, Pennsilvània"@ca .
+<http://wikidata.dbpedia.org/resource/Q1348> <http://dbpedia.org/ontology/elevation> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1348> <http://dbpedia.org/ontology/populationTotal> "4486679"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1348> <http://dbpedia.org/ontology/postalCode> "700 xxx".
+<http://wikidata.dbpedia.org/resource/Q1348> <http://xmlns.com/foaf/0.1/name> "Kolkata / কলকাতা"@ca .
+<http://wikidata.dbpedia.org/resource/Q1352> <http://dbpedia.org/ontology/elevation> "6.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1352> <http://dbpedia.org/ontology/populationTotal> "4681087"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1352> <http://dbpedia.org/ontology/postalCode> "600 xxx".
+<http://wikidata.dbpedia.org/resource/Q1352> <http://xmlns.com/foaf/0.1/name> "Chennai"@ca .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/elevation> "239.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://dbpedia.org/ontology/populationTotal> "22700000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://xmlns.com/foaf/0.1/name> "Delhi"@ca .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://xmlns.com/foaf/0.1/name> "दिल्ली"@ca .
+<http://wikidata.dbpedia.org/resource/Q1354> <http://dbpedia.org/ontology/elevation> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1354> <http://dbpedia.org/ontology/populationTotal> "12560000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1354> <http://dbpedia.org/ontology/postalCode> "1000".
+<http://wikidata.dbpedia.org/resource/Q1354> <http://xmlns.com/foaf/0.1/name> "Dhaka"@ca .
+<http://wikidata.dbpedia.org/resource/Q1357> <http://xmlns.com/foaf/0.1/name> "Aranya"@ca .
+<http://wikidata.dbpedia.org/resource/Q1358> <http://xmlns.com/foaf/0.1/name> "Aràcnids"@ca .
+<http://wikidata.dbpedia.org/resource/Q1359> <http://xmlns.com/foaf/0.1/name> "Quelicerats"@ca .
+<http://wikidata.dbpedia.org/resource/Q1360> <http://xmlns.com/foaf/0.1/name> "Artròpodes"@ca .
+<http://wikidata.dbpedia.org/resource/Q1362> <http://dbpedia.org/ontology/elevation> "1031.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1362> <http://dbpedia.org/ontology/populationTotal> "1900000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1362> <http://xmlns.com/foaf/0.1/name> "Islamabad"@ca .
+<http://wikidata.dbpedia.org/resource/Q1362> <http://xmlns.com/foaf/0.1/name> "اسلام آباد"@ca .
+<http://wikidata.dbpedia.org/resource/Q1372> <http://dbpedia.org/ontology/elevation> "4061.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1372> <http://dbpedia.org/ontology/prominence> "1879.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1372> <http://xmlns.com/foaf/0.1/name> "Gran Paradiso"@ca .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://dbpedia.org/ontology/elevation> "4478.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://dbpedia.org/ontology/prominence> "1029.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://xmlns.com/foaf/0.1/name> "Cerví"@ca .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://xmlns.com/foaf/0.1/name> "Cervin"@ca .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://xmlns.com/foaf/0.1/name> "Cervino"@ca .
+<http://wikidata.dbpedia.org/resource/Q1374> <http://xmlns.com/foaf/0.1/name> "Matterhorn"@ca .
+<http://wikidata.dbpedia.org/resource/Q1390> <http://xmlns.com/foaf/0.1/name> "Insectes"@ca .
+<http://wikidata.dbpedia.org/resource/Q1399> <http://xmlns.com/foaf/0.1/name> "Niccolò Machiavelli"@ca .
+<http://wikidata.dbpedia.org/resource/Q1402> <http://xmlns.com/foaf/0.1/name> "Giovanni Boccaccio"@ca .
+<http://wikidata.dbpedia.org/resource/Q140> <http://dbpedia.org/ontology/conservationStatus> "VU".
+<http://wikidata.dbpedia.org/resource/Q140> <http://dbpedia.org/ontology/synonym> "*Felis leo".
+<http://wikidata.dbpedia.org/resource/Q140> <http://xmlns.com/foaf/0.1/name> "Lleó"@ca .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://dbpedia.org/ontology/elevation> "120.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://dbpedia.org/ontology/populationTotal> "784900"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://xmlns.com/foaf/0.1/name> "Zagreb"@ca .
+<http://wikidata.dbpedia.org/resource/Q1449> <http://dbpedia.org/ontology/demonym> "genovès, genovesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1449> <http://dbpedia.org/ontology/elevation> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1449> <http://dbpedia.org/ontology/populationTotal> "614141"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1449> <http://dbpedia.org/ontology/postalCode> "16100".
+<http://wikidata.dbpedia.org/resource/Q1449> <http://xmlns.com/foaf/0.1/name> "Gènova"@ca .
+<http://wikidata.dbpedia.org/resource/Q144> <http://dbpedia.org/ontology/synonym> "[[#Sinònims".
+<http://wikidata.dbpedia.org/resource/Q144> <http://xmlns.com/foaf/0.1/name> "Gos"@ca .
+<http://wikidata.dbpedia.org/resource/Q1459> <http://dbpedia.org/ontology/conservationStatus> "LR/lc".
+<http://wikidata.dbpedia.org/resource/Q1459> <http://dbpedia.org/ontology/conservationStatusSystem> "iucn2.3".
+<http://wikidata.dbpedia.org/resource/Q1459> <http://xmlns.com/foaf/0.1/name> "Eriçó orellut"@ca .
+<http://wikidata.dbpedia.org/resource/Q1461> <http://dbpedia.org/ontology/elevation> "16.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1461> <http://dbpedia.org/ontology/populationTotal> "1652171"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1461> <http://dbpedia.org/ontology/postalCode> "0900 - 1096".
+<http://wikidata.dbpedia.org/resource/Q1461> <http://xmlns.com/foaf/0.1/name> "Manila"@ca .
+<http://wikidata.dbpedia.org/resource/Q1465> <http://dbpedia.org/ontology/elevation> "325.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1465> <http://dbpedia.org/ontology/populationTotal> "20053"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1465> <http://dbpedia.org/ontology/postalCode> "32032".
+<http://wikidata.dbpedia.org/resource/Q1465> <http://xmlns.com/foaf/0.1/name> "Feltre"@ca .
+<http://wikidata.dbpedia.org/resource/Q1467> <http://dbpedia.org/ontology/elevation> "17.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1467> <http://dbpedia.org/ontology/populationTotal> "866171"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1467> <http://xmlns.com/foaf/0.1/name> "Cebu"@ca .
+<http://wikidata.dbpedia.org/resource/Q146> <http://dbpedia.org/ontology/synonym> "*F. catus".
+<http://wikidata.dbpedia.org/resource/Q146> <http://dbpedia.org/ontology/synonym> "*F. catus domestica".
+<http://wikidata.dbpedia.org/resource/Q146> <http://dbpedia.org/ontology/synonym> "*F. s. catus".
+<http://wikidata.dbpedia.org/resource/Q146> <http://xmlns.com/foaf/0.1/name> "Gat"@ca .
+<http://wikidata.dbpedia.org/resource/Q1475> <http://dbpedia.org/ontology/elevation> "17.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1475> <http://dbpedia.org/ontology/populationTotal> "2761720"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1475> <http://dbpedia.org/ontology/postalCode> "1100 - 1128".
+<http://wikidata.dbpedia.org/resource/Q1475> <http://xmlns.com/foaf/0.1/name> "Lungsod Quezón"@ca .
+<http://wikidata.dbpedia.org/resource/Q1475> <http://xmlns.com/foaf/0.1/name> "Quezón City"@ca .
+<http://wikidata.dbpedia.org/resource/Q1476> <http://dbpedia.org/ontology/elevation> "51.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1476> <http://dbpedia.org/ontology/inseeCode> "72181".
+<http://wikidata.dbpedia.org/resource/Q1476> <http://dbpedia.org/ontology/postalCode> "72000, 72100, 72085".
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/demonym> "bordelès, bordelesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/elevation> "6.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/inseeCode> "33063".
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/postalCode> "33000,33100,33200".
+<http://wikidata.dbpedia.org/resource/Q1479> <http://dbpedia.org/ontology/postalCode> "33300,33800".
+<http://wikidata.dbpedia.org/resource/Q1479> <http://xmlns.com/foaf/0.1/name> "Bordeaux"@ca .
+<http://wikidata.dbpedia.org/resource/Q1486> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1486> <http://dbpedia.org/ontology/populationTotal> "2890151"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1486> <http://xmlns.com/foaf/0.1/name> "Ciudad Autónoma de Buenos Aires"@ca .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/elevation> "2300.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/populationTotal> "8873017"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1489> <http://dbpedia.org/ontology/postalCode> "01000-11000".
+<http://wikidata.dbpedia.org/resource/Q1489> <http://xmlns.com/foaf/0.1/name> "Ciudad de México, Distrito Federal"@ca .
+<http://wikidata.dbpedia.org/resource/Q1491> <http://dbpedia.org/ontology/elevation> "3640.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1491> <http://dbpedia.org/ontology/populationTotal> "877363"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1491> <http://xmlns.com/foaf/0.1/name> "Municipi de La Paz"@ca .
+<http://wikidata.dbpedia.org/resource/Q1492> <http://dbpedia.org/ontology/demonym> "Barceloní, barcelonina"@ca .
+<http://wikidata.dbpedia.org/resource/Q1492> <http://dbpedia.org/ontology/elevation> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1492> <http://dbpedia.org/ontology/postalCode> "080xx".
+<http://wikidata.dbpedia.org/resource/Q1492> <http://xmlns.com/foaf/0.1/name> "Barcelona"@ca .
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/conservationStatus> "LC".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/synonym> "Ananas ananas (L.) Voss".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/synonym> "Ananas duckei hort., nom. inval.".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/synonym> "Ananas sativus Schult i Schult. f.".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/synonym> "Ananas sativus var. duckei Camargo, nom. nud.".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/synonym> "Bromelia ananas L.".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://dbpedia.org/ontology/synonym> "Bromelia comosa L. (basiònim)".
+<http://wikidata.dbpedia.org/resource/Q1493> <http://xmlns.com/foaf/0.1/name> "Ananàs"@ca .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/alias> "Fernand de Magellan"@ca .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/alias> "Fernando de Magallanes"@ca .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/alias> "Hernando de Magallanes"@ca .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://xmlns.com/foaf/0.1/name> "Fernão de Magalhães"@ca .
+<http://wikidata.dbpedia.org/resource/Q1504> <http://dbpedia.org/ontology/inseeCode> "69070".
+<http://wikidata.dbpedia.org/resource/Q1504> <http://dbpedia.org/ontology/postalCode> "69550".
+<http://wikidata.dbpedia.org/resource/Q1512> <http://dbpedia.org/ontology/birthName> "Robert Louis Balfour Stevenson"@ca .
+<http://wikidata.dbpedia.org/resource/Q1512> <http://xmlns.com/foaf/0.1/name> "Robert Louis Stevenson"@ca .
+<http://wikidata.dbpedia.org/resource/Q1513> <http://dbpedia.org/ontology/elevation> "310.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1513> <http://dbpedia.org/ontology/populationTotal> "2420000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1513> <http://xmlns.com/foaf/0.1/name> "नागपुर"@ca .
+<http://wikidata.dbpedia.org/resource/Q1515> <http://dbpedia.org/ontology/demonym> "abidjanais"@ca .
+<http://wikidata.dbpedia.org/resource/Q1515> <http://dbpedia.org/ontology/elevation> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1515> <http://dbpedia.org/ontology/populationTotal> "4476397"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1515> <http://xmlns.com/foaf/0.1/name> "Municipi d'Abidjan"@ca .
+<http://wikidata.dbpedia.org/resource/Q1519> <http://dbpedia.org/ontology/elevation> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1519> <http://dbpedia.org/ontology/populationTotal> "896751"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1519> <http://xmlns.com/foaf/0.1/name> "Abu Dhabi"@ca .
+<http://wikidata.dbpedia.org/resource/Q1519> <http://xmlns.com/foaf/0.1/name> "أبوظبي"@ca .
+<http://wikidata.dbpedia.org/resource/Q1524> <http://dbpedia.org/ontology/demonym> "Atenès, atenesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1524> <http://dbpedia.org/ontology/elevation> "70.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1524> <http://dbpedia.org/ontology/populationTotal> "664046"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1524> <http://xmlns.com/foaf/0.1/name> "Αθήνα"@ca .
+<http://wikidata.dbpedia.org/resource/Q1533> <http://dbpedia.org/ontology/demonym> "caraqueny/a"@ca .
+<http://wikidata.dbpedia.org/resource/Q1533> <http://dbpedia.org/ontology/elevation> "900.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1533> <http://dbpedia.org/ontology/populationTotal> "8174034"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1533> <http://dbpedia.org/ontology/postalCode> "1010-A".
+<http://wikidata.dbpedia.org/resource/Q1533> <http://xmlns.com/foaf/0.1/name> "Santiago de León de Caracas"@ca .
+<http://wikidata.dbpedia.org/resource/Q1534> <http://dbpedia.org/ontology/inseeCode> "69217".
+<http://wikidata.dbpedia.org/resource/Q1534> <http://dbpedia.org/ontology/postalCode> "69870".
+<http://wikidata.dbpedia.org/resource/Q1539> <http://dbpedia.org/ontology/inseeCode> "69169".
+<http://wikidata.dbpedia.org/resource/Q1539> <http://dbpedia.org/ontology/postalCode> "69550".
+<http://wikidata.dbpedia.org/resource/Q1541> <http://xmlns.com/foaf/0.1/name> "Ciceró"@ca .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://dbpedia.org/ontology/activeYearsStartYear> "1977"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://dbpedia.org/ontology/background> "solista".
+<http://wikidata.dbpedia.org/resource/Q1545> <http://xmlns.com/foaf/0.1/givenName> "Cynthia Ann Stephanie Lauper"@ca .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://xmlns.com/foaf/0.1/name> "Cyndi Lauper"@ca .
+<http://wikidata.dbpedia.org/resource/Q1548> <http://dbpedia.org/ontology/inseeCode> "69254".
+<http://wikidata.dbpedia.org/resource/Q1548> <http://dbpedia.org/ontology/postalCode> "69170".
+<http://wikidata.dbpedia.org/resource/Q1549> <http://dbpedia.org/ontology/inseeCode> "69006".
+<http://wikidata.dbpedia.org/resource/Q1555> <http://dbpedia.org/ontology/elevation> "1500.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1555> <http://dbpedia.org/ontology/populationTotal> "2149107"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1555> <http://xmlns.com/foaf/0.1/name> "Nueva Guatemala de la Asunción"@ca .
+<http://wikidata.dbpedia.org/resource/Q1563> <http://dbpedia.org/ontology/elevation> "59.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1563> <http://dbpedia.org/ontology/populationTotal> "2328000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1563> <http://dbpedia.org/ontology/postalCode> "10xxx-19xxx".
+<http://wikidata.dbpedia.org/resource/Q1563> <http://xmlns.com/foaf/0.1/name> "la Habana"@ca .
+<http://wikidata.dbpedia.org/resource/Q1563> <http://xmlns.com/foaf/0.1/name> "l'Havana"@ca .
+<http://wikidata.dbpedia.org/resource/Q1585> <http://xmlns.com/foaf/0.1/name> "Georg Simon Ohm"@ca .
+<http://wikidata.dbpedia.org/resource/Q160> <http://xmlns.com/foaf/0.1/name> "Cetacis"@ca .
+<http://wikidata.dbpedia.org/resource/Q1615> <http://xmlns.com/foaf/0.1/name> "Neil Alden Armstrong"@ca .
+<http://wikidata.dbpedia.org/resource/Q1618> <http://dbpedia.org/ontology/birthName> "Charles Augustus Lindbergh"@ca .
+<http://wikidata.dbpedia.org/resource/Q1618> <http://xmlns.com/foaf/0.1/name> "Charles Lindbergh"@ca .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/activeYearsEndYear> "1963"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/activeYearsStartYear> "1935"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/alias> "La Môme Piaf"@ca .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q1631> <http://xmlns.com/foaf/0.1/givenName> "Édith Giovanna Gassion"@ca .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://xmlns.com/foaf/0.1/name> "Édith Piaf"@ca .
+<http://wikidata.dbpedia.org/resource/Q1646> <http://xmlns.com/foaf/0.1/name> "Françoise Sagan"@ca .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/populationTotal> "140469"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://xmlns.com/foaf/0.1/name> "Rijeka"@ca .
+<http://wikidata.dbpedia.org/resource/Q1663> <http://dbpedia.org/ontology/populationTotal> "221456"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1663> <http://xmlns.com/foaf/0.1/name> "Split"@ca .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/populationTotal> "43770"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://xmlns.com/foaf/0.1/name> "Dubrovnik"@ca .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://xmlns.com/foaf/0.1/name> "Ragusa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1726> <http://dbpedia.org/ontology/demonym> "muniquès, muniquesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q172> <http://dbpedia.org/ontology/demonym> "Torontès, torontesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q172> <http://dbpedia.org/ontology/elevation> "76.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q172> <http://dbpedia.org/ontology/populationTotal> "2615060"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q172> <http://xmlns.com/foaf/0.1/name> "Ciutat de Toronto"@ca .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://dbpedia.org/ontology/elevation> "574.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://dbpedia.org/ontology/populationTotal> "122458"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1735> <http://dbpedia.org/ontology/postalCode> "6010-6080".
+<http://wikidata.dbpedia.org/resource/Q1741> <http://dbpedia.org/ontology/elevation> "190.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1741> <http://dbpedia.org/ontology/populationTotal> "1680266"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1741> <http://xmlns.com/foaf/0.1/name> "Viena"@ca .
+<http://wikidata.dbpedia.org/resource/Q1741> <http://xmlns.com/foaf/0.1/name> "Wien"@ca .
+<http://wikidata.dbpedia.org/resource/Q174> <http://dbpedia.org/ontology/demonym> "paulista"@ca .
+<http://wikidata.dbpedia.org/resource/Q174> <http://dbpedia.org/ontology/elevation> "792.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q174> <http://dbpedia.org/ontology/populationTotal> "11821876"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q174> <http://dbpedia.org/ontology/postalCode> "01000-000 a 05999-999".
+<http://wikidata.dbpedia.org/resource/Q174> <http://dbpedia.org/ontology/postalCode> "08000-000 a 08499-999".
+<http://wikidata.dbpedia.org/resource/Q174> <http://xmlns.com/foaf/0.1/name> "Municipi de São Paulo"@ca .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://dbpedia.org/ontology/populationTotal> "565911"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://xmlns.com/foaf/0.1/name> "Helsingfors"@ca .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://xmlns.com/foaf/0.1/name> "Hèlsinki"@ca .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://dbpedia.org/ontology/populationTotal> "527612"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://xmlns.com/foaf/0.1/name> "Baile Átha Cliath"@ca .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://xmlns.com/foaf/0.1/name> "Dublin"@ca .
+<http://wikidata.dbpedia.org/resource/Q1763> <http://dbpedia.org/ontology/elevation> "50.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1763> <http://dbpedia.org/ontology/populationTotal> "299148"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1763> <http://xmlns.com/foaf/0.1/name> "Múrmansk"@ca .
+<http://wikidata.dbpedia.org/resource/Q1763> <http://xmlns.com/foaf/0.1/name> "Мурманск"@ca .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/demonym> "Reykjavínenc, Reykjavínenca"@ca .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/elevation> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/populationTotal> "121230"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1764> <http://dbpedia.org/ontology/postalCode> "101-155".
+<http://wikidata.dbpedia.org/resource/Q1764> <http://xmlns.com/foaf/0.1/name> "Reykjavík"@ca .
+<http://wikidata.dbpedia.org/resource/Q1770> <http://dbpedia.org/ontology/elevation> "143.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1770> <http://dbpedia.org/ontology/populationTotal> "400911"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1770> <http://dbpedia.org/ontology/postalCode> "67000".
+<http://wikidata.dbpedia.org/resource/Q1770> <http://xmlns.com/foaf/0.1/name> "Tallinn"@ca .
+<http://wikidata.dbpedia.org/resource/Q1779> <http://dbpedia.org/ontology/activeYearsEndYear> "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1779> <http://dbpedia.org/ontology/activeYearsStartYear> "1919"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1779> <http://dbpedia.org/ontology/alias> "Satchmo, Pops"@ca .
+<http://wikidata.dbpedia.org/resource/Q1779> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q1779> <http://xmlns.com/foaf/0.1/givenName> "Louis Armstrong"@ca .
+<http://wikidata.dbpedia.org/resource/Q1779> <http://xmlns.com/foaf/0.1/name> "Louis Armstrong"@ca .
+<http://wikidata.dbpedia.org/resource/Q1781> <http://dbpedia.org/ontology/populationTotal> "1712210"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1781> <http://xmlns.com/foaf/0.1/name> "Budapest"@ca .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://dbpedia.org/ontology/activeYearsStartYear> "1936"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://dbpedia.org/ontology/background> "solista".
+<http://wikidata.dbpedia.org/resource/Q1785> <http://xmlns.com/foaf/0.1/givenName> "Shahnour Vaghinagh Aznavourian"@ca .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://xmlns.com/foaf/0.1/name> "Charles Aznavour"@ca .
+<http://wikidata.dbpedia.org/resource/Q1792> <http://dbpedia.org/ontology/populationTotal> "455830"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1792> <http://dbpedia.org/ontology/postalCode> "80-008 to 80-958".
+<http://wikidata.dbpedia.org/resource/Q1792> <http://xmlns.com/foaf/0.1/name> "Gdańsk"@ca .
+<http://wikidata.dbpedia.org/resource/Q1799> <http://dbpedia.org/ontology/elevation> "111.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1799> <http://dbpedia.org/ontology/populationTotal> "632240"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1799> <http://dbpedia.org/ontology/postalCode> "50-041 a 54-612".
+<http://wikidata.dbpedia.org/resource/Q1799> <http://xmlns.com/foaf/0.1/name> "Wrocław"@ca .
+<http://wikidata.dbpedia.org/resource/Q1813> <http://dbpedia.org/ontology/elevation> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1813> <http://dbpedia.org/ontology/inseeCode> "83119".
+<http://wikidata.dbpedia.org/resource/Q1813> <http://dbpedia.org/ontology/postalCode> "83990".
+<http://wikidata.dbpedia.org/resource/Q1813> <http://xmlns.com/foaf/0.1/name> "Saint-Tropez"@ca .
+<http://wikidata.dbpedia.org/resource/Q1813> <http://xmlns.com/foaf/0.1/name> "Sant Tropetz"@ca .
+<http://wikidata.dbpedia.org/resource/Q181> <http://dbpedia.org/ontology/alias> "Jimbo"@ca .
+<http://wikidata.dbpedia.org/resource/Q181> <http://xmlns.com/foaf/0.1/name> "Jimmy Donal \"Jimbo\" Wales"@ca .
+<http://wikidata.dbpedia.org/resource/Q1822> <http://dbpedia.org/ontology/elevation> "1500.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1822> <http://dbpedia.org/ontology/populationTotal> "450526"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1822> <http://xmlns.com/foaf/0.1/name> "Baguio City, Lungsod ng Baguio, Ciudad ti Baguio."@ca .
+<http://wikidata.dbpedia.org/resource/Q1825> <http://dbpedia.org/ontology/elevation> "329.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1825> <http://dbpedia.org/ontology/populationTotal> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1825> <http://xmlns.com/foaf/0.1/name> "Kárášjohka"@ca .
+<http://wikidata.dbpedia.org/resource/Q1825> <http://xmlns.com/foaf/0.1/name> "Karasjok"@ca .
+<http://wikidata.dbpedia.org/resource/Q1829> <http://dbpedia.org/ontology/elevation> "4.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1829> <http://dbpedia.org/ontology/postalCode> "236000".
+<http://wikidata.dbpedia.org/resource/Q1829> <http://xmlns.com/foaf/0.1/name> "Kaliningrad"@ca .
+<http://wikidata.dbpedia.org/resource/Q1835> <http://xmlns.com/foaf/0.1/name> "Zidane"@ca .
+<http://wikidata.dbpedia.org/resource/Q1835> <http://xmlns.com/foaf/0.1/name> "Zinedine Yazid Zidane"@ca .
+<http://wikidata.dbpedia.org/resource/Q1835> <http://xmlns.com/foaf/0.1/nick> "Zizou"@ca .
+<http://wikidata.dbpedia.org/resource/Q1839> <http://xmlns.com/foaf/0.1/name> "Blanc"@ca .
+<http://wikidata.dbpedia.org/resource/Q1839> <http://xmlns.com/foaf/0.1/name> "Laurent Blanc"@ca .
+<http://wikidata.dbpedia.org/resource/Q1850> <http://dbpedia.org/ontology/populationTotal> "2301725"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1850> <http://dbpedia.org/ontology/postalCode> "12101 - 12415".
+<http://wikidata.dbpedia.org/resource/Q1850> <http://xmlns.com/foaf/0.1/name> "Phnom Penh"@ca .
+<http://wikidata.dbpedia.org/resource/Q1851> <http://dbpedia.org/ontology/elevation> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1851> <http://dbpedia.org/ontology/populationTotal> "350368"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1851> <http://xmlns.com/foaf/0.1/name> "Arkhànguelsk"@ca .
+<http://wikidata.dbpedia.org/resource/Q1851> <http://xmlns.com/foaf/0.1/name> "Архангельск"@ca .
+<http://wikidata.dbpedia.org/resource/Q1854> <http://dbpedia.org/ontology/populationTotal> "7521138"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1854> <http://dbpedia.org/ontology/postalCode> "?".
+<http://wikidata.dbpedia.org/resource/Q1854> <http://xmlns.com/foaf/0.1/name> "Ciutat Ho Chi Minh"@ca .
+<http://wikidata.dbpedia.org/resource/Q1858> <http://dbpedia.org/ontology/elevation> "308.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1858> <http://dbpedia.org/ontology/populationTotal> "6451909"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1858> <http://xmlns.com/foaf/0.1/name> "Hà Nội"@ca .
+<http://wikidata.dbpedia.org/resource/Q185> <http://xmlns.com/foaf/0.1/name> "Larry Sanger"@ca .
+<http://wikidata.dbpedia.org/resource/Q1861> <http://dbpedia.org/ontology/populationTotal> "7025000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1861> <http://xmlns.com/foaf/0.1/name> "Krung Thep Mahanakhon / กรุงเทพมหานคร"@ca .
+<http://wikidata.dbpedia.org/resource/Q1865> <http://dbpedia.org/ontology/elevation> "22.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1865> <http://dbpedia.org/ontology/populationTotal> "1627172"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1865> <http://dbpedia.org/ontology/postalCode> "5xxxx".
+<http://wikidata.dbpedia.org/resource/Q1874> <http://dbpedia.org/ontology/elevation> "41.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1874> <http://dbpedia.org/ontology/populationTotal> "1003705"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1874> <http://dbpedia.org/ontology/postalCode> "65000–65480".
+<http://wikidata.dbpedia.org/resource/Q1874> <http://xmlns.com/foaf/0.1/name> "Odessa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1874> <http://xmlns.com/foaf/0.1/name> "Одеса (ucraïnès)"@ca .
+<http://wikidata.dbpedia.org/resource/Q1874> <http://xmlns.com/foaf/0.1/name> "Одесса (rus)"@ca .
+<http://wikidata.dbpedia.org/resource/Q1877> <http://dbpedia.org/ontology/populationTotal> "103988"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1877> <http://dbpedia.org/ontology/postalCode> "?".
+<http://wikidata.dbpedia.org/resource/Q1877> <http://xmlns.com/foaf/0.1/name> "Dong Hoi"@ca .
+<http://wikidata.dbpedia.org/resource/Q1880> <http://dbpedia.org/ontology/elevation> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1880> <http://dbpedia.org/ontology/populationTotal> "216061"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1891> <http://dbpedia.org/ontology/demonym> "bolonyès, bolonyesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1891> <http://dbpedia.org/ontology/elevation> "54.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1891> <http://dbpedia.org/ontology/populationTotal> "374561"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1891> <http://dbpedia.org/ontology/postalCode> "40100".
+<http://wikidata.dbpedia.org/resource/Q1891> <http://xmlns.com/foaf/0.1/name> "Bologna"@ca .
+<http://wikidata.dbpedia.org/resource/Q1891> <http://xmlns.com/foaf/0.1/name> "Bolonya"@ca .
+<http://wikidata.dbpedia.org/resource/Q1897> <http://dbpedia.org/ontology/demonym> "callerès, calleresa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1897> <http://dbpedia.org/ontology/elevation> "6.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1897> <http://dbpedia.org/ontology/populationTotal> "159312"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1897> <http://dbpedia.org/ontology/postalCode> "09100".
+<http://wikidata.dbpedia.org/resource/Q1897> <http://xmlns.com/foaf/0.1/name> "Cagliari"@ca .
+<http://wikidata.dbpedia.org/resource/Q1897> <http://xmlns.com/foaf/0.1/name> "Càller"@ca .
+<http://wikidata.dbpedia.org/resource/Q1899> <http://dbpedia.org/ontology/elevation> "179.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1899> <http://dbpedia.org/ontology/populationTotal> "2797553"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1899> <http://dbpedia.org/ontology/postalCode> "01xxx-04xxx".
+<http://wikidata.dbpedia.org/resource/Q1899> <http://xmlns.com/foaf/0.1/name> "Kíev"@ca .
+<http://wikidata.dbpedia.org/resource/Q1899> <http://xmlns.com/foaf/0.1/name> "Київ (Kíiv)"@ca .
+<http://wikidata.dbpedia.org/resource/Q1903> <http://dbpedia.org/ontology/elevation> "7.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1903> <http://dbpedia.org/ontology/populationTotal> "315576"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1903> <http://dbpedia.org/ontology/postalCode> "95100".
+<http://wikidata.dbpedia.org/resource/Q1903> <http://xmlns.com/foaf/0.1/name> "Catania"@ca .
+<http://wikidata.dbpedia.org/resource/Q1903> <http://xmlns.com/foaf/0.1/name> "Catània"@ca .
+<http://wikidata.dbpedia.org/resource/Q1906> <http://dbpedia.org/ontology/elevation> "68.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1906> <http://dbpedia.org/ontology/populationTotal> "79488"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1906> <http://dbpedia.org/ontology/postalCode> "81100".
+<http://wikidata.dbpedia.org/resource/Q1906> <http://xmlns.com/foaf/0.1/name> "Caserta"@ca .
+<http://wikidata.dbpedia.org/resource/Q1911> <http://dbpedia.org/ontology/number> "12".
+<http://wikidata.dbpedia.org/resource/Q1911> <http://xmlns.com/foaf/0.1/name> "Olivier Giroud"@ca .
+<http://wikidata.dbpedia.org/resource/Q1912> <http://dbpedia.org/ontology/height> "1.84"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1912> <http://dbpedia.org/ontology/number> "9".
+<http://wikidata.dbpedia.org/resource/Q1912> <http://xmlns.com/foaf/0.1/name> "Karim Benzema"@ca .
+<http://wikidata.dbpedia.org/resource/Q1912> <http://xmlns.com/foaf/0.1/name> "Karim Mostafa Benzema"@ca .
+<http://wikidata.dbpedia.org/resource/Q1913> <http://dbpedia.org/ontology/height> "1.77"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1913> <http://dbpedia.org/ontology/number> "15".
+<http://wikidata.dbpedia.org/resource/Q1913> <http://xmlns.com/foaf/0.1/name> "Florent Johan Malouda"@ca .
+<http://wikidata.dbpedia.org/resource/Q1913> <http://xmlns.com/foaf/0.1/name> "Florent Malouda"@ca .
+<http://wikidata.dbpedia.org/resource/Q1930> <http://dbpedia.org/ontology/elevation> "80.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1930> <http://dbpedia.org/ontology/populationTotal> "1083391"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1930> <http://xmlns.com/foaf/0.1/name> "Ciutat d'Ottawa"@ca .
+<http://wikidata.dbpedia.org/resource/Q1936> <http://dbpedia.org/ontology/height> "1.82"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1936> <http://dbpedia.org/ontology/number> "9".
+<http://wikidata.dbpedia.org/resource/Q1936> <http://xmlns.com/foaf/0.1/name> "Djibril Aruun Cissé"@ca .
+<http://wikidata.dbpedia.org/resource/Q1936> <http://xmlns.com/foaf/0.1/name> "Djibril Cissé"@ca .
+<http://wikidata.dbpedia.org/resource/Q1939> <http://dbpedia.org/ontology/height> "185.42"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1939> <http://dbpedia.org/ontology/number> "18".
+<http://wikidata.dbpedia.org/resource/Q1939> <http://xmlns.com/foaf/0.1/name> "Nicolas Anelka"@ca .
+<http://wikidata.dbpedia.org/resource/Q1942> <http://dbpedia.org/ontology/height> "1.84"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1942> <http://dbpedia.org/ontology/number> "18".
+<http://wikidata.dbpedia.org/resource/Q1942> <http://xmlns.com/foaf/0.1/name> "Sébastien Squillaci"@ca .
+<http://wikidata.dbpedia.org/resource/Q1957> <http://dbpedia.org/ontology/elevation> "120.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1957> <http://dbpedia.org/ontology/populationTotal> "308172"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1957> <http://dbpedia.org/ontology/postalCode> "160000-160530".
+<http://wikidata.dbpedia.org/resource/Q1957> <http://xmlns.com/foaf/0.1/name> "Vólogda"@ca .
+<http://wikidata.dbpedia.org/resource/Q1957> <http://xmlns.com/foaf/0.1/name> "Вологда"@ca .
+<http://wikidata.dbpedia.org/resource/Q1959> <http://dbpedia.org/ontology/populationTotal> "2208"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1959> <http://dbpedia.org/ontology/postalCode> "24-130".
+<http://wikidata.dbpedia.org/resource/Q1959> <http://xmlns.com/foaf/0.1/name> "Końskowola"@ca .
+<http://wikidata.dbpedia.org/resource/Q1961> <http://dbpedia.org/ontology/inseeCode> "69121".
+<http://wikidata.dbpedia.org/resource/Q1961> <http://dbpedia.org/ontology/postalCode> "69380".
+<http://wikidata.dbpedia.org/resource/Q1963> <http://dbpedia.org/ontology/populationTotal> "639598"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1963> <http://xmlns.com/foaf/0.1/name> "الخرطوم"@ca .
+<http://wikidata.dbpedia.org/resource/Q1964> <http://dbpedia.org/ontology/inseeCode> "69135".
+<http://wikidata.dbpedia.org/resource/Q1964> <http://dbpedia.org/ontology/postalCode> "69860".
+<http://wikidata.dbpedia.org/resource/Q1966> <http://dbpedia.org/ontology/inseeCode> "69075".
+<http://wikidata.dbpedia.org/resource/Q1966> <http://dbpedia.org/ontology/postalCode> "69170".
+<http://wikidata.dbpedia.org/resource/Q1967> <http://dbpedia.org/ontology/inseeCode> "69039".
+<http://wikidata.dbpedia.org/resource/Q1967> <http://dbpedia.org/ontology/postalCode> "69620".
+<http://wikidata.dbpedia.org/resource/Q1969> <http://dbpedia.org/ontology/inseeCode> "69245".
+<http://wikidata.dbpedia.org/resource/Q1969> <http://dbpedia.org/ontology/postalCode> "69620".
+<http://wikidata.dbpedia.org/resource/Q1970> <http://dbpedia.org/ontology/inseeCode> "69188".
+<http://wikidata.dbpedia.org/resource/Q1970> <http://dbpedia.org/ontology/postalCode> "69170".
+<http://wikidata.dbpedia.org/resource/Q1975> <http://dbpedia.org/ontology/inseeCode> "69093".
+<http://wikidata.dbpedia.org/resource/Q1975> <http://dbpedia.org/ontology/postalCode> "69870".
+<http://wikidata.dbpedia.org/resource/Q1976> <http://dbpedia.org/ontology/inseeCode> "69091".
+<http://wikidata.dbpedia.org/resource/Q1976> <http://dbpedia.org/ontology/postalCode> "69700".
+<http://wikidata.dbpedia.org/resource/Q1977> <http://dbpedia.org/ontology/inseeCode> "69167".
+<http://wikidata.dbpedia.org/resource/Q1977> <http://dbpedia.org/ontology/postalCode> "69640".
+<http://wikidata.dbpedia.org/resource/Q1981> <http://dbpedia.org/ontology/inseeCode> "69053".
+<http://wikidata.dbpedia.org/resource/Q1981> <http://dbpedia.org/ontology/postalCode> "69840".
+<http://wikidata.dbpedia.org/resource/Q1982> <http://dbpedia.org/ontology/inseeCode> "69145".
+<http://wikidata.dbpedia.org/resource/Q1982> <http://dbpedia.org/ontology/postalCode> "69460".
+<http://wikidata.dbpedia.org/resource/Q1983> <http://dbpedia.org/ontology/inseeCode> "69146".
+<http://wikidata.dbpedia.org/resource/Q1983> <http://dbpedia.org/ontology/postalCode> "69620".
+<http://wikidata.dbpedia.org/resource/Q216> <http://dbpedia.org/ontology/elevation> "112.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q216> <http://dbpedia.org/ontology/populationTotal> "539939"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q216> <http://dbpedia.org/ontology/postalCode> "01001-14191".
+<http://wikidata.dbpedia.org/resource/Q216> <http://xmlns.com/foaf/0.1/name> "Vilnius"@ca .
+<http://wikidata.dbpedia.org/resource/Q220> <http://dbpedia.org/ontology/demonym> "romà/romana"@ca .
+<http://wikidata.dbpedia.org/resource/Q220> <http://dbpedia.org/ontology/elevation> "37.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q220> <http://dbpedia.org/ontology/populationTotal> "2711476"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q220> <http://dbpedia.org/ontology/postalCode> "00100 (genèric),".
+<http://wikidata.dbpedia.org/resource/Q220> <http://dbpedia.org/ontology/postalCode> "del 00121 al 00199".
+<http://wikidata.dbpedia.org/resource/Q220> <http://xmlns.com/foaf/0.1/name> "Roma"@ca .
+<http://wikidata.dbpedia.org/resource/Q226> <http://dbpedia.org/ontology/elevation> "80.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q226> <http://dbpedia.org/ontology/populationTotal> "16818"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q226> <http://dbpedia.org/ontology/postalCode> "3900".
+<http://wikidata.dbpedia.org/resource/Q226> <http://xmlns.com/foaf/0.1/name> "Nuuk"@ca .
+<http://wikidata.dbpedia.org/resource/Q239> <http://dbpedia.org/ontology/elevation> "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q248> <http://xmlns.com/foaf/0.1/name> "Intel Corporation"@ca .
+<http://wikidata.dbpedia.org/resource/Q260> <http://dbpedia.org/ontology/alias> "Champollion el jove"@ca .
+<http://wikidata.dbpedia.org/resource/Q260> <http://xmlns.com/foaf/0.1/name> "Jean-François Champollion"@ca .
+<http://wikidata.dbpedia.org/resource/Q266> <http://xmlns.com/foaf/0.1/name> "Drosera"@ca .
+<http://wikidata.dbpedia.org/resource/Q269> <http://dbpedia.org/ontology/elevation> "455.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q269> <http://dbpedia.org/ontology/populationTotal> "1967879"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q269> <http://xmlns.com/foaf/0.1/name> "Taixkent"@ca .
+<http://wikidata.dbpedia.org/resource/Q270> <http://dbpedia.org/ontology/demonym> "varsovià, varsoviana"@ca .
+<http://wikidata.dbpedia.org/resource/Q270> <http://dbpedia.org/ontology/elevation> "78.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q270> <http://dbpedia.org/ontology/populationTotal> "1726581"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q270> <http://xmlns.com/foaf/0.1/name> "Warszawa"@ca .
+<http://wikidata.dbpedia.org/resource/Q279> <http://dbpedia.org/ontology/elevation> "34.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q279> <http://dbpedia.org/ontology/populationTotal> "180080"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q279> <http://dbpedia.org/ontology/postalCode> "41100".
+<http://wikidata.dbpedia.org/resource/Q279> <http://xmlns.com/foaf/0.1/name> "Modena"@ca .
+<http://wikidata.dbpedia.org/resource/Q279> <http://xmlns.com/foaf/0.1/name> "Mòdena"@ca .
+<http://wikidata.dbpedia.org/resource/Q285> <http://dbpedia.org/ontology/elevation> "5.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q285> <http://dbpedia.org/ontology/inseeCode> "16102".
+<http://wikidata.dbpedia.org/resource/Q285> <http://dbpedia.org/ontology/postalCode> "16100".
+<http://wikidata.dbpedia.org/resource/Q288> <http://dbpedia.org/ontology/elevation> "49.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q288> <http://dbpedia.org/ontology/inseeCode> "37261".
+<http://wikidata.dbpedia.org/resource/Q288> <http://dbpedia.org/ontology/postalCode> "370003710037200".
+<http://wikidata.dbpedia.org/resource/Q302> <http://dbpedia.org/ontology/title> "Messies, Fill de Déu"@ca .
+<http://wikidata.dbpedia.org/resource/Q302> <http://xmlns.com/foaf/0.1/name> "Enarameuישוע (Jeixua);grecἸησοῦς (Iēsoûs)"@ca .
+<http://wikidata.dbpedia.org/resource/Q302> <http://xmlns.com/foaf/0.1/name> "Jesús de Natzaret"@ca .
+<http://wikidata.dbpedia.org/resource/Q312> <http://dbpedia.org/ontology/internationally> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://wikidata.dbpedia.org/resource/Q340> <http://dbpedia.org/ontology/elevation> "31.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q340> <http://dbpedia.org/ontology/populationTotal> "1698062"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q340> <http://xmlns.com/foaf/0.1/name> "Montréal"@ca .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/elevation> "6.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/inseeCode> "29232".
+<http://wikidata.dbpedia.org/resource/Q342> <http://dbpedia.org/ontology/postalCode> "29000".
+<http://wikidata.dbpedia.org/resource/Q342> <http://xmlns.com/foaf/0.1/name> "Kemper"@ca .
+<http://wikidata.dbpedia.org/resource/Q343> <http://dbpedia.org/ontology/elevation> "23.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q343> <http://dbpedia.org/ontology/inseeCode> "72154".
+<http://wikidata.dbpedia.org/resource/Q343> <http://dbpedia.org/ontology/postalCode> "72200".
+<http://wikidata.dbpedia.org/resource/Q345> <http://dbpedia.org/ontology/title> "verge, mare de Jesús;Mare de Déu; Theotokos"@ca .
+<http://wikidata.dbpedia.org/resource/Q345> <http://xmlns.com/foaf/0.1/name> "Enàrab:مريم (Màryam)"@ca .
+<http://wikidata.dbpedia.org/resource/Q345> <http://xmlns.com/foaf/0.1/name> "Enarameuihebreu: מרים (Maryām, Miriam)"@ca .
+<http://wikidata.dbpedia.org/resource/Q345> <http://xmlns.com/foaf/0.1/name> "santa Maria"@ca .
+<http://wikidata.dbpedia.org/resource/Q346> <http://dbpedia.org/ontology/title> "rei, confessor"@ca .
+<http://wikidata.dbpedia.org/resource/Q346> <http://xmlns.com/foaf/0.1/name> "Louis Capet, Lluís IX de França \"el Sant\""@ca .
+<http://wikidata.dbpedia.org/resource/Q346> <http://xmlns.com/foaf/0.1/name> "sant Lluís de França"@ca .
+<http://wikidata.dbpedia.org/resource/Q353> <http://dbpedia.org/ontology/title> "Reina, religiosa"@ca .
+<http://wikidata.dbpedia.org/resource/Q353> <http://xmlns.com/foaf/0.1/name> "Santa Blanca de Castella"@ca .
+<http://wikidata.dbpedia.org/resource/Q360> <http://dbpedia.org/ontology/birthName> "Julian Paul Assange"@ca .
+<http://wikidata.dbpedia.org/resource/Q360> <http://xmlns.com/foaf/0.1/name> "Julian Assange"@ca .
+<http://wikidata.dbpedia.org/resource/Q384> <http://dbpedia.org/ontology/elevation> "240.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q384> <http://dbpedia.org/ontology/populationTotal> "506926"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q384> <http://xmlns.com/foaf/0.1/name> "Скопје"@ca .
+<http://wikidata.dbpedia.org/resource/Q385> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q385> <http://dbpedia.org/ontology/populationTotal> "248726"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q385> <http://dbpedia.org/ontology/postalCode> "81-004 a 81-919".
+<http://wikidata.dbpedia.org/resource/Q385> <http://xmlns.com/foaf/0.1/name> "Gdynia"@ca .
+<http://wikidata.dbpedia.org/resource/Q392> <http://dbpedia.org/ontology/activeYearsStartYear> "1959"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q392> <http://dbpedia.org/ontology/alias> "Elston Gunnn, Blind Boy Grunt, Elmer Johnson, Sergei Petrov, Jack Fate, Willow Scarlet, Robert Milkwood Thomas."@ca .
+<http://wikidata.dbpedia.org/resource/Q392> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q392> <http://xmlns.com/foaf/0.1/givenName> "Robert Allen Zimmerman"@ca .
+<http://wikidata.dbpedia.org/resource/Q392> <http://xmlns.com/foaf/0.1/name> "Bob Dylan"@ca .
+<http://wikidata.dbpedia.org/resource/Q393> <http://dbpedia.org/ontology/elevation> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q393> <http://dbpedia.org/ontology/populationTotal> "407811"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q393> <http://xmlns.com/foaf/0.1/name> "Szczecin"@ca .
+<http://wikidata.dbpedia.org/resource/Q400> <http://dbpedia.org/ontology/alias> "Daisy Holiday"@ca .
+<http://wikidata.dbpedia.org/resource/Q400> <http://dbpedia.org/ontology/alias> "Daisy Maze"@ca .
+<http://wikidata.dbpedia.org/resource/Q400> <http://dbpedia.org/ontology/alias> "Jennasis"@ca .
+<http://wikidata.dbpedia.org/resource/Q400> <http://dbpedia.org/ontology/birthName> "Jenna Marie Massoli"@ca .
+<http://wikidata.dbpedia.org/resource/Q400> <http://xmlns.com/foaf/0.1/name> "Jenna Jameson"@ca .
+<http://wikidata.dbpedia.org/resource/Q406> <http://dbpedia.org/ontology/elevation> "40.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q406> <http://dbpedia.org/ontology/populationTotal> "14160467"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q406> <http://xmlns.com/foaf/0.1/name> "İstanbul"@ca .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/activeYearsEndYear> "1981"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/activeYearsStartYear> "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/alias> "Tuff Gong"@ca .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q409> <http://xmlns.com/foaf/0.1/givenName> "Robert Nesta Marley"@ca .
+<http://wikidata.dbpedia.org/resource/Q409> <http://xmlns.com/foaf/0.1/name> "Bob Marley"@ca .
+<http://wikidata.dbpedia.org/resource/Q42> <http://xmlns.com/foaf/0.1/name> "Douglas Nöel Adams"@ca .
+<http://wikidata.dbpedia.org/resource/Q430> <http://xmlns.com/foaf/0.1/name> "Dinosaures"@ca .
+<http://wikidata.dbpedia.org/resource/Q434> <http://xmlns.com/foaf/0.1/name> "Pyrus"@ca .
+<http://wikidata.dbpedia.org/resource/Q448> <http://xmlns.com/foaf/0.1/name> "Denis Diderot"@ca .
+<http://wikidata.dbpedia.org/resource/Q456> <http://dbpedia.org/ontology/demonym> "lionès, lionesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q456> <http://dbpedia.org/ontology/elevation> "173.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q456> <http://dbpedia.org/ontology/inseeCode> "69123".
+<http://wikidata.dbpedia.org/resource/Q456> <http://dbpedia.org/ontology/postalCode> "69001-69009".
+<http://wikidata.dbpedia.org/resource/Q456> <http://xmlns.com/foaf/0.1/name> "Lyon"@ca .
+<http://wikidata.dbpedia.org/resource/Q457> <http://dbpedia.org/ontology/elevation> "27.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q457> <http://dbpedia.org/ontology/inseeCode> "78498".
+<http://wikidata.dbpedia.org/resource/Q457> <http://dbpedia.org/ontology/postalCode> "78300".
+<http://wikidata.dbpedia.org/resource/Q459> <http://xmlns.com/foaf/0.1/name> "Enbúlgar, Пловдив, delgrec anticFilipòpolis, \"Φιλιππούπολις\""@ca .
+<http://wikidata.dbpedia.org/resource/Q472> <http://dbpedia.org/ontology/elevation> "550.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q472> <http://dbpedia.org/ontology/populationTotal> "1267098"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q472> <http://dbpedia.org/ontology/postalCode> "1000".
+<http://wikidata.dbpedia.org/resource/Q472> <http://xmlns.com/foaf/0.1/name> "Sofia"@ca .
+<http://wikidata.dbpedia.org/resource/Q472> <http://xmlns.com/foaf/0.1/name> "София"@ca .
+<http://wikidata.dbpedia.org/resource/Q478> <http://dbpedia.org/ontology/inseeCode> "44051".
+<http://wikidata.dbpedia.org/resource/Q478> <http://dbpedia.org/ontology/postalCode> "44590".
+<http://wikidata.dbpedia.org/resource/Q478> <http://xmlns.com/foaf/0.1/name> "Derval"@ca .
+<http://wikidata.dbpedia.org/resource/Q478> <http://xmlns.com/foaf/0.1/name> "Derwal"@ca .
+<http://wikidata.dbpedia.org/resource/Q489> <http://dbpedia.org/ontology/imdbId> "0005175".
+<http://wikidata.dbpedia.org/resource/Q489> <http://xmlns.com/foaf/0.1/name> "William Maher, Jr."@ca .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/demonym> "milanès, milanesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/elevation> "120.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/populationTotal> "1307495"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q490> <http://dbpedia.org/ontology/postalCode> "20100".
+<http://wikidata.dbpedia.org/resource/Q490> <http://xmlns.com/foaf/0.1/name> "Milà"@ca .
+<http://wikidata.dbpedia.org/resource/Q490> <http://xmlns.com/foaf/0.1/name> "Milano"@ca .
+<http://wikidata.dbpedia.org/resource/Q495> <http://dbpedia.org/ontology/elevation> "240.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q495> <http://dbpedia.org/ontology/populationTotal> "908469"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q495> <http://dbpedia.org/ontology/postalCode> "10100".
+<http://wikidata.dbpedia.org/resource/Q495> <http://xmlns.com/foaf/0.1/name> "Torí"@ca .
+<http://wikidata.dbpedia.org/resource/Q495> <http://xmlns.com/foaf/0.1/name> "Torino"@ca .
+<http://wikidata.dbpedia.org/resource/Q500> <http://dbpedia.org/ontology/conservationStatus> "LC".
+<http://wikidata.dbpedia.org/resource/Q500> <http://dbpedia.org/ontology/synonym> "* Citrus limonum Risso".
+<http://wikidata.dbpedia.org/resource/Q500> <http://xmlns.com/foaf/0.1/name> "Llimoner o Llimera"@ca .
+<http://wikidata.dbpedia.org/resource/Q503> <http://xmlns.com/foaf/0.1/name> "Banana"@ca .
+<http://wikidata.dbpedia.org/resource/Q513> <http://dbpedia.org/ontology/elevation> "8848.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q513> <http://xmlns.com/foaf/0.1/name> "Everest"@ca .
+<http://wikidata.dbpedia.org/resource/Q529> <http://xmlns.com/foaf/0.1/name> "Louis Pasteur"@ca .
+<http://wikidata.dbpedia.org/resource/Q539> <http://xmlns.com/foaf/0.1/name> "Giuseppe Garibaldi"@ca .
+<http://wikidata.dbpedia.org/resource/Q541> <http://dbpedia.org/ontology/elevation> "325.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q541> <http://dbpedia.org/ontology/populationTotal> "20841"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q541> <http://dbpedia.org/ontology/postalCode> "05018".
+<http://wikidata.dbpedia.org/resource/Q541> <http://xmlns.com/foaf/0.1/name> "Orvieto"@ca .
+<http://wikidata.dbpedia.org/resource/Q546> <http://dbpedia.org/ontology/demonym> "triestí/triestina"@ca .
+<http://wikidata.dbpedia.org/resource/Q546> <http://dbpedia.org/ontology/elevation> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q546> <http://dbpedia.org/ontology/populationTotal> "204935"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q546> <http://dbpedia.org/ontology/postalCode> "34100".
+<http://wikidata.dbpedia.org/resource/Q546> <http://xmlns.com/foaf/0.1/name> "Trieste"@ca .
+<http://wikidata.dbpedia.org/resource/Q549> <http://dbpedia.org/ontology/conservationStatusSystem> "iucn3.1".
+<http://wikidata.dbpedia.org/resource/Q549> <http://dbpedia.org/ontology/conservationStatus> "VU".
+<http://wikidata.dbpedia.org/resource/Q549> <http://xmlns.com/foaf/0.1/name> "Betta splendens"@ca .
+<http://wikidata.dbpedia.org/resource/Q580> <http://dbpedia.org/ontology/elevation> "162.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q580> <http://dbpedia.org/ontology/populationTotal> "744541"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q580> <http://dbpedia.org/ontology/postalCode> "90-001 a 94–413".
+<http://wikidata.dbpedia.org/resource/Q580> <http://xmlns.com/foaf/0.1/name> "Łódź"@ca .
+<http://wikidata.dbpedia.org/resource/Q582> <http://dbpedia.org/ontology/elevation> "181.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q582> <http://dbpedia.org/ontology/inseeCode> "69266".
+<http://wikidata.dbpedia.org/resource/Q582> <http://dbpedia.org/ontology/postalCode> "69100".
+<http://wikidata.dbpedia.org/resource/Q583> <http://dbpedia.org/ontology/prominence> "4695.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q583> <http://xmlns.com/foaf/0.1/name> "Mont Blanc"@ca .
+<http://wikidata.dbpedia.org/resource/Q585> <http://dbpedia.org/ontology/demonym> "osloïta"@ca .
+<http://wikidata.dbpedia.org/resource/Q585> <http://dbpedia.org/ontology/elevation> "23.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q585> <http://dbpedia.org/ontology/populationTotal> "648"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q585> <http://dbpedia.org/ontology/postalCode> "0001 – 1299".
+<http://wikidata.dbpedia.org/resource/Q585> <http://xmlns.com/foaf/0.1/name> "Oslo"@ca .
+<http://wikidata.dbpedia.org/resource/Q586> <http://dbpedia.org/ontology/elevation> "60.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q586> <http://dbpedia.org/ontology/populationTotal> "327913"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q586> <http://dbpedia.org/ontology/postalCode> "53000-53359".
+<http://wikidata.dbpedia.org/resource/Q586> <http://xmlns.com/foaf/0.1/name> "Bonn"@ca .
+<http://wikidata.dbpedia.org/resource/Q587> <http://dbpedia.org/ontology/title> "Solemnitat de Tots Sants"@ca .
+<http://wikidata.dbpedia.org/resource/Q587> <http://xmlns.com/foaf/0.1/name> "Tots Sants"@ca .
+<http://wikidata.dbpedia.org/resource/Q588> <http://dbpedia.org/ontology/elevation> "266.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q588> <http://dbpedia.org/ontology/populationTotal> "307233"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q588> <http://dbpedia.org/ontology/postalCode> "40-001 a 40-999".
+<http://wikidata.dbpedia.org/resource/Q588> <http://xmlns.com/foaf/0.1/name> "Katowice"@ca .
+<http://wikidata.dbpedia.org/resource/Q590> <http://xmlns.com/foaf/0.1/name> "Luís de Camões"@ca .
+<http://wikidata.dbpedia.org/resource/Q595> <http://dbpedia.org/ontology/imdbId> "1675434".
+<http://wikidata.dbpedia.org/resource/Q595> <http://xmlns.com/foaf/0.1/name> "Intocable"@ca .
+<http://wikidata.dbpedia.org/resource/Q598> <http://dbpedia.org/ontology/populationTotal> "182548"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q598> <http://dbpedia.org/ontology/postalCode> "35-000 a 35-900".
+<http://wikidata.dbpedia.org/resource/Q598> <http://xmlns.com/foaf/0.1/name> "Rzeszów"@ca .
+<http://wikidata.dbpedia.org/resource/Q5> <http://dbpedia.org/ontology/conservationStatus> "LC".
+<http://wikidata.dbpedia.org/resource/Q5> <http://xmlns.com/foaf/0.1/name> "Humà"@ca .
+<http://wikidata.dbpedia.org/resource/Q609> <http://dbpedia.org/ontology/title> "verge, Lliri dels mohawk"@ca .
+<http://wikidata.dbpedia.org/resource/Q609> <http://xmlns.com/foaf/0.1/name> "Caterina Tekakwitha"@ca .
+<http://wikidata.dbpedia.org/resource/Q609> <http://xmlns.com/foaf/0.1/name> "Santa Kateri Tekakwitha, o"@ca .
+<http://wikidata.dbpedia.org/resource/Q609> <http://xmlns.com/foaf/0.1/name> "Tekakwitha (\"La que es mou\") pronunciat: ɡɔdeɺi deɡɔɡʷidɔ"@ca .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/demonym> "Novaiorquès, novaiorquesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/elevation> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q60> <http://dbpedia.org/ontology/populationTotal> "8336697"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q60> <http://xmlns.com/foaf/0.1/name> "New York City"@ca .
+<http://wikidata.dbpedia.org/resource/Q612> <http://dbpedia.org/ontology/populationTotal> "2106177"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q612> <http://xmlns.com/foaf/0.1/name> "Dubai"@ca .
+<http://wikidata.dbpedia.org/resource/Q617> <http://dbpedia.org/ontology/elevation> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q617> <http://dbpedia.org/ontology/populationTotal> "210301"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q617> <http://dbpedia.org/ontology/postalCode> "35100".
+<http://wikidata.dbpedia.org/resource/Q617> <http://xmlns.com/foaf/0.1/name> "Padova"@ca .
+<http://wikidata.dbpedia.org/resource/Q617> <http://xmlns.com/foaf/0.1/name> "Pàdua"@ca .
+<http://wikidata.dbpedia.org/resource/Q61> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q61> <http://dbpedia.org/ontology/populationTotal> "632"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q61> <http://xmlns.com/foaf/0.1/name> "District of Columbia"@ca .
+<http://wikidata.dbpedia.org/resource/Q621> <http://dbpedia.org/ontology/elevation> "132.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q621> <http://dbpedia.org/ontology/inseeCode> "78646".
+<http://wikidata.dbpedia.org/resource/Q621> <http://dbpedia.org/ontology/postalCode> "78000".
+<http://wikidata.dbpedia.org/resource/Q621> <http://xmlns.com/foaf/0.1/name> "Versailles"@ca .
+<http://wikidata.dbpedia.org/resource/Q628> <http://dbpedia.org/ontology/elevation> "249.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q628> <http://dbpedia.org/ontology/populationTotal> "120694"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q628> <http://dbpedia.org/ontology/postalCode> "24100".
+<http://wikidata.dbpedia.org/resource/Q628> <http://xmlns.com/foaf/0.1/name> "Bèrgam"@ca .
+<http://wikidata.dbpedia.org/resource/Q628> <http://xmlns.com/foaf/0.1/name> "Bergamo"@ca .
+<http://wikidata.dbpedia.org/resource/Q62> <http://dbpedia.org/ontology/populationTotal> "805235"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q632> <http://xmlns.com/foaf/0.1/name> "Jean Moulin"@ca .
+<http://wikidata.dbpedia.org/resource/Q633> <http://dbpedia.org/ontology/activeYearsEndYear> "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q633> <http://dbpedia.org/ontology/activeYearsStartYear> "1960"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q633> <http://dbpedia.org/ontology/alias> "Bernard Shakey, Helmer Bernard Shakey, Joe Yankee, Joe Canuck, Phil Perspective, Shakey Deal, Clyde Coil, Shakey, Dr. Shakes"@ca .
+<http://wikidata.dbpedia.org/resource/Q633> <http://dbpedia.org/ontology/background> "solo_singer".
+<http://wikidata.dbpedia.org/resource/Q633> <http://xmlns.com/foaf/0.1/givenName> "Neil Percival Young"@ca .
+<http://wikidata.dbpedia.org/resource/Q633> <http://xmlns.com/foaf/0.1/name> "Neil Young"@ca .
+<http://wikidata.dbpedia.org/resource/Q641> <http://dbpedia.org/ontology/elevation> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q641> <http://dbpedia.org/ontology/populationTotal> "268736"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q641> <http://dbpedia.org/ontology/postalCode> "30100".
+<http://wikidata.dbpedia.org/resource/Q641> <http://xmlns.com/foaf/0.1/name> "Venècia"@ca .
+<http://wikidata.dbpedia.org/resource/Q641> <http://xmlns.com/foaf/0.1/name> "Venezia"@ca .
+<http://wikidata.dbpedia.org/resource/Q647> <http://dbpedia.org/ontology/elevation> "30.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q647> <http://dbpedia.org/ontology/inseeCode> "35238".
+<http://wikidata.dbpedia.org/resource/Q647> <http://dbpedia.org/ontology/postalCode> "350003520035700".
+<http://wikidata.dbpedia.org/resource/Q647> <http://xmlns.com/foaf/0.1/name> "Roazhon"@ca .
+<http://wikidata.dbpedia.org/resource/Q648> <http://dbpedia.org/ontology/elevation> "25.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q648> <http://dbpedia.org/ontology/inseeCode> "59350".
+<http://wikidata.dbpedia.org/resource/Q648> <http://dbpedia.org/ontology/postalCode> "59000,59033,59800".
+<http://wikidata.dbpedia.org/resource/Q648> <http://xmlns.com/foaf/0.1/name> "Lille"@ca .
+<http://wikidata.dbpedia.org/resource/Q649> <http://dbpedia.org/ontology/elevation> "150.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q649> <http://dbpedia.org/ontology/populationTotal> "12108257"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q649> <http://dbpedia.org/ontology/postalCode> "101xxx-129xxx".
+<http://wikidata.dbpedia.org/resource/Q649> <http://xmlns.com/foaf/0.1/name> "Moscou"@ca .
+<http://wikidata.dbpedia.org/resource/Q64> <http://dbpedia.org/ontology/demonym> "berlinès, berlinesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q656> <http://dbpedia.org/ontology/elevation> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q656> <http://dbpedia.org/ontology/populationTotal> "5131942"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q656> <http://xmlns.com/foaf/0.1/name> "Sant Petersburg"@ca .
+<http://wikidata.dbpedia.org/resource/Q656> <http://xmlns.com/foaf/0.1/name> "Санкт-Петербу́рг"@ca .
+<http://wikidata.dbpedia.org/resource/Q65> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q65> <http://dbpedia.org/ontology/populationTotal> "3819702"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q65> <http://xmlns.com/foaf/0.1/name> "Los Angeles, California"@ca .
+<http://wikidata.dbpedia.org/resource/Q675> <http://xmlns.com/foaf/0.1/name> "André-Marie Ampère"@ca .
+<http://wikidata.dbpedia.org/resource/Q680> <http://dbpedia.org/ontology/birthName> "Alessandro Giuseppe Antonio Anastasio Volta"@ca .
+<http://wikidata.dbpedia.org/resource/Q680> <http://xmlns.com/foaf/0.1/name> "Alessandro Volta"@ca .
+<http://wikidata.dbpedia.org/resource/Q70> <http://dbpedia.org/ontology/demonym> "bernès, bernesa"@ca .
+<http://wikidata.dbpedia.org/resource/Q70> <http://dbpedia.org/ontology/elevation> "542.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q70> <http://dbpedia.org/ontology/populationTotal> "127217"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q70> <http://xmlns.com/foaf/0.1/name> "Berna"@ca .
+<http://wikidata.dbpedia.org/resource/Q70> <http://xmlns.com/foaf/0.1/name> "Bern"@ca .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/activeYearsStartYear> "1961"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/alias> "Little Stevie Wonder"@ca .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/background> "solista".
+<http://wikidata.dbpedia.org/resource/Q714> <http://xmlns.com/foaf/0.1/givenName> "Steveland Hardaway Judkins"@ca .
+<http://wikidata.dbpedia.org/resource/Q714> <http://xmlns.com/foaf/0.1/name> "Stevie Wonder"@ca .
+<http://wikidata.dbpedia.org/resource/Q726> <http://dbpedia.org/ontology/synonym> "48 (detallatsaquí)".
+<http://wikidata.dbpedia.org/resource/Q726> <http://xmlns.com/foaf/0.1/name> "Cavall"@ca .
+<http://wikidata.dbpedia.org/resource/Q729> <http://dbpedia.org/ontology/colourName> "#"@ca .
+<http://wikidata.dbpedia.org/resource/Q729> <http://dbpedia.org/ontology/synonym> "Metazoa".
+<http://wikidata.dbpedia.org/resource/Q729> <http://xmlns.com/foaf/0.1/name> "Animal"@ca .
+<http://wikidata.dbpedia.org/resource/Q745> <http://xmlns.com/foaf/0.1/name> "Fragaria"@ca .
+<http://wikidata.dbpedia.org/resource/Q749> <http://dbpedia.org/ontology/demonym> "Groninguès/esa"@ca .
+<http://wikidata.dbpedia.org/resource/Q749> <http://dbpedia.org/ontology/populationTotal> "200210"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q749> <http://dbpedia.org/ontology/postalCode> "9711 AA - 9747 ZZ".
+<http://wikidata.dbpedia.org/resource/Q755> <http://xmlns.com/foaf/0.1/name> "Paul Verlaine"@ca .
+<http://wikidata.dbpedia.org/resource/Q756> <http://dbpedia.org/ontology/colourName> "#90EE90"@ca .
+<http://wikidata.dbpedia.org/resource/Q756> <http://xmlns.com/foaf/0.1/name> "Plantes"@ca .
+<http://wikidata.dbpedia.org/resource/Q761> <http://dbpedia.org/ontology/elevation> "168.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q761> <http://dbpedia.org/ontology/populationTotal> "295459"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q761> <http://dbpedia.org/ontology/postalCode> "15-001".
+<http://wikidata.dbpedia.org/resource/Q761> <http://xmlns.com/foaf/0.1/name> "Białystok"@ca .
+<http://wikidata.dbpedia.org/resource/Q764> <http://xmlns.com/foaf/0.1/name> "Fongs"@ca .
+<http://wikidata.dbpedia.org/resource/Q767> <http://xmlns.com/foaf/0.1/name> "Stéphane Mallarmé"@ca .
+<http://wikidata.dbpedia.org/resource/Q780> <http://xmlns.com/foaf/0.1/name> "Gall"@ca .
+<http://wikidata.dbpedia.org/resource/Q787> <http://dbpedia.org/ontology/synonym> "*Sus domestica".
+<http://wikidata.dbpedia.org/resource/Q787> <http://dbpedia.org/ontology/synonym> "*Sus domesticus".
+<http://wikidata.dbpedia.org/resource/Q787> <http://dbpedia.org/ontology/synonym> "*Sus scrofa domestica".
+<http://wikidata.dbpedia.org/resource/Q787> <http://xmlns.com/foaf/0.1/name> "Porc"@ca .
+<http://wikidata.dbpedia.org/resource/Q78> <http://dbpedia.org/ontology/elevation> "260.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q78> <http://dbpedia.org/ontology/populationTotal> "166120"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q78> <http://dbpedia.org/ontology/postalCode> "4000".
+<http://wikidata.dbpedia.org/resource/Q78> <http://xmlns.com/foaf/0.1/name> "Bâle"@ca .
+<http://wikidata.dbpedia.org/resource/Q78> <http://xmlns.com/foaf/0.1/name> "Basel"@ca .
+<http://wikidata.dbpedia.org/resource/Q78> <http://xmlns.com/foaf/0.1/name> "Basilea"@ca .
+<http://wikidata.dbpedia.org/resource/Q791> <http://dbpedia.org/ontology/elevation> "305.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q791> <http://xmlns.com/foaf/0.1/name> "horonukupokaiwhenuakitanatahu"@ca .
+<http://wikidata.dbpedia.org/resource/Q791> <http://xmlns.com/foaf/0.1/name> "tamateaturipukakapikimaunga"@ca .
+<http://wikidata.dbpedia.org/resource/Q791> <http://xmlns.com/foaf/0.1/name> "Taumatawhakatangihangakoauauo"@ca .
+<http://wikidata.dbpedia.org/resource/Q807> <http://dbpedia.org/ontology/elevation> "495.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q807> <http://dbpedia.org/ontology/populationTotal> "128432"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q807> <http://dbpedia.org/ontology/postalCode> "100 a 1008".
+<http://wikidata.dbpedia.org/resource/Q807> <http://xmlns.com/foaf/0.1/name> "Lausana"@ca .
+<http://wikidata.dbpedia.org/resource/Q807> <http://xmlns.com/foaf/0.1/name> "Lausanne"@ca .
+<http://wikidata.dbpedia.org/resource/Q830> <http://dbpedia.org/ontology/conservationStatus> "DOM".
+<http://wikidata.dbpedia.org/resource/Q830> <http://xmlns.com/foaf/0.1/name> "Bous"@ca .
+<http://wikidata.dbpedia.org/resource/Q838> <http://dbpedia.org/ontology/title> "pare venerable"@ca .
+<http://wikidata.dbpedia.org/resource/Q838> <http://xmlns.com/foaf/0.1/name> "sant Andreu Rubliov"@ca .
+<http://wikidata.dbpedia.org/resource/Q838> <http://xmlns.com/foaf/0.1/name> "Андрей Рублёв (Andrei Rubliov)"@ca .
+<http://wikidata.dbpedia.org/resource/Q849> <http://xmlns.com/foaf/0.1/name> "François Villon"@ca .
+<http://wikidata.dbpedia.org/resource/Q84> <http://dbpedia.org/ontology/elevation> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q84> <http://dbpedia.org/ontology/populationTotal> "8174100"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q84> <http://xmlns.com/foaf/0.1/name> "London"@ca .
+<http://wikidata.dbpedia.org/resource/Q859> <http://xmlns.com/foaf/0.1/name> "Plató (Πλάτων)"@ca .
+<http://wikidata.dbpedia.org/resource/Q85> <http://dbpedia.org/ontology/elevation> "68.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q85> <http://dbpedia.org/ontology/populationTotal> "6758581"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q85> <http://xmlns.com/foaf/0.1/name> "el Caire"@ca .
+<http://wikidata.dbpedia.org/resource/Q85> <http://xmlns.com/foaf/0.1/name> "القاهرة"@ca .
+<http://wikidata.dbpedia.org/resource/Q868> <http://xmlns.com/foaf/0.1/name> "Aristòtil (grec, Ἀριστοτέλης;llatí, Aristoteles, àrab Aristutalis)"@ca .
+<http://wikidata.dbpedia.org/resource/Q873> <http://dbpedia.org/ontology/imdbId> "0000658".
+<http://wikidata.dbpedia.org/resource/Q873> <http://xmlns.com/foaf/0.1/name> "Mary Louise Streep"@ca .
+<http://wikidata.dbpedia.org/resource/Q875> <http://dbpedia.org/ontology/elevation> "245.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q875> <http://dbpedia.org/ontology/populationTotal> "163189"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q875> <http://dbpedia.org/ontology/postalCode> "655000–655023".
+<http://wikidata.dbpedia.org/resource/Q875> <http://xmlns.com/foaf/0.1/name> "Abakan"@ca .
+<http://wikidata.dbpedia.org/resource/Q875> <http://xmlns.com/foaf/0.1/name> "Абакан"@ca .
+<http://wikidata.dbpedia.org/resource/Q87> <http://dbpedia.org/ontology/populationTotal> "4110015"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q87> <http://dbpedia.org/ontology/postalCode> "21500".
+<http://wikidata.dbpedia.org/resource/Q87> <http://xmlns.com/foaf/0.1/name> "Alexandria"@ca .
+<http://wikidata.dbpedia.org/resource/Q87> <http://xmlns.com/foaf/0.1/name> "الإسكندرية"@ca .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/imdbId> "0000122".
+<http://wikidata.dbpedia.org/resource/Q882> <http://xmlns.com/foaf/0.1/name> "Charles Spencer Chaplin, Jr."@ca .
+<http://wikidata.dbpedia.org/resource/Q883> <http://dbpedia.org/ontology/elevation> "150.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q883> <http://dbpedia.org/ontology/populationTotal> "1547910"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q883> <http://xmlns.com/foaf/0.1/name> "Novossibirsk"@ca .
+<http://wikidata.dbpedia.org/resource/Q883> <http://xmlns.com/foaf/0.1/name> "Новосибирск"@ca .
+<http://wikidata.dbpedia.org/resource/Q887> <http://dbpedia.org/ontology/elevation> "270.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q887> <http://dbpedia.org/ontology/populationTotal> "1412346"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q887> <http://xmlns.com/foaf/0.1/name> "Iekaterinburg"@ca .
+<http://wikidata.dbpedia.org/resource/Q887> <http://xmlns.com/foaf/0.1/name> "Екатеринбург"@ca .
+<http://wikidata.dbpedia.org/resource/Q891> <http://dbpedia.org/ontology/populationTotal> "1267760"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q891> <http://dbpedia.org/ontology/postalCode> "603000-603999".
+<http://wikidata.dbpedia.org/resource/Q891> <http://xmlns.com/foaf/0.1/name> "Nijni Nóvgorod"@ca .
+<http://wikidata.dbpedia.org/resource/Q891> <http://xmlns.com/foaf/0.1/name> "Нижний Новгород"@ca .
+<http://wikidata.dbpedia.org/resource/Q894> <http://dbpedia.org/ontology/populationTotal> "1172348"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q894> <http://xmlns.com/foaf/0.1/name> "Samara"@ca .
+<http://wikidata.dbpedia.org/resource/Q894> <http://xmlns.com/foaf/0.1/name> "Самара"@ca .
+<http://wikidata.dbpedia.org/resource/Q898> <http://dbpedia.org/ontology/elevation> "90.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q898> <http://dbpedia.org/ontology/populationTotal> "1166092"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q898> <http://dbpedia.org/ontology/postalCode> "644000".
+<http://wikidata.dbpedia.org/resource/Q898> <http://xmlns.com/foaf/0.1/name> "Omsk"@ca .
+<http://wikidata.dbpedia.org/resource/Q898> <http://xmlns.com/foaf/0.1/name> "Омск"@ca .
+<http://wikidata.dbpedia.org/resource/Q900> <http://dbpedia.org/ontology/populationTotal> "1190850"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q900> <http://xmlns.com/foaf/0.1/name> "Kazan"@ca .
+<http://wikidata.dbpedia.org/resource/Q900> <http://xmlns.com/foaf/0.1/name> "Qazan, Казан (tàtar)"@ca .
+<http://wikidata.dbpedia.org/resource/Q900> <http://xmlns.com/foaf/0.1/name> "Каза́нь"@ca .
+<http://wikidata.dbpedia.org/resource/Q906> <http://dbpedia.org/ontology/populationTotal> "1169432"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q906> <http://dbpedia.org/ontology/postalCode> "454000—454999".
+<http://wikidata.dbpedia.org/resource/Q906> <http://xmlns.com/foaf/0.1/name> "Txeliàbinsk"@ca .
+<http://wikidata.dbpedia.org/resource/Q906> <http://xmlns.com/foaf/0.1/name> "Челябинск"@ca .
+<http://wikidata.dbpedia.org/resource/Q90> <http://dbpedia.org/ontology/elevation> "33.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q90> <http://dbpedia.org/ontology/inseeCode> "75056".
+<http://wikidata.dbpedia.org/resource/Q90> <http://dbpedia.org/ontology/postalCode> "75001 a 75020 i 75116".
+<http://wikidata.dbpedia.org/resource/Q90> <http://xmlns.com/foaf/0.1/name> "Ville de Paris"@ca .
+<http://wikidata.dbpedia.org/resource/Q911> <http://dbpedia.org/ontology/elevation> "150.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q911> <http://dbpedia.org/ontology/populationTotal> "1096702"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q911> <http://xmlns.com/foaf/0.1/name> "Ufà"@ca .
+<http://wikidata.dbpedia.org/resource/Q911> <http://xmlns.com/foaf/0.1/name> "Уфа"@ca .
+<http://wikidata.dbpedia.org/resource/Q913> <http://xmlns.com/foaf/0.1/name> "Socrates (Σωκράτης)"@ca .
+<http://wikidata.dbpedia.org/resource/Q914> <http://dbpedia.org/ontology/demonym> "Volgogradenc/a"@ca .
+<http://wikidata.dbpedia.org/resource/Q914> <http://dbpedia.org/ontology/elevation> "-102.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q914> <http://dbpedia.org/ontology/populationTotal> "1017985"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q914> <http://dbpedia.org/ontology/postalCode> "400001..400138".
+<http://wikidata.dbpedia.org/resource/Q914> <http://xmlns.com/foaf/0.1/name> "Volgograd"@ca .
+<http://wikidata.dbpedia.org/resource/Q914> <http://xmlns.com/foaf/0.1/name> "Волгоград"@ca .
+<http://wikidata.dbpedia.org/resource/Q919> <http://dbpedia.org/ontology/elevation> "287.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q919> <http://dbpedia.org/ontology/populationTotal> "1052218"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q919> <http://xmlns.com/foaf/0.1/name> "Krasnoiarsk"@ca .
+<http://wikidata.dbpedia.org/resource/Q919> <http://xmlns.com/foaf/0.1/name> "Красноярск"@ca .
+<http://wikidata.dbpedia.org/resource/Q926> <http://xmlns.com/foaf/0.1/name> "Roald Engelbregt Gravning Amundsen"@ca .
+<http://wikidata.dbpedia.org/resource/Q927> <http://xmlns.com/foaf/0.1/name> "Harry Mulisch"@ca .
+<http://wikidata.dbpedia.org/resource/Q959> <http://dbpedia.org/ontology/elevation> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q959> <http://dbpedia.org/ontology/populationTotal> "604602"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q959> <http://xmlns.com/foaf/0.1/name> "Vladivostok"@ca .
+<http://wikidata.dbpedia.org/resource/Q959> <http://xmlns.com/foaf/0.1/name> "Владивосток"@ca .
+<http://wikidata.dbpedia.org/resource/Q987> <http://dbpedia.org/ontology/elevation> "216.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q987> <http://dbpedia.org/ontology/populationTotal> "302363"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q987> <http://xmlns.com/foaf/0.1/name> "Nova Delhi"@ca .
+<http://wikidata.dbpedia.org/resource/Q987> <http://xmlns.com/foaf/0.1/name> "नई दिल्ली"@ca .
+<http://wikidata.dbpedia.org/resource/Q994> <http://dbpedia.org/ontology/elevation> "380.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q994> <http://dbpedia.org/ontology/populationTotal> "1093000"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q994> <http://xmlns.com/foaf/0.1/name> "Tbilissi"@ca .
+<http://wikidata.dbpedia.org/resource/Q994> <http://xmlns.com/foaf/0.1/name> "თბილისი"@ca .

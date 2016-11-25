@@ -1,0 +1,4 @@
+<http://wikidata.dbpedia.org/resource/Q596> <http://dbpedia.org/ontology/discoverer> <http://wikidata.dbpedia.org/resource/Q14280> .
+<http://wikidata.dbpedia.org/resource/Q601> <http://dbpedia.org/ontology/discoverer> <http://wikidata.dbpedia.org/resource/Q298913> .
+<http://wikidata.dbpedia.org/resource/Q604> <http://dbpedia.org/ontology/discoverer> <http://wikidata.dbpedia.org/resource/Q298913> .
+<http://wikidata.dbpedia.org/resource/Q611> <http://dbpedia.org/ontology/discoverer> <http://wikidata.dbpedia.org/resource/Q298913> .

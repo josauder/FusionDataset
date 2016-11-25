@@ -1,0 +1,424 @@
+<http://wikidata.dbpedia.org/resource/Q1031> <http://dbpedia.org/ontology/birthYear> "0003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1031> <http://dbpedia.org/ontology/deathYear> "0008"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1031> <http://xmlns.com/foaf/0.1/name> "France Prešeren"@hr .
+<http://wikidata.dbpedia.org/resource/Q1035> <http://xmlns.com/foaf/0.1/name> "Charles Robert Darwin"@hr .
+<http://wikidata.dbpedia.org/resource/Q1043> <http://xmlns.com/foaf/0.1/name> "Carl von Linné(Carolus Linnaeus)"@hr .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://dbpedia.org/ontology/areaTotal> "1.95E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://dbpedia.org/ontology/depth> "244.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://dbpedia.org/ontology/elevation> "75.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://dbpedia.org/ontology/length> "311000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://dbpedia.org/ontology/volume> "1640.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://dbpedia.org/ontology/width> "85000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1062> <http://xmlns.com/foaf/0.1/name> "Ontario"@hr .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://dbpedia.org/ontology/areaTotal> "8.24E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://dbpedia.org/ontology/depth> "406.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://dbpedia.org/ontology/elevation> "180.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://dbpedia.org/ontology/length> "560000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://dbpedia.org/ontology/volume> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://dbpedia.org/ontology/width> "260000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1066> <http://xmlns.com/foaf/0.1/name> "Superior"@hr .
+<http://wikidata.dbpedia.org/resource/Q1145> <http://xmlns.com/foaf/0.1/name> "Jean-Philippe Rameau"@hr .
+<http://wikidata.dbpedia.org/resource/Q1151> <http://xmlns.com/foaf/0.1/givenName> "Hector Louis Berlioz"@hr .
+<http://wikidata.dbpedia.org/resource/Q1151> <http://xmlns.com/foaf/0.1/name> "Hector Berlioz"@hr .
+<http://wikidata.dbpedia.org/resource/Q1169> <http://dbpedia.org/ontology/areaTotal> "5.8E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1169> <http://xmlns.com/foaf/0.1/name> "Michigan"@hr .
+<http://wikidata.dbpedia.org/resource/Q1178> <http://xmlns.com/foaf/0.1/givenName> "Joseph-Maurice Ravel"@hr .
+<http://wikidata.dbpedia.org/resource/Q1178> <http://xmlns.com/foaf/0.1/name> "Maurice Ravel"@hr .
+<http://wikidata.dbpedia.org/resource/Q1192> <http://xmlns.com/foaf/0.1/givenName> "Giovanni Battista Lulli"@hr .
+<http://wikidata.dbpedia.org/resource/Q1192> <http://xmlns.com/foaf/0.1/name> "Jean-Baptiste Lully"@hr .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://dbpedia.org/ontology/activeYearsEndYear> "1975"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://dbpedia.org/ontology/activeYearsStartYear> "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1203> <http://xmlns.com/foaf/0.1/givenName> "John Winston Lennon"@hr .
+<http://wikidata.dbpedia.org/resource/Q1203> <http://xmlns.com/foaf/0.1/name> "John Lennon"@hr .
+<http://wikidata.dbpedia.org/resource/Q1225> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1225> <http://xmlns.com/foaf/0.1/givenName> "Bruce Frederick Joseph Springsteen"@hr .
+<http://wikidata.dbpedia.org/resource/Q1225> <http://xmlns.com/foaf/0.1/name> "Bruce Springsteen"@hr .
+<http://wikidata.dbpedia.org/resource/Q1229> <http://dbpedia.org/ontology/discharge> "935.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1229> <http://dbpedia.org/ontology/elevation> "180.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1229> <http://dbpedia.org/ontology/watershed> "4.256E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1229> <http://xmlns.com/foaf/0.1/name> "Don"@hr .
+<http://wikidata.dbpedia.org/resource/Q1265> <http://dbpedia.org/ontology/discharge> "620.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1265> <http://dbpedia.org/ontology/elevation> "2700.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1265> <http://dbpedia.org/ontology/watershed> "6.291E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1265> <http://xmlns.com/foaf/0.1/name> "Colorado"@hr .
+<http://wikidata.dbpedia.org/resource/Q1268> <http://xmlns.com/foaf/0.1/givenName> "Frédéric François Chopin"@hr .
+<http://wikidata.dbpedia.org/resource/Q1268> <http://xmlns.com/foaf/0.1/givenName> "Fryderyk Franciszek Chopin"@hr .
+<http://wikidata.dbpedia.org/resource/Q1268> <http://xmlns.com/foaf/0.1/name> "Frédéric Chopin"@hr .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://dbpedia.org/ontology/activeYearsStartYear> "1956"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1276> <http://xmlns.com/foaf/0.1/givenName> "Leonard Norman Cohen"@hr .
+<http://wikidata.dbpedia.org/resource/Q1276> <http://xmlns.com/foaf/0.1/name> "Leonard Cohen"@hr .
+<http://wikidata.dbpedia.org/resource/Q1290> <http://xmlns.com/foaf/0.1/name> "Blaise Pascal"@hr .
+<http://wikidata.dbpedia.org/resource/Q1299> <http://dbpedia.org/ontology/activeYearsEndYear> "1970"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1299> <http://dbpedia.org/ontology/activeYearsStartYear> "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1299> <http://dbpedia.org/ontology/background> "skupina".
+<http://wikidata.dbpedia.org/resource/Q1299> <http://xmlns.com/foaf/0.1/name> "The Beatles"@hr .
+<http://wikidata.dbpedia.org/resource/Q1321> <http://xmlns.com/foaf/0.1/name> "Español ili Castellano"@hr .
+<http://wikidata.dbpedia.org/resource/Q1321> <http://xmlns.com/foaf/0.1/name> "Španjolski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1339> <http://xmlns.com/foaf/0.1/name> "Johann Sebastian Bach"@hr .
+<http://wikidata.dbpedia.org/resource/Q1340> <http://xmlns.com/foaf/0.1/givenName> "Antonio Lucio Vivaldi"@hr .
+<http://wikidata.dbpedia.org/resource/Q1340> <http://xmlns.com/foaf/0.1/name> "Antonio Vivaldi"@hr .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://dbpedia.org/ontology/areaTotal> "5.9596E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://dbpedia.org/ontology/depth> "229.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://dbpedia.org/ontology/elevation> "176.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://dbpedia.org/ontology/length> "332000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://dbpedia.org/ontology/volume> "3540.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://dbpedia.org/ontology/width> "245000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1383> <http://xmlns.com/foaf/0.1/name> "Hurion"@hr .
+<http://wikidata.dbpedia.org/resource/Q1398> <http://dbpedia.org/ontology/birthName> "Publius Vergilius Maro"@hr .
+<http://wikidata.dbpedia.org/resource/Q1398> <http://dbpedia.org/ontology/birthYear> "0015"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1398> <http://dbpedia.org/ontology/deathYear> "0020"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1398> <http://xmlns.com/foaf/0.1/name> "Publije Vergilije Maron"@hr .
+<http://wikidata.dbpedia.org/resource/Q1403> <http://dbpedia.org/ontology/birthYear> "0028"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1403> <http://dbpedia.org/ontology/deathYear> "0010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1403> <http://xmlns.com/foaf/0.1/name> "Luigi Pirandello"@hr .
+<http://wikidata.dbpedia.org/resource/Q1405> <http://dbpedia.org/ontology/activeYearsEndYear> "0019"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1405> <http://dbpedia.org/ontology/activeYearsStartYear> "0016"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1405> <http://dbpedia.org/ontology/title> "Rimski car"@hr .
+<http://wikidata.dbpedia.org/resource/Q1405> <http://xmlns.com/foaf/0.1/name> "August"@hr .
+<http://wikidata.dbpedia.org/resource/Q1405> <http://xmlns.com/foaf/0.1/name> "Gaj Julije Cezar Oktavijan"@hr .
+<http://wikidata.dbpedia.org/resource/Q1412> <http://xmlns.com/foaf/0.1/name> "Finski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1412> <http://xmlns.com/foaf/0.1/name> "suomi"@hr .
+<http://wikidata.dbpedia.org/resource/Q1430> <http://dbpedia.org/ontology/birthYear> "0121"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1430> <http://dbpedia.org/ontology/deathYear> "0180"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1430> <http://xmlns.com/foaf/0.1/name> "Marko Aurelije"@hr .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://dbpedia.org/ontology/areaTotal> "6.41E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://dbpedia.org/ontology/elevation> "122.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://dbpedia.org/ontology/populationTotal> "790017"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1435> <http://dbpedia.org/ontology/postalCode> "10000 Zagreb".
+<http://wikidata.dbpedia.org/resource/Q1435> <http://xmlns.com/foaf/0.1/name> "Zagreb"@hr .
+<http://wikidata.dbpedia.org/resource/Q143> <http://xmlns.com/foaf/0.1/name> "Esperanto"@hr .
+<http://wikidata.dbpedia.org/resource/Q1450> <http://dbpedia.org/ontology/activeYearsStartYear> "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1450> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1450> <http://xmlns.com/foaf/0.1/givenName> "Peter Gene Hernandez"@hr .
+<http://wikidata.dbpedia.org/resource/Q1450> <http://xmlns.com/foaf/0.1/name> "Bruno Mars"@hr .
+<http://wikidata.dbpedia.org/resource/Q1453> <http://xmlns.com/foaf/0.1/givenName> "Alexandra Stan"@hr .
+<http://wikidata.dbpedia.org/resource/Q1453> <http://xmlns.com/foaf/0.1/name> "Alexandra Stan"@hr .
+<http://wikidata.dbpedia.org/resource/Q1469> <http://dbpedia.org/ontology/discharge> "850.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1469> <http://dbpedia.org/ontology/elevation> "1.408"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1469> <http://dbpedia.org/ontology/watershed> "1.17001E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1469> <http://xmlns.com/foaf/0.1/name> "Loire"@hr .
+<http://wikidata.dbpedia.org/resource/Q1471> <http://dbpedia.org/ontology/discharge> "500.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1471> <http://dbpedia.org/ontology/elevation> "470.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1471> <http://dbpedia.org/ontology/watershed> "7.865E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1471> <http://xmlns.com/foaf/0.1/name> "Seine"@hr .
+<http://wikidata.dbpedia.org/resource/Q1497> <http://dbpedia.org/ontology/discharge> "12743.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1497> <http://dbpedia.org/ontology/elevation> "450.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1497> <http://dbpedia.org/ontology/watershed> "2.981076E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1497> <http://xmlns.com/foaf/0.1/name> "Mississippi"@hr .
+<http://wikidata.dbpedia.org/resource/Q150> <http://xmlns.com/foaf/0.1/name> "Français"@hr .
+<http://wikidata.dbpedia.org/resource/Q150> <http://xmlns.com/foaf/0.1/name> "Francuski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1511> <http://xmlns.com/foaf/0.1/givenName> "Wilhelm Richard Wagner"@hr .
+<http://wikidata.dbpedia.org/resource/Q1511> <http://xmlns.com/foaf/0.1/name> "Richard Wagner"@hr .
+<http://wikidata.dbpedia.org/resource/Q1514> <http://dbpedia.org/ontology/activeYearsEndYear> "1970"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1514> <http://dbpedia.org/ontology/activeYearsStartYear> "1963"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1514> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1514> <http://xmlns.com/foaf/0.1/name> "Janis Joplin"@hr .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://dbpedia.org/ontology/activeYearsEndYear> "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://dbpedia.org/ontology/activeYearsStartYear> "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1545> <http://xmlns.com/foaf/0.1/givenName> "Cynthia Ann Stephanie Lauper"@hr .
+<http://wikidata.dbpedia.org/resource/Q1545> <http://xmlns.com/foaf/0.1/name> "Cyndi Lauper"@hr .
+<http://wikidata.dbpedia.org/resource/Q1568> <http://xmlns.com/foaf/0.1/name> "Hindi"@hr .
+<http://wikidata.dbpedia.org/resource/Q1568> <http://xmlns.com/foaf/0.1/name> "हिन्दी"@hr .
+<http://wikidata.dbpedia.org/resource/Q1571> <http://xmlns.com/foaf/0.1/name> "Marathi jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1571> <http://xmlns.com/foaf/0.1/name> "मराठी"@hr .
+<http://wikidata.dbpedia.org/resource/Q1589> <http://xmlns.com/foaf/0.1/name> "Luigi Galvani"@hr .
+<http://wikidata.dbpedia.org/resource/Q1615> <http://dbpedia.org/ontology/status> "umirovljen".
+<http://wikidata.dbpedia.org/resource/Q1615> <http://dbpedia.org/ontology/timeInSpace> "742200.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1615> <http://xmlns.com/foaf/0.1/name> "Neil Alden Armstrong"@hr .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/activeYearsEndYear> "1963"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/activeYearsStartYear> "1935"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/alias> "La Môme Piaf"@hr .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1631> <http://xmlns.com/foaf/0.1/givenName> "Édith Giovanna Gassion"@hr .
+<http://wikidata.dbpedia.org/resource/Q1631> <http://xmlns.com/foaf/0.1/name> "Edith Piaf"@hr .
+<http://wikidata.dbpedia.org/resource/Q1640> <http://dbpedia.org/ontology/areaTotal> "1.71E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1640> <http://dbpedia.org/ontology/elevation> "90.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1640> <http://dbpedia.org/ontology/populationTotal> "108048"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1640> <http://dbpedia.org/ontology/postalCode> "31000 Osijek".
+<http://wikidata.dbpedia.org/resource/Q1640> <http://xmlns.com/foaf/0.1/name> "Osijek"@hr .
+<http://wikidata.dbpedia.org/resource/Q1644> <http://dbpedia.org/ontology/discharge> "711.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1644> <http://dbpedia.org/ontology/elevation> "1386.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1644> <http://dbpedia.org/ontology/watershed> "1.48268E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1644> <http://xmlns.com/foaf/0.1/name> "Laba"@hr .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/areaTotal> "4.4E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/elevation> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/elevation> "499.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/populationTotal> "128384"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1647> <http://dbpedia.org/ontology/postalCode> "51000".
+<http://wikidata.dbpedia.org/resource/Q1647> <http://xmlns.com/foaf/0.1/name> "Rijeka"@hr .
+<http://wikidata.dbpedia.org/resource/Q1650> <http://dbpedia.org/ontology/discharge> "327.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1650> <http://dbpedia.org/ontology/elevation> "116.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1650> <http://dbpedia.org/ontology/watershed> "4.6306E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1650> <http://xmlns.com/foaf/0.1/name> "Weser"@hr .
+<http://wikidata.dbpedia.org/resource/Q1653> <http://dbpedia.org/ontology/discharge> "1900.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1653> <http://dbpedia.org/ontology/discharge> "2350.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1653> <http://dbpedia.org/ontology/discharge> "7130.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1653> <http://dbpedia.org/ontology/elevation> "1078.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1653> <http://dbpedia.org/ontology/watershed> "8.17E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1653> <http://xmlns.com/foaf/0.1/name> "Dunav"@hr .
+<http://wikidata.dbpedia.org/resource/Q1663> <http://dbpedia.org/ontology/areaTotal> "6.3E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1663> <http://dbpedia.org/ontology/areaTotal> "7.9E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1663> <http://dbpedia.org/ontology/populationTotal> "178192"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1663> <http://dbpedia.org/ontology/postalCode> "21 000".
+<http://wikidata.dbpedia.org/resource/Q1663> <http://xmlns.com/foaf/0.1/name> "Split"@hr .
+<http://wikidata.dbpedia.org/resource/Q1666> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1666> <http://xmlns.com/foaf/0.1/givenName> "Jacques Romain Georges Brel"@hr .
+<http://wikidata.dbpedia.org/resource/Q1666> <http://xmlns.com/foaf/0.1/name> "Jacques Brel"@hr .
+<http://wikidata.dbpedia.org/resource/Q1670> <http://dbpedia.org/ontology/discharge> "195.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1670> <http://dbpedia.org/ontology/elevation> "887.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1670> <http://dbpedia.org/ontology/watershed> "2.7292E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1670> <http://xmlns.com/foaf/0.1/name> "Majna"@hr .
+<http://wikidata.dbpedia.org/resource/Q1675> <http://dbpedia.org/ontology/discharge> "590.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1675> <http://dbpedia.org/ontology/elevation> "2310.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1675> <http://dbpedia.org/ontology/watershed> "1.778E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1675> <http://xmlns.com/foaf/0.1/name> "Aare"@hr .
+<http://wikidata.dbpedia.org/resource/Q1684> <http://dbpedia.org/ontology/discharge> "36.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1684> <http://dbpedia.org/ontology/elevation> "430.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1684> <http://dbpedia.org/ontology/watershed> "9.793E9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1684> <http://xmlns.com/foaf/0.1/name> "Špreva"@hr .
+<http://wikidata.dbpedia.org/resource/Q1698> <http://dbpedia.org/ontology/activeYearsEndYear> "1991"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1698> <http://dbpedia.org/ontology/activeYearsStartYear> "1957"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1698> <http://dbpedia.org/ontology/alias> "Julien Grix"@hr .
+<http://wikidata.dbpedia.org/resource/Q1698> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1698> <http://xmlns.com/foaf/0.1/givenName> "Lucien Ginsburg"@hr .
+<http://wikidata.dbpedia.org/resource/Q1698> <http://xmlns.com/foaf/0.1/name> "Serge Gainsbourg"@hr .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/areaTotal> "1.4335E8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/populationTotal> "42615"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q1722> <http://dbpedia.org/ontology/postalCode> "20000".
+<http://wikidata.dbpedia.org/resource/Q1722> <http://xmlns.com/foaf/0.1/name> "Dubrovnik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1744> <http://dbpedia.org/ontology/activeYearsStartYear> "1979"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1744> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1744> <http://xmlns.com/foaf/0.1/givenName> "Madonna Louise Ciccone"@hr .
+<http://wikidata.dbpedia.org/resource/Q1744> <http://xmlns.com/foaf/0.1/name> "Madonna"@hr .
+<http://wikidata.dbpedia.org/resource/Q1768> <http://dbpedia.org/ontology/activeYearsEndYear> "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1768> <http://dbpedia.org/ontology/activeYearsStartYear> "1934"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1768> <http://dbpedia.org/ontology/alias> "First Lady of Song; Lady Ella"@hr .
+<http://wikidata.dbpedia.org/resource/Q1768> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1768> <http://xmlns.com/foaf/0.1/givenName> "Ella Jane Fitzgerald"@hr .
+<http://wikidata.dbpedia.org/resource/Q1768> <http://xmlns.com/foaf/0.1/name> "Ella Fitzgerald"@hr .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://dbpedia.org/ontology/activeYearsStartYear> "1936"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q1785> <http://xmlns.com/foaf/0.1/givenName> "Shahnour Vaghinagh Aznavourian (arm. Շահնուր Վաղինակ Ազնավուրյան)"@hr .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://xmlns.com/foaf/0.1/name> "Charles Aznavour"@hr .
+<http://wikidata.dbpedia.org/resource/Q1790> <http://dbpedia.org/ontology/activeYearsStartYear> "1980"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q1790> <http://dbpedia.org/ontology/background> "lightgray".
+<http://wikidata.dbpedia.org/resource/Q1790> <http://xmlns.com/foaf/0.1/givenName> "Kim Smith"@hr .
+<http://wikidata.dbpedia.org/resource/Q1790> <http://xmlns.com/foaf/0.1/name> "Kim Wilde"@hr .
+<http://wikidata.dbpedia.org/resource/Q1860> <http://xmlns.com/foaf/0.1/name> "Engleski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1860> <http://xmlns.com/foaf/0.1/name> "English"@hr .
+<http://wikidata.dbpedia.org/resource/Q188> <http://xmlns.com/foaf/0.1/name> "Deutsch"@hr .
+<http://wikidata.dbpedia.org/resource/Q188> <http://xmlns.com/foaf/0.1/name> "Njemački jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q1971> <http://dbpedia.org/ontology/bSide> "\"It's is So Hard\" (SAD)".
+<http://wikidata.dbpedia.org/resource/Q1971> <http://dbpedia.org/ontology/bSide> "\"Working Class Hero\" (UK)".
+<http://wikidata.dbpedia.org/resource/Q1971> <http://dbpedia.org/ontology/runtime> "183.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q1971> <http://xmlns.com/foaf/0.1/name> "Ticket to Ride"@hr .
+<http://wikidata.dbpedia.org/resource/Q254> <http://xmlns.com/foaf/0.1/givenName> "Johannes Chrysostomus Wolfgangus Theophilus Mozart"@hr .
+<http://wikidata.dbpedia.org/resource/Q254> <http://xmlns.com/foaf/0.1/name> "Wolfgang Amadeus Mozart"@hr .
+<http://wikidata.dbpedia.org/resource/Q255> <http://xmlns.com/foaf/0.1/givenName> "Ludwig van Beethoven"@hr .
+<http://wikidata.dbpedia.org/resource/Q255> <http://xmlns.com/foaf/0.1/name> "Ludwig van Beethoven"@hr .
+<http://wikidata.dbpedia.org/resource/Q256> <http://xmlns.com/foaf/0.1/name> "Türkçe"@hr .
+<http://wikidata.dbpedia.org/resource/Q256> <http://xmlns.com/foaf/0.1/name> "Turski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q261> <http://dbpedia.org/ontology/activeYearsEndYear> "1998"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q261> <http://dbpedia.org/ontology/activeYearsStartYear> "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q261> <http://dbpedia.org/ontology/background> "skupina".
+<http://wikidata.dbpedia.org/resource/Q261> <http://xmlns.com/foaf/0.1/name> "Linkin Park"@hr .
+<http://wikidata.dbpedia.org/resource/Q294> <http://xmlns.com/foaf/0.1/name> "Islandski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q294> <http://xmlns.com/foaf/0.1/name> "íslenska"@hr .
+<http://wikidata.dbpedia.org/resource/Q296> <http://xmlns.com/foaf/0.1/name> "Claude Monet"@hr .
+<http://wikidata.dbpedia.org/resource/Q297> <http://xmlns.com/foaf/0.1/name> "Diego Velázquez"@hr .
+<http://wikidata.dbpedia.org/resource/Q301> <http://xmlns.com/foaf/0.1/name> "El Greco"@hr .
+<http://wikidata.dbpedia.org/resource/Q303> <http://dbpedia.org/ontology/activeYearsEndYear> "1977"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q303> <http://dbpedia.org/ontology/activeYearsStartYear> "1953"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q303> <http://dbpedia.org/ontology/alias> "Elvis, The King, The King of Rock 'n' Roll, Elvis the Pelvis, The Hillbilly Cat"@hr .
+<http://wikidata.dbpedia.org/resource/Q303> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q303> <http://xmlns.com/foaf/0.1/givenName> "Elvis Aaron Presley"@hr .
+<http://wikidata.dbpedia.org/resource/Q303> <http://xmlns.com/foaf/0.1/name> "Elvis Presley"@hr .
+<http://wikidata.dbpedia.org/resource/Q307> <http://xmlns.com/foaf/0.1/name> "Galileo Galilei"@hr .
+<http://wikidata.dbpedia.org/resource/Q337> <http://dbpedia.org/ontology/elevation> "145.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q337> <http://dbpedia.org/ontology/length> "5000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q337> <http://dbpedia.org/ontology/width> "1811000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q337> <http://xmlns.com/foaf/0.1/name> "Chaubunagungamaug"@hr .
+<http://wikidata.dbpedia.org/resource/Q353> <http://dbpedia.org/ontology/deathDate> "1252-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://wikidata.dbpedia.org/resource/Q353> <http://dbpedia.org/ontology/title> "kraljica Francuske"@hr .
+<http://wikidata.dbpedia.org/resource/Q353> <http://xmlns.com/foaf/0.1/name> "Blanka"@hr .
+<http://wikidata.dbpedia.org/resource/Q353> <http://xmlns.com/foaf/0.1/name> "Blanka Kastiljska"@hr .
+<http://wikidata.dbpedia.org/resource/Q369> <http://xmlns.com/foaf/0.1/name> "Wikicitat"@hr .
+<http://wikidata.dbpedia.org/resource/Q371> <http://dbpedia.org/ontology/activeYearsEndYear> "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q371> <http://dbpedia.org/ontology/activeYearsStartYear> "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q371> <http://dbpedia.org/ontology/background> "skupina".
+<http://wikidata.dbpedia.org/resource/Q371> <http://xmlns.com/foaf/0.1/name> "!!!"@hr .
+<http://wikidata.dbpedia.org/resource/Q392> <http://dbpedia.org/ontology/activeYearsStartYear> "1959"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q392> <http://dbpedia.org/ontology/alias> "Elston Gunn, Blind Boy Grunt, Lucky Wilbury/Boo Wilbury, Elmer Johnson, Sergei Petrov, Jack Frost, Jack Fate, Willow Scarlet, Robert Milkwood Thomas."@hr .
+<http://wikidata.dbpedia.org/resource/Q392> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q392> <http://xmlns.com/foaf/0.1/givenName> "Robert Allen Zimmerman"@hr .
+<http://wikidata.dbpedia.org/resource/Q392> <http://xmlns.com/foaf/0.1/name> "Bob Dylan"@hr .
+<http://wikidata.dbpedia.org/resource/Q396> <http://dbpedia.org/ontology/activeYearsStartYear> "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q396> <http://dbpedia.org/ontology/alias> "Automatic Baby(1993.)"@hr .
+<http://wikidata.dbpedia.org/resource/Q396> <http://dbpedia.org/ontology/alias> "Passengers(1995.)"@hr .
+<http://wikidata.dbpedia.org/resource/Q396> <http://dbpedia.org/ontology/alias> "The Dalton Brothers(1987.)"@hr .
+<http://wikidata.dbpedia.org/resource/Q396> <http://dbpedia.org/ontology/background> "skupina".
+<http://wikidata.dbpedia.org/resource/Q396> <http://xmlns.com/foaf/0.1/name> "U2"@hr .
+<http://wikidata.dbpedia.org/resource/Q397> <http://xmlns.com/foaf/0.1/name> "Latinski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q397> <http://xmlns.com/foaf/0.1/name> "lingua Latina"@hr .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/activeYearsEndYear> "1981"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/activeYearsStartYear> "1962"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q409> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q409> <http://xmlns.com/foaf/0.1/givenName> "Robert Nesta Marley"@hr .
+<http://wikidata.dbpedia.org/resource/Q409> <http://xmlns.com/foaf/0.1/name> "Bob Marley"@hr .
+<http://wikidata.dbpedia.org/resource/Q410> <http://xmlns.com/foaf/0.1/name> "Carl Sagan"@hr .
+<http://wikidata.dbpedia.org/resource/Q42> <http://dbpedia.org/ontology/birthName> "Douglas Noël Adams"@hr .
+<http://wikidata.dbpedia.org/resource/Q42> <http://dbpedia.org/ontology/birthYear> "0011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q42> <http://dbpedia.org/ontology/deathYear> "0011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q42> <http://xmlns.com/foaf/0.1/name> "Douglas Adams"@hr .
+<http://wikidata.dbpedia.org/resource/Q455> <http://xmlns.com/foaf/0.1/name> "Encyclopædia Britannica"@hr .
+<http://wikidata.dbpedia.org/resource/Q480> <http://xmlns.com/foaf/0.1/name> "Don Quijote"@hr .
+<http://wikidata.dbpedia.org/resource/Q480> <http://xmlns.com/foaf/0.1/name> "El ingenioso hidalgo Don Quijote de la Mancha"@hr .
+<http://wikidata.dbpedia.org/resource/Q493> <http://dbpedia.org/ontology/birthName> "Jean Nicolas Arthur Rimbaud"@hr .
+<http://wikidata.dbpedia.org/resource/Q493> <http://dbpedia.org/ontology/birthYear> "0020"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q493> <http://dbpedia.org/ontology/deathYear> "0011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q493> <http://xmlns.com/foaf/0.1/name> "Arthur Rimbaud"@hr .
+<http://wikidata.dbpedia.org/resource/Q501> <http://dbpedia.org/ontology/birthName> "Charles Pierre Baudelaire"@hr .
+<http://wikidata.dbpedia.org/resource/Q501> <http://dbpedia.org/ontology/birthYear> "0009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q501> <http://dbpedia.org/ontology/deathYear> "0031"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q501> <http://xmlns.com/foaf/0.1/name> "Charles Baudelaire"@hr .
+<http://wikidata.dbpedia.org/resource/Q504> <http://dbpedia.org/ontology/birthYear> "0002"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q504> <http://dbpedia.org/ontology/deathYear> "0029"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q504> <http://xmlns.com/foaf/0.1/name> "Émile Zola"@hr .
+<http://wikidata.dbpedia.org/resource/Q512> <http://dbpedia.org/ontology/activeYearsEndYear> "1980"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q512> <http://dbpedia.org/ontology/activeYearsStartYear> "1959"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q512> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q512> <http://xmlns.com/foaf/0.1/name> "Vladimir Visocki"@hr .
+<http://wikidata.dbpedia.org/resource/Q517> <http://dbpedia.org/ontology/activeYearsStartYear> "0017"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q517> <http://dbpedia.org/ontology/activeYearsStartYear> "0018"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q517> <http://dbpedia.org/ontology/title> "Car Francuske"@hr .
+<http://wikidata.dbpedia.org/resource/Q517> <http://dbpedia.org/ontology/title> "Kralj Italije"@hr .
+<http://wikidata.dbpedia.org/resource/Q517> <http://xmlns.com/foaf/0.1/name> "Napoleon I. Bonaparte"@hr .
+<http://wikidata.dbpedia.org/resource/Q535> <http://dbpedia.org/ontology/birthName> "Victor-Marie Hugo"@hr .
+<http://wikidata.dbpedia.org/resource/Q535> <http://dbpedia.org/ontology/birthYear> "0026"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q535> <http://dbpedia.org/ontology/deathYear> "0022"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q535> <http://xmlns.com/foaf/0.1/name> "Victor Hugo"@hr .
+<http://wikidata.dbpedia.org/resource/Q548> <http://dbpedia.org/ontology/discharge> "1054.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q548> <http://dbpedia.org/ontology/elevation> "1106.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q548> <http://dbpedia.org/ontology/watershed> "1.94424E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q548> <http://xmlns.com/foaf/0.1/name> "Visla"@hr .
+<http://wikidata.dbpedia.org/resource/Q552> <http://dbpedia.org/ontology/discharge> "533.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q552> <http://dbpedia.org/ontology/elevation> "632.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q552> <http://dbpedia.org/ontology/watershed> "1.1886E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q552> <http://xmlns.com/foaf/0.1/name> "Odra"@hr .
+<http://wikidata.dbpedia.org/resource/Q557> <http://dbpedia.org/ontology/activeYearsStartYear> "1971"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q557> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q557> <http://xmlns.com/foaf/0.1/givenName> "Patricia Lee Smith"@hr .
+<http://wikidata.dbpedia.org/resource/Q557> <http://xmlns.com/foaf/0.1/name> "Patti Smith"@hr .
+<http://wikidata.dbpedia.org/resource/Q584> <http://dbpedia.org/ontology/discharge> "2.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q584> <http://dbpedia.org/ontology/elevation> "2.345"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q584> <http://dbpedia.org/ontology/watershed> "1.85E11"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q584> <http://xmlns.com/foaf/0.1/name> "Rajna"@hr .
+<http://wikidata.dbpedia.org/resource/Q602> <http://dbpedia.org/ontology/discharge> "1710.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q602> <http://dbpedia.org/ontology/watershed> "9.8E10"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q602> <http://xmlns.com/foaf/0.1/name> "Rhône"@hr .
+<http://wikidata.dbpedia.org/resource/Q619> <http://xmlns.com/foaf/0.1/name> "Nikola Kopernik"@hr .
+<http://wikidata.dbpedia.org/resource/Q626> <http://dbpedia.org/ontology/discharge> "8060.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q626> <http://dbpedia.org/ontology/elevation> "228.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q626> <http://dbpedia.org/ontology/watershed> "1.38E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q626> <http://xmlns.com/foaf/0.1/name> "Volga"@hr .
+<http://wikidata.dbpedia.org/resource/Q636> <http://dbpedia.org/ontology/activeYearsStartYear> "1975"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q636> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q636> <http://xmlns.com/foaf/0.1/givenName> "Catherine Bush"@hr .
+<http://wikidata.dbpedia.org/resource/Q636> <http://xmlns.com/foaf/0.1/name> "Kate Bush"@hr .
+<http://wikidata.dbpedia.org/resource/Q643> <http://dbpedia.org/ontology/discharge> "1540.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q643> <http://dbpedia.org/ontology/elevation> "2022.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q652> <http://xmlns.com/foaf/0.1/name> "Italiano"@hr .
+<http://wikidata.dbpedia.org/resource/Q652> <http://xmlns.com/foaf/0.1/name> "Talijanski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q675> <http://xmlns.com/foaf/0.1/name> "André-Marie Ampère"@hr .
+<http://wikidata.dbpedia.org/resource/Q680> <http://xmlns.com/foaf/0.1/name> "Alessandro Volta"@hr .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/activeYearsEndYear> "1673"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/activeYearsStartYear> "1645"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/birthName> "Jean-Baptiste Poquelin"@hr .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/birthYear> "0015"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q687> <http://dbpedia.org/ontology/deathYear> "0017"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q687> <http://xmlns.com/foaf/0.1/name> "Jean-Baptiste Poquelin"@hr .
+<http://wikidata.dbpedia.org/resource/Q692> <http://dbpedia.org/ontology/birthYear> "0026"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q692> <http://dbpedia.org/ontology/deathYear> "0023"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q692> <http://xmlns.com/foaf/0.1/name> "William Shakespeare"@hr .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/activeYearsEndYear> "1961"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/activeYearsStartYear> "1961"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/alias> "Stevland Hardaway Morris, Little Stevie Wonder, Eivets Rednow, El Toro Negro"@hr .
+<http://wikidata.dbpedia.org/resource/Q714> <http://dbpedia.org/ontology/background> "solo_izvođač".
+<http://wikidata.dbpedia.org/resource/Q714> <http://xmlns.com/foaf/0.1/givenName> "Stevland Hardaway Judkins"@hr .
+<http://wikidata.dbpedia.org/resource/Q714> <http://xmlns.com/foaf/0.1/name> "Stevie Wonder"@hr .
+<http://wikidata.dbpedia.org/resource/Q755> <http://dbpedia.org/ontology/birthName> "Paul-Marie Verlaine"@hr .
+<http://wikidata.dbpedia.org/resource/Q755> <http://dbpedia.org/ontology/birthYear> "0030"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q755> <http://dbpedia.org/ontology/deathYear> "0018"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q755> <http://xmlns.com/foaf/0.1/name> "Paul Verlaine"@hr .
+<http://wikidata.dbpedia.org/resource/Q762> <http://xmlns.com/foaf/0.1/name> "Leonardo da Vinci"@hr .
+<http://wikidata.dbpedia.org/resource/Q765> <http://dbpedia.org/ontology/birthName> "Dario Fo"@hr .
+<http://wikidata.dbpedia.org/resource/Q765> <http://dbpedia.org/ontology/birthYear> "0024"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q765> <http://xmlns.com/foaf/0.1/name> "Dario Fo"@hr .
+<http://wikidata.dbpedia.org/resource/Q767> <http://dbpedia.org/ontology/birthYear> "0018"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q767> <http://dbpedia.org/ontology/deathYear> "0009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q767> <http://xmlns.com/foaf/0.1/name> "Stéphane Mallarmé"@hr .
+<http://wikidata.dbpedia.org/resource/Q768> <http://dbpedia.org/ontology/areaTotal> "3.0E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q768> <http://dbpedia.org/ontology/elevation> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q768> <http://dbpedia.org/ontology/populationTotal> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://wikidata.dbpedia.org/resource/Q768> <http://dbpedia.org/ontology/postalCode> "21400".
+<http://wikidata.dbpedia.org/resource/Q768> <http://xmlns.com/foaf/0.1/name> "Supetar"@hr .
+<http://wikidata.dbpedia.org/resource/Q809> <http://xmlns.com/foaf/0.1/name> "język polski"@hr .
+<http://wikidata.dbpedia.org/resource/Q809> <http://xmlns.com/foaf/0.1/name> "Poljski jezik"@hr .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/activeYearsEndYear> "1930"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/activeYearsStartYear> "1920"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/birthYear> "0015"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q835> <http://dbpedia.org/ontology/deathYear> "0010"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q835> <http://xmlns.com/foaf/0.1/name> "Mihail Afanasjevič Bulgakov"@hr .
+<http://wikidata.dbpedia.org/resource/Q835> <http://xmlns.com/foaf/0.1/name> "Mihajlo Apanasovič Bulgakov"@hr .
+<http://wikidata.dbpedia.org/resource/Q835> <http://xmlns.com/foaf/0.1/name> "(Михаил Афанасьевич Булгаков)"@hr .
+<http://wikidata.dbpedia.org/resource/Q835> <http://xmlns.com/foaf/0.1/name> "(Миха́йло Опана́сович (Пана́сович) Булга́ков)"@hr .
+<http://wikidata.dbpedia.org/resource/Q838> <http://xmlns.com/foaf/0.1/name> "Andrej Rubljov"@hr .
+<http://wikidata.dbpedia.org/resource/Q853> <http://dbpedia.org/ontology/activeYearsEndYear> "1986"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q853> <http://dbpedia.org/ontology/activeYearsStartYear> "1958"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q853> <http://xmlns.com/foaf/0.1/name> "Andrej Tarkovski"@hr .
+<http://wikidata.dbpedia.org/resource/Q853> <http://xmlns.com/foaf/0.1/name> "(Андре́й Арсе́ньевич Тарко́вский)"@hr .
+<http://wikidata.dbpedia.org/resource/Q859> <http://dbpedia.org/ontology/birthYear> "0428"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q859> <http://dbpedia.org/ontology/deathYear> "0348"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q859> <http://xmlns.com/foaf/0.1/name> "Platon (Πλάτων)"@hr .
+<http://wikidata.dbpedia.org/resource/Q862> <http://dbpedia.org/ontology/birthName> "Iosif Aleksandrovich Brodsky"@hr .
+<http://wikidata.dbpedia.org/resource/Q862> <http://dbpedia.org/ontology/birthYear> "0024"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q862> <http://dbpedia.org/ontology/deathYear> "0028"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q862> <http://xmlns.com/foaf/0.1/name> "Joseph Brodsky"@hr .
+<http://wikidata.dbpedia.org/resource/Q873> <http://dbpedia.org/ontology/activeYearsEndYear> "1977"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q873> <http://dbpedia.org/ontology/activeYearsStartYear> "1977"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q873> <http://xmlns.com/foaf/0.1/name> "Meryl Streep"@hr .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/activeYearsEndYear> "1976"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/activeYearsStartYear> "1914"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q882> <http://dbpedia.org/ontology/alias> "Charlie Chaplin"@hr .
+<http://wikidata.dbpedia.org/resource/Q882> <http://xmlns.com/foaf/0.1/name> "Charles Chaplin"@hr .
+<http://wikidata.dbpedia.org/resource/Q890> <http://dbpedia.org/ontology/runtime> "219.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q890> <http://xmlns.com/foaf/0.1/name> "Gangnam Style"@hr .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/birthYear> "0003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q905> <http://dbpedia.org/ontology/deathYear> "0003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q905> <http://xmlns.com/foaf/0.1/name> "Franz Kafka"@hr .
+<http://wikidata.dbpedia.org/resource/Q927> <http://dbpedia.org/ontology/birthYear> "0029"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q927> <http://xmlns.com/foaf/0.1/name> "Harry Mulisch"@hr .
+<http://wikidata.dbpedia.org/resource/Q935> <http://xmlns.com/foaf/0.1/name> "Isaac Newton"@hr .
+<http://wikidata.dbpedia.org/resource/Q936> <http://xmlns.com/foaf/0.1/name> "OpenStreetMap"@hr .
+<http://wikidata.dbpedia.org/resource/Q937> <http://xmlns.com/foaf/0.1/name> "Albert Einstein"@hr .
+<http://wikidata.dbpedia.org/resource/Q939> <http://dbpedia.org/ontology/activeYearsEndYear> "1831"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q939> <http://dbpedia.org/ontology/activeYearsStartYear> "1822"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q939> <http://dbpedia.org/ontology/title> "carBrazila, kralj Portugala i Algarve"@hr .
+<http://wikidata.dbpedia.org/resource/Q939> <http://xmlns.com/foaf/0.1/name> "Pedro de Alcântara Francisco António João Carlos Xavier de Paula Miguel Rafael Joaquim José Gonzaga Pascoal Cipriano Serafim"@hr .
+<http://wikidata.dbpedia.org/resource/Q939> <http://xmlns.com/foaf/0.1/name> "Pedro I. Brazilski"@hr .
+<http://wikidata.dbpedia.org/resource/Q949> <http://xmlns.com/foaf/0.1/name> "John Bardeen"@hr .
+<http://wikidata.dbpedia.org/resource/Q973> <http://dbpedia.org/ontology/discharge> "12500.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q973> <http://dbpedia.org/ontology/length> "3650000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q973> <http://dbpedia.org/ontology/watershed> "2.972497E12"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://wikidata.dbpedia.org/resource/Q973> <http://xmlns.com/foaf/0.1/name> "Ob"@hr .
+<http://wikidata.dbpedia.org/resource/Q989> <http://xmlns.com/foaf/0.1/name> "Karol Józef Wojtyła"@hr .
+<http://wikidata.dbpedia.org/resource/Q989> <http://xmlns.com/foaf/0.1/name> "S. Ioannes Paulus PP. II."@hr .
+<http://wikidata.dbpedia.org/resource/Q989> <http://xmlns.com/foaf/0.1/name> "Sv. Ivan Pavao II."@hr .
+<http://wikidata.dbpedia.org/resource/Q991> <http://dbpedia.org/ontology/birthYear> "0011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q991> <http://dbpedia.org/ontology/deathYear> "0009"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://wikidata.dbpedia.org/resource/Q991> <http://xmlns.com/foaf/0.1/name> "Fjodor Mihajlovič Dostojevski"@hr .
+<http://wikidata.dbpedia.org/resource/Q991> <http://xmlns.com/foaf/0.1/name> "(Фёдор Михайлович Достоевский)"@hr .
+<http://wikidata.dbpedia.org/resource/Q997> <http://xmlns.com/foaf/0.1/name> "Andrej Saharov"@hr .
