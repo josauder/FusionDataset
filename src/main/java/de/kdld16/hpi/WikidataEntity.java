@@ -56,7 +56,7 @@ public class WikidataEntity {
                 try {
                     Resolver resolver = ClassifyProperties.acceptOnlyOne.get(property).newInstance();
 
-                    logger.info("Conflict in Subject :" + this.subject + "\t for property: " + property + "\tresolving with: "+resolver.getClass().getSimpleName());
+                    logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + property + "\tresolving with: "+resolver.getClass().getSimpleName());
                     acceptOnlyOneFacts.put(property, resolver.resolve(property, entry.getValue()));
                 } catch (Exception e) {
                     e.printStackTrace();

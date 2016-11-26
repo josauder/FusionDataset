@@ -35,7 +35,7 @@ public class SimpleFloatMeanResolver<T extends Number> extends Resolver {
         double mean = stats.getGeometricMean();
         conflict.add("\""+"^^"+datatype);
 
-        logger.info("resolved with "+stats.getStandardDeviation()/mean+" as coefficient of variation");
+        logger.debug("resolved with "+stats.getStandardDeviation()/mean+" as coefficient of variation");
 
         return conflict;
 

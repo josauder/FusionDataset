@@ -35,7 +35,7 @@ public class SimpleIntegerMeanResolver<T extends Number> extends Resolver {
         Long mean = Math.round(stats.getGeometricMean());
         conflict.add("\""+mean+"^^"+datatype);
 
-        logger.info("resolved with "+stats.getStandardDeviation()/mean+" as coefficient of variation");
+        logger.debug("resolved with "+stats.getStandardDeviation()/mean+" as coefficient of variation");
         return conflict;
 
 

@@ -44,7 +44,11 @@ public class FusionDataset {
 
         Pipeline p = Pipeline.create(options);
 
-        p.apply(TextIO.Read.from(datasetDirectory+"/*"))
+
+        p.apply(TextIO.Read.from(datasetDirectory+"/*")
+                //should work automatically!
+                //.withCompressionType(TextIO.CompressionType.BZIP2)
+                )
                 // Split Line into Key-Value Pair with RDF-Subject as Key
                 .apply(ParDo.of(new RDFSubjectAsKey()))
                 // Group by RDF-Subject (See Apache Beam Documentation)
@@ -53,7 +57,7 @@ public class FusionDataset {
                 //.apply(ParDo.of(new FilterByWikidataID<>(0,100)))
                 .apply(ParDo.of(new ResolveFusionConflicts()))
                 // Write output to targetDirectory
-                .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern));
+                .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
 
         // try/catch Block due to Version 0.3.0 of apache beam, unnecessary as of Version 0.4.0-SNAPSHOT
         try {
