@@ -8,8 +8,8 @@ package de.kdld16.hpi.util;
 public class RDFParseTools {
 
 
-    public static int parseInteger(String property, String rdfObject) {
-        rdfObject=rdfObject.replace(property,"").replaceAll("\"","").replaceAll("\\^\\^","");
+    public static int parseInteger(String rdfDatatype, String rdfObject) {
+        rdfObject=rdfObject.replace(rdfDatatype,"").replaceAll("\"","").replaceAll("\\^\\^","");
 
         try {
             return Integer.parseInt(rdfObject);
@@ -19,8 +19,8 @@ public class RDFParseTools {
         }
     }
 
-    public static double parseDouble(String property, String rdfObject) {
-        rdfObject=rdfObject.replace(property,"").replaceAll("\"","").replaceAll("\\^\\^","");
+    public static double parseDouble(String rdfDatatype, String rdfObject) {
+        rdfObject=rdfObject.replace(rdfDatatype,"").replaceAll("\"","").replaceAll("\\^\\^","");
 
         try {
             return Double.parseDouble(rdfObject);

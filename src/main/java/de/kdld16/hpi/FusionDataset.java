@@ -41,7 +41,6 @@ public class FusionDataset {
         String targetFilepattern = properties.getProperty("targetFilepattern");
 
         PipelineOptions options = PipelineOptionsFactory.create();
-
         Pipeline p = Pipeline.create(options);
 
 

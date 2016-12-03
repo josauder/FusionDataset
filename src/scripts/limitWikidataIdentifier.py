@@ -13,7 +13,7 @@ def subjectUnderN(x,n):
 
 for fi in os.listdir(datasetDir) :
 	print fi
-	if any([fi.startswith(x) for x in ["mappingbased_objects_wkd","mappingbased_literals_wkd","instance_types_transitive_wkd"]]):
+	if fi.endswith(".ttl") and any([fi.startswith(x) for x in ["mappingbased_objects_wkd","mappingbased_literals_wkd","instance_types_transitive_wkd"]]):
 		print fi
 		with open(datasetDir+"/"+fi,"r") as f:
 			with open(datasetTestDir+"/"+fi,"w") as g:

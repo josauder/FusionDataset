@@ -1,8 +1,5 @@
 package de.kdld16.hpi.util;
-import de.kdld16.hpi.resolver.ModeResolver;
-import de.kdld16.hpi.resolver.Resolver;
-import de.kdld16.hpi.resolver.SimpleFloatMeanResolver;
-import de.kdld16.hpi.resolver.SimpleIntegerMeanResolver;
+import de.kdld16.hpi.resolver.*;
 
 import java.util.HashMap;
 
@@ -18,10 +15,10 @@ public class ClassifyProperties {
     static {
         acceptOnlyOne= new HashMap<>();
     //    acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", SimpleFloatMeanResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", SimpleFloatMeanResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",SimpleIntegerMeanResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", ModeResolver.class);
+    //    acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", SimpleFloatMeanResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", FloatModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",FloatModeResolver.class);
+    /*    acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/co2Emission>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/retirementDate>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/averageAnnualGeneration>", ModeResolver.class);
@@ -54,8 +51,8 @@ public class ClassifyProperties {
         acceptOnlyOne.put("<http://dbpedia.org/ontology/iso31661Code>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6391Code>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6392Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/totalPopulation>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", ModeResolver.class);*/
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/totalPopulation>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", ModeResolver.class);
     }
 
