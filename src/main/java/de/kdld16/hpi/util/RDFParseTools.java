@@ -29,4 +29,14 @@ public class RDFParseTools {
             return 0;
         }
     }
+
+
+
+    public static double convert(String rdfDatype, String rdfObject) {
+        //TODO
+        return 0;
+    }
+
+
+
 }

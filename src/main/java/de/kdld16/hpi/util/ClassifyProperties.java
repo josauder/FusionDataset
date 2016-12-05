@@ -15,22 +15,22 @@ public class ClassifyProperties {
     static {
         acceptOnlyOne= new HashMap<>();
     //    acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
-    //    acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", SimpleFloatMeanResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",FloatModeResolver.class);
-    /*    acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/co2Emission>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/retirementDate>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/averageAnnualGeneration>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/height>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/topSpeed>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/topSpeed>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/birthYear>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/restingDate>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/zipCode>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/deathDate>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelCapacity>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/latestReleaseDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/netIncome>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/netIncome>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/deathYear>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/birthDate>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/installedCapacity>", ModeResolver.class);
@@ -51,7 +51,7 @@ public class ClassifyProperties {
         acceptOnlyOne.put("<http://dbpedia.org/ontology/iso31661Code>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6391Code>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6392Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", ModeResolver.class);*/
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", ModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/totalPopulation>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", ModeResolver.class);
     }

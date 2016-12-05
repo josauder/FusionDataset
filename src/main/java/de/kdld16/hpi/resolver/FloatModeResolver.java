@@ -64,7 +64,6 @@ public class FloatModeResolver extends Resolver {
             boolean exists = false;
             double value = RDFParseTools.parseDouble(datatype,rdfObject);
             for (FloatCountPair pair : existingFloatValues) {
-                logger.debug(""+Math.abs(1-(pair.f/value)));
                 if (Math.abs(1-(pair.f/value))<tolerance) {
                     if (pair.getCount()>=mostCommonN) {
                         mostCommon=pair;
@@ -72,7 +71,6 @@ public class FloatModeResolver extends Resolver {
                     }
                     pair.increment();
                     exists=true;
-                    logger.debug("Tolerance!");
                     break;
                 }
             }
