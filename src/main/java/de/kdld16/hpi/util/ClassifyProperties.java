@@ -15,6 +15,18 @@ public class ClassifyProperties {
     static {
         acceptOnlyOne= new HashMap<>();
     //    acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/capital>",ModeResolver.class);
+    /*  Object Properties!!
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/officialLanguage>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/currency>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/largestCity>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/country>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/timeZone>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/language>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthPlace>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathPlace>", ModeResolver.class);
+        */
+        
         acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", FloatModeResolver.class);
         acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",FloatModeResolver.class);

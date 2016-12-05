@@ -1,5 +1,7 @@
 package de.kdld16.hpi.util;
 
+import org.dbpedia.extraction.ontology.datatypes.Datatype;
+
 /**
  * Created by jonathan on 24.11.16.
  */
@@ -33,7 +35,7 @@ public class RDFParseTools {
 
 
     public static double convert(String rdfDatype, String rdfObject) {
-        //TODO
+
         return 0;
     }
 
