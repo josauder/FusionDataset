@@ -2,6 +2,7 @@ package de.kdld16.hpi;
 
 import de.kdld16.hpi.resolver.Resolver;
 import de.kdld16.hpi.util.ClassifyProperties;
+import de.kdld16.hpi.util.RDFFact;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,23 +25,23 @@ public class WikidataEntity {
         this.acceptOnlyOneFacts=new HashMap<>();
     };
 
-    public void addFact(String fact) {
-        String[] propertyAndObject= fact.split(" ",2);
-        if (!ClassifyProperties.acceptOnlyOne.containsKey(propertyAndObject[0])) {
-            if (!this.acceptAllFacts.containsKey(propertyAndObject[0])) {
+    public void addFact(RDFFact fact) {
+        
+        if (!ClassifyProperties.acceptOnlyOne.containsKey(fact.getRdfProperty())) {
+            if (!this.acceptAllFacts.containsKey(fact.getRdfProperty())) {
                 HashSet<String> hs = new HashSet<>();
-                hs.add(propertyAndObject[1]);
-                this.acceptAllFacts.put(propertyAndObject[0], hs);
+                hs.add(fact.getRdfObject());
+                this.acceptAllFacts.put(fact.getRdfProperty(), hs);
             } else {
-                this.acceptAllFacts.get(propertyAndObject[0]).add(propertyAndObject[1]);
+                this.acceptAllFacts.get(fact.getRdfProperty()).add(fact.getRdfObject());
             }
         } else {
-            if (!this.acceptOnlyOneFacts.containsKey(propertyAndObject[0])) {
+            if (!this.acceptOnlyOneFacts.containsKey(fact.getRdfProperty())) {
                 LinkedList<String> list = new LinkedList<>();
-                list.add(propertyAndObject[1]);
-                acceptOnlyOneFacts.put(propertyAndObject[0],list);
+                list.add(fact.getRdfObject());
+                acceptOnlyOneFacts.put(fact.getRdfProperty(),list);
             } else {
-                acceptOnlyOneFacts.get(propertyAndObject[0]).add(propertyAndObject[1]);
+                acceptOnlyOneFacts.get(fact.getRdfProperty()).add(fact.getRdfObject());
             }
         }
         this.n_facts++;

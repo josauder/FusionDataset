@@ -1,5 +1,6 @@
 package de.kdld16.hpi.transforms;
 
+import de.kdld16.hpi.util.RDFFact;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollectionView;
@@ -11,7 +12,7 @@ import org.slf4j.LoggerFactory;
  */
 
 public class LanguageTagAdder
-        extends DoFn<String,String> {
+        extends DoFn<String,KV<String,String>> {
     /**
      * Splits Line containing RDF-Triple into Key-Value Pair where Key is RDF Subject
      */
@@ -20,14 +21,19 @@ public class LanguageTagAdder
 
     private String language;
     public LanguageTagAdder(String language) {
-        logger.debug("New LanguageTagAdder Initialized with Language: "+language);
         this.language=language;
     }
 
+
     @ProcessElement
     public void processElement(ProcessContext c) {
-        c.output(c.element()+language);
+        String[] items = c.element().split(" ",2);
+        if (items.length>1 && !items[0].isEmpty()) {
+            c.output(KV.of(items[0], language+" "+items[1]));
+        }
+        else {
+            logger.debug("Bad Triple:"+c.element());
+        }
     }
-
 
 }

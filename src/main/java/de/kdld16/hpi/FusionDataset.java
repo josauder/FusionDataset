@@ -1,12 +1,12 @@
 package de.kdld16.hpi;
 import de.kdld16.hpi.transforms.LanguageTagAdder;
-import de.kdld16.hpi.transforms.RDFSubjectAsKey;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.*;
+import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.values.PCollectionList;
 import org.slf4j.Logger;
@@ -47,12 +47,11 @@ public class FusionDataset {
 
 
         File[] files = new File(datasetDirectory).listFiles();
-        PCollectionList<String> dataSet=null;
+        PCollectionList<KV<String,String>> dataSet=null;
 
         for (File f: files) {
             String language = f.getName().split("wkd_uris_")[1].replace(".ttl","");
-            logger.debug(language);
-            PCollection<String> newPCollection;
+            PCollection<KV<String,String>> newPCollection;
             newPCollection = p.apply(f.getName()+"-Reader",
                     TextIO.Read.from(f.getAbsolutePath())).apply(f.getName()+"-LanguageTagAdder",ParDo.of(new LanguageTagAdder(language)));
 
@@ -64,9 +63,8 @@ public class FusionDataset {
             }
         }
 
-                dataSet.apply(Flatten.<String>pCollections())
+                dataSet.apply(Flatten.<KV<String,String>>pCollections())
                 // Split Line into Key-Value Pair with RDF-Subject as Key
-                .apply(ParDo.of(new RDFSubjectAsKey()))
                 // Group by RDF-Subject (See Apache Beam Documentation)
                 .apply(GroupByKey.<String,String>create())
                 // Resolve Fusion Conflicts

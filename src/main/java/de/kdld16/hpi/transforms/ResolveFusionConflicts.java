@@ -1,6 +1,7 @@
 package de.kdld16.hpi.transforms;
 
 import de.kdld16.hpi.WikidataEntity;
+import de.kdld16.hpi.util.RDFFact;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.apache.beam.sdk.values.KV;
 
@@ -35,7 +36,7 @@ public class ResolveFusionConflicts
 
         WikidataEntity entity = new WikidataEntity(c.element().getKey());
         while (iter.hasNext()) {
-            entity.addFact(iter.next());
+            entity.addFact(new RDFFact(iter.next()));
         }
         entity.resolveConflicts();
         c.output(entity.toString());
