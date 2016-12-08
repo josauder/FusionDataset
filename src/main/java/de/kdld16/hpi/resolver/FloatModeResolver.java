@@ -79,7 +79,7 @@ public class FloatModeResolver extends Resolver {
         }
 
         conflict.clear();
-        logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property);
+        logger.info("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property);
         conflict.add(mostCommon.f.toString());
 
         return conflict;

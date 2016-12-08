@@ -20,6 +20,7 @@ public class LanguageTagAdder
 
     private String language;
     public LanguageTagAdder(String language) {
+        logger.debug("New LanguageTagAdder Initialized with Language: "+language);
         this.language=language;
     }
 

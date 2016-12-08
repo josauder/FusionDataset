@@ -49,26 +49,22 @@ public class FusionDataset {
         File[] files = new File(datasetDirectory).listFiles();
         PCollectionList<String> dataSet=null;
 
-        /*for (File f: files) {
+        for (File f: files) {
             String language = f.getName().split("wkd_uris_")[1].replace(".ttl","");
             logger.debug(language);
             PCollection<String> newPCollection;
-            newPCollection = p.apply(
-                    TextIO.Read.from(f.getAbsolutePath())).apply(ParDo.of(new LanguageTagAdder(language)));
+            newPCollection = p.apply(f.getName()+"-Reader",
+                    TextIO.Read.from(f.getAbsolutePath())).apply(f.getName()+"-LanguageTagAdder",ParDo.of(new LanguageTagAdder(language)));
 
             if (dataSet==null) {
                 dataSet=PCollectionList.of(newPCollection);
             } else {
-                dataSet.and(newPCollection);
+                dataSet=dataSet.and(newPCollection);
+          //      dataSet.apply(Flatten.<String>pCollections());
             }
-        }*/
-        //PCollection<String> completeDataset=
-           //     dataSet.apply(Flatten.<String>pCollections())
-        //p.apply(completeDataset
-                //should work automatically!
-                //.withCompressionType(TextIO.CompressionType.BZIP2)
-          //      )
-        p.apply(TextIO.Read.from(datasetDirectory+"/*"))
+        }
+
+                dataSet.apply(Flatten.<String>pCollections())
                 // Split Line into Key-Value Pair with RDF-Subject as Key
                 .apply(ParDo.of(new RDFSubjectAsKey()))
                 // Group by RDF-Subject (See Apache Beam Documentation)
@@ -76,6 +72,7 @@ public class FusionDataset {
                 // Resolve Fusion Conflicts
                 //.apply(ParDo.of(new FilterByWikidataID<>(0,100)))
                 .apply(ParDo.of(new ResolveFusionConflicts()))
+
                 // Write output to targetDirectory
                 .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
 
