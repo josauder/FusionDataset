@@ -21,3 +21,6 @@ for fi in os.listdir(datasetDir) :
 				    x=x.replace("http://wikidata.dbpedia.org/ontology","http://dbpedia.org/ontology").strip()
 				    if subjectUnderN(x,n):
 				    	print >> g, x
+
+
+

@@ -63,16 +63,13 @@ public class FusionDataset {
             }
         }
 
-                dataSet.apply(Flatten.<KV<String,String>>pCollections())
-                // Split Line into Key-Value Pair with RDF-Subject as Key
-                // Group by RDF-Subject (See Apache Beam Documentation)
-                .apply(GroupByKey.<String,String>create())
-                // Resolve Fusion Conflicts
-                //.apply(ParDo.of(new FilterByWikidataID<>(0,100)))
-                .apply(ParDo.of(new ResolveFusionConflicts()))
-
-                // Write output to targetDirectory
-                .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
+        dataSet.apply(Flatten.<KV<String,String>>pCollections())
+            // Group by RDF-Subject (See Apache Beam Documentation)
+            .apply(GroupByKey.<String,String>create())
+            // Resolve Fusion Conflicts
+            .apply(ParDo.of(new ResolveFusionConflicts()))
+            // Write output to targetDirectory
+            .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
 
         // try/catch Block due to Version 0.3.0 of apache beam, unnecessary as of Version 0.4.0-SNAPSHOT
         try {

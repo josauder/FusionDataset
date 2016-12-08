@@ -1,7 +1,7 @@
 package de.kdld16.hpi.transforms;
 
 import de.kdld16.hpi.exception.NotWikidataObjectException;
-import de.kdld16.hpi.util.WikidataHelper;
+import de.kdld16.hpi.util.DBPediaHelper;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.apache.beam.sdk.values.KV;
 import org.slf4j.Logger;
@@ -28,8 +28,8 @@ public class FilterByWikidataID<V> extends DoFn<KV<String,V>,KV<String,V>> {
     @ProcessElement
     public void processElement(ProcessContext c) {
         String subject = c.element().getKey();
-        if (subject.contains(WikidataHelper.wikidataPrefix)) {
-            int id = Integer.parseInt(subject.replace(WikidataHelper.wikidataPrefix,"").replace(WikidataHelper.wikidataPostfix,""));
+        if (subject.contains(DBPediaHelper.wikidataPrefix)) {
+            int id = Integer.parseInt(subject.replace(DBPediaHelper.wikidataPrefix,"").replace(DBPediaHelper.wikidataPostfix,""));
             if (lower <= id && id <= upper) {
                 c.output(c.element());
             }

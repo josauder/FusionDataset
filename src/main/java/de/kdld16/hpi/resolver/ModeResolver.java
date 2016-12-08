@@ -17,6 +17,9 @@ public class ModeResolver extends Resolver {
      */
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
+
+
+
     @Override
     public LinkedList<String> resolve(String property, LinkedList<String> conflict) {
         HashMap<String,Integer> counter= new HashMap<>();

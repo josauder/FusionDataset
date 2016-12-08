@@ -1,9 +1,11 @@
 package de.kdld16.hpi.util;
 
+import java.io.Serializable;
+
 /**
  * Created by jonathan on 08.12.16.
  */
-public class RDFFact {
+public class RDFFact implements Serializable, Comparable<RDFFact>{
 
     private String language;
     private String rdfProperty;
@@ -29,4 +31,10 @@ public class RDFFact {
         rdfProperty=arr[1];
         rdfObject=arr[2];
     }
+
+    public int compareTo(RDFFact other) {
+        int p=  this.rdfProperty.compareTo(other.getRdfProperty());
+        return p==0 ? this.getLanguage().compareTo(other.getLanguage()) : p;
+    }
+
 }
