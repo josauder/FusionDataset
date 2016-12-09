@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os, sys
 
-logpath="/home/jonathan/hpi/ld/fusion/Fusion/outputs/log.out"
+logpath="/home/jonathan/workspace/Fusion/outputs/log.out"
 
 
 FloatModeResolver={}
@@ -11,8 +11,7 @@ ModeResolver={}
 with open(logpath,"r") as f:
 	for line in f:
 		if line.find("DEBUG")>=0:
-			print line
-			if line.find("de.kdld16.hpi.resolver.ModeResolver")>=0:
+			if line.find("de.kdld16.hpi.modes.Mode")>=0:
 				percentage = float(line.split("Resolved with ")[1].split("%")[0])
 				outOf= float(line.split(") for property")[0].split("/")[1])
 				prop= line.split("property: ")[1].strip()
@@ -20,7 +19,7 @@ with open(logpath,"r") as f:
 					ModeResolver[prop].append((percentage,outOf))
 				else:
 					ModeResolver[prop]=[(percentage,outOf)]
-			if line.find("de.kdld16.hpi.resolver.FloatModeResolver")>=0:
+			if line.find("de.kdld16.hpi.modes.NumericMode")>=0:
 				percentage = float(line.split("Resolved with ")[1].split("%")[0])
 				outOf= float(line.split(") for property")[0].split("/")[1])
 				prop= line.split("property: ")[1].strip()
@@ -35,10 +34,10 @@ for v in FloatModeResolver.itervalues():
 for v in ModeResolver.itervalues():
 	l.extend(v)
 
+
 TotalModeResolver=np.array(l)
 
 total = len(TotalModeResolver)
-
 print "TOTAL:"
 bar=[]
 perc=[]
@@ -52,6 +51,7 @@ fig=plt.figure()
 plt.bar(range(90,10,-10),bar,10)
 for k,i in enumerate(range(90,10,-10)):
 	plt.annotate(round(perc[k]*100,2),(i+5,0))
+
 
 print "COUNT:"
 
@@ -78,9 +78,9 @@ def plot(ModeData,name):
 			bar=[]
 			perc=[]
 			move=int(-(100./i))
-			for kk in range(i):
+			for kk in range(i+1):
 				percentage=100-(kk*100./i)
-				arr2 = len([x for x in arr[:,0] if x<=percentage and x>percentage-((kk+1)*100./i)])
+				arr2 = len([x for x in arr[:,0] if x<=percentage+0.01 and x>percentage-((kk+1)*100./i)+0.01])
 				bar.append(arr2)
 				perc.append(float(arr2)/arrLen)
 				print "\t", "\t",percentage, "\t", percentage-10, "\t",arr2, "\t", "/" , "\t", arrLen, "\t", float(arr2)/arrLen
@@ -90,20 +90,20 @@ def plot(ModeData,name):
 			if i>=7:
 				ii=1
 			fig=axarr[ii,(i-2)%5]	
-			fig.bar(range(i),bar,1)
+			fig.bar(range(i+1),bar,1)
 			fig.label=str(i)
 			fig.axes.get_xaxis().set_visible(False)
 			
 			fig.set_title(i)
 			for k in range(i):
 				j=100-(k*100./i)	
-				fig.annotate(str(round(perc[k]*100,2)),(j,bar[k]))
+				fig.annotate(str(round(perc[k]*100,2)),(k,bar[k]))
 				
 				fig.annotate(str(int(round(j))),(k,0))
 
 plot(TotalModeResolver,"Total Mode Data")
 
-plot(FloatModeResolver["<http://dbpedia.org/ontology/populationTotal>"],"dbo:populationTotal")
+"""plot(FloatModeResolver["<http://dbpedia.org/ontology/populationTotal>"],"dbo:populationTotal")
 
 plot(ModeResolver["<http://dbpedia.org/ontology/birthDate>"],"dbo:birthDate")
 allFloats=[]
@@ -121,6 +121,7 @@ objectModes=[]
 for v in ["<http://dbpedia.org/ontology/capital>","<http://dbpedia.org/ontology/officialLanguage>","<http://dbpedia.org/ontology/currency>", "<http://dbpedia.org/ontology/largestCity>","<http://dbpedia.org/ontology/country>","<http://dbpedia.org/ontology/timeZone>","<http://dbpedia.org/ontology/language>","<http://dbpedia.org/ontology/birthPlace>","<http://dbpedia.org/ontology/deathPlace>"]:
 	objectModes.extend(ModeResolver[v])
 plot(objectModes,"ObjectModes")
+"""
 plt.show()
 
 

@@ -1,5 +1,6 @@
 package de.kdld16.hpi;
 
+import de.kdld16.hpi.modes.AbstractMode;
 import de.kdld16.hpi.modes.Mode;
 import de.kdld16.hpi.modes.ModeResult;
 import de.kdld16.hpi.resolver.ModeResolver;
@@ -63,7 +64,7 @@ public class WikidataEntity {
     while (possibleConflicts.size() > 0) {
         //Calculate Mode Object for each fact
         RDFFact f = possibleConflicts.get(0);
-        Resolver r;
+        AbstractMode r;
         try {
             r = ClassifyProperties.acceptOnlyOne.get(f.getRdfProperty()).newInstance();
         } catch ( IllegalAccessException | InstantiationException e) {
@@ -71,7 +72,7 @@ public class WikidataEntity {
             return;
         }
         ArrayList<RDFFact> factsWithThatProperty = filterByRdfProperty(possibleConflicts,f.getRdfProperty());
-        ModeResult result = new Mode().resolve(factsWithThatProperty);
+        ModeResult result = r.resolve(factsWithThatProperty);
         acceptedFacts.add(result.getMostCommon());
         possibleConflicts=filterOutRdfProperty(possibleConflicts,f.getRdfProperty());
         logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + f.getRdfProperty() + "\tresolving with: " + r.getClass().getSimpleName());

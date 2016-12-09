@@ -1,4 +1,7 @@
 package de.kdld16.hpi.util;
+import de.kdld16.hpi.modes.AbstractMode;
+import de.kdld16.hpi.modes.Mode;
+import de.kdld16.hpi.modes.NumericMode;
 import de.kdld16.hpi.resolver.*;
 
 import java.util.HashMap;
@@ -11,61 +14,61 @@ public class ClassifyProperties {
 
 
 
-    public static HashMap<String,Class<? extends Resolver>> acceptOnlyOne;
+    public static HashMap<String,Class<? extends AbstractMode>> acceptOnlyOne;
     static {
         acceptOnlyOne= new HashMap<>();
-    //    acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/capital>",ModeResolver.class);
+    //    acceptOnlyOne.put("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>",Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/capital>",Mode.class);
     /*  Object Properties!!
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/officialLanguage>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/currency>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/largestCity>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/country>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/timeZone>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/language>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthPlace>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathPlace>", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/officialLanguage>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/currency>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/largestCity>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/country>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/timeZone>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/language>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthPlace>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathPlace>", Mode.class);
         */
         
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", FloatModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", FloatModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",FloatModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/co2Emission>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/retirementDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/averageAnnualGeneration>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/height>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/topSpeed>", FloatModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthYear>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/restingDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/zipCode>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelCapacity>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/latestReleaseDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/netIncome>", FloatModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathYear>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/installedCapacity>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/foalDate>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/redline>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/diameter>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/length>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/operatingIncome>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/torqueOutput>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/width>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/marketCapitalisation>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelConsumption>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/displacement>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/powerOutput>", ModeResolver.class);
-        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", ModeResolver.class);
-        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", ModeResolver.class);
-        acceptOnlyOne.put("<http://www.georss.org/georss/point>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso31661Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6391Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6392Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", ModeResolver.class);
-        acceptOnlyOne.put("<http://dbpedia.org/ontology/totalPopulation>", FloatModeResolver.class);
-        acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", ModeResolver.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/weight>", NumericMode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/acceleration>", NumericMode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/populationTotal>",NumericMode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/wheelbase>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/co2Emission>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/retirementDate>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/averageAnnualGeneration>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/height>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/topSpeed>", NumericMode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthYear>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/restingDate>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/zipCode>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathDate>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelCapacity>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/latestReleaseDate>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/netIncome>", NumericMode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/deathYear>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/birthDate>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/installedCapacity>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/foalDate>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/redline>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/diameter>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/length>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/operatingIncome>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/torqueOutput>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/width>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/marketCapitalisation>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/fuelConsumption>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/displacement>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/powerOutput>", Mode.class);
+        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", Mode.class);
+        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", Mode.class);
+        acceptOnlyOne.put("<http://www.georss.org/georss/point>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso31661Code>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6391Code>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6392Code>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/iso6393Code>", Mode.class);
+        acceptOnlyOne.put("<http://dbpedia.org/ontology/totalPopulation>", NumericMode.class);
+        acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", Mode.class);
     }
 
     /*

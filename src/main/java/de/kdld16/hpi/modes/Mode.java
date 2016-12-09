@@ -11,9 +11,10 @@ import java.util.LinkedList;
 /**
  * Created by jonathan on 08.12.16.
  */
-public class Mode {
+public class Mode extends AbstractMode {
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
+    @Override
     public ModeResult resolve(ArrayList<RDFFact> conflict) {
         HashMap<String,Integer> counter= new HashMap<>();
         String property = conflict.get(0).getRdfProperty();
@@ -38,7 +39,7 @@ public class Mode {
                 }
             }
         }
-        if (countTriples>1) {
+        if (mostCommonN>1) {
             logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property);
         }
 
