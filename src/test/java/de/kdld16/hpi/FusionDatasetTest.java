@@ -1,11 +1,10 @@
 package de.kdld16.hpi;
 
-import org.junit.Test;
+//import org.junit.jupiter.api.Test;
+import org.slf4j.*;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.junit.*;
 
-import java.net.URL;
-import java.util.Properties;
 
 /**
  * Unit test for simple App.
