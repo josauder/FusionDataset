@@ -2,8 +2,8 @@ package de.kdld16.hpi;
 import de.kdld16.hpi.transforms.FilterByWikidataID;
 import de.kdld16.hpi.transforms.LanguageTagAdder;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
-import org.apache.beam.runners.spark.SparkPipelineOptions;
-import org.apache.beam.runners.spark.SparkRunner;
+import org.apache.beam.runners.direct.DirectRegistrar;
+import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
@@ -18,6 +18,7 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.PipedInputStream;
 import java.util.Properties;
 
 /**
@@ -45,9 +46,12 @@ public class FusionDataset {
         String targetDirectory = properties.getProperty("targetDirectory");
         String targetFilepattern = properties.getProperty("targetFilepattern");
 
-        PipelineOptions options = PipelineOptionsFactory.create();
+        PipelineOptions options = PipelineOptionsFactory.fromArgs(args).create();
+        options.setRunner(DirectRunner.class);
         Pipeline p = Pipeline.create(options);
-/*        SparkPipelineOptions options = PipelineOptionsFactory.as(SparkPipelineOptions.class);
+
+        /*
+  SparkPipelineOptions options = PipelineOptionsFactory.as(SparkPipelineOptions.class);
         options.setSparkMaster("local[2]");
         Pipeline p = Pipeline.create(options);
         */
