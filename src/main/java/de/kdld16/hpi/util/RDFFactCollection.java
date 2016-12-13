@@ -49,7 +49,7 @@ public class RDFFactCollection {
                 outlangs.add(fact.getLanguage());
             }
         }
-        return new RDFFactCollection(out);
+        return new RDFFactCollection(out,outlangs);
     }
 
     public RDFFactCollection newFilterOutRdfProperty(String property) {
@@ -61,7 +61,7 @@ public class RDFFactCollection {
                 outlangs.add(fact.getLanguage());
             }
         }
-        return new RDFFactCollection(out);
+        return new RDFFactCollection(out,outlangs);
     }
     public RDFFactCollection newFilterByLanguage(String language) {
         ArrayList<RDFFact> out = new ArrayList<>();
@@ -72,7 +72,7 @@ public class RDFFactCollection {
                 outlangs.add(fact.getLanguage());
             }
         }
-        return new RDFFactCollection(out);
+        return new RDFFactCollection(out,outlangs);
     }
 
     public RDFFactCollection newFilterByLanguages(ArrayList<String> languages) {
@@ -86,7 +86,7 @@ public class RDFFactCollection {
                 }
             }
         }
-        return new RDFFactCollection(out);
+        return new RDFFactCollection(out,outlangs);
     }
     public RDFFactCollection newFilterOutLanguage(String language) {
         ArrayList<RDFFact> out = new ArrayList<>();
@@ -97,7 +97,7 @@ public class RDFFactCollection {
                 outlangs.add(fact.getLanguage());
             }
         }
-        return new RDFFactCollection(out);
+        return new RDFFactCollection(out,outlangs);
     }
 
     public RDFFactCollection newFilterOutLanguages(ArrayList<String> languages) {
@@ -115,7 +115,7 @@ public class RDFFactCollection {
                 outlangs.add(fact.getLanguage()); 
             }
         }
-        return new RDFFactCollection(out);
+        return new RDFFactCollection(out,outlangs);
     }
 
     public void filterByRdfProperty(String property) {

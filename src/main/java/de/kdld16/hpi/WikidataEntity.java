@@ -33,6 +33,7 @@ public class WikidataEntity {
     private int n_mostCommonLanguage =0;
     private int n_smallLanguages = 0;
     private int n_languages=0;
+    private int n_resolvedConflicts=0;
     private ArrayList<String> smallLanguages;
 
     static {
@@ -105,6 +106,7 @@ public class WikidataEntity {
     }
 
     public void acceptAsTrueFact(RDFFact fact) {
+        n_resolvedConflicts++;
         possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
         acceptedFacts.addFact(fact);
         String language = fact.getLanguage();
@@ -112,7 +114,10 @@ public class WikidataEntity {
             languageCorrectCounter.put(language,languageCorrectCounter.get(language)+1);
         }
         languageCorrectCounter.put(language,1);
+
+
     }
+
 
     public static AbstractMode getMode(String property) {
         AbstractMode r;
