@@ -1,56 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a10040-9774-4161-8e8f-7a72c6dad6e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_bg.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_cy.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_en.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_eu.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_id.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_ko.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_mk.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_sr.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/instance_types_transitive_wkd_uris_vi.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_bg.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_cy.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_en.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_et.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_eu.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_fa.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_id.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_ko.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_lt.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_mk.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_sr.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_literals_wkd_uris_vi.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_bg.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_cy.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_en.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_eu.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_id.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_ko.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_mk.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_sr.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_vi.ttl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fusion.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="a4beec10-a3c1-4d54-a656-9c134d33b78d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fusion.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/Mode.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/Mode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/ModeResult.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/ModeResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/NumericMode.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/NumericMode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/FilterByWikidataID.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/FilterByWikidataID.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/LanguageTagAdder.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/LanguageTagAdder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/DBPediaHelper.java" afterPath="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/DBPediaHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/analyze_log.py" afterPath="$PROJECT_DIR$/src/scripts/analyze_log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/limitWikidataIdentifier.py" afterPath="$PROJECT_DIR$/src/scripts/limitWikidataIdentifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java" afterPath="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/application.properties" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_de.ttl" afterPath="$PROJECT_DIR$/src/test/resources/dataset/mappingbased_objects_wkd_uris_de.ttl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
     </list>
     <ignored path="Fusion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,75 +29,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResolveFusionConflicts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterByWikidataID.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/FilterByWikidataID.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikidataEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WikidataEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5533981">
-              <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.out" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outputs/log.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="62.13793">
-              <caret line="121" column="86" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/0.3.0-incubating/beam-runners-direct-java-0.3.0-incubating.jar!/org/apache/beam/runners/direct/DirectRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.903226">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FusionDataset.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModeResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/ModeResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding>
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -150,40 +43,26 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/Mode.java">
+      <file leaf-file-name="FusionDataset.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="143" selection-start-line="42" selection-start-column="143" selection-end-line="42" selection-end-column="143" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassifyProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.736842">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding />
+            <state vertical-scroll-proportion="0.6796116">
+              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+              <folding>
+                <element signature="e#2663#2683#0" expanded="true" />
+                <element signature="e#2867#2883#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,16 +75,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFFactSet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/LanguageTagAdder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/DBPediaHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/ModeResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java" />
       </list>
     </option>
   </component>
@@ -251,8 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,15 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,6 +173,24 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -333,8 +213,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="Fusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,96 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1156,50 +960,26 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1a10040-9774-4161-8e8f-7a72c6dad6e9" name="Default" comment="" />
-      <created>1481627857026</created>
+      <changelist id="a4beec10-a3c1-4d54-a656-9c134d33b78d" name="Default" comment="" />
+      <created>1481652160350</created>
       <option name="number" value="Default" />
-      <updated>1481627857026</updated>
-      <workItem from="1481627859998" duration="7420000" />
+      <updated>1481652160350</updated>
+      <workItem from="1481652163936" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 10m 16s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 14m 48s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 17m 37s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 21m 36s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 28m 35s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 29m 36s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 31m 08s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 36m 01s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 41m 41s.xml">
-      <configuration name="FusionDatasetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FusionDatasetTest - 2016.12.13 at 18h 45m 57s.xml">
+    <history-entry file="FusionDatasetTest - 2016.12.13 at 19h 07m 23s.xml">
       <configuration name="FusionDatasetTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7420000" />
+    <option name="totallyTimeSpent" value="365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -1207,7 +987,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1217,16 +997,16 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1234,9 +1014,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="5" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1244,158 +1022,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/AbstractMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/limitWikidataIdentifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/OntologyDatatypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/LanguageTagAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/NumericMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/RDFFact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/DBPediaHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/util/ClassifyProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.736842">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/FilterByWikidataID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/0.3.0-incubating/beam-runners-direct-java-0.3.0-incubating.jar!/org/apache/beam/runners/direct/DirectRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.903226">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/kdld16/hpi/FusionDatasetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/log.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="62.13793">
-          <caret line="121" column="86" selection-start-line="121" selection-start-column="82" selection-end-line="121" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/transforms/ResolveFusionConflicts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="117" selection-start-line="25" selection-start-column="117" selection-end-line="25" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/ModeResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/modes/Mode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="143" selection-start-line="42" selection-start-column="143" selection-end-line="42" selection-end-column="143" />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/WikidataEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5533981">
-          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/kdld16/hpi/FusionDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6796116">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="e#2663#2683#0" expanded="true" />
+            <element signature="e#2867#2883#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

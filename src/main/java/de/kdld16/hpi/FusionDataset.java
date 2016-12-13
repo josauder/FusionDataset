@@ -45,9 +45,12 @@ public class FusionDataset {
         String targetDirectory = properties.getProperty("targetDirectory");
         String targetFilepattern = properties.getProperty("targetFilepattern");
 
-        SparkPipelineOptions options = PipelineOptionsFactory.as(SparkPipelineOptions.class);
+        PipelineOptions options = PipelineOptionsFactory.create();
+        Pipeline p = Pipeline.create(options);
+/*        SparkPipelineOptions options = PipelineOptionsFactory.as(SparkPipelineOptions.class);
         options.setSparkMaster("local[2]");
         Pipeline p = Pipeline.create(options);
+        */
 
 
         File[] files = new File(datasetDirectory).listFiles();
