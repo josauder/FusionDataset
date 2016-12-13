@@ -1,6 +1,7 @@
 package de.kdld16.hpi.modes;
 
 import de.kdld16.hpi.util.RDFFact;
+import de.kdld16.hpi.util.RDFFactCollection;
 import de.kdld16.hpi.util.RDFParseTools;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,7 +30,8 @@ public class NumericMode extends AbstractMode{
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
     @Override
-    public ModeResult resolve(ArrayList<RDFFact> conflict) {
+    public ModeResult getMode(RDFFactCollection conflictCollection) {
+        ArrayList<RDFFact> conflict =conflictCollection.asList();
 
         class FloatCountPair {
             Double f;

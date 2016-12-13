@@ -3,6 +3,7 @@ package de.kdld16.hpi;
 import de.kdld16.hpi.modes.AbstractMode;
 import de.kdld16.hpi.modes.ModeResult;
 import de.kdld16.hpi.util.ClassifyProperties;
+import de.kdld16.hpi.util.RDFFactCollection;
 import de.kdld16.hpi.util.RDFFact;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,8 +24,8 @@ public class WikidataEntity {
 
     private int n_facts=0;
 
-    private ArrayList<RDFFact> acceptedFacts;
-    private ArrayList<RDFFact> possibleConflicts;
+    private RDFFactCollection acceptedFacts;
+    private RDFFactCollection possibleConflicts;
     private HashMap<String,Integer> languageFactCounter;
     private HashMap<String,Integer> languageCorrectCounter;
     private ArrayList<String> mostCommonLanguages;
@@ -48,8 +49,8 @@ public class WikidataEntity {
 
     public WikidataEntity(Integer subject, Iterator<String> iter) {
         this.subject=subject;
-        acceptedFacts = new ArrayList<>();
-        possibleConflicts = new ArrayList<>();
+        acceptedFacts = new RDFFactCollection();
+        possibleConflicts = new RDFFactCollection();
         languageFactCounter = new HashMap<>();
         languageCorrectCounter = new HashMap<>();
         mostCommonLanguages = new ArrayList<>();
@@ -72,25 +73,23 @@ public class WikidataEntity {
     public void resolveConflicts()  {
         while (possibleConflicts.size() > 0) {
         //Calculate Mode Object for each fact
-            RDFFact f = possibleConflicts.get(0);
-            ArrayList<RDFFact> conflict = filterByRdfProperty(possibleConflicts, f.getRdfProperty());
+            RDFFact f = possibleConflicts.getOne();
+            RDFFactCollection conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
             AbstractMode mode = getMode(f.getRdfProperty());
 
-            ModeResult result = mode.resolve(conflict);
+            ModeResult result = mode.getMode(conflict);
 
             if (result.getConfidence()>minimumValueEquality) {
-                acceptAsTrueFact(result.getMostCommon());
-                possibleConflicts = filterOutRdfProperty(possibleConflicts, f.getRdfProperty());
+                acceptAsTrueFact(result.getFact());
                 continue;
             }
 
             if (n_smallLanguages>0) {
-                ArrayList<RDFFact> conflictWithoutSmallLangs = filterOutLanguages(conflict,smallLanguages);
+                RDFFactCollection conflictWithoutSmallLangs = conflict.newFilterOutLanguages(smallLanguages);
                 if (conflictWithoutSmallLangs.size()>0) {
-                    result = mode.resolve(conflictWithoutSmallLangs);
+                    result = mode.getMode(conflictWithoutSmallLangs);
                     if (result.getConfidence()>minimumValueEquality) {
-                        acceptedFacts.add(result.getMostCommon());
-                        possibleConflicts = filterOutRdfProperty(possibleConflicts, f.getRdfProperty());
+                        acceptAsTrueFact(result.getFact());
                         continue;
                     }
                     else {
@@ -98,8 +97,7 @@ public class WikidataEntity {
                     }
                 }
             }
-            possibleConflicts=filterOutRdfProperty(possibleConflicts,f.getRdfProperty());
-            acceptAsTrueFact(result.getMostCommon());
+            acceptAsTrueFact(result.getFact());
 
       //  logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + f.getRdfProperty() + "\tresolving with: " + r.getClass().getSimpleName());
 
@@ -107,7 +105,8 @@ public class WikidataEntity {
     }
 
     public void acceptAsTrueFact(RDFFact fact) {
-        acceptedFacts.add(fact);
+        possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
+        acceptedFacts.addFact(fact);
         String language = fact.getLanguage();
         if (languageCorrectCounter.containsKey(language)) {
             languageCorrectCounter.put(language,languageCorrectCounter.get(language)+1);
@@ -129,9 +128,9 @@ public class WikidataEntity {
     public void addFact(RDFFact fact) {
         this.n_facts++;
         if (ClassifyProperties.acceptOnlyOne.containsKey(fact.getRdfProperty())) {
-            possibleConflicts.add(fact);
+            possibleConflicts.addFact(fact);
         } else {
-            acceptedFacts.add(fact);
+            acceptedFacts.addFact(fact);
         }
 
         if (!languageFactCounter.containsKey(fact.getLanguage())) {
@@ -142,7 +141,7 @@ public class WikidataEntity {
         }
     }
 
-    public ArrayList<RDFFact> getAcceptedFacts() {
+    public RDFFactCollection getAcceptedFacts() {
         return acceptedFacts;
     }
 
@@ -169,69 +168,5 @@ public class WikidataEntity {
     }
 
 
-    public static ArrayList<RDFFact> filterByRdfProperty(ArrayList<RDFFact> in, String property) {
-        ArrayList<RDFFact> out = new ArrayList<>();
-        for (RDFFact fact: in) {
-            if (fact.getRdfProperty().equals(property)) {
-                out.add(fact);
-            }
-        }
-        return out;
-    }
 
-    public static ArrayList<RDFFact> filterOutRdfProperty(ArrayList<RDFFact> in, String property) {
-        ArrayList<RDFFact> out = new ArrayList<>();
-        for (RDFFact fact: in) {
-            if (!fact.getRdfProperty().equals(property)) {
-                out.add(fact);
-            }
-        }
-        return out;
-    }
-    public static ArrayList<RDFFact> filterByLanguage(ArrayList<RDFFact> in, String language) {
-        ArrayList<RDFFact> out = new ArrayList<>();
-        for (RDFFact fact: in) {
-            if (fact.getLanguage().equals(language)) {
-                out.add(fact);
-            }
-        }
-        return out;
-    }
-
-    public static ArrayList<RDFFact> filterByLanguages(ArrayList<RDFFact> in, ArrayList<String> languages) {
-        ArrayList<RDFFact> out = new ArrayList<>();
-        for (RDFFact fact: in) {
-            for (String lang: languages) {
-                if (fact.getLanguage().equals(lang)) {
-                    out.add(fact);
-                }
-            }
-        }
-        return out;
-    }
-    public static ArrayList<RDFFact> filterOutLanguage(ArrayList<RDFFact> in, String language) {
-        ArrayList<RDFFact> out = new ArrayList<>();
-        for (RDFFact fact: in) {
-            if (!fact.getLanguage().equals(language)) {
-                out.add(fact);
-            }
-        }
-        return out;
-    }
-
-    public static ArrayList<RDFFact> filterOutLanguages(ArrayList<RDFFact> in, ArrayList<String> languages) {
-        ArrayList<RDFFact> out = new ArrayList<>();
-        for (RDFFact fact: in) {
-            boolean ok = true;
-            for (String lang: languages) {
-                if (fact.getLanguage().equals(lang)) {
-                    ok = false;
-                }
-            }
-            if (ok) {
-                out.add(fact);
-            }
-        }
-        return out;
-    }
 }

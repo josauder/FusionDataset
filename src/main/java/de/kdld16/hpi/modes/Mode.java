@@ -1,6 +1,7 @@
 package de.kdld16.hpi.modes;
 
 import de.kdld16.hpi.util.RDFFact;
+import de.kdld16.hpi.util.RDFFactCollection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,7 +16,9 @@ public class Mode extends AbstractMode {
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Override
-    public ModeResult resolve(ArrayList<RDFFact> conflict) {
+    public ModeResult getMode(RDFFactCollection conflictCollection) {
+        ArrayList<RDFFact> conflict =conflictCollection.asList();
+
         HashMap<String,Integer> counter= new HashMap<>();
         String property = conflict.get(0).getRdfProperty();
         RDFFact mostCommon=null;

@@ -7,20 +7,20 @@ import de.kdld16.hpi.util.RDFFact;
  */
 public class ModeResult {
 
-    private RDFFact mostCommon;
+    private RDFFact fact;
     private int occurence;
     private int outOf;
     private float confidence;
 
-    public ModeResult(RDFFact mostCommon, int occurence, int outOf) {
-        this.mostCommon = mostCommon;
+    public ModeResult(RDFFact fact, int occurence, int outOf) {
+        this.fact = fact;
         this.occurence = occurence;
         this.outOf = outOf;
         this.confidence=occurence/(float)outOf;
     }
 
-    public RDFFact getMostCommon() {
-        return mostCommon;
+    public RDFFact getFact() {
+        return fact;
     }
 
     public int getOccurence() {

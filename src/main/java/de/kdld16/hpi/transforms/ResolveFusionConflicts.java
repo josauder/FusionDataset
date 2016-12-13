@@ -19,8 +19,8 @@ public class ResolveFusionConflicts
 
         Integer rdfSubject = c.element().getKey();
         WikidataEntity entity = new WikidataEntity(rdfSubject,c.element().getValue().iterator());
-        int i=0;
-        for (RDFFact fact : entity.getAcceptedFacts())  {
+        //int i=0;
+        for (RDFFact fact : entity.getAcceptedFacts().asList())  {
          //   if (fact.getRdfProperty().equals("<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>")) {
         //        i++;
                 c.output(DBPediaHelper.wikidataPrefix+rdfSubject+"> "+fact.getRdfProperty()+" "+fact.getRdfObject()+" @"+fact.getLanguage());
