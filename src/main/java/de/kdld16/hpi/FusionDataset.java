@@ -2,8 +2,6 @@ package de.kdld16.hpi;
 import de.kdld16.hpi.transforms.FilterByWikidataID;
 import de.kdld16.hpi.transforms.LanguageTagAdder;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
-import org.apache.beam.runners.direct.DirectRegistrar;
-import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
@@ -47,7 +45,7 @@ public class FusionDataset {
         String targetFilepattern = properties.getProperty("targetFilepattern");
 
         PipelineOptions options = PipelineOptionsFactory.fromArgs(args).create();
-        options.setRunner(DirectRunner.class);
+        //options.setRunner(DirectRunner.class);
         Pipeline p = Pipeline.create(options);
 
         /*

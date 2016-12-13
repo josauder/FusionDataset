@@ -42,7 +42,7 @@ public class FusionDatasetTest
             }
 
 
-            String[] args = {};
+            String[] args = {"--runner=SparkRunner"};
             FusionDataset.main(args);
         } catch (IOException e) {
             e.printStackTrace();
