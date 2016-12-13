@@ -2,6 +2,8 @@ package de.kdld16.hpi;
 import de.kdld16.hpi.transforms.FilterByWikidataID;
 import de.kdld16.hpi.transforms.LanguageTagAdder;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
+import org.apache.beam.runners.spark.SparkPipelineOptions;
+import org.apache.beam.runners.spark.SparkRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
@@ -43,7 +45,8 @@ public class FusionDataset {
         String targetDirectory = properties.getProperty("targetDirectory");
         String targetFilepattern = properties.getProperty("targetFilepattern");
 
-        PipelineOptions options = PipelineOptionsFactory.create();
+        SparkPipelineOptions options = PipelineOptionsFactory.as(SparkPipelineOptions.class);
+        options.setSparkMaster("local[2]");
         Pipeline p = Pipeline.create(options);
 
 
