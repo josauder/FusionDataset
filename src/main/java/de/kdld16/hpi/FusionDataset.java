@@ -1,4 +1,5 @@
 package de.kdld16.hpi;
+import de.kdld16.hpi.transforms.FilterByWikidataID;
 import de.kdld16.hpi.transforms.LanguageTagAdder;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
 import org.apache.beam.sdk.Pipeline;
@@ -47,11 +48,11 @@ public class FusionDataset {
 
 
         File[] files = new File(datasetDirectory).listFiles();
-        PCollectionList<KV<String,String>> dataSet=null;
+        PCollectionList<KV<Integer,String>> dataSet=null;
 
         for (File f: files) {
             String language = f.getName().split("wkd_uris_")[1].replace(".ttl","");
-            PCollection<KV<String,String>> newPCollection;
+            PCollection<KV<Integer,String>> newPCollection;
             newPCollection = p.apply(f.getName()+"-Reader",
                     TextIO.Read.from(f.getAbsolutePath())).apply(f.getName()+"-LanguageTagAdder",ParDo.of(new LanguageTagAdder(language)));
 
@@ -63,9 +64,10 @@ public class FusionDataset {
             }
         }
 
-        dataSet.apply(Flatten.<KV<String,String>>pCollections())
+        dataSet.apply(Flatten.<KV<Integer,String>>pCollections())
             // Group by RDF-Subject (See Apache Beam Documentation)
-            .apply(GroupByKey.<String,String>create())
+              //  .apply(ParDo.of(new FilterByWikidataID<>(495,495)))
+            .apply(GroupByKey.<Integer,String>create())
             // Resolve Fusion Conflicts
             .apply(ParDo.of(new ResolveFusionConflicts()))
             // Write output to targetDirectory

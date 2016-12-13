@@ -1,0 +1,3 @@
+<http://wikidata.dbpedia.org/resource/Q255> <http://dbpedia.org/ontology/signature> "Beethoven Signature.svg".
+<http://wikidata.dbpedia.org/resource/Q255> <http://dbpedia.org/ontology/work> "Nhạc sĩ pianovànhà soạn nhạc".
+<http://wikidata.dbpedia.org/resource/Q255> <http://xmlns.com/foaf/0.1/name> "Ludwig Van Beethoven"@vi .

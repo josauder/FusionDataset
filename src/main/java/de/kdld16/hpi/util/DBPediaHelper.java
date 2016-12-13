@@ -9,4 +9,11 @@ public class DBPediaHelper {
     public static String wikidataPrefix = "<http://wikidata.dbpedia.org/resource/Q";
     public static String wikidataPostfix = ">";
 
+
+    public static String replaceNamespace(String fact) {
+        return fact
+                .replaceAll("http://dbpedia.org/ontology/","dbo:")
+                .replaceAll("http://www.w3.org/1999/02/22-rdf-syntax-ns#","rdf:")
+                .replaceAll("http://www.wikidata.org/entity/","wikidata");
+    }
 }

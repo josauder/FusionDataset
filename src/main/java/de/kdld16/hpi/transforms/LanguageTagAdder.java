@@ -1,5 +1,6 @@
 package de.kdld16.hpi.transforms;
 
+import de.kdld16.hpi.util.DBPediaHelper;
 import de.kdld16.hpi.util.RDFFact;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.apache.beam.sdk.values.KV;
@@ -12,7 +13,7 @@ import org.slf4j.LoggerFactory;
  */
 
 public class LanguageTagAdder
-        extends DoFn<String,KV<String,String>> {
+        extends DoFn<String,KV<Integer,String>> {
     /**
      * Splits Line containing RDF-Triple into Key-Value Pair where Key is RDF Subject
      */
@@ -29,7 +30,11 @@ public class LanguageTagAdder
     public void processElement(ProcessContext c) {
         String[] items = c.element().split(" ",2);
         if (items.length>1 && !items[0].isEmpty()) {
-            c.output(KV.of(items[0], language+" "+items[1]));
+            if (items[0].contains(DBPediaHelper.wikidataPrefix)) {
+                int id = Integer.parseInt(items[0].replace(DBPediaHelper.wikidataPrefix,"").replace(DBPediaHelper.wikidataPostfix,""));
+                c.output(KV.of(id, language+" "+DBPediaHelper.replaceNamespace(items[1])));
+            }
+
         }
         else {
             logger.debug("Bad Triple:"+c.element());

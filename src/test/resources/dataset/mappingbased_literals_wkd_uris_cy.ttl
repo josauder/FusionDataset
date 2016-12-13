@@ -1,0 +1,475 @@
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q1000> <http://dbpedia.org/ontology/isoCode> ".ga1".
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/currencyCode> "Dalasi".
+<http://wikidata.dbpedia.org/resource/Q1005> <http://dbpedia.org/ontology/isoCode> ".gm".
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/currencyCode> "Ffranc Gini".
+<http://wikidata.dbpedia.org/resource/Q1006> <http://dbpedia.org/ontology/isoCode> ".gn".
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q1007> <http://dbpedia.org/ontology/isoCode> ".gw".
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q1008> <http://dbpedia.org/ontology/isoCode> ".ci".
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/currencyCode> "Affrica Canolig CFA franc".
+<http://wikidata.dbpedia.org/resource/Q1009> <http://dbpedia.org/ontology/isoCode> ".cm".
+<http://wikidata.dbpedia.org/resource/Q100> <http://xmlns.com/foaf/0.1/name> "Boston"@cy .
+<http://wikidata.dbpedia.org/resource/Q1011> <http://dbpedia.org/ontology/currencyCode> "Escudo Cabo Verde".
+<http://wikidata.dbpedia.org/resource/Q1011> <http://dbpedia.org/ontology/isoCode> ".cv".
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/currencyCode> "Maloti".
+<http://wikidata.dbpedia.org/resource/Q1013> <http://dbpedia.org/ontology/isoCode> ".ls".
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/currencyCode> "Doler Liberia".
+<http://wikidata.dbpedia.org/resource/Q1014> <http://dbpedia.org/ontology/isoCode> ".lr".
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/currencyCode> "Dinar".
+<http://wikidata.dbpedia.org/resource/Q1016> <http://dbpedia.org/ontology/isoCode> ".ly".
+<http://wikidata.dbpedia.org/resource/Q1019> <http://dbpedia.org/ontology/currencyCode> "Malagasy ariary".
+<http://wikidata.dbpedia.org/resource/Q1019> <http://dbpedia.org/ontology/isoCode> ".mg".
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/currencyCode> "Kwacha(D)".
+<http://wikidata.dbpedia.org/resource/Q1020> <http://dbpedia.org/ontology/isoCode> ".mw".
+<http://wikidata.dbpedia.org/resource/Q1025> <http://dbpedia.org/ontology/currencyCode> "Ouguiya".
+<http://wikidata.dbpedia.org/resource/Q1025> <http://dbpedia.org/ontology/isoCode> ".mr".
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/currencyCode> "Rupee Mawrisiws".
+<http://wikidata.dbpedia.org/resource/Q1027> <http://dbpedia.org/ontology/isoCode> ".mu".
+<http://wikidata.dbpedia.org/resource/Q1028> <http://dbpedia.org/ontology/currencyCode> "Dirham Moroco".
+<http://wikidata.dbpedia.org/resource/Q1028> <http://dbpedia.org/ontology/isoCode> ".ma".
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/currencyCode> "Metical".
+<http://wikidata.dbpedia.org/resource/Q1029> <http://dbpedia.org/ontology/isoCode> ".mz".
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/currencyCode> "Doler Namibiaidd".
+<http://wikidata.dbpedia.org/resource/Q1030> <http://dbpedia.org/ontology/isoCode> ".na".
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q1032> <http://dbpedia.org/ontology/isoCode> ".ne".
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/currencyCode> "Naira(₦)".
+<http://wikidata.dbpedia.org/resource/Q1033> <http://dbpedia.org/ontology/isoCode> ".ng".
+<http://wikidata.dbpedia.org/resource/Q1036> <http://dbpedia.org/ontology/currencyCode> "Shilling".
+<http://wikidata.dbpedia.org/resource/Q1036> <http://dbpedia.org/ontology/isoCode> ".ug".
+<http://wikidata.dbpedia.org/resource/Q1037> <http://dbpedia.org/ontology/currencyCode> "Ffranc Rwanda".
+<http://wikidata.dbpedia.org/resource/Q1037> <http://dbpedia.org/ontology/isoCode> ".rw".
+<http://wikidata.dbpedia.org/resource/Q1039> <http://dbpedia.org/ontology/currencyCode> "Dobra".
+<http://wikidata.dbpedia.org/resource/Q1039> <http://dbpedia.org/ontology/isoCode> ".st".
+<http://wikidata.dbpedia.org/resource/Q1041> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q1041> <http://dbpedia.org/ontology/isoCode> ".sn".
+<http://wikidata.dbpedia.org/resource/Q1042> <http://dbpedia.org/ontology/currencyCode> "Rupee Seychelles".
+<http://wikidata.dbpedia.org/resource/Q1042> <http://dbpedia.org/ontology/isoCode> ".sc".
+<http://wikidata.dbpedia.org/resource/Q1044> <http://dbpedia.org/ontology/currencyCode> "Leone".
+<http://wikidata.dbpedia.org/resource/Q1044> <http://dbpedia.org/ontology/isoCode> ".sl".
+<http://wikidata.dbpedia.org/resource/Q1045> <http://dbpedia.org/ontology/currencyCode> "Swllt".
+<http://wikidata.dbpedia.org/resource/Q1045> <http://dbpedia.org/ontology/isoCode> ".so".
+<http://wikidata.dbpedia.org/resource/Q1049> <http://dbpedia.org/ontology/currencyCode> "Dinar Sudan".
+<http://wikidata.dbpedia.org/resource/Q1049> <http://dbpedia.org/ontology/isoCode> ".sd".
+<http://wikidata.dbpedia.org/resource/Q1050> <http://dbpedia.org/ontology/currencyCode> "Lilangeni".
+<http://wikidata.dbpedia.org/resource/Q1050> <http://dbpedia.org/ontology/isoCode> ".sz".
+<http://wikidata.dbpedia.org/resource/Q1085> <http://xmlns.com/foaf/0.1/name> "Prag"@cy .
+<http://wikidata.dbpedia.org/resource/Q1124> <http://xmlns.com/foaf/0.1/name> "Arlywydd William Jefferson Clinton"@cy .
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/currencyCode> "Swllt Cenia".
+<http://wikidata.dbpedia.org/resource/Q114> <http://dbpedia.org/ontology/isoCode> ".ke".
+<http://wikidata.dbpedia.org/resource/Q1156> <http://xmlns.com/foaf/0.1/name> "Mumbai"@cy .
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/currencyCode> "Birr".
+<http://wikidata.dbpedia.org/resource/Q115> <http://dbpedia.org/ontology/isoCode> ".et".
+<http://wikidata.dbpedia.org/resource/Q117> <http://dbpedia.org/ontology/currencyCode> "Cedi".
+<http://wikidata.dbpedia.org/resource/Q117> <http://dbpedia.org/ontology/isoCode> ".gh".
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiau".
+<http://wikidata.dbpedia.org/resource/Q1183> <http://dbpedia.org/ontology/isoCode> ".pr,.us".
+<http://wikidata.dbpedia.org/resource/Q1220> <http://xmlns.com/foaf/0.1/name> "Giorgio Napolitano"@cy .
+<http://wikidata.dbpedia.org/resource/Q1224> <http://xmlns.com/foaf/0.1/name> "Carlo Azeglio Ciampi"@cy .
+<http://wikidata.dbpedia.org/resource/Q1230> <http://xmlns.com/foaf/0.1/name> "Francesco Cossiga"@cy .
+<http://wikidata.dbpedia.org/resource/Q1253> <http://xmlns.com/foaf/0.1/name> "Ban Ki-moon"@cy .
+<http://wikidata.dbpedia.org/resource/Q1253> <http://xmlns.com/foaf/0.1/name> "/"@cy .
+<http://wikidata.dbpedia.org/resource/Q1297> <http://xmlns.com/foaf/0.1/name> "Chicago"@cy .
+<http://wikidata.dbpedia.org/resource/Q1316> <http://xmlns.com/foaf/0.1/name> "Saddam Hussein"@cy .
+<http://wikidata.dbpedia.org/resource/Q1317> <http://xmlns.com/foaf/0.1/name> "Osama bin Laden"@cy .
+<http://wikidata.dbpedia.org/resource/Q1317> <http://xmlns.com/foaf/0.1/name> "أسامة بن لادن"@cy .
+<http://wikidata.dbpedia.org/resource/Q1342> <http://xmlns.com/foaf/0.1/name> "Pittsburgh"@cy .
+<http://wikidata.dbpedia.org/resource/Q1345> <http://xmlns.com/foaf/0.1/name> "Philadelphia"@cy .
+<http://wikidata.dbpedia.org/resource/Q1353> <http://xmlns.com/foaf/0.1/name> "Delhi"@cy .
+<http://wikidata.dbpedia.org/resource/Q1410> <http://dbpedia.org/ontology/currencyCode> "Punt Gibraltar".
+<http://wikidata.dbpedia.org/resource/Q1410> <http://dbpedia.org/ontology/isoCode> ".gi".
+<http://wikidata.dbpedia.org/resource/Q142> <http://dbpedia.org/ontology/currencyCode> "Ewro(€)".
+<http://wikidata.dbpedia.org/resource/Q142> <http://dbpedia.org/ontology/isoCode> ".fr".
+<http://wikidata.dbpedia.org/resource/Q1435> <http://xmlns.com/foaf/0.1/name> "Zagreb"@cy .
+<http://wikidata.dbpedia.org/resource/Q145> <http://dbpedia.org/ontology/currencyCode> "Punt Sterling".
+<http://wikidata.dbpedia.org/resource/Q145> <http://dbpedia.org/ontology/isoCode> ".uk1".
+<http://wikidata.dbpedia.org/resource/Q1480> <http://xmlns.com/foaf/0.1/name> "Corazon Aquino"@cy .
+<http://wikidata.dbpedia.org/resource/Q148> <http://dbpedia.org/ontology/currencyCode> "Renminbi".
+<http://wikidata.dbpedia.org/resource/Q148> <http://dbpedia.org/ontology/isoCode> ".cn".
+<http://wikidata.dbpedia.org/resource/Q1492> <http://xmlns.com/foaf/0.1/name> "Barcelona"@cy .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/birthName> "Fernão de Magalhães"@cy .
+<http://wikidata.dbpedia.org/resource/Q1496> <http://dbpedia.org/ontology/signature> "Magellan Signature.svg".
+<http://wikidata.dbpedia.org/resource/Q1496> <http://xmlns.com/foaf/0.1/name> "Fernão de Magalhães"@cy .
+<http://wikidata.dbpedia.org/resource/Q1524> <http://xmlns.com/foaf/0.1/name> "Athen"@cy .
+<http://wikidata.dbpedia.org/resource/Q155> <http://dbpedia.org/ontology/currencyCode> "Real".
+<http://wikidata.dbpedia.org/resource/Q155> <http://dbpedia.org/ontology/isoCode> ".br".
+<http://wikidata.dbpedia.org/resource/Q159> <http://dbpedia.org/ontology/currencyCode> "Rŵbl Rwsiaidd".
+<http://wikidata.dbpedia.org/resource/Q159> <http://dbpedia.org/ontology/isoCode> ".ru.su .рф".
+<http://wikidata.dbpedia.org/resource/Q16> <http://dbpedia.org/ontology/currencyCode> "Doler Canadaidd".
+<http://wikidata.dbpedia.org/resource/Q16> <http://dbpedia.org/ontology/isoCode> ".ca".
+<http://wikidata.dbpedia.org/resource/Q1707> <http://xmlns.com/foaf/0.1/name> "Kiel"@cy .
+<http://wikidata.dbpedia.org/resource/Q1726> <http://xmlns.com/foaf/0.1/name> "München"@cy .
+<http://wikidata.dbpedia.org/resource/Q172> <http://xmlns.com/foaf/0.1/name> "Toronto"@cy .
+<http://wikidata.dbpedia.org/resource/Q1741> <http://xmlns.com/foaf/0.1/name> "Fienna"@cy .
+<http://wikidata.dbpedia.org/resource/Q1748> <http://xmlns.com/foaf/0.1/name> "Copenhagen"@cy .
+<http://wikidata.dbpedia.org/resource/Q174> <http://xmlns.com/foaf/0.1/name> "São Paulo"@cy .
+<http://wikidata.dbpedia.org/resource/Q1754> <http://xmlns.com/foaf/0.1/name> "Stockholm"@cy .
+<http://wikidata.dbpedia.org/resource/Q1757> <http://xmlns.com/foaf/0.1/name> "Helsinki"@cy .
+<http://wikidata.dbpedia.org/resource/Q1761> <http://xmlns.com/foaf/0.1/name> "Dulyn"@cy .
+<http://wikidata.dbpedia.org/resource/Q1770> <http://xmlns.com/foaf/0.1/name> "Tallinn"@cy .
+<http://wikidata.dbpedia.org/resource/Q1773> <http://xmlns.com/foaf/0.1/name> "Riga"@cy .
+<http://wikidata.dbpedia.org/resource/Q1780> <http://xmlns.com/foaf/0.1/name> "Bratislava"@cy .
+<http://wikidata.dbpedia.org/resource/Q1781> <http://xmlns.com/foaf/0.1/name> "Budapest"@cy .
+<http://wikidata.dbpedia.org/resource/Q1785> <http://xmlns.com/foaf/0.1/name> "Charles Aznavour"@cy .
+<http://wikidata.dbpedia.org/resource/Q1792> <http://xmlns.com/foaf/0.1/name> "Gdańsk"@cy .
+<http://wikidata.dbpedia.org/resource/Q17> <http://dbpedia.org/ontology/currencyCode> "Yen Japaneaidd(¥)".
+<http://wikidata.dbpedia.org/resource/Q17> <http://dbpedia.org/ontology/isoCode> ".jp".
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/currencyCode> "Ewro(€) 2".
+<http://wikidata.dbpedia.org/resource/Q183> <http://dbpedia.org/ontology/isoCode> ".de".
+<http://wikidata.dbpedia.org/resource/Q184> <http://dbpedia.org/ontology/currencyCode> "Rouble".
+<http://wikidata.dbpedia.org/resource/Q184> <http://dbpedia.org/ontology/isoCode> ".by".
+<http://wikidata.dbpedia.org/resource/Q1861> <http://xmlns.com/foaf/0.1/name> "Bangkok"@cy .
+<http://wikidata.dbpedia.org/resource/Q1874> <http://xmlns.com/foaf/0.1/name> "Odessa"@cy .
+<http://wikidata.dbpedia.org/resource/Q1899> <http://xmlns.com/foaf/0.1/name> "Kiev"@cy .
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/currencyCode> "Króna Gwlad yr Iâ".
+<http://wikidata.dbpedia.org/resource/Q189> <http://dbpedia.org/ontology/isoCode> ".is".
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/currencyCode> "Ewro1".
+<http://wikidata.dbpedia.org/resource/Q191> <http://dbpedia.org/ontology/isoCode> ".EE".
+<http://wikidata.dbpedia.org/resource/Q192> <http://xmlns.com/foaf/0.1/name> "David Cameron AS"@cy .
+<http://wikidata.dbpedia.org/resource/Q206> <http://xmlns.com/foaf/0.1/name> "Stephen Joseph Harper"@cy .
+<http://wikidata.dbpedia.org/resource/Q207> <http://xmlns.com/foaf/0.1/name> "Yr Arlywydd George Walker Bush"@cy .
+<http://wikidata.dbpedia.org/resource/Q20> <http://dbpedia.org/ontology/currencyCode> "Krone Norwy".
+<http://wikidata.dbpedia.org/resource/Q20> <http://dbpedia.org/ontology/isoCode> ".no3".
+<http://wikidata.dbpedia.org/resource/Q211> <http://dbpedia.org/ontology/currencyCode> "Euro".
+<http://wikidata.dbpedia.org/resource/Q211> <http://dbpedia.org/ontology/isoCode> ".lv".
+<http://wikidata.dbpedia.org/resource/Q212> <http://dbpedia.org/ontology/currencyCode> "Hyrvnia Wcreinaidd".
+<http://wikidata.dbpedia.org/resource/Q212> <http://dbpedia.org/ontology/isoCode> ".ua".
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/currencyCode> "Koruna Tsiec".
+<http://wikidata.dbpedia.org/resource/Q213> <http://dbpedia.org/ontology/isoCode> ".cz".
+<http://wikidata.dbpedia.org/resource/Q214> <http://dbpedia.org/ontology/currencyCode> "Ewro1".
+<http://wikidata.dbpedia.org/resource/Q214> <http://dbpedia.org/ontology/isoCode> ".sk2".
+<http://wikidata.dbpedia.org/resource/Q215> <http://dbpedia.org/ontology/currencyCode> "hyd1 Ionawr2007tolar".
+<http://wikidata.dbpedia.org/resource/Q215> <http://dbpedia.org/ontology/currencyCode> "o1 Ionawr2007ewro".
+<http://wikidata.dbpedia.org/resource/Q215> <http://dbpedia.org/ontology/isoCode> ".si2".
+<http://wikidata.dbpedia.org/resource/Q216> <http://xmlns.com/foaf/0.1/name> "Vilnius"@cy .
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/currencyCode> "Leu".
+<http://wikidata.dbpedia.org/resource/Q217> <http://dbpedia.org/ontology/isoCode> ".md".
+<http://wikidata.dbpedia.org/resource/Q218> <http://dbpedia.org/ontology/currencyCode> "Leu".
+<http://wikidata.dbpedia.org/resource/Q218> <http://dbpedia.org/ontology/isoCode> ".ro".
+<http://wikidata.dbpedia.org/resource/Q219> <http://dbpedia.org/ontology/currencyCode> "lev(llu. leva)".
+<http://wikidata.dbpedia.org/resource/Q219> <http://dbpedia.org/ontology/isoCode> ".bg".
+<http://wikidata.dbpedia.org/resource/Q220> <http://xmlns.com/foaf/0.1/name> "Rhufain"@cy .
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/currencyCode> "denar".
+<http://wikidata.dbpedia.org/resource/Q221> <http://dbpedia.org/ontology/isoCode> ".mk".
+<http://wikidata.dbpedia.org/resource/Q222> <http://dbpedia.org/ontology/currencyCode> "Lek".
+<http://wikidata.dbpedia.org/resource/Q222> <http://dbpedia.org/ontology/isoCode> ".al".
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/currencyCode> "Krone Denmarc".
+<http://wikidata.dbpedia.org/resource/Q223> <http://dbpedia.org/ontology/isoCode> ".gl".
+<http://wikidata.dbpedia.org/resource/Q224> <http://dbpedia.org/ontology/currencyCode> "Kuna(kn)".
+<http://wikidata.dbpedia.org/resource/Q224> <http://dbpedia.org/ontology/isoCode> ".hr".
+<http://wikidata.dbpedia.org/resource/Q225> <http://dbpedia.org/ontology/currencyCode> "Mark trosadwy".
+<http://wikidata.dbpedia.org/resource/Q225> <http://dbpedia.org/ontology/isoCode> ".ba".
+<http://wikidata.dbpedia.org/resource/Q227> <http://dbpedia.org/ontology/currencyCode> "Manat".
+<http://wikidata.dbpedia.org/resource/Q227> <http://dbpedia.org/ontology/isoCode> ".az".
+<http://wikidata.dbpedia.org/resource/Q228> <http://dbpedia.org/ontology/currencyCode> "Ewro".
+<http://wikidata.dbpedia.org/resource/Q228> <http://dbpedia.org/ontology/isoCode> ".ad".
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/currencyCode> "Ewro(€)".
+<http://wikidata.dbpedia.org/resource/Q229> <http://dbpedia.org/ontology/isoCode> ".cy".
+<http://wikidata.dbpedia.org/resource/Q230> <http://dbpedia.org/ontology/currencyCode> "Lari Georgaidd".
+<http://wikidata.dbpedia.org/resource/Q230> <http://dbpedia.org/ontology/isoCode> ".ge".
+<http://wikidata.dbpedia.org/resource/Q232> <http://dbpedia.org/ontology/currencyCode> "Tenge".
+<http://wikidata.dbpedia.org/resource/Q232> <http://dbpedia.org/ontology/isoCode> ".kz".
+<http://wikidata.dbpedia.org/resource/Q233> <http://dbpedia.org/ontology/currencyCode> "Ewro(€)".
+<http://wikidata.dbpedia.org/resource/Q233> <http://dbpedia.org/ontology/isoCode> ".mt".
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/currencyCode> "Ewro".
+<http://wikidata.dbpedia.org/resource/Q235> <http://dbpedia.org/ontology/isoCode> ".mc".
+<http://wikidata.dbpedia.org/resource/Q236> <http://dbpedia.org/ontology/currencyCode> "Euro".
+<http://wikidata.dbpedia.org/resource/Q236> <http://dbpedia.org/ontology/isoCode> ".me(.yu)1".
+<http://wikidata.dbpedia.org/resource/Q237> <http://dbpedia.org/ontology/currencyCode> "Ewro(€)".
+<http://wikidata.dbpedia.org/resource/Q237> <http://dbpedia.org/ontology/isoCode> ".va".
+<http://wikidata.dbpedia.org/resource/Q238> <http://dbpedia.org/ontology/currencyCode> "Euro(€)".
+<http://wikidata.dbpedia.org/resource/Q238> <http://dbpedia.org/ontology/isoCode> ".sm".
+<http://wikidata.dbpedia.org/resource/Q23> <http://xmlns.com/foaf/0.1/name> "George Washington"@cy .
+<http://wikidata.dbpedia.org/resource/Q241> <http://dbpedia.org/ontology/currencyCode> "Peso".
+<http://wikidata.dbpedia.org/resource/Q241> <http://dbpedia.org/ontology/currencyCode> "Peso trosadwy".
+<http://wikidata.dbpedia.org/resource/Q241> <http://dbpedia.org/ontology/isoCode> ".cu".
+<http://wikidata.dbpedia.org/resource/Q242> <http://dbpedia.org/ontology/currencyCode> "Doler Belîs".
+<http://wikidata.dbpedia.org/resource/Q242> <http://dbpedia.org/ontology/isoCode> ".bz".
+<http://wikidata.dbpedia.org/resource/Q244> <http://dbpedia.org/ontology/currencyCode> "Doler Barbados".
+<http://wikidata.dbpedia.org/resource/Q244> <http://dbpedia.org/ontology/isoCode> ".bb".
+<http://wikidata.dbpedia.org/resource/Q252> <http://dbpedia.org/ontology/currencyCode> "Rupiah".
+<http://wikidata.dbpedia.org/resource/Q252> <http://dbpedia.org/ontology/isoCode> ".id".
+<http://wikidata.dbpedia.org/resource/Q258> <http://dbpedia.org/ontology/currencyCode> "Rand De Affrica".
+<http://wikidata.dbpedia.org/resource/Q258> <http://dbpedia.org/ontology/isoCode> ".za".
+<http://wikidata.dbpedia.org/resource/Q262> <http://dbpedia.org/ontology/currencyCode> "Dinar Algeriaidd".
+<http://wikidata.dbpedia.org/resource/Q262> <http://dbpedia.org/ontology/isoCode> ".dz".
+<http://wikidata.dbpedia.org/resource/Q265> <http://dbpedia.org/ontology/currencyCode> "Som".
+<http://wikidata.dbpedia.org/resource/Q265> <http://dbpedia.org/ontology/isoCode> ".uz".
+<http://wikidata.dbpedia.org/resource/Q270> <http://xmlns.com/foaf/0.1/name> "Warszawa"@cy .
+<http://wikidata.dbpedia.org/resource/Q27> <http://dbpedia.org/ontology/currencyCode> "Euro(€)".
+<http://wikidata.dbpedia.org/resource/Q27> <http://dbpedia.org/ontology/isoCode> ".ie".
+<http://wikidata.dbpedia.org/resource/Q28> <http://dbpedia.org/ontology/currencyCode> "Forint".
+<http://wikidata.dbpedia.org/resource/Q28> <http://dbpedia.org/ontology/isoCode> ".hu1".
+<http://wikidata.dbpedia.org/resource/Q296> <http://xmlns.com/foaf/0.1/name> "Claude Monet"@cy .
+<http://wikidata.dbpedia.org/resource/Q298> <http://dbpedia.org/ontology/currencyCode> "Peso".
+<http://wikidata.dbpedia.org/resource/Q298> <http://dbpedia.org/ontology/isoCode> ".cl".
+<http://wikidata.dbpedia.org/resource/Q29> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 2".
+<http://wikidata.dbpedia.org/resource/Q29> <http://dbpedia.org/ontology/isoCode> ".es".
+<http://wikidata.dbpedia.org/resource/Q30> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiau".
+<http://wikidata.dbpedia.org/resource/Q30> <http://dbpedia.org/ontology/isoCode> ".us(hefyd.gov.edu.mil.um)".
+<http://wikidata.dbpedia.org/resource/Q31> <http://dbpedia.org/ontology/currencyCode> "Ewro1".
+<http://wikidata.dbpedia.org/resource/Q31> <http://dbpedia.org/ontology/isoCode> ".be2".
+<http://wikidata.dbpedia.org/resource/Q329> <http://xmlns.com/foaf/0.1/name> "Nicolas Sarkozy"@cy .
+<http://wikidata.dbpedia.org/resource/Q32> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 1".
+<http://wikidata.dbpedia.org/resource/Q32> <http://dbpedia.org/ontology/isoCode> ".lu".
+<http://wikidata.dbpedia.org/resource/Q334> <http://dbpedia.org/ontology/currencyCode> "Doler Singapôr".
+<http://wikidata.dbpedia.org/resource/Q334> <http://dbpedia.org/ontology/isoCode> ".sg".
+<http://wikidata.dbpedia.org/resource/Q33> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 1".
+<http://wikidata.dbpedia.org/resource/Q33> <http://dbpedia.org/ontology/isoCode> ".fi".
+<http://wikidata.dbpedia.org/resource/Q347> <http://dbpedia.org/ontology/currencyCode> "Ffranc Swisaidd".
+<http://wikidata.dbpedia.org/resource/Q347> <http://dbpedia.org/ontology/isoCode> ".li".
+<http://wikidata.dbpedia.org/resource/Q34> <http://dbpedia.org/ontology/currencyCode> "Krona Swedaidd".
+<http://wikidata.dbpedia.org/resource/Q34> <http://dbpedia.org/ontology/isoCode> ".se1".
+<http://wikidata.dbpedia.org/resource/Q352> <http://xmlns.com/foaf/0.1/name> "Adolf Hitler"@cy .
+<http://wikidata.dbpedia.org/resource/Q35> <http://dbpedia.org/ontology/currencyCode> "Krone Danaidd".
+<http://wikidata.dbpedia.org/resource/Q35> <http://dbpedia.org/ontology/isoCode> ".dk3".
+<http://wikidata.dbpedia.org/resource/Q36> <http://dbpedia.org/ontology/currencyCode> "Złoty".
+<http://wikidata.dbpedia.org/resource/Q36> <http://dbpedia.org/ontology/isoCode> ".pl".
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/currencyCode> "Ewro(€)".
+<http://wikidata.dbpedia.org/resource/Q37> <http://dbpedia.org/ontology/isoCode> ".lt".
+<http://wikidata.dbpedia.org/resource/Q384> <http://xmlns.com/foaf/0.1/name> "Skopje"@cy .
+<http://wikidata.dbpedia.org/resource/Q38> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 2".
+<http://wikidata.dbpedia.org/resource/Q38> <http://dbpedia.org/ontology/isoCode> ".it".
+<http://wikidata.dbpedia.org/resource/Q393> <http://xmlns.com/foaf/0.1/name> "Szczecin"@cy .
+<http://wikidata.dbpedia.org/resource/Q398> <http://dbpedia.org/ontology/currencyCode> "Dinar Bahrein".
+<http://wikidata.dbpedia.org/resource/Q398> <http://dbpedia.org/ontology/isoCode> ".bh".
+<http://wikidata.dbpedia.org/resource/Q399> <http://dbpedia.org/ontology/currencyCode> "Dram".
+<http://wikidata.dbpedia.org/resource/Q399> <http://dbpedia.org/ontology/isoCode> ".am".
+<http://wikidata.dbpedia.org/resource/Q39> <http://dbpedia.org/ontology/currencyCode> "Ffranc Swisaidd".
+<http://wikidata.dbpedia.org/resource/Q39> <http://dbpedia.org/ontology/isoCode> ".ch".
+<http://wikidata.dbpedia.org/resource/Q403> <http://dbpedia.org/ontology/currencyCode> "Dinar Serbia3".
+<http://wikidata.dbpedia.org/resource/Q403> <http://dbpedia.org/ontology/isoCode> ".rs".
+<http://wikidata.dbpedia.org/resource/Q408> <http://dbpedia.org/ontology/currencyCode> "Doler Awstralaidd".
+<http://wikidata.dbpedia.org/resource/Q408> <http://dbpedia.org/ontology/isoCode> ".au".
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 1".
+<http://wikidata.dbpedia.org/resource/Q40> <http://dbpedia.org/ontology/isoCode> ".at".
+<http://wikidata.dbpedia.org/resource/Q414> <http://dbpedia.org/ontology/currencyCode> "Peso".
+<http://wikidata.dbpedia.org/resource/Q414> <http://dbpedia.org/ontology/isoCode> ".ar".
+<http://wikidata.dbpedia.org/resource/Q419> <http://dbpedia.org/ontology/currencyCode> "Nuevo Sol".
+<http://wikidata.dbpedia.org/resource/Q419> <http://dbpedia.org/ontology/isoCode> ".pe".
+<http://wikidata.dbpedia.org/resource/Q41> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 1".
+<http://wikidata.dbpedia.org/resource/Q41> <http://dbpedia.org/ontology/isoCode> ".GR1".
+<http://wikidata.dbpedia.org/resource/Q423> <http://dbpedia.org/ontology/currencyCode> "Wŏn(₩)".
+<http://wikidata.dbpedia.org/resource/Q423> <http://dbpedia.org/ontology/isoCode> "dim (cedwir.kp)".
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/currencyCode> "Riel1".
+<http://wikidata.dbpedia.org/resource/Q424> <http://dbpedia.org/ontology/isoCode> ".kh".
+<http://wikidata.dbpedia.org/resource/Q437> <http://xmlns.com/foaf/0.1/name> "Ljubjana"@cy .
+<http://wikidata.dbpedia.org/resource/Q43> <http://dbpedia.org/ontology/currencyCode> "Lira Twrcaidd Newydd(€) 1".
+<http://wikidata.dbpedia.org/resource/Q43> <http://dbpedia.org/ontology/isoCode> ".tr".
+<http://wikidata.dbpedia.org/resource/Q45> <http://dbpedia.org/ontology/currencyCode> "Euro(€) 2".
+<http://wikidata.dbpedia.org/resource/Q45> <http://dbpedia.org/ontology/isoCode> ".pt".
+<http://wikidata.dbpedia.org/resource/Q472> <http://xmlns.com/foaf/0.1/name> "Sofia"@cy .
+<http://wikidata.dbpedia.org/resource/Q55> <http://dbpedia.org/ontology/currencyCode> "Ewro3".
+<http://wikidata.dbpedia.org/resource/Q55> <http://dbpedia.org/ontology/isoCode> ".nl4".
+<http://wikidata.dbpedia.org/resource/Q567> <http://xmlns.com/foaf/0.1/name> "Dr. Angela Dorothea Merkel"@cy .
+<http://wikidata.dbpedia.org/resource/Q574> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiau2".
+<http://wikidata.dbpedia.org/resource/Q574> <http://dbpedia.org/ontology/isoCode> ".tl".
+<http://wikidata.dbpedia.org/resource/Q585> <http://xmlns.com/foaf/0.1/name> "Oslo"@cy .
+<http://wikidata.dbpedia.org/resource/Q597> <http://xmlns.com/foaf/0.1/name> "Lisbon"@cy .
+<http://wikidata.dbpedia.org/resource/Q60> <http://xmlns.com/foaf/0.1/name> "Dinas Efrog Newydd"@cy .
+<http://wikidata.dbpedia.org/resource/Q612> <http://xmlns.com/foaf/0.1/name> "Dubai"@cy .
+<http://wikidata.dbpedia.org/resource/Q61> <http://xmlns.com/foaf/0.1/name> "Washington, D.C."@cy .
+<http://wikidata.dbpedia.org/resource/Q62> <http://xmlns.com/foaf/0.1/name> "San Francisco"@cy .
+<http://wikidata.dbpedia.org/resource/Q649> <http://xmlns.com/foaf/0.1/name> "Moscfa"@cy .
+<http://wikidata.dbpedia.org/resource/Q64> <http://xmlns.com/foaf/0.1/name> "Berlin"@cy .
+<http://wikidata.dbpedia.org/resource/Q656> <http://xmlns.com/foaf/0.1/name> "St Petersburg"@cy .
+<http://wikidata.dbpedia.org/resource/Q657> <http://dbpedia.org/ontology/currencyCode> "Affrica Canolig CFA franc".
+<http://wikidata.dbpedia.org/resource/Q657> <http://dbpedia.org/ontology/isoCode> ".td".
+<http://wikidata.dbpedia.org/resource/Q65> <http://xmlns.com/foaf/0.1/name> "Los Angeles"@cy .
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/currencyCode> "Doler Seland Newydd".
+<http://wikidata.dbpedia.org/resource/Q664> <http://dbpedia.org/ontology/isoCode> ".nz".
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/currencyCode> "Rupee".
+<http://wikidata.dbpedia.org/resource/Q668> <http://dbpedia.org/ontology/isoCode> ".in".
+<http://wikidata.dbpedia.org/resource/Q672> <http://dbpedia.org/ontology/currencyCode> "Doler Awstralia".
+<http://wikidata.dbpedia.org/resource/Q672> <http://dbpedia.org/ontology/currencyCode> "Doler Twfalw".
+<http://wikidata.dbpedia.org/resource/Q672> <http://dbpedia.org/ontology/isoCode> ".tv".
+<http://wikidata.dbpedia.org/resource/Q678> <http://dbpedia.org/ontology/currencyCode> "Pa'anga".
+<http://wikidata.dbpedia.org/resource/Q678> <http://dbpedia.org/ontology/isoCode> ".to".
+<http://wikidata.dbpedia.org/resource/Q683> <http://dbpedia.org/ontology/currencyCode> "Tala".
+<http://wikidata.dbpedia.org/resource/Q683> <http://dbpedia.org/ontology/isoCode> ".ws".
+<http://wikidata.dbpedia.org/resource/Q685> <http://dbpedia.org/ontology/currencyCode> "Doler Ynysoedd Solomon".
+<http://wikidata.dbpedia.org/resource/Q685> <http://dbpedia.org/ontology/isoCode> ".sb".
+<http://wikidata.dbpedia.org/resource/Q686> <http://dbpedia.org/ontology/currencyCode> "Vatu".
+<http://wikidata.dbpedia.org/resource/Q686> <http://dbpedia.org/ontology/isoCode> ".vu".
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/currencyCode> "Kina".
+<http://wikidata.dbpedia.org/resource/Q691> <http://dbpedia.org/ontology/isoCode> ".pg".
+<http://wikidata.dbpedia.org/resource/Q695> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiau".
+<http://wikidata.dbpedia.org/resource/Q695> <http://dbpedia.org/ontology/isoCode> ".pw".
+<http://wikidata.dbpedia.org/resource/Q697> <http://dbpedia.org/ontology/currencyCode> "Doler Awstralia".
+<http://wikidata.dbpedia.org/resource/Q697> <http://dbpedia.org/ontology/isoCode> ".nr".
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/currencyCode> "Doler yr UD".
+<http://wikidata.dbpedia.org/resource/Q702> <http://dbpedia.org/ontology/isoCode> ".fm".
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiau".
+<http://wikidata.dbpedia.org/resource/Q709> <http://dbpedia.org/ontology/isoCode> ".mh".
+<http://wikidata.dbpedia.org/resource/Q70> <http://xmlns.com/foaf/0.1/name> "Bern"@cy .
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/currencyCode> "Doler Awstralia".
+<http://wikidata.dbpedia.org/resource/Q710> <http://dbpedia.org/ontology/isoCode> ".ki".
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/currencyCode> "Tugrug".
+<http://wikidata.dbpedia.org/resource/Q711> <http://dbpedia.org/ontology/isoCode> ".mn".
+<http://wikidata.dbpedia.org/resource/Q712> <http://dbpedia.org/ontology/currencyCode> "Doler Ffiji".
+<http://wikidata.dbpedia.org/resource/Q712> <http://dbpedia.org/ontology/isoCode> ".fj".
+<http://wikidata.dbpedia.org/resource/Q717> <http://dbpedia.org/ontology/currencyCode> "Bolívar Feneswela".
+<http://wikidata.dbpedia.org/resource/Q717> <http://dbpedia.org/ontology/isoCode> ".ve".
+<http://wikidata.dbpedia.org/resource/Q727> <http://xmlns.com/foaf/0.1/name> "Amsterdam"@cy .
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/currencyCode> "Doler Swriname".
+<http://wikidata.dbpedia.org/resource/Q730> <http://dbpedia.org/ontology/isoCode> ".sr".
+<http://wikidata.dbpedia.org/resource/Q733> <http://dbpedia.org/ontology/currencyCode> "Guaraní".
+<http://wikidata.dbpedia.org/resource/Q733> <http://dbpedia.org/ontology/isoCode> ".py".
+<http://wikidata.dbpedia.org/resource/Q734> <http://dbpedia.org/ontology/currencyCode> "Doler Gaiana".
+<http://wikidata.dbpedia.org/resource/Q734> <http://dbpedia.org/ontology/isoCode> ".gy".
+<http://wikidata.dbpedia.org/resource/Q736> <http://dbpedia.org/ontology/currencyCode> "Doler".
+<http://wikidata.dbpedia.org/resource/Q736> <http://dbpedia.org/ontology/isoCode> ".ec".
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/currencyCode> "Peso".
+<http://wikidata.dbpedia.org/resource/Q739> <http://dbpedia.org/ontology/isoCode> ".co".
+<http://wikidata.dbpedia.org/resource/Q750> <http://dbpedia.org/ontology/currencyCode> "Boliviano".
+<http://wikidata.dbpedia.org/resource/Q750> <http://dbpedia.org/ontology/isoCode> ".bo".
+<http://wikidata.dbpedia.org/resource/Q754> <http://dbpedia.org/ontology/currencyCode> "Doler Trinidad a Thobago".
+<http://wikidata.dbpedia.org/resource/Q754> <http://dbpedia.org/ontology/isoCode> ".tt".
+<http://wikidata.dbpedia.org/resource/Q757> <http://dbpedia.org/ontology/currencyCode> "Doler Dwyrain y Caribî".
+<http://wikidata.dbpedia.org/resource/Q757> <http://dbpedia.org/ontology/isoCode> ".vc".
+<http://wikidata.dbpedia.org/resource/Q760> <http://dbpedia.org/ontology/currencyCode> "Doler Dwyrain y Caribî".
+<http://wikidata.dbpedia.org/resource/Q760> <http://dbpedia.org/ontology/isoCode> ".lc".
+<http://wikidata.dbpedia.org/resource/Q763> <http://dbpedia.org/ontology/currencyCode> "Doler Dwyrain y Caribî".
+<http://wikidata.dbpedia.org/resource/Q763> <http://dbpedia.org/ontology/isoCode> ".kn".
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/currencyCode> "Doler Jamaica".
+<http://wikidata.dbpedia.org/resource/Q766> <http://dbpedia.org/ontology/isoCode> ".jm".
+<http://wikidata.dbpedia.org/resource/Q769> <http://dbpedia.org/ontology/currencyCode> "Doler Dwyrain y Caribî".
+<http://wikidata.dbpedia.org/resource/Q769> <http://dbpedia.org/ontology/isoCode> ".gd".
+<http://wikidata.dbpedia.org/resource/Q76> <http://xmlns.com/foaf/0.1/name> "Barack Hussein Obama II"@cy .
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/currencyCode> "Quetzal Guatamala".
+<http://wikidata.dbpedia.org/resource/Q774> <http://dbpedia.org/ontology/isoCode> ".gt".
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/currencyCode> "DolerBSD".
+<http://wikidata.dbpedia.org/resource/Q778> <http://dbpedia.org/ontology/isoCode> ".bs".
+<http://wikidata.dbpedia.org/resource/Q77> <http://dbpedia.org/ontology/currencyCode> "Peso Wrwgwái".
+<http://wikidata.dbpedia.org/resource/Q77> <http://dbpedia.org/ontology/isoCode> ".uy".
+<http://wikidata.dbpedia.org/resource/Q781> <http://dbpedia.org/ontology/currencyCode> "Doler Dwyrain y Caribî".
+<http://wikidata.dbpedia.org/resource/Q781> <http://dbpedia.org/ontology/isoCode> ".ag".
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/currencyCode> "Lempira".
+<http://wikidata.dbpedia.org/resource/Q783> <http://dbpedia.org/ontology/isoCode> ".hn".
+<http://wikidata.dbpedia.org/resource/Q784> <http://dbpedia.org/ontology/currencyCode> "Doler Dwyrain y Caribî".
+<http://wikidata.dbpedia.org/resource/Q784> <http://dbpedia.org/ontology/isoCode> ".dm".
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/currencyCode> "Punt sterling3".
+<http://wikidata.dbpedia.org/resource/Q785> <http://dbpedia.org/ontology/isoCode> ".je".
+<http://wikidata.dbpedia.org/resource/Q786> <http://dbpedia.org/ontology/currencyCode> "Peso".
+<http://wikidata.dbpedia.org/resource/Q786> <http://dbpedia.org/ontology/isoCode> ".do".
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/currencyCode> "Gourde".
+<http://wikidata.dbpedia.org/resource/Q790> <http://dbpedia.org/ontology/isoCode> ".ht".
+<http://wikidata.dbpedia.org/resource/Q792> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiau".
+<http://wikidata.dbpedia.org/resource/Q792> <http://dbpedia.org/ontology/isoCode> ".sv".
+<http://wikidata.dbpedia.org/resource/Q794> <http://dbpedia.org/ontology/currencyCode> "Rial(ريال)".
+<http://wikidata.dbpedia.org/resource/Q794> <http://dbpedia.org/ontology/isoCode> ".ir".
+<http://wikidata.dbpedia.org/resource/Q796> <http://dbpedia.org/ontology/currencyCode> "Dinar Iracaidd".
+<http://wikidata.dbpedia.org/resource/Q796> <http://dbpedia.org/ontology/isoCode> ".iq".
+<http://wikidata.dbpedia.org/resource/Q79> <http://dbpedia.org/ontology/currencyCode> "Punt Eifftaidd(LE)".
+<http://wikidata.dbpedia.org/resource/Q79> <http://dbpedia.org/ontology/isoCode> ".eg".
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/currencyCode> "Colón".
+<http://wikidata.dbpedia.org/resource/Q800> <http://dbpedia.org/ontology/isoCode> ".cr".
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/currencyCode> "Sheqel Israelaidd newydd(₪)".
+<http://wikidata.dbpedia.org/resource/Q801> <http://dbpedia.org/ontology/isoCode> ".il".
+<http://wikidata.dbpedia.org/resource/Q804> <http://dbpedia.org/ontology/currencyCode> "Balboa".
+<http://wikidata.dbpedia.org/resource/Q804> <http://dbpedia.org/ontology/isoCode> ".pa".
+<http://wikidata.dbpedia.org/resource/Q805> <http://dbpedia.org/ontology/currencyCode> "Rial Iemen".
+<http://wikidata.dbpedia.org/resource/Q805> <http://dbpedia.org/ontology/isoCode> ".ye".
+<http://wikidata.dbpedia.org/resource/Q810> <http://dbpedia.org/ontology/currencyCode> "Dinar Gwlad Iorddonen".
+<http://wikidata.dbpedia.org/resource/Q810> <http://dbpedia.org/ontology/isoCode> ".jo".
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/currencyCode> "Córdoba".
+<http://wikidata.dbpedia.org/resource/Q811> <http://dbpedia.org/ontology/isoCode> ".ni".
+<http://wikidata.dbpedia.org/resource/Q813> <http://dbpedia.org/ontology/currencyCode> "Som".
+<http://wikidata.dbpedia.org/resource/Q813> <http://dbpedia.org/ontology/isoCode> ".kg".
+<http://wikidata.dbpedia.org/resource/Q817> <http://dbpedia.org/ontology/currencyCode> "Dinas Ciwait".
+<http://wikidata.dbpedia.org/resource/Q817> <http://dbpedia.org/ontology/isoCode> ".kw".
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/currencyCode> "Kip".
+<http://wikidata.dbpedia.org/resource/Q819> <http://dbpedia.org/ontology/isoCode> ".la".
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/currencyCode> "Punt Libanus(LL)".
+<http://wikidata.dbpedia.org/resource/Q822> <http://dbpedia.org/ontology/isoCode> ".lb".
+<http://wikidata.dbpedia.org/resource/Q826> <http://dbpedia.org/ontology/currencyCode> "Rufiyaa".
+<http://wikidata.dbpedia.org/resource/Q826> <http://dbpedia.org/ontology/isoCode> ".mv".
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/currencyCode> "Ringgit(RM)".
+<http://wikidata.dbpedia.org/resource/Q833> <http://dbpedia.org/ontology/isoCode> ".my".
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/currencyCode> "Kyat(K)".
+<http://wikidata.dbpedia.org/resource/Q836> <http://dbpedia.org/ontology/isoCode> ".mm".
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/currencyCode> "Rwpî".
+<http://wikidata.dbpedia.org/resource/Q837> <http://dbpedia.org/ontology/isoCode> ".np".
+<http://wikidata.dbpedia.org/resource/Q842> <http://dbpedia.org/ontology/currencyCode> "Rail Oman".
+<http://wikidata.dbpedia.org/resource/Q842> <http://dbpedia.org/ontology/isoCode> ".om".
+<http://wikidata.dbpedia.org/resource/Q843> <http://dbpedia.org/ontology/currencyCode> "Rupee".
+<http://wikidata.dbpedia.org/resource/Q843> <http://dbpedia.org/ontology/isoCode> ".pk".
+<http://wikidata.dbpedia.org/resource/Q846> <http://dbpedia.org/ontology/currencyCode> "Riyal".
+<http://wikidata.dbpedia.org/resource/Q846> <http://dbpedia.org/ontology/isoCode> ".qa".
+<http://wikidata.dbpedia.org/resource/Q84> <http://xmlns.com/foaf/0.1/name> "Llundain"@cy .
+<http://wikidata.dbpedia.org/resource/Q854> <http://dbpedia.org/ontology/currencyCode> "Rwpî Sri Lanca".
+<http://wikidata.dbpedia.org/resource/Q854> <http://dbpedia.org/ontology/isoCode> ".lk".
+<http://wikidata.dbpedia.org/resource/Q858> <http://dbpedia.org/ontology/currencyCode> "Punt Syriaidd".
+<http://wikidata.dbpedia.org/resource/Q858> <http://dbpedia.org/ontology/isoCode> ".sy".
+<http://wikidata.dbpedia.org/resource/Q863> <http://dbpedia.org/ontology/currencyCode> "Somoni".
+<http://wikidata.dbpedia.org/resource/Q863> <http://dbpedia.org/ontology/isoCode> ".tj".
+<http://wikidata.dbpedia.org/resource/Q869> <http://dbpedia.org/ontology/currencyCode> "฿Baht".
+<http://wikidata.dbpedia.org/resource/Q869> <http://dbpedia.org/ontology/isoCode> ".th".
+<http://wikidata.dbpedia.org/resource/Q873> <http://xmlns.com/foaf/0.1/name> "Meryl Streep"@cy .
+<http://wikidata.dbpedia.org/resource/Q874> <http://dbpedia.org/ontology/currencyCode> "Manat Tyrccmenistan".
+<http://wikidata.dbpedia.org/resource/Q874> <http://dbpedia.org/ontology/isoCode> ".tm".
+<http://wikidata.dbpedia.org/resource/Q878> <http://dbpedia.org/ontology/currencyCode> "Dirham".
+<http://wikidata.dbpedia.org/resource/Q878> <http://dbpedia.org/ontology/isoCode> ".ae".
+<http://wikidata.dbpedia.org/resource/Q881> <http://dbpedia.org/ontology/currencyCode> "đồng".
+<http://wikidata.dbpedia.org/resource/Q881> <http://dbpedia.org/ontology/isoCode> ".vn".
+<http://wikidata.dbpedia.org/resource/Q884> <http://dbpedia.org/ontology/currencyCode> "Won".
+<http://wikidata.dbpedia.org/resource/Q884> <http://dbpedia.org/ontology/isoCode> ".kr".
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/currencyCode> "Afghani (Af)".
+<http://wikidata.dbpedia.org/resource/Q889> <http://dbpedia.org/ontology/isoCode> ".af".
+<http://wikidata.dbpedia.org/resource/Q88> <http://xmlns.com/foaf/0.1/name> "Alexandria"@cy .
+<http://wikidata.dbpedia.org/resource/Q891> <http://xmlns.com/foaf/0.1/name> "Nizhniy Novgorod"@cy .
+<http://wikidata.dbpedia.org/resource/Q902> <http://dbpedia.org/ontology/currencyCode> "Taka".
+<http://wikidata.dbpedia.org/resource/Q902> <http://dbpedia.org/ontology/isoCode> ".bd".
+<http://wikidata.dbpedia.org/resource/Q90> <http://xmlns.com/foaf/0.1/name> "Paris"@cy .
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q912> <http://dbpedia.org/ontology/isoCode> ".ml".
+<http://wikidata.dbpedia.org/resource/Q916> <http://dbpedia.org/ontology/currencyCode> "Kwanza".
+<http://wikidata.dbpedia.org/resource/Q916> <http://dbpedia.org/ontology/isoCode> ".ao".
+<http://wikidata.dbpedia.org/resource/Q917> <http://dbpedia.org/ontology/currencyCode> "ngultrum".
+<http://wikidata.dbpedia.org/resource/Q917> <http://dbpedia.org/ontology/isoCode> ".BT".
+<http://wikidata.dbpedia.org/resource/Q91> <http://xmlns.com/foaf/0.1/name> "Yr Arlywydd Abraham Lincoln"@cy .
+<http://wikidata.dbpedia.org/resource/Q921> <http://dbpedia.org/ontology/currencyCode> "Ringgit Brwnei".
+<http://wikidata.dbpedia.org/resource/Q921> <http://dbpedia.org/ontology/isoCode> ".bn".
+<http://wikidata.dbpedia.org/resource/Q924> <http://dbpedia.org/ontology/currencyCode> "Swllt Tansanïa".
+<http://wikidata.dbpedia.org/resource/Q924> <http://dbpedia.org/ontology/isoCode> ".tz".
+<http://wikidata.dbpedia.org/resource/Q928> <http://dbpedia.org/ontology/currencyCode> "Peso'r Philipinau".
+<http://wikidata.dbpedia.org/resource/Q928> <http://dbpedia.org/ontology/isoCode> ".ph".
+<http://wikidata.dbpedia.org/resource/Q929> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q929> <http://dbpedia.org/ontology/isoCode> ".cf".
+<http://wikidata.dbpedia.org/resource/Q935> <http://xmlns.com/foaf/0.1/name> "Syr Isaac Newton"@cy .
+<http://wikidata.dbpedia.org/resource/Q945> <http://dbpedia.org/ontology/currencyCode> "CFA franc".
+<http://wikidata.dbpedia.org/resource/Q945> <http://dbpedia.org/ontology/isoCode> ".tg".
+<http://wikidata.dbpedia.org/resource/Q948> <http://dbpedia.org/ontology/currencyCode> "Dinar Tiwnisaidd(TD)".
+<http://wikidata.dbpedia.org/resource/Q948> <http://dbpedia.org/ontology/isoCode> ".tn".
+<http://wikidata.dbpedia.org/resource/Q953> <http://dbpedia.org/ontology/currencyCode> "Kwacha Sambia".
+<http://wikidata.dbpedia.org/resource/Q953> <http://dbpedia.org/ontology/isoCode> ".zm".
+<http://wikidata.dbpedia.org/resource/Q954> <http://dbpedia.org/ontology/currencyCode> "Doler yr Unol Daleithiauac eraill1".
+<http://wikidata.dbpedia.org/resource/Q954> <http://dbpedia.org/ontology/isoCode> ".zw".
+<http://wikidata.dbpedia.org/resource/Q958> <http://dbpedia.org/ontology/currencyCode> "Punt De Swdan".
+<http://wikidata.dbpedia.org/resource/Q958> <http://dbpedia.org/ontology/isoCode> ".sd(.sswedi'i gynnig)".
+<http://wikidata.dbpedia.org/resource/Q962> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q962> <http://dbpedia.org/ontology/isoCode> ".bj".
+<http://wikidata.dbpedia.org/resource/Q963> <http://dbpedia.org/ontology/currencyCode> "Pula".
+<http://wikidata.dbpedia.org/resource/Q963> <http://dbpedia.org/ontology/isoCode> ".bw".
+<http://wikidata.dbpedia.org/resource/Q965> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q965> <http://dbpedia.org/ontology/isoCode> ".bf".
+<http://wikidata.dbpedia.org/resource/Q967> <http://dbpedia.org/ontology/currencyCode> "Ffranc Bwrwndi(FBu)".
+<http://wikidata.dbpedia.org/resource/Q967> <http://dbpedia.org/ontology/isoCode> ".bi".
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/currencyCode> "Peso".
+<http://wikidata.dbpedia.org/resource/Q96> <http://dbpedia.org/ontology/isoCode> ".mx".
+<http://wikidata.dbpedia.org/resource/Q970> <http://dbpedia.org/ontology/currencyCode> "Ffranc Comoraidd".
+<http://wikidata.dbpedia.org/resource/Q970> <http://dbpedia.org/ontology/isoCode> ".km".
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/currencyCode> "Affrica Canolig CFA franc".
+<http://wikidata.dbpedia.org/resource/Q971> <http://dbpedia.org/ontology/isoCode> ".cg".
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/currencyCode> "Ffranc Congolaidd".
+<http://wikidata.dbpedia.org/resource/Q974> <http://dbpedia.org/ontology/isoCode> ".cd".
+<http://wikidata.dbpedia.org/resource/Q975> <http://xmlns.com/foaf/0.1/name> "San Antonio"@cy .
+<http://wikidata.dbpedia.org/resource/Q977> <http://dbpedia.org/ontology/currencyCode> "Franc Jibwtiaidd".
+<http://wikidata.dbpedia.org/resource/Q977> <http://dbpedia.org/ontology/isoCode> ".dj".
+<http://wikidata.dbpedia.org/resource/Q983> <http://dbpedia.org/ontology/currencyCode> "Ffranc CFA".
+<http://wikidata.dbpedia.org/resource/Q983> <http://dbpedia.org/ontology/isoCode> ".gq".
+<http://wikidata.dbpedia.org/resource/Q986> <http://dbpedia.org/ontology/currencyCode> "Nakfa".
+<http://wikidata.dbpedia.org/resource/Q986> <http://dbpedia.org/ontology/isoCode> ".er".
+<http://wikidata.dbpedia.org/resource/Q987> <http://xmlns.com/foaf/0.1/name> "Delhi Newydd"@cy .

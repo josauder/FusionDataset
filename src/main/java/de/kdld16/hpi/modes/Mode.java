@@ -33,13 +33,13 @@ public class Mode extends AbstractMode {
                 counter.put(s,i+1);
             } else {
                 counter.put(s,1);
-                if (1>=mostCommonN) {
+                if (1>mostCommonN) {
                     mostCommonN++;
                     mostCommon=fact;
                 }
             }
         }
-        if (mostCommonN>1) {
+        if (countTriples>1) {
             logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property);
         }
 

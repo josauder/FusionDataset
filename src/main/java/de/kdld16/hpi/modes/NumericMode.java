@@ -56,7 +56,7 @@ public class NumericMode extends AbstractMode{
 
         FloatCountPair mostCommon= new FloatCountPair(RDFParseTools.parseDouble(datatype,firstValue));
         int mostCommonN=1;
-        int countTriples = 0;
+        int countTriples = 1;
         existingFloatValues.add(mostCommon);
         for (RDFFact fact : conflict) {
             String rdfObject = fact.getRdfObject();
@@ -65,12 +65,13 @@ public class NumericMode extends AbstractMode{
             double value = RDFParseTools.parseDouble(datatype,rdfObject);
             for (FloatCountPair pair : existingFloatValues) {
                 if (Math.abs(1-(pair.f/value))<tolerance) {
-                    if (pair.getCount()>=mostCommonN) {
+                    pair.increment();
+                    if (pair.getCount()>mostCommonN) {
                         mostCommon=pair;
                         mostCommonN=pair.getCount();
                         mostCommonFact=fact;
                     }
-                    pair.increment();
+
                     exists=true;
                     break;
                 }
@@ -79,8 +80,8 @@ public class NumericMode extends AbstractMode{
                 existingFloatValues.add(new FloatCountPair(value));
             }
         }
-        if (mostCommonN>1) {
-            logger.info("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+mostCommonFact.getRdfProperty());
+        if (countTriples>1) {
+            logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+mostCommonFact.getRdfProperty());
         }
         return new ModeResult(mostCommonFact,mostCommonN,countTriples);
     }
