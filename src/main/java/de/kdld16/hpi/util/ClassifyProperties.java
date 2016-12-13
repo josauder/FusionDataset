@@ -2,7 +2,6 @@ package de.kdld16.hpi.util;
 import de.kdld16.hpi.modes.AbstractMode;
 import de.kdld16.hpi.modes.Mode;
 import de.kdld16.hpi.modes.NumericMode;
-import de.kdld16.hpi.resolver.*;
 
 import java.util.HashMap;
 

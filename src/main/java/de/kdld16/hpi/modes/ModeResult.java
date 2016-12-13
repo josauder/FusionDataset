@@ -8,13 +8,13 @@ import de.kdld16.hpi.util.RDFFact;
 public class ModeResult {
 
     private RDFFact fact;
-    private int occurence;
+    private int occurrence;
     private int outOf;
     private float confidence;
 
     public ModeResult(RDFFact fact, int occurence, int outOf) {
         this.fact = fact;
-        this.occurence = occurence;
+        this.occurrence = occurence;
         this.outOf = outOf;
         this.confidence=occurence/(float)outOf;
     }
@@ -23,8 +23,8 @@ public class ModeResult {
         return fact;
     }
 
-    public int getOccurence() {
-        return occurence;
+    public int getOccurrence() {
+        return occurrence;
     }
 
     public int getOutOf() {
