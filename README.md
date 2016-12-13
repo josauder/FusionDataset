@@ -57,8 +57,11 @@ To be relevant, considering the vast amount of data in the DBpedia datasets and 
 There has been a previous effort by the DBpedia project to create a fusion dataset themselves⁴. However, it seems that this project is still in its initial phase and we can only build on the concepts mentioned.
 
 ¹downloads.dbpedia.org
+
 ²www.wikidata.org
+
 ³beam.incubator.apache.org
+
 ⁴github.com/nilesh-c/extraction-framework/blob/fuse/scripts/src/main/scala/org/dbpedia/extraction/scripts/FuseDatasets.scala
 
 
