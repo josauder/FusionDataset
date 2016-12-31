@@ -3,6 +3,7 @@ package de.kdld16.hpi;
 import de.kdld16.hpi.modes.AbstractMode;
 import de.kdld16.hpi.modes.ModeResult;
 import de.kdld16.hpi.util.ClassifyProperties;
+import de.kdld16.hpi.util.CountingHashMap;
 import de.kdld16.hpi.util.RDFFactCollection;
 import de.kdld16.hpi.util.RDFFact;
 import org.slf4j.Logger;
@@ -26,8 +27,8 @@ public class WikidataEntity {
 
     private RDFFactCollection acceptedFacts;
     private RDFFactCollection possibleConflicts;
-    private HashMap<String,Integer> languageFactCounter;
-    private HashMap<String,Integer> languageCorrectCounter;
+    private CountingHashMap languageFactCounter;
+    private CountingHashMap languageCorrectCounter;
     private ArrayList<String> mostCommonLanguages;
 
     private int n_mostCommonLanguage =0;
@@ -52,8 +53,8 @@ public class WikidataEntity {
         this.subject=subject;
         acceptedFacts = new RDFFactCollection();
         possibleConflicts = new RDFFactCollection();
-        languageFactCounter = new HashMap<>();
-        languageCorrectCounter = new HashMap<>();
+        languageFactCounter = new CountingHashMap();
+        languageCorrectCounter = new CountingHashMap();
         mostCommonLanguages = new ArrayList<>();
 
         while (iter.hasNext()) {
@@ -78,19 +79,19 @@ public class WikidataEntity {
             RDFFactCollection conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
             AbstractMode mode = getMode(f.getRdfProperty());
 
-            ModeResult result = mode.getMode(conflict);
+            ModeResult result = mode.getMostCommonItem(conflict);
 
             if (result.getConfidence()>minimumValueEquality) {
-                acceptAsTrueFact(result.getFact());
+                acceptAsTrueFact(result,f.getRdfProperty());
                 continue;
             }
 
             if (n_smallLanguages>0) {
                 RDFFactCollection conflictWithoutSmallLangs = conflict.newFilterOutLanguages(smallLanguages);
                 if (conflictWithoutSmallLangs.size()>0) {
-                    result = mode.getMode(conflictWithoutSmallLangs);
+                    result = mode.getMostCommonItem(conflictWithoutSmallLangs);
                     if (result.getConfidence()>minimumValueEquality) {
-                        acceptAsTrueFact(result.getFact());
+                        acceptAsTrueFact(result,f.getRdfProperty());
                         continue;
                     }
                     else {
@@ -98,23 +99,39 @@ public class WikidataEntity {
                     }
                 }
             }
-            acceptAsTrueFact(result.getFact());
+
+            acceptAsTrueFact(result,f.getRdfProperty());
 
       //  logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + f.getRdfProperty() + "\tresolving with: " + r.getClass().getSimpleName());
 
         }
     }
 
+    public void acceptAsTrueFact(ModeResult result, String rdfProperty) {
+
+        int max_lang_count=0;
+        String max_lang=null;
+        for (String lang : result.getLanguages()) {
+            int currentCount=languageCorrectCounter.putOrIncrement(lang);
+            if (currentCount>max_lang_count) {
+                max_lang_count=currentCount;
+                max_lang=lang;
+            }
+        }
+
+        RDFFact fact = new RDFFact(rdfProperty,result.getValue(),max_lang);
+        n_resolvedConflicts++;
+        possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
+        acceptedFacts.addFact(fact);
+    }
+
     public void acceptAsTrueFact(RDFFact fact) {
         n_resolvedConflicts++;
         possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
         acceptedFacts.addFact(fact);
-        String language = fact.getLanguage();
-        if (languageCorrectCounter.containsKey(language)) {
-            languageCorrectCounter.put(language,languageCorrectCounter.get(language)+1);
-        }
-        languageCorrectCounter.put(language,1);
 
+        String language = fact.getLanguage();
+        languageCorrectCounter.putOrIncrement(language);
 
     }
 

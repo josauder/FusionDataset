@@ -35,7 +35,9 @@ public class RDFFactCollection {
     public RDFFact getOne() {
         return this.facts.get(0);
     }
-
+    public HashSet<String> getLanguages() {
+        return languages;
+    }
     public ArrayList<RDFFact> asList() {
         return this.facts;
     }
@@ -118,6 +120,18 @@ public class RDFFactCollection {
         return new RDFFactCollection(out,outlangs);
     }
 
+    public RDFFactCollection newFilterByRdfObject(String rdfObject) {
+        ArrayList<RDFFact> out = new ArrayList<>();
+        HashSet<String> outlangs = new HashSet<>();
+        for (RDFFact fact: facts) {
+            if (fact.getRdfObject().equals(rdfObject)) {
+                out.add(fact);
+                outlangs.add(fact.getLanguage());
+            }
+        }
+        return new RDFFactCollection(out,outlangs);
+    }
+
     public void filterByRdfProperty(String property) {
         ArrayList<RDFFact> out = new ArrayList<>();
         HashSet<String> outlangs = new HashSet<>();
@@ -188,6 +202,18 @@ public class RDFFactCollection {
                 }
             }
             if (ok) {
+                out.add(fact);
+                outlangs.add(fact.getLanguage());
+            }
+        }
+        facts=out;
+    }
+
+    public void filterByRdfObject(String rdfObject) {
+        ArrayList<RDFFact> out = new ArrayList<>();
+        HashSet<String> outlangs = new HashSet<>();
+        for (RDFFact fact: facts) {
+            if (fact.getRdfObject().equals(rdfObject)) {
                 out.add(fact);
                 outlangs.add(fact.getLanguage());
             }

@@ -1,5 +1,6 @@
 package de.kdld16.hpi.modes;
 
+import de.kdld16.hpi.util.DBPediaHelper;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
 import de.kdld16.hpi.util.RDFParseTools;
@@ -8,86 +9,21 @@ import org.slf4j.LoggerFactory;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Created by jonathan on 09.12.16.
  */
-public class NumericMode extends AbstractMode{
-    /*
+public class NumericMode extends AbstractMode<Double>{
+    /**
         Counts most common element, returns it.
         Elements where the relative numeric value difference is smaller
         than ${resolver.FloatModeResolver.tolerance} as percentage are considered the same element
         Only one element in output.
-     */
+     **/
 
     // statically initialized to ${resolver.FloatModeResolver.tolerance}
     static double tolerance;
-
-
-    Logger logger = LoggerFactory.getLogger(this.getClass());
-    @Override
-    public ModeResult getMode(RDFFactCollection conflictCollection) {
-        ArrayList<RDFFact> conflict =conflictCollection.asList();
-
-        class FloatCountPair {
-            Double f;
-            int count =1;
-            public FloatCountPair(Double f) {
-                this.f=f;
-            }
-            public void increment() {
-                this.count++;
-            }
-            public int getCount() {
-                return count;
-            }
-        }
-
-
-        LinkedList<FloatCountPair> existingFloatValues = new LinkedList<>();
-        RDFFact mostCommonFact  = conflict.get(0);
-        String[] val = mostCommonFact.getRdfObject().replaceAll("\"","").split("\\^\\^",2);
-        String firstValue= val[0];
-        String datatype = val[1];
-        conflict.remove(0);
-
-
-        FloatCountPair mostCommon= new FloatCountPair(RDFParseTools.parseDouble(datatype,firstValue));
-        int mostCommonN=1;
-        int countTriples = 1;
-        existingFloatValues.add(mostCommon);
-        for (RDFFact fact : conflict) {
-            String rdfObject = fact.getRdfObject();
-            countTriples++;
-            boolean exists = false;
-            double value = RDFParseTools.parseDouble(datatype,rdfObject);
-            for (FloatCountPair pair : existingFloatValues) {
-                if (Math.abs(1-(pair.f/value))<tolerance) {
-                    pair.increment();
-                    if (pair.getCount()>mostCommonN) {
-                        mostCommon=pair;
-                        mostCommonN=pair.getCount();
-                        mostCommonFact=fact;
-                    }
-
-                    exists=true;
-                    break;
-                }
-            }
-            if (!exists) {
-                existingFloatValues.add(new FloatCountPair(value));
-            }
-        }
-        if (countTriples>1) {
-            logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+mostCommonFact.getRdfProperty());
-        }
-        return new ModeResult(mostCommonFact,mostCommonN,countTriples);
-    }
-
     static Properties properties;
     static {
         properties = new Properties();
@@ -98,4 +34,38 @@ public class NumericMode extends AbstractMode{
             e.printStackTrace();
         }
     }
+
+
+    private String rdfDatatype=null;
+
+    @Override
+    public boolean sameValue(Double a, Double b) {
+        return (Math.abs(1 - (a / b)) < tolerance);
+    }
+
+    @Override
+    public Double interpretValue(String val) {
+        if (rdfDatatype==null) {
+            rdfDatatype = val.split("\\^\\^",2)[1];
+        }
+        return RDFParseTools.parseDouble(rdfDatatype,val);
+    }
+
+    @Override
+    public String representValue(Double val) {
+        return val + "^^"+rdfDatatype;
+    }
+
+
+    @Override
+    public Double getKey(Double in) {
+        for (Map.Entry<Double,ArrayList<String>> e : map.entrySet()) {
+            if (sameValue(in,e.getKey())) {
+                return e.getKey();
+            }
+        }
+        map.put(in, new ArrayList<>());
+        return in;
+    }
+
 }

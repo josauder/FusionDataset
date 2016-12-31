@@ -5,49 +5,36 @@ import de.kdld16.hpi.util.RDFFactCollection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
+import java.util.*;
 
 /**
  * Created by jonathan on 08.12.16.
  */
-public class Mode extends AbstractMode {
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+public class Mode extends AbstractMode<String> {
+
+
 
     @Override
-    public ModeResult getMode(RDFFactCollection conflictCollection) {
-        ArrayList<RDFFact> conflict =conflictCollection.asList();
-
-        HashMap<String,Integer> counter= new HashMap<>();
-        String property = conflict.get(0).getRdfProperty();
-        RDFFact mostCommon=null;
-        int mostCommonN=0;
-        int countTriples = 0;
-        for (RDFFact fact: conflict) {
-            String s = fact.getRdfObject();
-            countTriples++;
-            if (counter.containsKey(s)) {
-                int i = counter.get(s);
-                if (i>=mostCommonN) {
-                    mostCommonN++;
-                    mostCommon=fact;
-                }
-                counter.put(s,i+1);
-            } else {
-                counter.put(s,1);
-                if (1>mostCommonN) {
-                    mostCommonN++;
-                    mostCommon=fact;
-                }
-            }
-        }
-        if (countTriples>1) {
-            logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property);
-        }
-
-        return new ModeResult(mostCommon,mostCommonN,countTriples);
-
-
+    public String representValue(String val) {
+       return val;
     }
+
+    @Override
+    public String getKey(String k) {
+        if (!map.containsKey(k)) {
+            map.put(k, new ArrayList<>());
+        }
+        return k;
+    }
+
+    @Override
+    public String interpretValue(String val) {
+        return val;
+    }
+
+    @Override
+    public boolean sameValue(String a, String  b) {
+        return a.equals(b);
+    }
+       //     logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property)
 }

@@ -1,5 +1,7 @@
 package de.kdld16.hpi.util;
 
+import org.apache.jena.vocabulary.RDF;
+
 import java.io.Serializable;
 
 /**
@@ -30,6 +32,11 @@ public class RDFFact implements Serializable, Comparable<RDFFact>{
         language=arr[0];
         rdfProperty=arr[1];
         rdfObject=arr[2];
+    }
+    public RDFFact(String rdfProperty, String rdfObject, String language) {
+        this.language=language;
+        this.rdfObject=rdfObject;
+        this.rdfProperty=rdfProperty;
     }
 
     public int compareTo(RDFFact other) {
