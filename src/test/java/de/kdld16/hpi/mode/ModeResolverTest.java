@@ -2,7 +2,7 @@ package de.kdld16.hpi.mode;
 
 import de.kdld16.hpi.modes.AbstractMode;
 import de.kdld16.hpi.modes.Mode;
-import de.kdld16.hpi.modes.ModeResult;
+import de.kdld16.hpi.modes.ResolveResult;
 import de.kdld16.hpi.modes.NumericMode;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
@@ -25,7 +25,7 @@ public class ModeResolverTest {
 
     public void testModeGeneric(String[] valA, String[] valB,AbstractMode mr)  {
         RDFFactCollection in = new RDFFactCollection();
-        ModeResult out;
+        ResolveResult out;
         int a=0;
         int b=0;
 

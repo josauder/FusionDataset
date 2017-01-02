@@ -39,11 +39,6 @@ public class NumericMode extends AbstractMode<Double>{
     private String rdfDatatype=null;
 
     @Override
-    public boolean sameValue(Double a, Double b) {
-        return (Math.abs(1 - (a / b)) < tolerance);
-    }
-
-    @Override
     public Double interpretValue(String val) {
         if (rdfDatatype==null) {
             rdfDatatype = val.split("\\^\\^",2)[1];
@@ -60,7 +55,7 @@ public class NumericMode extends AbstractMode<Double>{
     @Override
     public Double getKey(Double in) {
         for (Map.Entry<Double,ArrayList<String>> e : map.entrySet()) {
-            if (sameValue(in,e.getKey())) {
+            if ((Math.abs(1 - (e.getKey() / in)) < tolerance)) {
                 return e.getKey();
             }
         }

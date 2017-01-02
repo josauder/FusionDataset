@@ -1,11 +1,8 @@
 package de.kdld16.hpi;
 
 import de.kdld16.hpi.modes.AbstractMode;
-import de.kdld16.hpi.modes.ModeResult;
-import de.kdld16.hpi.util.ClassifyProperties;
-import de.kdld16.hpi.util.CountingHashMap;
-import de.kdld16.hpi.util.RDFFactCollection;
-import de.kdld16.hpi.util.RDFFact;
+import de.kdld16.hpi.modes.ResolveResult;
+import de.kdld16.hpi.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -73,13 +70,15 @@ public class WikidataEntity {
     }
 
     public void resolveConflicts()  {
+        RDFFactCollection conflict= possibleConflicts.newFilterByRdfProperty("<rdf:type>");
+        acceptAsTrueFact(RDFTypeTree.resolveTypeConflict(conflict),"<rdf:type>");
         while (possibleConflicts.size() > 0) {
         //Calculate Mode Object for each fact
             RDFFact f = possibleConflicts.getOne();
-            RDFFactCollection conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
+            conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
             AbstractMode mode = getMode(f.getRdfProperty());
 
-            ModeResult result = mode.getMostCommonItem(conflict);
+            ResolveResult result = mode.getMostCommonItem(conflict);
 
             if (result.getConfidence()>minimumValueEquality) {
                 acceptAsTrueFact(result,f.getRdfProperty());
@@ -107,7 +106,7 @@ public class WikidataEntity {
         }
     }
 
-    public void acceptAsTrueFact(ModeResult result, String rdfProperty) {
+    public void acceptAsTrueFact(ResolveResult result, String rdfProperty) {
 
         int max_lang_count=0;
         String max_lang=null;

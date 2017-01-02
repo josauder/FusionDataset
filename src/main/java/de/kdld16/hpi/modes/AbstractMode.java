@@ -15,7 +15,11 @@ public abstract class AbstractMode<T> {
 
     HashMap<T,ArrayList<String>> map;
 
-    public ModeResult getMaximumCount() {
+    /**
+     * Finds the Hashmap-key (which is an RDF Value) which is most common by comparing language-list size
+     * @return ResolveResult containing value that was contained in the most languages (mode)
+     */
+    public ResolveResult getMaximumCount() {
         int n=0;
         Map.Entry<T,ArrayList<String>> max=null;
         int size;
@@ -27,14 +31,25 @@ public abstract class AbstractMode<T> {
             }
             total+=size;
         }
-        return new ModeResult(representValue(max.getKey()), max.getValue(),max.getValue().size(),total);
+        return new ResolveResult(representValue(max.getKey()), max.getValue(),max.getValue().size(),total);
     }
 
+    /**
+     * Used in inheritance, when attaching datatype.
+     * E.g. 123231 -> "123231^^<xsd:double>"
+     * @param val
+     * @return representable String of value
+     */
     public String representValue(T val) {
         return null;
     }
 
-    public ModeResult getMostCommonItem(RDFFactCollection conflict) {
+    /**
+     * "main" function of Mode which accepts collection that contains conflict, and returns most common value
+     * @param conflict
+     * @return ResolveResult containing most common value
+     */
+    public ResolveResult getMostCommonItem(RDFFactCollection conflict) {
         map = new HashMap<>();
         for (RDFFact fact: conflict.asList()) {
             T key = getKey(interpretValue(fact.getRdfObject()));
@@ -43,16 +58,22 @@ public abstract class AbstractMode<T> {
         return getMaximumCount();
     }
 
+    /**
+     * Used for parsing literals with their appropriate datatype
+     * @param rdfObject
+     * @return interpreted value
+     */
     public T interpretValue(String rdfObject) {
         return null;
     }
 
+    /**
+     * Used for finding key with same value (low distance)
+     * @param in
+     * @return key where key equals in in terms of defined distance
+     */
     public T getKey(T in) {
         return in;
-    }
-
-    public boolean sameValue(T a, T b) {
-        return a==b;
     }
 
 }

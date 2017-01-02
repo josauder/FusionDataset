@@ -9,7 +9,7 @@ import java.util.HashSet;
 /**
  * Created by jonathan on 08.12.16.
  */
-public class ModeResult {
+public class ResolveResult {
 
     private String value;
     private int occurrence;
@@ -17,7 +17,7 @@ public class ModeResult {
     private float confidence;
     private Collection<String> languages;
 
-    public ModeResult(String value, Collection<String> languages, int occurence, int outOf) {
+    public ResolveResult(String value, Collection<String> languages, int occurence, int outOf) {
         this.value = value;
         this.occurrence = occurence;
         this.outOf = outOf;
