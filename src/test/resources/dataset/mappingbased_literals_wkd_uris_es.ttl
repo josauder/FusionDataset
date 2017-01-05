@@ -4256,7 +4256,7 @@
 <http://wikidata.dbpedia.org/resource/Q858> <http://xmlns.com/foaf/0.1/name> "Al-Ŷumhūriyya Al-`Arabiyya As-Sūriyya"@es .
 <http://wikidata.dbpedia.org/resource/Q858> <http://xmlns.com/foaf/0.1/name> "República Árabe Siria"@es .
 <http://wikidata.dbpedia.org/resource/Q858> <http://xmlns.com/foaf/0.1/name> "الجمهورية العربية السورية"@es .
-<http://wikidata.dbpedia.org/resource/Q859> <http://purl.org/dc/elements/1.1/description> "Busto de Platón. Esta pieza data del siglo IV d. C. y es una copia romana de un original griego. Actualmente se encuentra en el Museo Pio-Clementino del Vaticano.".
+<http://wikidata.dbpedia.org/resource/Q859> <http://purl.org/dc/elements/1.1/description> "Busto de Platón. Esta pieza key del siglo IV d. C. y es una copia romana de un original griego. Actualmente se encuentra en el Museo Pio-Clementino del Vaticano.".
 <http://wikidata.dbpedia.org/resource/Q859> <http://xmlns.com/foaf/0.1/name> "Platón"@es .
 <http://wikidata.dbpedia.org/resource/Q85> <http://dbpedia.org/ontology/populationMetro> "16794464"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://wikidata.dbpedia.org/resource/Q85> <http://dbpedia.org/ontology/populationTotal> "8259461"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .

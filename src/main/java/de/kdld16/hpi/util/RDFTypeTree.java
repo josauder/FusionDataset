@@ -30,6 +30,9 @@ public class RDFTypeTree {
         subClasses = new HashMap<>();
         equivalentClasses= new HashMap<>();
         try {
+            /**
+             * Parses ontology file for the properities: subClassOf and equivalentClass - saves them in HashMap.
+             */
             Properties properties = new Properties();
             properties.load(new FileInputStream("src/test/resources/application.properties"));
             BufferedReader br = new BufferedReader(new FileReader(properties.getProperty("ontologyFile")));
@@ -62,15 +65,13 @@ public class RDFTypeTree {
         }
         return b.equals(subClasses.get(a));
     }
+
     public static String getEquivalentClass(String c) {
         return equivalentClasses.containsKey(c) ? equivalentClasses.get(c) : c;
     }
 
-
-    public static ResolveResult resolveTypeConflict(RDFFactCollection conflict) {
-        //TODO: get all heuristics into property file
+    private static HashMap<String,ArrayList<String>> toCountingLanguageMap(RDFFactCollection conflict) {
         HashMap<String, ArrayList<String>> dboTypes = new HashMap<>();
-
         for (RDFFact fact : conflict.asList()) {
             String ob = getEquivalentClass(fact.getRdfObject());
             if (ob.startsWith("<dbo:") || ob.startsWith("<owl:")) {
@@ -80,23 +81,22 @@ public class RDFTypeTree {
                 dboTypes.get(ob).add(fact.getLanguage());
             }
         }
-        TreeNode node = new TreeNode("<owl:Thing>", dboTypes.get("<owl:Thing>"), null);
-        if (node == null) {
-            int i=0;
-            i++;
-        }
-        if (node.getValue() == null) {
-            int i=0;
-            i++;
-        }
-        int originalSize = node.getValue().size();
-        dboTypes.remove("<owl:Thing>");
+        return dboTypes;
+    }
+
+    /**
+     * Constructs the tree from the  HashMap constructed in toCountingLanguageMap:
+     * Warning: This is terrible code - it is hacky and messy - it only exists becuase University Projects run on a deadline!
+     * @param rootNode
+     * @param dboTypes
+     */
+    private static void constructTreeFromMap(TreeNode rootNode, HashMap<String,ArrayList<String>> dboTypes) {
         while (dboTypes.size() > 0) {
             for (Map.Entry<String, ArrayList<String>> e : dboTypes.entrySet()) {
                 boolean br2 = false;
                 ArrayList<TreeNode> currentNodes = new ArrayList<>();
 
-                currentNodes.add(node);
+                currentNodes.add(rootNode);
                 while (!currentNodes.isEmpty()) {
                     boolean br = false;
                     ArrayList<TreeNode> newCurrentNodes = new ArrayList<>();
@@ -128,14 +128,37 @@ public class RDFTypeTree {
                 }
             }
         }
+    }
 
+    /**
+     * We construct the Subclass-Tree on the property rdf:type and keep only the type which
+     * is dominant in all possible conflicts
+     * @param conflict
+     * @return best-matching type
+     */
+    public static ResolveResult resolveTypeConflict(RDFFactCollection conflict) {
+        //TODO: get all heuristics into property file
+        /**
+         * First we construct the tree from the rdf:type conflict, we save how many languages we have type property for
+         */
+        HashMap<String,ArrayList<String>> dboTypes = toCountingLanguageMap(conflict);
+        TreeNode node = new TreeNode("<owl:Thing>", dboTypes.get("<owl:Thing>"), null);
+        int originalSize = node.getValue().size();
+        dboTypes.remove("<owl:Thing>");
+        constructTreeFromMap(node, dboTypes);
 
-
+        /**
+         * We traverse the tree downward:
+         * 1) If there is only one child, we keep going down.
+         * 2) If there is more than one child we do the following check:
+         *      does one child have significantly more values (languages than all others?)
+         *      if yes: go down that path
+         *      if no: return current tree-traverse-depth
+         */
         while (!node.isLeaf()) {
             List<TreeNode> l = node.getChildren();
             TreeNode n = l.get(0);
             l.remove(0);
-
             int size = n.getValue().size();
 
             for (TreeNode c : l) {
@@ -149,7 +172,6 @@ public class RDFTypeTree {
             }
             node = n;
         }
-
 
         return new ResolveResult(node.getKey(), node.getValue(), node.getValue().size(), originalSize);
     }

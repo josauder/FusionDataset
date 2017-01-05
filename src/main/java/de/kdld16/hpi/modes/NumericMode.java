@@ -43,6 +43,11 @@ public abstract class NumericMode<T extends Number> extends AbstractMode<T>{
         return val + "^^"+rdfDatatype;
     }
 
+    /**
+     * @param a
+     * @param b
+     * @return If two Numbers can be considered equal
+     */
     public abstract boolean sameValue(T a, T b);
 
     @Override
