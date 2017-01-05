@@ -15,6 +15,7 @@ public class DBPediaHelper {
                 .replaceAll("http://dbpedia.org/ontology/","dbo:")
                 .replaceAll("http://www.w3.org/1999/02/22-rdf-syntax-ns#","rdf:")
                 .replaceAll("http://www.wikidata.org/entity/","wikidata:")
-                .replaceAll("http://www.w3.org/2001/XMLSchema#","xsd:");
+                .replaceAll("http://www.w3.org/2001/XMLSchema#","xsd:")
+                .replaceAll("http://www.w3.org/2002/07/owl#","owl:");
     }
 }

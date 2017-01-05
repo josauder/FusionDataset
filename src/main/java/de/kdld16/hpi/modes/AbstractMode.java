@@ -40,9 +40,7 @@ public abstract class AbstractMode<T> {
      * @param val
      * @return representable String of value
      */
-    public String representValue(T val) {
-        return null;
-    }
+    public abstract String representValue(T val);
 
     /**
      * "main" function of Mode which accepts collection that contains conflict, and returns most common value
@@ -63,10 +61,7 @@ public abstract class AbstractMode<T> {
      * @param rdfObject
      * @return interpreted value
      */
-    public T interpretValue(String rdfObject) {
-        return null;
-    }
-
+    public abstract T interpretValue(String rdfObject);
     /**
      * Used for finding key with same value (low distance)
      * @param in

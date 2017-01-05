@@ -1,7 +1,5 @@
 package de.kdld16.hpi.util;
-import de.kdld16.hpi.modes.AbstractMode;
-import de.kdld16.hpi.modes.Mode;
-import de.kdld16.hpi.modes.NumericMode;
+import de.kdld16.hpi.modes.*;
 
 import java.util.HashMap;
 
@@ -16,7 +14,7 @@ public class ClassifyProperties {
     public static HashMap<String,Class<? extends AbstractMode>> acceptOnlyOne;
     static {
         acceptOnlyOne= new HashMap<>();
-    //    acceptOnlyOne.put("<rdf:type>",Mode.class);
+        acceptOnlyOne.put("<rdf:type>",Mode.class);
        acceptOnlyOne.put("<dbo:capital>",Mode.class);
       /*  Object Properties!!
 */
@@ -30,9 +28,9 @@ public class ClassifyProperties {
         acceptOnlyOne.put("<dbo:deathPlace>", Mode.class);
  //       */
         
-        acceptOnlyOne.put("<dbo:weight>", NumericMode.class);
-        acceptOnlyOne.put("<dbo:acceleration>", NumericMode.class);
-        acceptOnlyOne.put("<dbo:populationTotal>",NumericMode.class);
+        acceptOnlyOne.put("<dbo:weight>", DoubleMode.class);
+        acceptOnlyOne.put("<dbo:acceleration>",DoubleMode.class);
+        acceptOnlyOne.put("<dbo:populationTotal>",DoubleMode.class);
         acceptOnlyOne.put("<dbo:wheelbase>", Mode.class);
         acceptOnlyOne.put("<dbo:co2Emission>", Mode.class);
         acceptOnlyOne.put("<dbo:retirementDate>", Mode.class);
@@ -45,7 +43,7 @@ public class ClassifyProperties {
         acceptOnlyOne.put("<dbo:deathDate>", Mode.class);
         acceptOnlyOne.put("<dbo:fuelCapacity>", Mode.class);
         acceptOnlyOne.put("<dbo:latestReleaseDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:netIncome>", NumericMode.class);
+        acceptOnlyOne.put("<dbo:netIncome>", DoubleMode.class);
         acceptOnlyOne.put("<dbo:deathYear>", Mode.class);
         acceptOnlyOne.put("<dbo:birthDate>", Mode.class);
         acceptOnlyOne.put("<dbo:installedCapacity>", Mode.class);
@@ -67,7 +65,8 @@ public class ClassifyProperties {
         acceptOnlyOne.put("<dbo:iso6391Code>", Mode.class);
         acceptOnlyOne.put("<dbo:iso6392Code>", Mode.class);
         acceptOnlyOne.put("<dbo:iso6393Code>", Mode.class);
-        acceptOnlyOne.put("<dbo:totalPopulation>", NumericMode.class);
+        acceptOnlyOne.put("<dbo:totalPopulation>", IntegerMode.class);
+        acceptOnlyOne.put("<dbo:casualties>",IntegerMode.class);
         acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", Mode.class);
     }
 

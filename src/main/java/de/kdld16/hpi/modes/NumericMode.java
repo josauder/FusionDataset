@@ -14,7 +14,7 @@ import java.util.*;
 /**
  * Created by jonathan on 09.12.16.
  */
-public class NumericMode extends AbstractMode<Double>{
+public abstract class NumericMode<T extends Number> extends AbstractMode<T>{
     /**
         Counts most common element, returns it.
         Elements where the relative numeric value difference is smaller
@@ -36,26 +36,19 @@ public class NumericMode extends AbstractMode<Double>{
     }
 
 
-    private String rdfDatatype=null;
+    protected String rdfDatatype=null;
 
     @Override
-    public Double interpretValue(String val) {
-        if (rdfDatatype==null) {
-            rdfDatatype = val.split("\\^\\^",2)[1];
-        }
-        return RDFParseTools.parseDouble(rdfDatatype,val);
-    }
-
-    @Override
-    public String representValue(Double val) {
+    public String representValue(T val) {
         return val + "^^"+rdfDatatype;
     }
 
+    public abstract boolean sameValue(T a, T b);
 
     @Override
-    public Double getKey(Double in) {
-        for (Map.Entry<Double,ArrayList<String>> e : map.entrySet()) {
-            if ((Math.abs(1 - (e.getKey() / in)) < tolerance)) {
+    public T getKey(T in) {
+        for (Map.Entry<T,ArrayList<String>> e : map.entrySet()) {
+            if (sameValue(e.getKey(),in)) {
                 return e.getKey();
             }
         }

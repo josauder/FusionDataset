@@ -32,7 +32,7 @@ public class LanguageTagAdder
         if (items.length>1 && !items[0].isEmpty()) {
             if (items[0].contains(DBPediaHelper.wikidataPrefix)) {
                 int id = Integer.parseInt(items[0].replace(DBPediaHelper.wikidataPrefix,"").replace(DBPediaHelper.wikidataPostfix,""));
-                c.output(KV.of(id, language+" "+DBPediaHelper.replaceNamespace(items[1])));
+                c.output(KV.of(id, language+" "+DBPediaHelper.replaceNamespace(items[1].substring(0,items[1].length()-1).trim())));
             }
 
         }

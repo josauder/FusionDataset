@@ -69,22 +69,48 @@ public class WikidataEntity {
                 " n_smallLanguages="+n_smallLanguages);
     }
 
+
+    /**
+     * The heart Function of this entire Project - it determines how we resolve the conflicts in RDF properties
+     */
     public void resolveConflicts()  {
+        /**
+         * At First we resolve the <rdf:type> property.
+         * More information on how we resolve this can be found in the comment of RDFTypeTree.resolveTypeConflict(conflict)
+         */
         RDFFactCollection conflict= possibleConflicts.newFilterByRdfProperty("<rdf:type>");
-        acceptAsTrueFact(RDFTypeTree.resolveTypeConflict(conflict),"<rdf:type>");
+        if (conflict.size()>0) {
+            acceptAsTrueFact(RDFTypeTree.resolveTypeConflict(conflict),"<rdf:type>");
+        }
+
+
+        /**
+         * We then resolve all other possible conflicts, until there are no more conflicts left
+         */
         while (possibleConflicts.size() > 0) {
-        //Calculate Mode Object for each fact
+
+            /**
+             * We get all Triples with the same property, and the corresponding Mode.
+             * Modes are different for different data types
+             */
             RDFFact f = possibleConflicts.getOne();
             conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
             AbstractMode mode = getMode(f.getRdfProperty());
 
+            /**
+             * If the most commonly found item is very common (greater than a threshold), we accept it as truth
+             */
             ResolveResult result = mode.getMostCommonItem(conflict);
-
             if (result.getConfidence()>minimumValueEquality) {
                 acceptAsTrueFact(result,f.getRdfProperty());
                 continue;
             }
 
+            /**
+             * If, after disregarding all languages for which this Wikidata Entity contains only few triples, the
+             * most common value is very common (greater than a threshold), we accept that as truth. After this,
+             * we continuously disregard languages with few triples.
+             */
             if (n_smallLanguages>0) {
                 RDFFactCollection conflictWithoutSmallLangs = conflict.newFilterOutLanguages(smallLanguages);
                 if (conflictWithoutSmallLangs.size()>0) {
@@ -99,6 +125,20 @@ public class WikidataEntity {
                 }
             }
 
+            /**
+             * If we have already resolved more than a set amount of conflicts, and we give languages that have
+             * 'won' more conflicts so far a greater weight, and again the
+             * most common value is very common (greater than a threshold), we accept that as truth.
+             */
+            //TODO: Implement
+
+
+            /**
+             * We are out of options, and we choose to resolve in the most simple way by data-type:
+             * Numeric Value -> Median (or value closest to mean)
+             * Object/String values -> Most common value
+             */
+            //TODO: Implement
             acceptAsTrueFact(result,f.getRdfProperty());
 
       //  logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + f.getRdfProperty() + "\tresolving with: " + r.getClass().getSimpleName());
@@ -124,16 +164,6 @@ public class WikidataEntity {
         acceptedFacts.addFact(fact);
     }
 
-    public void acceptAsTrueFact(RDFFact fact) {
-        n_resolvedConflicts++;
-        possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
-        acceptedFacts.addFact(fact);
-
-        String language = fact.getLanguage();
-        languageCorrectCounter.putOrIncrement(language);
-
-    }
-
 
     public static AbstractMode getMode(String property) {
         AbstractMode r;
@@ -141,7 +171,7 @@ public class WikidataEntity {
             r = ClassifyProperties.acceptOnlyOne.get(property).newInstance();
             return r;
         } catch (IllegalAccessException | InstantiationException e) {
-            e.printStackTrace();
+            logger.error(e.getStackTrace().toString());
             return null;
         }
     }
@@ -153,7 +183,6 @@ public class WikidataEntity {
         } else {
             acceptedFacts.addFact(fact);
         }
-
         if (!languageFactCounter.containsKey(fact.getLanguage())) {
             n_languages++;
             languageFactCounter.put(fact.getLanguage(),1);

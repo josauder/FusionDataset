@@ -1,9 +1,6 @@
 package de.kdld16.hpi.mode;
 
-import de.kdld16.hpi.modes.AbstractMode;
-import de.kdld16.hpi.modes.Mode;
-import de.kdld16.hpi.modes.ResolveResult;
-import de.kdld16.hpi.modes.NumericMode;
+import de.kdld16.hpi.modes.*;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
 import org.junit.Test;
@@ -89,6 +86,6 @@ public class ModeResolverTest {
             b[i]=(10000+(10000*((r.nextDouble()*2)-1)*tolerance))+"^^<xsd:double>";
         }
         a[i]=(1000+(1000*((r.nextDouble()*2)-1)*tolerance))+"^^<xsd:double>";
-        testModeGeneric(a,b, new NumericMode());
+        testModeGeneric(a,b, new DoubleMode());
     }
 }

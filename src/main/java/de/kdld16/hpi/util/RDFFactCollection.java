@@ -29,6 +29,14 @@ public class RDFFactCollection {
         this.languages.add(fact.getLanguage());
         this.facts.add(fact);
     }
+
+    public void addAllFacts(ArrayList<RDFFact> list) {
+        for (RDFFact fact : list) {
+            addFact(fact);
+        }
+    }
+
+
     public int size() {
         return this.facts.size();
     }

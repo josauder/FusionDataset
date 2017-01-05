@@ -44,4 +44,5 @@ public class RDFFact implements Serializable, Comparable<RDFFact>{
         return p==0 ? this.getLanguage().compareTo(other.getLanguage()) : p;
     }
 
+
 }

@@ -12,8 +12,6 @@ import java.util.*;
  */
 public class Mode extends AbstractMode<String> {
 
-
-
     @Override
     public String representValue(String val) {
        return val;
@@ -32,9 +30,5 @@ public class Mode extends AbstractMode<String> {
         return val;
     }
 
-    @Override
-    public boolean sameValue(String a, String  b) {
-        return a.equals(b);
-    }
        //     logger.debug("Resolved with "+((float)mostCommonN*100)/countTriples+"% ("+mostCommonN+"/"+countTriples+") for property: "+property)
 }
