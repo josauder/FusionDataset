@@ -12,6 +12,7 @@ import java.util.*;
  */
 public class Mode extends AbstractMode<String> {
 
+
     @Override
     public String representValue(String val) {
        return val;

@@ -13,25 +13,35 @@ import java.util.Map;
 public abstract class AbstractMode<T> {
 
 
+
+    public AbstractMode() {
+        weightFunction = new StandardWeightFunction();
+    }
+
+    public AbstractMode(WeightFunction w) {
+        weightFunction = w;
+    }
+
     HashMap<T,ArrayList<String>> map;
+    WeightFunction weightFunction = null;
 
     /**
      * Finds the Hashmap-key (which is an RDF Value) which is most common by comparing language-list size
      * @return ResolveResult containing value that was contained in the most languages (mode)
      */
     public ResolveResult getMaximumCount() {
-        int n=0;
+        double n=0;
         Map.Entry<T,ArrayList<String>> max=null;
-        int size;
-        int total=0;
+        double weight;
+        double total=0;
         for (Map.Entry<T, ArrayList<String>> e : map.entrySet()) {
-            if ((size=e.getValue().size())>n) {
-                n=size;
+            if ((weight=weightFunction.getWeight(e.getValue()))>n) {
+                n=weight;
                 max=e;
             }
-            total+=size;
+            total+=weight;
         }
-        return new ResolveResult(representValue(max.getKey()), max.getValue(),max.getValue().size(),total);
+        return new ResolveResult(representValue(max.getKey()), max.getValue(),max.getValue().size(),(int)total);
     }
 
     /**
