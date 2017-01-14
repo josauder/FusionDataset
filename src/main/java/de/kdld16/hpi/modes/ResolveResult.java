@@ -14,7 +14,7 @@ public class ResolveResult {
     private String value;
     private int occurrence;
     private int outOf;
-    private float confidence;
+    private double confidence;
     private Collection<String> languages;
 
     public ResolveResult(String value, Collection<String> languages, int occurence, int outOf) {
@@ -23,6 +23,12 @@ public class ResolveResult {
         this.outOf = outOf;
         this.languages=languages;
         this.confidence=occurence/(float)outOf;
+    }
+
+    public ResolveResult(String value, Collection<String> languages, double confidence) {
+        this.value = value;
+        this.languages=languages;
+        this.confidence=confidence;
     }
 
     public String getValue() {
@@ -40,7 +46,7 @@ public class ResolveResult {
         return outOf;
     }
 
-    public float getConfidence() {
+    public double getConfidence() {
         return confidence;
     }
 }

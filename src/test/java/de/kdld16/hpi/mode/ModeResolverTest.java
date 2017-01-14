@@ -4,6 +4,8 @@ import de.kdld16.hpi.modes.*;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 import java.io.FileInputStream;
@@ -19,6 +21,8 @@ import static org.junit.Assert.assertTrue;
  * Created by jonathan on 24.11.16.
  */
 public class ModeResolverTest {
+
+    static Logger logger = LoggerFactory.getLogger(ModeResolverTest.class);
 
     public void testModeGeneric(String[] valA, String[] valB,AbstractMode mr)  {
         RDFFactCollection in = new RDFFactCollection();
@@ -36,8 +40,7 @@ public class ModeResolverTest {
         out=mr.getMostCommonItem(in);
         assertEquals(in.size(),10);
         assertEquals(out.getValue(),valA[0]);
-        assertEquals(out.getOccurrence(),10);
-        assertEquals(out.getOutOf(),10);
+        assertEquals(out.getConfidence(),1,0);
         assertEquals(out.getLanguages().size(),in.size());
 
         for (int i=0; i<11; i++) {
@@ -82,8 +85,9 @@ public class ModeResolverTest {
         a[0]="1000.0^^<xsd:double>";
         b[0]="10000.0^^<xsd:double>";
         for (; i<12; i++) {
-            a[i]=(1000+(1000*((r.nextDouble()*2)-1)*tolerance))+"^^<xsd:double>";
-            b[i]=(10000+(10000*((r.nextDouble()*2)-1)*tolerance))+"^^<xsd:double>";
+            double rand =1+((r.nextDouble()*2)-1)*tolerance;
+            a[i]=(1000*rand)+"^^<xsd:double>";
+            b[i]=(10000*rand)+"^^<xsd:double>";
         }
         a[i]=(1000+(1000*((r.nextDouble()*2)-1)*tolerance))+"^^<xsd:double>";
         testModeGeneric(a,b, new DoubleMode());

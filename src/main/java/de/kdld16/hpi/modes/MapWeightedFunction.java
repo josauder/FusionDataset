@@ -9,6 +9,7 @@ import java.util.Map;
 public class MapWeightedFunction implements WeightFunction {
 
     Map<String,Double> map;
+
     public MapWeightedFunction(Map<String,Double> map) {
         this.map=map;
     }

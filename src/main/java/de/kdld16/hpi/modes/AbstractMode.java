@@ -12,18 +12,16 @@ import java.util.Map;
  */
 public abstract class AbstractMode<T> {
 
-
-
     public AbstractMode() {
-        weightFunction = new StandardWeightFunction();
+        this.weightFunction= new StandardWeightFunction();
     }
 
     public AbstractMode(WeightFunction w) {
-        weightFunction = w;
+        this.weightFunction=w;
     }
 
+    WeightFunction weightFunction;
     HashMap<T,ArrayList<String>> map;
-    WeightFunction weightFunction = null;
 
     /**
      * Finds the Hashmap-key (which is an RDF Value) which is most common by comparing language-list size
@@ -41,7 +39,7 @@ public abstract class AbstractMode<T> {
             }
             total+=weight;
         }
-        return new ResolveResult(representValue(max.getKey()), max.getValue(),max.getValue().size(),(int)total);
+        return new ResolveResult(representValue(max.getKey()), max.getValue(), n/total);
     }
 
     /**

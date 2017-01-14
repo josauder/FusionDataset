@@ -17,7 +17,7 @@ public class IntegerMode extends NumericMode<Integer>{
 
     @Override
     public boolean sameValue(Integer a, Integer b) {
-        return Math.abs(1 - a / b.floatValue()) < tolerance;
+        return Math.abs(1 - a / b.floatValue()) <= tolerance;
     }
 
 }

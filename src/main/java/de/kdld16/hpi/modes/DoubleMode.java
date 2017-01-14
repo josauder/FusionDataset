@@ -16,14 +16,14 @@ public class DoubleMode extends NumericMode<Double>{
     @Override
     public Double interpretValue(String val) {
         if (rdfDatatype==null) {
-        rdfDatatype = val.split("\\^\\^",2)[1];
+            rdfDatatype = val.split("\\^\\^",2)[1];
         }
         return RDFParseTools.parseDouble(rdfDatatype,val);
     }
 
     @Override
     public boolean sameValue(Double a, Double b) {
-        return Math.abs(1 - a / b) < tolerance;
+        return Math.abs(1 - a / b) <= tolerance;
     }
 
 }
