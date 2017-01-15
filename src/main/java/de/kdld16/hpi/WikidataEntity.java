@@ -76,11 +76,11 @@ public class WikidataEntity {
     public void resolveConflicts()  {
         /**
          * At First we resolve the <rdf:type> property.
-         * More information on how we resolve this can be found in the comment of RDFTypeTree.resolveTypeConflict(conflict)
+         * More information on how we resolve this can be found in the comment of RDFTypeTree.resolve(conflict)
          */
         RDFFactCollection conflict= possibleConflicts.newFilterByRdfProperty("<rdf:type>");
         if (conflict.size()>0) {
-            acceptAsTrueFact(RDFTypeTree.resolveTypeConflict(conflict),"<rdf:type>");
+            acceptAsTrueFact(new RDFTypeTree().resolve(conflict),"<rdf:type>");
         }
 
 
@@ -100,7 +100,7 @@ public class WikidataEntity {
             /**
              * If the most commonly found item is very common (greater than a threshold), we accept it as truth
              */
-            ResolveResult result = mode.getMostCommonItem(conflict);
+            ResolveResult result = mode.resolve(conflict);
             if (result.getConfidence()>minimumValueEquality) {
                 acceptAsTrueFact(result,f.getRdfProperty());
                 continue;
@@ -114,7 +114,7 @@ public class WikidataEntity {
             if (n_smallLanguages>0) {
                 RDFFactCollection conflictWithoutSmallLangs = conflict.newFilterOutLanguages(smallLanguages);
                 if (conflictWithoutSmallLangs.size()>0) {
-                    result = mode.getMostCommonItem(conflictWithoutSmallLangs);
+                    result = mode.resolve(conflictWithoutSmallLangs);
                     if (result.getConfidence()>minimumValueEquality) {
                         acceptAsTrueFact(result,f.getRdfProperty());
                         continue;

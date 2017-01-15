@@ -37,7 +37,7 @@ public class ModeResolverTest {
         for (int i=0; i<9; i++) {
             in.addFact(new RDFFact("@"+in.size()+" <> " + valA[a++]));
         }
-        out=mr.getMostCommonItem(in);
+        out=mr.resolve(in);
         assertEquals(in.size(),10);
         assertEquals(out.getValue(),valA[0]);
         assertEquals(out.getConfidence(),1,0);
@@ -46,14 +46,14 @@ public class ModeResolverTest {
         for (int i=0; i<11; i++) {
             in.addFact(new RDFFact("@"+in.size()+" <> " + valB[b++]));
         }
-        out=mr.getMostCommonItem(in);
+        out=mr.resolve(in);
         assertEquals(in.size(),21);
         assertEquals(out.getValue(),valB[0]);
         assertEquals(out.getLanguages().size(),11);
         in.addFact(new RDFFact("@"+in.size()+" <> " + valA[a++]));
         in.addFact(new RDFFact("@"+in.size()+" <> " + valA[a++]));
 
-        out=mr.getMostCommonItem(in);
+        out=mr.resolve(in);
         assertEquals(in.size(),23);
         assertEquals(out.getValue(),valA[0]);
         assertEquals(out.getLanguages().size(),12);

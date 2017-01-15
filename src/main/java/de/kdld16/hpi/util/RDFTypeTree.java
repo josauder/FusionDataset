@@ -2,6 +2,7 @@ package de.kdld16.hpi.util;
 
 import de.kdld16.hpi.exception.NotInOntologyException;
 import de.kdld16.hpi.modes.ResolveResult;
+import de.kdld16.hpi.modes.Resolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +15,7 @@ import java.util.*;
 /**
  * Created by jonathan on 31.12.16.
  */
-public class RDFTypeTree {
+public class RDFTypeTree implements Resolver {
     /** From http://wiki.dbpedia.org/services-resources/ontology:
      *      "Since the DBpedia 3.7 release, the ontology is a directed-acyclic graph, not a tree.
      *      Classes may have multiple superclasses, which was important for the mappings to schema.org.
@@ -136,7 +137,8 @@ public class RDFTypeTree {
      * @param conflict
      * @return best-matching type
      */
-    public static ResolveResult resolveTypeConflict(RDFFactCollection conflict) {
+    @Override
+    public ResolveResult resolve(RDFFactCollection conflict) {
         //TODO: get all heuristics into property file
         /**
          * First we construct the tree from the rdf:type conflict, we save how many languages we have type property for

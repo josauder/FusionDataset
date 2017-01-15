@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Created by jonathan on 09.12.16.
  */
-public abstract class AbstractMode<T> {
+public abstract class AbstractMode<T> implements Resolver {
 
     public AbstractMode() {
         this.weightFunction= new StandardWeightFunction();
@@ -55,7 +55,8 @@ public abstract class AbstractMode<T> {
      * @param conflict
      * @return ResolveResult containing most common value
      */
-    public ResolveResult getMostCommonItem(RDFFactCollection conflict) {
+    @Override
+    public ResolveResult resolve(RDFFactCollection conflict) {
         map = new HashMap<>();
         for (RDFFact fact: conflict.asList()) {
             T key = getKey(interpretValue(fact.getRdfObject()));
