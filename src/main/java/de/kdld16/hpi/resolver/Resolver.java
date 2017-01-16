@@ -1,4 +1,4 @@
-package de.kdld16.hpi.modes;
+package de.kdld16.hpi.resolver;
 
 import de.kdld16.hpi.util.RDFFactCollection;
 

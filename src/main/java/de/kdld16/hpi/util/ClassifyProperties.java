@@ -1,73 +1,133 @@
 package de.kdld16.hpi.util;
-import de.kdld16.hpi.modes.*;
 
+import de.kdld16.hpi.exception.UnexpectedRDFDatatypeException;
+import de.kdld16.hpi.resolver.Mode;
+import de.kdld16.hpi.resolver.Resolver;
+import de.kdld16.hpi.util.rdfdatatypecomparison.DoubleWrapper;
+import de.kdld16.hpi.util.rdfdatatypecomparison.IntegerWrapper;
+import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
+import de.kdld16.hpi.util.rdfdatatypecomparison.IdenticalStringWrapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.*;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Properties;
 
 /**
  * Created by jonathan on 11/14/16.
  */
 public class ClassifyProperties {
-    //TODO: Everything, just a dummy so far
 
-
-
-    public static HashMap<String,Class<? extends AbstractMode>> acceptOnlyOne;
+    static Logger logger = LoggerFactory.getLogger(ClassifyProperties.class);
+    static HashSet<String> functionalProperties;
     static {
-        acceptOnlyOne= new HashMap<>();
-        acceptOnlyOne.put("<rdf:type>",Mode.class);
-       acceptOnlyOne.put("<dbo:capital>",Mode.class);
+        try {
+            /**
+             * Parses ontology file for the properities: subClassOf and equivalentClass - saves them in HashMap.
+             */
+            Properties properties = new Properties();
+            properties.load(new FileInputStream("src/test/resources/application.properties"));
+            String filename = properties.getProperty("functionalPropertiesFile");
+            if (filename==null) {
+                throw new FileNotFoundException();
+            }
+            BufferedReader br = new BufferedReader(new FileReader(filename));
+            String line;
+            while ((line=br.readLine())!=null) {
+                 functionalProperties.add(DBPediaHelper.replaceNamespace(line));
+            }
+
+        } catch (FileNotFoundException e) {
+            logger.error("Could not find functional Property file - This means only user defined specialFunctionalProperties will be resolved." +
+                    "You can generate your own functional property file with running the script 'src/scripts/find_functional_properties.py' with the correct paths");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
+
+    public static Resolver getResolver(RDFFact fact) {
+        RDFDatatypeWrapper r=null;
+
+        //TODO: Change to JSON Value!
+        if (specialFunctionalProperties.containsKey(fact.getRdfProperty())) {
+            try {
+                //TODO: Resolve!
+                ClassifyProperties.specialFunctionalProperties.get(fact.getRdfProperty()).newInstance();
+            } catch (IllegalAccessException | InstantiationException e) {
+                logger.error(e.getStackTrace().toString());
+                return null;
+            }
+        }
+        return new Mode(r);
+
+    }
+
+    //TODO: Hashmap<String,Resolver>
+    public static HashMap<String, Class<? extends RDFDatatypeWrapper>> specialFunctionalProperties;
+    static {
+        //TODO: Change to JSON Parse
+        specialFunctionalProperties = new HashMap<>();
+        specialFunctionalProperties.put("<rdf:type>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:capital>", IdenticalStringWrapper.class);
       /*  Object Properties!!
 */
-        acceptOnlyOne.put("<dbo:officialLanguage>", Mode.class);
-        acceptOnlyOne.put("<dbo:currency>", Mode.class);
-        acceptOnlyOne.put("<dbo:largestCity>", Mode.class);
-        acceptOnlyOne.put("<dbo:country>", Mode.class);
-        acceptOnlyOne.put("<dbo:timeZone>", Mode.class);
-        acceptOnlyOne.put("<dbo:language>", Mode.class);
-        acceptOnlyOne.put("<dbo:birthPlace>", Mode.class);
-        acceptOnlyOne.put("<dbo:deathPlace>", Mode.class);
- //       */
-        
-        acceptOnlyOne.put("<dbo:weight>", DoubleMode.class);
-        acceptOnlyOne.put("<dbo:acceleration>",DoubleMode.class);
-        acceptOnlyOne.put("<dbo:populationTotal>",DoubleMode.class);
-        acceptOnlyOne.put("<dbo:wheelbase>", Mode.class);
-        acceptOnlyOne.put("<dbo:co2Emission>", Mode.class);
-        acceptOnlyOne.put("<dbo:retirementDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:averageAnnualGeneration>", Mode.class);
-        acceptOnlyOne.put("<dbo:height>", Mode.class);
-        acceptOnlyOne.put("<dbo:topSpeed>", NumericMode.class);
-        acceptOnlyOne.put("<dbo:birthYear>", Mode.class);
-        acceptOnlyOne.put("<dbo:restingDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:zipCode>", Mode.class);
-        acceptOnlyOne.put("<dbo:deathDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:fuelCapacity>", Mode.class);
-        acceptOnlyOne.put("<dbo:latestReleaseDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:netIncome>", DoubleMode.class);
-        acceptOnlyOne.put("<dbo:deathYear>", Mode.class);
-        acceptOnlyOne.put("<dbo:birthDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:installedCapacity>", Mode.class);
-        acceptOnlyOne.put("<dbo:foalDate>", Mode.class);
-        acceptOnlyOne.put("<dbo:redline>", Mode.class);
-        acceptOnlyOne.put("<dbo:diameter>", Mode.class);
-        acceptOnlyOne.put("<dbo:length>", Mode.class);
-        acceptOnlyOne.put("<dbo:operatingIncome>", Mode.class);
-        acceptOnlyOne.put("<dbo:torqueOutput>", Mode.class);
-        acceptOnlyOne.put("<dbo:width>", Mode.class);
-        acceptOnlyOne.put("<dbo:marketCapitalisation>", Mode.class);
-        acceptOnlyOne.put("<dbo:fuelConsumption>", Mode.class);
-        acceptOnlyOne.put("<dbo:displacement>", Mode.class);
-        acceptOnlyOne.put("<dbo:powerOutput>", Mode.class);
-        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", Mode.class);
-        acceptOnlyOne.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", Mode.class);
-        acceptOnlyOne.put("<http://www.georss.org/georss/point>", Mode.class);
-        acceptOnlyOne.put("<dbo:iso31661Code>", Mode.class);
-        acceptOnlyOne.put("<dbo:iso6391Code>", Mode.class);
-        acceptOnlyOne.put("<dbo:iso6392Code>", Mode.class);
-        acceptOnlyOne.put("<dbo:iso6393Code>", Mode.class);
-        acceptOnlyOne.put("<dbo:totalPopulation>", IntegerMode.class);
-        acceptOnlyOne.put("<dbo:casualties>",IntegerMode.class);
-        acceptOnlyOne.put("<http://xmlns.com/foaf/0.1/homepage", Mode.class);
+        specialFunctionalProperties.put("<dbo:officialLanguage>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:currency>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:largestCity>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:country>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:timeZone>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:language>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:birthPlace>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:deathPlace>", IdenticalStringWrapper.class);
+        //       */
+
+        specialFunctionalProperties.put("<dbo:weight>", DoubleWrapper.class);
+        specialFunctionalProperties.put("<dbo:acceleration>", DoubleWrapper.class);
+        specialFunctionalProperties.put("<dbo:populationTotal>", DoubleWrapper.class);
+        specialFunctionalProperties.put("<dbo:wheelbase>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:co2Emission>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:retirementDate>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:averageAnnualGeneration>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:height>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:topSpeed>", DoubleWrapper.class);
+        specialFunctionalProperties.put("<dbo:birthYear>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:restingDate>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:zipCode>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:deathDate>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:fuelCapacity>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:latestReleaseDate>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:netIncome>", DoubleWrapper.class);
+        specialFunctionalProperties.put("<dbo:deathYear>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:birthDate>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:installedCapacity>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:foalDate>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:redline>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:diameter>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:length>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:operatingIncome>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:torqueOutput>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:width>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:marketCapitalisation>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:fuelConsumption>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:displacement>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:powerOutput>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<http://www.georss.org/georss/point>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:iso31661Code>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:iso6391Code>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:iso6392Code>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:iso6393Code>", IdenticalStringWrapper.class);
+        specialFunctionalProperties.put("<dbo:totalPopulation>", IntegerWrapper.class);
+        specialFunctionalProperties.put("<dbo:populationMetro>", IntegerWrapper.class);
+        specialFunctionalProperties.put("<dbo:populationUrban>", IntegerWrapper.class);
+        specialFunctionalProperties.put("<dbo:casualties>", IntegerWrapper.class);
+        specialFunctionalProperties.put("<http://xmlns.com/foaf/0.1/homepage", IdenticalStringWrapper.class);
     }
 
     /*

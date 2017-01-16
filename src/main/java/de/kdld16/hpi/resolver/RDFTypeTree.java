@@ -1,8 +1,10 @@
-package de.kdld16.hpi.util;
+package de.kdld16.hpi.resolver;
 
 import de.kdld16.hpi.exception.NotInOntologyException;
-import de.kdld16.hpi.modes.ResolveResult;
-import de.kdld16.hpi.modes.Resolver;
+import de.kdld16.hpi.util.DBPediaHelper;
+import de.kdld16.hpi.util.RDFFact;
+import de.kdld16.hpi.util.RDFFactCollection;
+import de.kdld16.hpi.util.TreeNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -148,7 +150,7 @@ public class RDFTypeTree implements Resolver {
         int originalSize = node.getValue().size();
         dboTypes.remove("<owl:Thing>");
         constructTreeFromMap(node, dboTypes);
-
+        ResolveResult result;
         /**
          * We traverse the tree downward:
          * 1) If there is only one child, we keep going down.
@@ -157,25 +159,29 @@ public class RDFTypeTree implements Resolver {
          *      if yes: go down that path
          *      if no: return current tree-traverse-depth
          */
+        ArrayList<String> parentValues = new ArrayList<>();
         while (!node.isLeaf()) {
             List<TreeNode> l = node.getChildren();
             TreeNode n = l.get(0);
             l.remove(0);
             int size = n.getValue().size();
-
             for (TreeNode c : l) {
                 if (c.getValue().size()> (3* size)) {
                     n = c;
                 } else if (c.getValue().size()*3 < size) {
                 }
                 else {
-                    return new ResolveResult(node.getKey(),node.getValue(),size,originalSize);
+                    result = new ResolveResult(node.getKey(),node.getValue(),size,originalSize);
+                    result.setOtherValues(parentValues);
+                    return result;
                 }
             }
+            parentValues.add(node.getKey());
             node = n;
         }
-
-        return new ResolveResult(node.getKey(), node.getValue(), node.getValue().size(), originalSize);
+        result = new ResolveResult(node.getKey(),node.getValue(),node.getValue().size(),originalSize);
+        result.setOtherValues(parentValues);
+        return result;
     }
 }
 

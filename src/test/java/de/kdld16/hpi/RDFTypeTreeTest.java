@@ -1,10 +1,10 @@
 package de.kdld16.hpi;
 
 import de.kdld16.hpi.exception.NotInOntologyException;
-import de.kdld16.hpi.modes.ResolveResult;
+import de.kdld16.hpi.resolver.ResolveResult;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
-import de.kdld16.hpi.util.RDFTypeTree;
+import de.kdld16.hpi.resolver.RDFTypeTree;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -48,7 +48,7 @@ public class RDFTypeTreeTest {
         c.addAllFacts(produceTriples("<dbo:Town>",10));
         c.addAllFacts(produceTriples("<dbo:GovernmentalAdministrativeRegion>",10));
 
-        ResolveResult res = RDFTypeTree.resolve(c);
+        ResolveResult res = new RDFTypeTree().resolve(c);
         assertEquals(res.getValue(),"<dbo:PopulatedPlace>");
         assertEquals(res.getOutOf(),10);
         assertEquals(res.getOccurrence(),10);
@@ -63,7 +63,7 @@ public class RDFTypeTreeTest {
         c.addAllFacts(produceTriples("<dbo:Town>",3));
         c.addAllFacts(produceTriples("<dbo:GovernmentalAdministrativeRegion>",10));
 
-        res = RDFTypeTree.resolve(c);
+        res = new RDFTypeTree().resolve(c);
         assertEquals(res.getValue(),"<dbo:GovernmentalAdministrativeRegion>");
         assertEquals(res.getOutOf(),20);
         assertEquals(res.getOccurrence(),10);
@@ -78,7 +78,7 @@ public class RDFTypeTreeTest {
         c.addAllFacts(produceTriples("<dbo:Town>",10));
         c.addAllFacts(produceTriples("<dbo:GovernmentalAdministrativeRegion>",3));
 
-        res = RDFTypeTree.resolve(c);
+        res = new RDFTypeTree().resolve(c);
         assertEquals(res.getValue(),"<dbo:Town>");
         assertEquals(res.getOutOf(),20);
         assertEquals(res.getOccurrence(),10);

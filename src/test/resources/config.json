@@ -1,1 +1,26 @@
-{"rdf:type":[]}
+[ {"<rdf:type>":
+    [{
+      "resolver": "RDFTypeTree",
+      "minConfidence": 0
+    }]
+  },
+
+  {"default":
+    [{
+      "resolver": "Mode",
+      "minConfidence": 0.7
+    },
+    {
+      "transform": "RemoveSmallLanguages",
+      "transformMode" : "permanent"
+    },
+    {
+       "resolver": "Mode",
+       "minConfidence": 0.7
+    },
+    {
+      "resolver": "WeightedModeByLanguage",
+      "minConfidence": 0.7
+    }]
+  }
+]

@@ -1,7 +1,7 @@
 package de.kdld16.hpi;
 
-import de.kdld16.hpi.modes.AbstractMode;
-import de.kdld16.hpi.modes.ResolveResult;
+import de.kdld16.hpi.resolver.RDFTypeTree;
+import de.kdld16.hpi.resolver.ResolveResult;
 import de.kdld16.hpi.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -84,33 +84,26 @@ public class WikidataEntity {
         }
 
 
-        /**
-         * We then resolve all other possible conflicts, until there are no more conflicts left
-         */
-        while (possibleConflicts.size() > 0) {
+        // We then resolve all other possible conflicts, until there are no more conflicts left
+        /* while (possibleConflicts.size() > 0) {
 
-            /**
-             * We get all Triples with the same property, and the corresponding Mode.
-             * Modes are different for different data types
-             */
+            // We get all Triples with the same property, and the corresponding Mode.
+            // Modes are different for different data types
             RDFFact f = possibleConflicts.getOne();
             conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
-            AbstractMode mode = getMode(f.getRdfProperty());
+            RDFDatatypeWrapper type = ClassifyProperties.getResolver(f.getRdfProperty());
+            Mode mode = new Mode(type);
 
-            /**
-             * If the most commonly found item is very common (greater than a threshold), we accept it as truth
-             */
+            // If the most commonly found item is very common (greater than a threshold), we accept it as truth
             ResolveResult result = mode.resolve(conflict);
             if (result.getConfidence()>minimumValueEquality) {
                 acceptAsTrueFact(result,f.getRdfProperty());
                 continue;
             }
 
-            /**
-             * If, after disregarding all languages for which this Wikidata Entity contains only few triples, the
-             * most common value is very common (greater than a threshold), we accept that as truth. After this,
-             * we continuously disregard languages with few triples.
-             */
+             // If, after disregarding all languages for which this Wikidata Entity contains only few triples, the
+             // most common value is very common (greater than a threshold), we accept that as truth. After this,
+             // we continuously disregard languages with few triples.
             if (n_smallLanguages>0) {
                 RDFFactCollection conflictWithoutSmallLangs = conflict.newFilterOutLanguages(smallLanguages);
                 if (conflictWithoutSmallLangs.size()>0) {
@@ -125,25 +118,21 @@ public class WikidataEntity {
                 }
             }
 
-            /**
-             * If we have already resolved more than a set amount of conflicts, and we give languages that have
-             * 'won' more conflicts so far a greater weight, and again the
-             * most common value is very common (greater than a threshold), we accept that as truth.
-             */
+             // If we have already resolved more than a set amount of conflicts, and we give languages that have
+             // 'won' more conflicts so far a greater weight, and again the
+             // most common value is very common (greater than a threshold), we accept that as truth.
             //TODO: Implement
 
 
-            /**
-             * We are out of options, and we choose to resolve in the most simple way by data-type:
-             * Numeric Value -> Median (or value closest to mean)
-             * Object/String values -> Most common value
-             */
+             // We are out of options, and we choose to resolve in the most simple way by data-type:
+             //Numeric Value -> Median (or value closest to mean)
+             // Object/String values -> Most common value
             //TODO: Implement
             acceptAsTrueFact(result,f.getRdfProperty());
 
       //  logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + f.getRdfProperty() + "\tresolving with: " + r.getClass().getSimpleName());
 
-        }
+        }*/
     }
 
     public void acceptAsTrueFact(ResolveResult result, String rdfProperty) {
@@ -162,23 +151,15 @@ public class WikidataEntity {
         n_resolvedConflicts++;
         possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
         acceptedFacts.addFact(fact);
-    }
 
-
-    public static AbstractMode getMode(String property) {
-        AbstractMode r;
-        try {
-            r = ClassifyProperties.acceptOnlyOne.get(property).newInstance();
-            return r;
-        } catch (IllegalAccessException | InstantiationException e) {
-            logger.error(e.getStackTrace().toString());
-            return null;
+        for (String value : result.getOtherValues()) {
+            acceptedFacts.addFact(new RDFFact(rdfProperty, value, max_lang));
         }
     }
 
     public void addFact(RDFFact fact) {
         this.n_facts++;
-        if (ClassifyProperties.acceptOnlyOne.containsKey(fact.getRdfProperty())) {
+        if (ClassifyProperties.specialFunctionalProperties.containsKey(fact.getRdfProperty())) {
             possibleConflicts.addFact(fact);
         } else {
             acceptedFacts.addFact(fact);

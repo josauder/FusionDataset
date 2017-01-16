@@ -1,8 +1,10 @@
 package de.kdld16.hpi.mode;
 
-import de.kdld16.hpi.modes.*;
+import de.kdld16.hpi.resolver.*;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
+import de.kdld16.hpi.util.rdfdatatypecomparison.DoubleWrapper;
+import de.kdld16.hpi.util.rdfdatatypecomparison.IdenticalStringWrapper;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +26,7 @@ public class ModeResolverTest {
 
     static Logger logger = LoggerFactory.getLogger(ModeResolverTest.class);
 
-    public void testModeGeneric(String[] valA, String[] valB,AbstractMode mr)  {
+    public void testModeGeneric(String[] valA, String[] valB,Mode mr)  {
         RDFFactCollection in = new RDFFactCollection();
         ResolveResult out;
         int a=0;
@@ -63,7 +65,7 @@ public class ModeResolverTest {
     public void testMode() {
         String[] a = {"<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>","<a>"};
         String[] b = {"<b>","<b>","<b>","<b>","<b>","<b>","<b>","<b>","<b>","<b>","<b>","<b>","<b>"};
-        testModeGeneric(a,b, new Mode());
+        testModeGeneric(a,b, new Mode(new IdenticalStringWrapper()));
     }
 
     @Test
@@ -90,6 +92,6 @@ public class ModeResolverTest {
             b[i]=(10000*rand)+"^^<xsd:double>";
         }
         a[i]=(1000+(1000*((r.nextDouble()*2)-1)*tolerance))+"^^<xsd:double>";
-        testModeGeneric(a,b, new DoubleMode());
+        testModeGeneric(a,b, new Mode(new DoubleWrapper()));
     }
 }

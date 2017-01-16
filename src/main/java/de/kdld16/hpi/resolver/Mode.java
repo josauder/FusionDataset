@@ -1,7 +1,8 @@
-package de.kdld16.hpi.modes;
+package de.kdld16.hpi.resolver;
 
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
+import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,16 +11,19 @@ import java.util.Map;
 /**
  * Created by jonathan on 09.12.16.
  */
-public abstract class AbstractMode<T> implements Resolver {
+public class Mode<T> implements Resolver {
 
-    public AbstractMode() {
+    public Mode(RDFDatatypeWrapper<T> rdfDatatypeWrapper) {
+        this.rdfDatatypeWrapper = rdfDatatypeWrapper;
         this.weightFunction= new StandardWeightFunction();
     }
 
-    public AbstractMode(WeightFunction w) {
+    public Mode(WeightFunction w, RDFDatatypeWrapper<T> rdfDatatypeWrapper) {
+        this.rdfDatatypeWrapper = rdfDatatypeWrapper;
         this.weightFunction=w;
     }
 
+    RDFDatatypeWrapper<T> rdfDatatypeWrapper;
     WeightFunction weightFunction;
     HashMap<T,ArrayList<String>> map;
 
@@ -39,16 +43,10 @@ public abstract class AbstractMode<T> implements Resolver {
             }
             total+=weight;
         }
-        return new ResolveResult(representValue(max.getKey()), max.getValue(), n/total);
+        return new ResolveResult(rdfDatatypeWrapper.representValue(max.getKey()), max.getValue(), n/total);
     }
 
-    /**
-     * Used in inheritance, when attaching datatype.
-     * E.g. 123231 -> "123231^^<xsd:double>"
-     * @param val
-     * @return representable String of value
-     */
-    public abstract String representValue(T val);
+
 
     /**
      * "main" function of Mode which accepts collection that contains conflict, and returns most common value
@@ -59,25 +57,11 @@ public abstract class AbstractMode<T> implements Resolver {
     public ResolveResult resolve(RDFFactCollection conflict) {
         map = new HashMap<>();
         for (RDFFact fact: conflict.asList()) {
-            T key = getKey(interpretValue(fact.getRdfObject()));
+            T key = rdfDatatypeWrapper.getKey(map, rdfDatatypeWrapper.interpretValue(fact.getRdfObject()));
             map.get(key).add(fact.getLanguage());
         }
         return getMaximumCount();
     }
 
-    /**
-     * Used for parsing literals with their appropriate datatype
-     * @param rdfObject
-     * @return interpreted value
-     */
-    public abstract T interpretValue(String rdfObject);
-    /**
-     * Used for finding key with same value (low distance)
-     * @param in
-     * @return key where key equals in in terms of defined distance
-     */
-    public T getKey(T in) {
-        return in;
-    }
 
 }

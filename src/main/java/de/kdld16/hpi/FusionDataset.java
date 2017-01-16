@@ -78,7 +78,7 @@ public class FusionDataset {
             // Resolve Fusion Conflicts
             .apply(ParDo.of(new ResolveFusionConflicts()))
             // Write output to targetDirectory
-            .apply(TextIO.Write.to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
+            .apply(TextIO.Write.withoutSharding().to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
 
         // try/catch Block due to Version 0.3.0 of apache beam, unnecessary as of Version 0.4.0-SNAPSHOT
         try {

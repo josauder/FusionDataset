@@ -1,10 +1,7 @@
-package de.kdld16.hpi.modes;
+package de.kdld16.hpi.resolver;
 
-import de.kdld16.hpi.util.RDFFact;
-
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashSet;
+import java.util.List;
 
 /**
  * Created by jonathan on 08.12.16.
@@ -16,6 +13,17 @@ public class ResolveResult {
     private int outOf;
     private double confidence;
     private Collection<String> languages;
+
+    public List<String> getOtherValues() {
+        return otherValues;
+    }
+
+    public void setOtherValues(List<String> otherValues) {
+        this.otherValues = otherValues;
+    }
+
+    private List<String> otherValues;
+
 
     public ResolveResult(String value, Collection<String> languages, int occurence, int outOf) {
         this.value = value;
