@@ -1,5 +1,6 @@
 package de.kdld16.hpi;
 import de.kdld16.hpi.transforms.LanguageTagAdder;
+import de.kdld16.hpi.transforms.PartitionByDataset;
 import de.kdld16.hpi.transforms.ResolveFusionConflicts;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
@@ -71,14 +72,21 @@ public class FusionDataset {
             }
         }
 
-        dataSet.apply(Flatten.<KV<Integer,String>>pCollections())
+        PCollectionList<String> list = dataSet.apply(Flatten.<KV<Integer,String>>pCollections())
             // Group by RDF-Subject (See Apache Beam Documentation)
               //  .apply(ParDo.of(new FilterByWikidataID<>(495,495)))
             .apply(GroupByKey.<Integer,String>create())
             // Resolve Fusion Conflicts
             .apply(ParDo.of(new ResolveFusionConflicts()))
             // Write output to targetDirectory
-            .apply(TextIO.Write.withoutSharding().to(targetDirectory+"/"+targetFilepattern).withSuffix(".ttl"));
+                .apply(Partition.of(3, new PartitionByDataset()));
+
+
+        String[] datasetNames = {"instance_types_transitive_fused_wkd_uris.ttl", "mappingbased_objects_fused_wkd_uris.ttl", "mappingbased_literals_fused_wkd_uris.ttl"};
+        for (int i = 0; i<3; i++) {
+            list.get(i).apply(TextIO.Write.withoutSharding().to(targetDirectory+"/"+datasetNames[i]));
+        } {
+        }
 
         // try/catch Block due to Version 0.3.0 of apache beam, unnecessary as of Version 0.4.0-SNAPSHOT
         try {
