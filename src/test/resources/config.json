@@ -1,26 +1,20 @@
-[ {"<rdf:type>":
-    [{
-      "resolver": "RDFTypeTree",
-      "minConfidence": 0
-    }]
-  },
-
-  {"default":
-    [{
-      "resolver": "Mode",
-      "minConfidence": 0.7
+{
+  "propertyResolveConfiguration": [
+    {
+      "rdfProperty": "<rdf:type>",
+      "resolveSteps": [
+        {
+          "resolver": "RDFTypeTree"
+        }
+      ]
     },
     {
-      "transform": "RemoveSmallLanguages",
-      "transformMode" : "permanent"
-    },
-    {
-       "resolver": "Mode",
-       "minConfidence": 0.7
-    },
-    {
-      "resolver": "WeightedModeByLanguage",
-      "minConfidence": 0.7
-    }]
-  }
-]
+      "rdfProperty": "<dbo:populationTotal>",
+      "resolveSteps": [
+        {
+          "resolver": "Mode"
+        }
+      ]
+    }
+  ]
+}

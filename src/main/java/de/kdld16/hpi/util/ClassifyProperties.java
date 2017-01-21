@@ -26,13 +26,13 @@ public class ClassifyProperties {
             String line;
 
             HashSet<String> functionalProperties= new HashSet<>();
-            br = IOUtils.readFileFromProperties("functionalPropertiesFile");
+            br = PropertiesUtils.readFileFromProperties("functionalPropertiesFile");
             while ((line = br.readLine()) != null) {
                 functionalProperties.add(DBPediaHelper.replaceNamespace(line));
             }
 
             rdfPropertyWrappers = new HashMap<>();
-            br = IOUtils.readFileFromProperties("ontologyFile");
+            br = PropertiesUtils.readFileFromProperties("ontologyFile");
             while ((line = br.readLine())!=null) {
                 String[] triple = DBPediaHelper.replaceNamespace(line).split(" ",3);
                 if (triple[1].equals("<http://www.w3.org/2000/01/rdf-schema#range>") && functionalProperties.contains(triple[0])) {
@@ -56,7 +56,7 @@ public class ClassifyProperties {
                     rdfPropertyWrappers.put(triple[0],wrapper);
                 }
             }
-
+            functionalProperties = null;
 
 
         } catch (IOException e) {
