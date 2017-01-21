@@ -14,7 +14,7 @@ public class SimpleDatatypeResolver implements Resolver {
 
     @Override
     public void resolve(RDFFactCollection conflict, WikidataEntity entity) {
-        RDFDatatypeWrapper r  = ClassifyProperties.getResolver(conflict.getOne());
+        RDFDatatypeWrapper r  = ClassifyProperties.getRdfDatatypeWrapper(conflict.getOne());
         //return
                 new Mode(r).resolve(conflict, entity);
     }

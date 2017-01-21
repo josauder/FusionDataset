@@ -3,7 +3,6 @@ package de.kdld16.hpi;
 import de.kdld16.hpi.resolver.Mode;
 import de.kdld16.hpi.resolver.RDFTypeTree;
 import de.kdld16.hpi.util.*;
-import de.kdld16.hpi.util.rdfdatatypecomparison.DoubleWrapper;
 import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.slf4j.Logger;
@@ -88,7 +87,7 @@ public class WikidataEntity {
         }
 
         conflict= possibleConflicts.newFilterByRdfProperty("<dbo:populationTotal>");
-        RDFDatatypeWrapper type = ClassifyProperties.getResolver("<dbo:populationTotal>");
+        RDFDatatypeWrapper type = ClassifyProperties.getRdfDatatypeWrapper("<dbo:populationTotal>");
         Mode mode = new Mode(type);
         if (conflict.size()>0) {
             mode.resolve(conflict,this);
@@ -101,7 +100,7 @@ public class WikidataEntity {
             // Modes are different for different data types
             RDFFact f = possibleConflicts.getOne();
             conflict = possibleConflicts.newFilterByRdfProperty(f.getRdfProperty());
-            RDFDatatypeWrapper type = ClassifyProperties.getResolver(f.getRdfProperty());
+            RDFDatatypeWrapper type = ClassifyProperties.getRdfDatatypeWrapper(f.getRdfProperty());
             Mode mode = new Mode(type);
 
             // If the most commonly found item is very common (greater than a threshold), we accept it as truth
@@ -161,7 +160,7 @@ public class WikidataEntity {
         } else {
             languageFactCounter.put(fact.getLanguage(), languageFactCounter.get(fact.getLanguage())+1);
         }
-        if (ClassifyProperties.specialFunctionalProperties.containsKey(fact.getRdfProperty())) {
+        if (ClassifyProperties.rdfPropertyWrappers.containsKey(fact.getRdfProperty())) {
             possibleConflicts.addFact(fact);
         } else {
             emitFact(fact,1);

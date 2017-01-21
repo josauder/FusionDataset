@@ -1,19 +1,12 @@
 package de.kdld16.hpi.util;
 
-import de.kdld16.hpi.exception.UnexpectedRDFDatatypeException;
-import de.kdld16.hpi.resolver.Mode;
-import de.kdld16.hpi.resolver.Resolver;
-import de.kdld16.hpi.util.rdfdatatypecomparison.DoubleWrapper;
-import de.kdld16.hpi.util.rdfdatatypecomparison.IntegerWrapper;
-import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
-import de.kdld16.hpi.util.rdfdatatypecomparison.IdenticalStringWrapper;
+import de.kdld16.hpi.util.rdfdatatypecomparison.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Properties;
 
 /**
  * Created by jonathan on 11/14/16.
@@ -21,47 +14,68 @@ import java.util.Properties;
 public class ClassifyProperties {
 
     static Logger logger = LoggerFactory.getLogger(ClassifyProperties.class);
-    static HashSet<String> functionalProperties;
+
+    public static HashMap<String, Class<? extends RDFDatatypeWrapper>> rdfPropertyWrappers;
+
     static {
         try {
             /**
-             * Parses ontology file for the properities: subClassOf and equivalentClass - saves them in HashMap.
+             * Parses ontology file for functional property datatypes
              */
-            Properties properties = new Properties();
-            properties.load(new FileInputStream("src/test/resources/application.properties"));
-            String filename = properties.getProperty("functionalPropertiesFile");
-            if (filename==null) {
-                throw new FileNotFoundException();
-            }
-            BufferedReader br = new BufferedReader(new FileReader(filename));
+            BufferedReader br;
             String line;
-            while ((line=br.readLine())!=null) {
-                 functionalProperties.add(DBPediaHelper.replaceNamespace(line));
+
+            HashSet<String> functionalProperties= new HashSet<>();
+            br = IOUtils.readFileFromProperties("functionalPropertiesFile");
+            while ((line = br.readLine()) != null) {
+                functionalProperties.add(DBPediaHelper.replaceNamespace(line));
             }
 
-        } catch (FileNotFoundException e) {
-            logger.error("Could not find functional Property file - This means only user defined specialFunctionalProperties will be resolved." +
-                    "You can generate your own functional property file with running the script 'src/scripts/find_functional_properties.py' with the correct paths");
+            rdfPropertyWrappers = new HashMap<>();
+            br = IOUtils.readFileFromProperties("ontologyFile");
+            while ((line = br.readLine())!=null) {
+                String[] triple = DBPediaHelper.replaceNamespace(line).split(" ",3);
+                if (triple[1].equals("<http://www.w3.org/2000/01/rdf-schema#range>") && functionalProperties.contains(triple[0])) {
+                    Class <? extends RDFDatatypeWrapper> wrapper;
+                    if (triple[2].equals("<xsd:double> .")) {
+                        wrapper = DoubleWrapper.class;
+
+                    } else if (
+                            triple[2].equals("<xsd:nonNegativeInteger> .") ||
+                            triple[2].equals("<xsd:integer> .")) {
+                        wrapper = IntegerWrapper.class;
+
+                    } else if (triple[2].equals("<rdf:langString> .")) {
+                        wrapper = CloseStringWrapper.class;
+
+                    } else {
+                        wrapper = IdenticalStringWrapper.class;
+
+                    }
+                    logger.debug("Property: "+ triple[0] + " mapped to RDFDatatypeWrapper: " + wrapper.getSimpleName());
+                    rdfPropertyWrappers.put(triple[0],wrapper);
+                }
+            }
+
+
+
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
 
     }
 
 
 
-    public static RDFDatatypeWrapper getResolver(RDFFact fact) {
-        return getResolver(fact.getRdfProperty());
+    public static RDFDatatypeWrapper getRdfDatatypeWrapper(RDFFact fact) {
+        return getRdfDatatypeWrapper(fact.getRdfProperty());
     }
 
-    public static RDFDatatypeWrapper getResolver(String property) {
-        //TODO: Change to JSON Value!
-        RDFDatatypeWrapper r=null;
+    public static RDFDatatypeWrapper getRdfDatatypeWrapper(String property) {
 
-        if (specialFunctionalProperties.containsKey(property)) {
+        if (rdfPropertyWrappers.containsKey(property)) {
             try {
-                //TODO: Resolve!
-                return ClassifyProperties.specialFunctionalProperties.get(property).newInstance();
+                return ClassifyProperties.rdfPropertyWrappers.get(property).newInstance();
             } catch (IllegalAccessException | InstantiationException e) {
                 logger.error(e.getStackTrace().toString());
                 return null;
@@ -72,81 +86,81 @@ public class ClassifyProperties {
 
 
     //TODO: Hashmap<String,Resolver>
-    public static HashMap<String, Class<? extends RDFDatatypeWrapper>> specialFunctionalProperties;
-    static {
+
         //TODO: Change to JSON Parse
-        specialFunctionalProperties = new HashMap<>();
-        specialFunctionalProperties.put("<rdf:type>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:capital>", IdenticalStringWrapper.class);
-      /*  Object Properties!!
-*/
-        specialFunctionalProperties.put("<dbo:officialLanguage>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:currency>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:largestCity>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:country>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:timeZone>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:language>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:birthPlace>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:deathPlace>", IdenticalStringWrapper.class);
-        //       */
+/*        rdfPropertyWrappers = new HashMap<>();
+        rdfPropertyWrappers.put("<rdf:type>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:capital>", IdenticalStringWrapper.class);
+        Object Properties!!
 
-        specialFunctionalProperties.put("<dbo:weight>", DoubleWrapper.class);
-        specialFunctionalProperties.put("<dbo:acceleration>", DoubleWrapper.class);
-        specialFunctionalProperties.put("<dbo:populationTotal>", DoubleWrapper.class);
-        specialFunctionalProperties.put("<dbo:wheelbase>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:co2Emission>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:retirementDate>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:averageAnnualGeneration>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:height>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:topSpeed>", DoubleWrapper.class);
-        specialFunctionalProperties.put("<dbo:birthYear>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:restingDate>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:zipCode>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:deathDate>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:fuelCapacity>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:latestReleaseDate>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:netIncome>", DoubleWrapper.class);
-        specialFunctionalProperties.put("<dbo:deathYear>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:birthDate>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:installedCapacity>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:foalDate>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:redline>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:diameter>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:length>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:operatingIncome>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:torqueOutput>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:width>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:marketCapitalisation>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:fuelConsumption>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:displacement>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:powerOutput>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<http://www.georss.org/georss/point>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:iso31661Code>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:iso6391Code>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:iso6392Code>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:iso6393Code>", IdenticalStringWrapper.class);
-        specialFunctionalProperties.put("<dbo:totalPopulation>", IntegerWrapper.class);
-        specialFunctionalProperties.put("<dbo:populationMetro>", IntegerWrapper.class);
-        specialFunctionalProperties.put("<dbo:populationUrban>", IntegerWrapper.class);
-        specialFunctionalProperties.put("<dbo:casualties>", IntegerWrapper.class);
-        specialFunctionalProperties.put("<http://xmlns.com/foaf/0.1/homepage", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:officialLanguage>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:currency>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:largestCity>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:country>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:timeZone>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:language>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:birthPlace>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:deathPlace>", IdenticalStringWrapper.class);
+        //
+
+        rdfPropertyWrappers.put("<dbo:weight>", DoubleWrapper.class);
+        rdfPropertyWrappers.put("<dbo:acceleration>", DoubleWrapper.class);
+        rdfPropertyWrappers.put("<dbo:populationTotal>", DoubleWrapper.class);
+        rdfPropertyWrappers.put("<dbo:wheelbase>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:co2Emission>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:retirementDate>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:averageAnnualGeneration>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:height>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:topSpeed>", DoubleWrapper.class);
+        rdfPropertyWrappers.put("<dbo:birthYear>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:restingDate>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:zipCode>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:deathDate>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:fuelCapacity>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:latestReleaseDate>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:netIncome>", DoubleWrapper.class);
+        rdfPropertyWrappers.put("<dbo:deathYear>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:birthDate>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:installedCapacity>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:foalDate>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:redline>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:diameter>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:length>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:operatingIncome>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:torqueOutput>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:width>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:marketCapitalisation>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:fuelConsumption>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:displacement>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:powerOutput>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<http://www.w3.org/2003/01/geo/wgs84_pos#lat>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<http://www.w3.org/2003/01/geo/wgs84_pos#long>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<http://www.georss.org/georss/point>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:iso31661Code>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:iso6391Code>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:iso6392Code>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:iso6393Code>", IdenticalStringWrapper.class);
+        rdfPropertyWrappers.put("<dbo:totalPopulation>", IntegerWrapper.class);
+        rdfPropertyWrappers.put("<dbo:populationMetro>", IntegerWrapper.class);
+        rdfPropertyWrappers.put("<dbo:populationUrban>", IntegerWrapper.class);
+        rdfPropertyWrappers.put("<dbo:casualties>", IntegerWrapper.class);
+        rdfPropertyWrappers.put("<http://xmlns.com/foaf/0.1/homepage", IdenticalStringWrapper.class);
+
     }
-
+    */
     /*
     static String[] integerTypeArray = {
-            "<http://www.w3.org/2001/XMLSchema#integer>",
-            "<http://www.w3.org/2001/XMLSchema#positiveInteger>",
-            "<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>",
-            "<http://www.w3.org/2001/XMLSchema#nonPositiveInteger>",
-            "<http://www.w3.org/2001/XMLSchema#negativeInteger>",
+            "<xsd:#integer>",
+            "<xsd:#positiveInteger>",
+            "<xsd:#nonNegativeInteger>",
+            "<xsd:#nonPositiveInteger>",
+            "<xsd:#negativeInteger>",
     };
     public static HashSet<String> integerType = new HashSet<>(Arrays.asList(integerTypeArray));
 
     static String[] floatTypeArray = {
-            "<http://www.w3.org/2001/XMLSchema#double>",
-            "<http://www.w3.org/2001/XMLSchema#float>",
+            "<xsd:#double>",
+            "<xsd:#float>",
             "<http://dbpedia.org/datatype/squareMetre>",
             "<http://dbpedia.org/datatype/squareMillimetre>",
             "<http://dbpedia.org/datatype/squareCentimetre>",
@@ -499,14 +513,14 @@ public class ClassifyProperties {
     public static HashSet<String> floatType = new HashSet<>(Arrays.asList(floatTypeArray));
 
     static String[] dateTypeArray = {
-        "<http://www.w3.org/2001/XMLSchema#date>",
-        "<http://www.w3.org/2001/XMLSchema#time>",
-        "<http://www.w3.org/2001/XMLSchema#dateTime>",
-        "<http://www.w3.org/2001/XMLSchema#gYear>",
-        "<http://www.w3.org/2001/XMLSchema#gYearMonth>",
-        "<http://www.w3.org/2001/XMLSchema#gMonth>",
-        "<http://www.w3.org/2001/XMLSchema#gMonthDay>",
-        "<http://www.w3.org/2001/XMLSchema#gDay>"
+        "<xsd:#date>",
+        "<xsd:#time>",
+        "<xsd:#dateTime>",
+        "<xsd:#gYear>",
+        "<xsd:#gYearMonth>",
+        "<xsd:#gMonth>",
+        "<xsd:#gMonthDay>",
+        "<xsd:#gDay>"
     };
     public static HashSet<String> dateType = new HashSet<>(Arrays.asList(dateTypeArray));
 
