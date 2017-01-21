@@ -12,10 +12,10 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spark.version>2.0.0</spark.version>
+    <spark.version>1.6.2</spark.version>
   </properties>
   <profiles>
-    <profile>
+    <!--<profile>
       <id>direct-runner</id>
       <activation>
         <activeByDefault>true</activeByDefault>
@@ -28,7 +28,7 @@
           <version>0.3.0-incubating</version>
         </dependency>
       </dependencies>
-    </profile>
+    </profile>-->
 
 
     <!-- Include the Apache Spark runner -P spark-runner -->

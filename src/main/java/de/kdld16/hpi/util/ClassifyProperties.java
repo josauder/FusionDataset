@@ -50,6 +50,9 @@ public class ClassifyProperties {
             rdfPropertyWrappers = new HashMap<>();
             br = PropertiesUtils.readFileFromProperties("ontologyFile");
             while ((line = br.readLine()) != null) {
+                if (line.contains("/populationTotal")) {
+                    logger.debug("SASDSADSADASDSA");
+                }
                 String[] triple = DBPediaHelper.replaceNamespace(line).split(" ", 3);
                 if (triple[1].equals("<http://www.w3.org/2000/01/rdf-schema#range>") && functionalProperties.contains(triple[0])) {
                     Class<? extends RDFDatatypeWrapper> wrapper = rdfDataTypeToWrapper(triple[2]);
