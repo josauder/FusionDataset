@@ -4,12 +4,15 @@ import de.kdld16.hpi.exception.NotWikidataObjectException;
 import de.kdld16.hpi.util.DBPediaHelper;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.apache.beam.sdk.values.KV;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Created by jonathan on 22.11.16.
  */
 public class FilterByWikidataID<V> extends DoFn<KV<String,V>,KV<String,V>> {
 
+    Logger logger = LoggerFactory.getLogger(FilterByWikidataID.class);
 
     private int lower =0;
     private int upper = Integer.MAX_VALUE;
@@ -31,8 +34,7 @@ public class FilterByWikidataID<V> extends DoFn<KV<String,V>,KV<String,V>> {
                 c.output(c.element());
             }
         } else {
-         //   logger.debug((new NotWikidataObjectException(subject)).getStackTrace().toString());
+            logger.debug((new NotWikidataObjectException(subject)).toString());
         }
-
     }
 }

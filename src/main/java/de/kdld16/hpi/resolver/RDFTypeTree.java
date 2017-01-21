@@ -1,5 +1,6 @@
 package de.kdld16.hpi.resolver;
 
+import de.kdld16.hpi.WikidataEntity;
 import de.kdld16.hpi.exception.NotInOntologyException;
 import de.kdld16.hpi.util.DBPediaHelper;
 import de.kdld16.hpi.util.RDFFact;
@@ -140,48 +141,27 @@ public class RDFTypeTree implements Resolver {
      * @return best-matching type
      */
     @Override
-    public ResolveResult resolve(RDFFactCollection conflict) {
+    public void resolve(RDFFactCollection conflict, WikidataEntity entity) {
         //TODO: get all heuristics into property file
         /**
          * First we construct the tree from the rdf:type conflict, we save how many languages we have type property for
          */
         HashMap<String,ArrayList<String>> dboTypes = toCountingLanguageMap(conflict);
         TreeNode node = new TreeNode("<owl:Thing>", dboTypes.get("<owl:Thing>"), null);
-        int originalSize = node.getValue().size();
         dboTypes.remove("<owl:Thing>");
         constructTreeFromMap(node, dboTypes);
-        ResolveResult result;
-        /**
-         * We traverse the tree downward:
-         * 1) If there is only one child, we keep going down.
-         * 2) If there is more than one child we do the following check:
-         *      does one child have significantly more values (languages than all others?)
-         *      if yes: go down that path
-         *      if no: return current tree-traverse-depth
-         */
-        ArrayList<String> parentValues = new ArrayList<>();
-        while (!node.isLeaf()) {
-            List<TreeNode> l = node.getChildren();
-            TreeNode n = l.get(0);
-            l.remove(0);
-            int size = n.getValue().size();
-            for (TreeNode c : l) {
-                if (c.getValue().size()> (3* size)) {
-                    n = c;
-                } else if (c.getValue().size()*3 < size) {
-                }
-                else {
-                    result = new ResolveResult(node.getKey(),node.getValue(),size,originalSize);
-                    result.setOtherValues(parentValues);
-                    return result;
-                }
-            }
-            parentValues.add(node.getKey());
-            node = n;
+        confindencesFromTree(1,node,entity);
+    }
+
+    public void confindencesFromTree(double confidence, TreeNode tree, WikidataEntity entity) {
+        entity.assignConfidenceToFact(confidence,new RDFFact("<rdf:type>",tree.getKey(),tree.getValue()));
+        int total=0;
+        for (TreeNode child : tree.getChildren()) {
+            total += child.getValue().size();
         }
-        result = new ResolveResult(node.getKey(),node.getValue(),node.getValue().size(),originalSize);
-        result.setOtherValues(parentValues);
-        return result;
+        for (TreeNode child: tree.getChildren()) {
+            confindencesFromTree((confidence*child.getValue().size())/total, child, entity);
+        }
     }
 }
 

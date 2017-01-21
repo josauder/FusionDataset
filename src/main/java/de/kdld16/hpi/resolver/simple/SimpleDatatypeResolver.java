@@ -1,6 +1,7 @@
 package de.kdld16.hpi.resolver.simple;
 
-import de.kdld16.hpi.resolver.ResolveResult;
+import de.kdld16.hpi.WikidataEntity;
+import de.kdld16.hpi.resolver.Mode;
 import de.kdld16.hpi.resolver.Resolver;
 import de.kdld16.hpi.util.ClassifyProperties;
 import de.kdld16.hpi.util.RDFFactCollection;
@@ -12,8 +13,9 @@ import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
 public class SimpleDatatypeResolver implements Resolver {
 
     @Override
-    public ResolveResult resolve(RDFFactCollection conflict) {
-        Resolver r  = ClassifyProperties.getResolver(conflict.getOne());
-        return r.resolve(conflict);
+    public void resolve(RDFFactCollection conflict, WikidataEntity entity) {
+        RDFDatatypeWrapper r  = ClassifyProperties.getResolver(conflict.getOne());
+        //return
+                new Mode(r).resolve(conflict, entity);
     }
 }

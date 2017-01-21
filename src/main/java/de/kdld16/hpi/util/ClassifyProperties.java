@@ -50,22 +50,26 @@ public class ClassifyProperties {
 
 
 
-    public static Resolver getResolver(RDFFact fact) {
+    public static RDFDatatypeWrapper getResolver(RDFFact fact) {
+        return getResolver(fact.getRdfProperty());
+    }
+
+    public static RDFDatatypeWrapper getResolver(String property) {
+        //TODO: Change to JSON Value!
         RDFDatatypeWrapper r=null;
 
-        //TODO: Change to JSON Value!
-        if (specialFunctionalProperties.containsKey(fact.getRdfProperty())) {
+        if (specialFunctionalProperties.containsKey(property)) {
             try {
                 //TODO: Resolve!
-                ClassifyProperties.specialFunctionalProperties.get(fact.getRdfProperty()).newInstance();
+                return ClassifyProperties.specialFunctionalProperties.get(property).newInstance();
             } catch (IllegalAccessException | InstantiationException e) {
                 logger.error(e.getStackTrace().toString());
                 return null;
             }
         }
-        return new Mode(r);
-
+        return null;
     }
+
 
     //TODO: Hashmap<String,Resolver>
     public static HashMap<String, Class<? extends RDFDatatypeWrapper>> specialFunctionalProperties;

@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Created by jonathan on 08.12.16.
  */
+/*
 public class ResolveResult {
 
     private String value;
@@ -13,7 +14,7 @@ public class ResolveResult {
     private int outOf;
     private double confidence;
     private Collection<String> languages;
-
+    private List<String> otherValues;
     public List<String> getOtherValues() {
         return otherValues;
     }
@@ -21,9 +22,6 @@ public class ResolveResult {
     public void setOtherValues(List<String> otherValues) {
         this.otherValues = otherValues;
     }
-
-    private List<String> otherValues;
-
 
     public ResolveResult(String value, Collection<String> languages, int occurence, int outOf) {
         this.value = value;
@@ -58,3 +56,4 @@ public class ResolveResult {
         return confidence;
     }
 }
+ */

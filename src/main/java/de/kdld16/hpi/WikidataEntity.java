@@ -1,8 +1,11 @@
 package de.kdld16.hpi;
 
+import de.kdld16.hpi.resolver.Mode;
 import de.kdld16.hpi.resolver.RDFTypeTree;
-import de.kdld16.hpi.resolver.ResolveResult;
 import de.kdld16.hpi.util.*;
+import de.kdld16.hpi.util.rdfdatatypecomparison.DoubleWrapper;
+import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
+import org.apache.beam.sdk.transforms.DoFn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,9 +28,9 @@ public class WikidataEntity {
     private RDFFactCollection acceptedFacts;
     private RDFFactCollection possibleConflicts;
     private CountingHashMap languageFactCounter;
-    private CountingHashMap languageCorrectCounter;
+    private HashMap<String,Double> languageCorrectCounter;
     private ArrayList<String> mostCommonLanguages;
-
+    private DoFn.ProcessContext context;
     private int n_mostCommonLanguage =0;
     private int n_smallLanguages = 0;
     private int n_languages=0;
@@ -46,12 +49,13 @@ public class WikidataEntity {
         }
     }
 
-    public WikidataEntity(Integer subject, Iterator<String> iter) {
+    public WikidataEntity(Integer subject, Iterator<String> iter, DoFn.ProcessContext context) {
         this.subject=subject;
+        this.context = context;
         acceptedFacts = new RDFFactCollection();
         possibleConflicts = new RDFFactCollection();
         languageFactCounter = new CountingHashMap();
-        languageCorrectCounter = new CountingHashMap();
+        languageCorrectCounter = new HashMap<>();
         mostCommonLanguages = new ArrayList<>();
 
         while (iter.hasNext()) {
@@ -80,9 +84,15 @@ public class WikidataEntity {
          */
         RDFFactCollection conflict= possibleConflicts.newFilterByRdfProperty("<rdf:type>");
         if (conflict.size()>0) {
-            acceptAsTrueFact(new RDFTypeTree().resolve(conflict),"<rdf:type>");
+            new RDFTypeTree().resolve(conflict,this);
         }
 
+        conflict= possibleConflicts.newFilterByRdfProperty("<dbo:populationTotal>");
+        RDFDatatypeWrapper type = ClassifyProperties.getResolver("<dbo:populationTotal>");
+        Mode mode = new Mode(type);
+        if (conflict.size()>0) {
+            mode.resolve(conflict,this);
+        }
 
         // We then resolve all other possible conflicts, until there are no more conflicts left
         /* while (possibleConflicts.size() > 0) {
@@ -97,7 +107,7 @@ public class WikidataEntity {
             // If the most commonly found item is very common (greater than a threshold), we accept it as truth
             ResolveResult result = mode.resolve(conflict);
             if (result.getConfidence()>minimumValueEquality) {
-                acceptAsTrueFact(result,f.getRdfProperty());
+                assignConfidenceToFact(result,f.getRdfProperty());
                 continue;
             }
 
@@ -109,7 +119,7 @@ public class WikidataEntity {
                 if (conflictWithoutSmallLangs.size()>0) {
                     result = mode.resolve(conflictWithoutSmallLangs);
                     if (result.getConfidence()>minimumValueEquality) {
-                        acceptAsTrueFact(result,f.getRdfProperty());
+                        assignConfidenceToFact(result,f.getRdfProperty());
                         continue;
                     }
                     else {
@@ -128,48 +138,35 @@ public class WikidataEntity {
              //Numeric Value -> Median (or value closest to mean)
              // Object/String values -> Most common value
             //TODO: Implement
-            acceptAsTrueFact(result,f.getRdfProperty());
+            assignConfidenceToFact(result,f.getRdfProperty());
 
       //  logger.debug("Conflict in Subject :" + this.subject + "\t for property: " + f.getRdfProperty() + "\tresolving with: " + r.getClass().getSimpleName());
 
         }*/
     }
 
-    public void acceptAsTrueFact(ResolveResult result, String rdfProperty) {
-
-        int max_lang_count=0;
-        String max_lang=null;
-        for (String lang : result.getLanguages()) {
-            int currentCount=languageCorrectCounter.putOrIncrement(lang);
-            if (currentCount>max_lang_count) {
-                max_lang_count=currentCount;
-                max_lang=lang;
-            }
+    public void assignConfidenceToFact(double confidence, RDFFact fact) {
+        for (String lang : fact.getLanguages()) {
+            Double d = languageCorrectCounter.containsKey(lang) ? languageCorrectCounter.get(lang) : new Double(0);
+            languageCorrectCounter.put(lang, d + confidence);
         }
-
-        RDFFact fact = new RDFFact(rdfProperty,result.getValue(),max_lang);
-        n_resolvedConflicts++;
-        possibleConflicts.filterOutRdfProperty(fact.getRdfProperty());
-        acceptedFacts.addFact(fact);
-
-        for (String value : result.getOtherValues()) {
-            acceptedFacts.addFact(new RDFFact(rdfProperty, value, max_lang));
-        }
+        emitFact(fact,confidence);
     }
 
     public void addFact(RDFFact fact) {
         this.n_facts++;
-        if (ClassifyProperties.specialFunctionalProperties.containsKey(fact.getRdfProperty())) {
-            possibleConflicts.addFact(fact);
-        } else {
-            acceptedFacts.addFact(fact);
-        }
         if (!languageFactCounter.containsKey(fact.getLanguage())) {
             n_languages++;
             languageFactCounter.put(fact.getLanguage(),1);
         } else {
             languageFactCounter.put(fact.getLanguage(), languageFactCounter.get(fact.getLanguage())+1);
         }
+        if (ClassifyProperties.specialFunctionalProperties.containsKey(fact.getRdfProperty())) {
+            possibleConflicts.addFact(fact);
+        } else {
+            emitFact(fact,1);
+        }
+
     }
 
     public RDFFactCollection getAcceptedFacts() {
@@ -198,6 +195,9 @@ public class WikidataEntity {
         }
     }
 
+    public void emitFact(RDFFact fact, double confidence) {
+        context.output(DBPediaHelper.wikidataPrefix+subject+"> "+fact.toString() + " " + confidence);
+    }
 
 
 }
