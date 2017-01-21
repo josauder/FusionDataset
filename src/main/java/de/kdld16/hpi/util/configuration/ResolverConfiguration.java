@@ -1,8 +1,10 @@
 package de.kdld16.hpi.util.configuration;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import de.kdld16.hpi.resolver.Resolver;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**

@@ -2,6 +2,8 @@ package de.kdld16.hpi;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import de.kdld16.hpi.resolver.Resolver;
+import de.kdld16.hpi.util.ClassifyProperties;
 import de.kdld16.hpi.util.PropertiesUtils;
 import de.kdld16.hpi.util.configuration.ResolverConfiguration;
 import org.junit.Test;
@@ -28,7 +30,6 @@ public class JSONTest {
         try {
             String filename = PropertiesUtils.getPropertyValue("resolveConfigurationFile");
             ResolverConfiguration config = new ObjectMapper().readValue(new File(filename), ResolverConfiguration.class);
-
         } catch (IOException e) {
             logger.debug(e.getMessage());
         }

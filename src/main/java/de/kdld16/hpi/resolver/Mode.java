@@ -1,6 +1,7 @@
 package de.kdld16.hpi.resolver;
 
 import de.kdld16.hpi.WikidataEntity;
+import de.kdld16.hpi.util.ClassifyProperties;
 import de.kdld16.hpi.util.RDFFact;
 import de.kdld16.hpi.util.RDFFactCollection;
 import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
@@ -13,6 +14,12 @@ import java.util.Map;
  * Created by jonathan on 09.12.16.
  */
 public class Mode<T> implements Resolver {
+
+
+    public Mode(String property) {
+        this.rdfDatatypeWrapper = ClassifyProperties.getRdfDatatypeWrapper(property);
+        this.weightFunction= new StandardWeightFunction();
+    }
 
     public Mode(RDFDatatypeWrapper<T> rdfDatatypeWrapper) {
         this.rdfDatatypeWrapper = rdfDatatypeWrapper;

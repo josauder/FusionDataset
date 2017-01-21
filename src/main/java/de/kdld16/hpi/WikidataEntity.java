@@ -2,7 +2,11 @@ package de.kdld16.hpi;
 
 import de.kdld16.hpi.resolver.Mode;
 import de.kdld16.hpi.resolver.RDFTypeTree;
+import de.kdld16.hpi.resolver.Resolver;
 import de.kdld16.hpi.util.*;
+import de.kdld16.hpi.util.configuration.JsonConfiguration;
+import de.kdld16.hpi.util.configuration.PropertyResolveConfiguration;
+import de.kdld16.hpi.util.configuration.ResolveStep;
 import de.kdld16.hpi.util.rdfdatatypecomparison.RDFDatatypeWrapper;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.slf4j.Logger;
@@ -81,16 +85,15 @@ public class WikidataEntity {
          * At First we resolve the <rdf:type> property.
          * More information on how we resolve this can be found in the comment of RDFTypeTree.resolve(conflict)
          */
-        RDFFactCollection conflict= possibleConflicts.newFilterByRdfProperty("<rdf:type>");
-        if (conflict.size()>0) {
-            new RDFTypeTree().resolve(conflict,this);
-        }
 
-        conflict= possibleConflicts.newFilterByRdfProperty("<dbo:populationTotal>");
-        RDFDatatypeWrapper type = ClassifyProperties.getRdfDatatypeWrapper("<dbo:populationTotal>");
-        Mode mode = new Mode(type);
-        if (conflict.size()>0) {
-            mode.resolve(conflict,this);
+        for (int i=0;i<JsonConfiguration.properties.size(); i++) {
+
+            String property = JsonConfiguration.properties.get(i);
+            Resolver r = JsonConfiguration.instantiate(i);
+            RDFFactCollection conflict = possibleConflicts.newFilterByRdfProperty(property);
+            if (conflict.size()>0) {
+                r.resolve(conflict,this);
+            }
         }
 
         // We then resolve all other possible conflicts, until there are no more conflicts left
@@ -160,7 +163,8 @@ public class WikidataEntity {
         } else {
             languageFactCounter.put(fact.getLanguage(), languageFactCounter.get(fact.getLanguage())+1);
         }
-        if (ClassifyProperties.rdfPropertyWrappers.containsKey(fact.getRdfProperty())) {
+        if (JsonConfiguration.functionalPropertySet.contains(fact.getRdfProperty()) ||
+                ClassifyProperties.rdfPropertyWrappers.containsKey(fact.getRdfProperty())) {
             possibleConflicts.addFact(fact);
         } else {
             emitFact(fact,1);

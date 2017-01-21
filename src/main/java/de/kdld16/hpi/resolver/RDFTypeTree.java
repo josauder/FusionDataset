@@ -26,7 +26,6 @@ public class RDFTypeTree implements Resolver {
      *      first in the list and is considered the most important."
      */
     static Logger logger = LoggerFactory.getLogger(RDFTypeTree.class);
-
     static HashMap<String,String> subClasses;
     static HashMap<String,String> equivalentClasses;
     Properties properties;
@@ -60,6 +59,10 @@ public class RDFTypeTree implements Resolver {
             e.printStackTrace();
         }
 
+    }
+
+
+    public RDFTypeTree(String property) {
     }
 
     public static boolean isSubClassOf(String a, String b) throws NotInOntologyException{
